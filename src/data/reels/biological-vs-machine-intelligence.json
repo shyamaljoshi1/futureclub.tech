@@ -1,0 +1,37 @@
+{
+  "id": "reel-064",
+  "slug": "biological-vs-machine-intelligence",
+  "title": "Your Brain Runs on 12 Watts: Biological vs Machine Compute Efficiency",
+  "toolName": "Neuromorphic Intelligence Analysis",
+  "toolUrl": "",
+  "description": "The human brain performs trillion-parameter contextual leaps and generates creative epiphanies on just 12 watts of energy. Compare this biological miracle to the megawatt datacenter clusters required to run modern AI models.",
+  "category": "research",
+  "pricing": "free",
+  "pricingDetails": "Scientific analysis & essay",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DWqGwQZFTFN/",
+  "instagramReelId": "DWqGwQZFTFN",
+  "reelThumbnail": "https://instagram.fssa20-1.fna.fbcdn.net/v/t51.71878-15/658880746_1516686886782094_2135257274364818632_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=Mzg2NjkzMjkzNDQ2NTYzMDU0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=HkhMdMorZ-gQ7kNvwH02kXi&_nc_oc=AdopoD9KOHc2czsy_e87NocvopHzGIzr01NjIZHlOJ54vfyZ7ww72VswbvQDoEHju7Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fssa20-1.fna&_nc_gid=_ZMMyHkQ0ywvdslTzqWJCQ&_nc_ss=7320f&oh=00_AQQCVeLfSru2AFZx3bTV2KcWbUCVXVyRsCcsiFOmrgR4kw&oe=6AEF455D",
+  "promptSet": [
+    {
+      "id": "pmt-064",
+      "title": "Energy Efficiency in Neural Computing Essay",
+      "prompt": "Write a compelling, thought-provoking essay comparing the biological energy efficiency of the human brain with modern GPU datacenters. Explore neuromorphic computing, synaptic pruning, and the future of sustainable AI.",
+      "instructions": [
+        "Read the scientific reflection on compute vs biology.",
+        "Run the prompt to explore neuromorphic hardware architectures.",
+        "Incorporate energy-aware thinking into your own software architectures."
+      ],
+      "exampleOutput": "An inspiring, scientifically sound essay on biological energy efficiency and neuromorphic hardware."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-01",
+  "seo": {
+    "title": "Your Brain Runs on 12 Watts: Biological vs Machine Compute Efficiency | futureclub.tech",
+    "description": "The human brain performs trillion-parameter contextual leaps and generates creative epiphanies on just 12 watts of energy. Compare this biological miracle to th"
+  }
+}

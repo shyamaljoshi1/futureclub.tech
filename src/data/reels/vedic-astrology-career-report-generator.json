@@ -1,0 +1,37 @@
+{
+  "id": "reel-047",
+  "slug": "vedic-astrology-career-report-generator",
+  "title": "Generate Personalized Career Guidance from Vedic Astrology with AI",
+  "toolName": "Vedic Astrology Career Engine",
+  "toolUrl": "https://claude.ai/",
+  "description": "Synthesize ancient astrological principles with advanced AI language capabilities. Input birth coordinates and receive an analytical breakdown of vocational house rulers (10th and 2nd houses) and upcoming planetary transits.",
+  "category": "ai-writing",
+  "pricing": "free",
+  "pricingDetails": "Prompt works on Claude, ChatGPT & Gemini",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DX3KBX3Nc5h/",
+  "instagramReelId": "DX3KBX3Nc5h",
+  "reelThumbnail": "https://scontent-lhr11-1.cdninstagram.com/v/t51.82787-15/681861616_18076776317646996_1256924899962848943_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzg4ODYyMDg3ODA2NDYzNTQ4OTE4MDc2Nzc2MzExNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=FoiBkSBm7pQQ7kNvwEG_IYQ&_nc_oc=Adq67tFFKzLu4tKobim2Q2lYtRFbNkDj3J71IJ99uUZ46tkZpmEAB0BmGz85UjWrX_I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lhr11-1.cdninstagram.com&_nc_gid=beDU90GouRvRP9Bkh-Ia7Q&_nc_ss=7320f&oh=00_AQShXd0tG0YGJ9N2_1Y1aoknp1lyHmHYv4AdySAB5rrQZw&oe=6AEF57E3",
+  "promptSet": [
+    {
+      "id": "pmt-047",
+      "title": "Vocational Astrology Chart Analysis",
+      "prompt": "Analyze the 10th house of career and 6th house of daily work based on the following planetary placements: [INPUT PLACEMENTS]. Provide grounded, constructive advice on suitable industries, work styles, and timing for career shifts.",
+      "instructions": [
+        "Input your planetary chart details into the bracketed fields.",
+        "Run the prompt in Claude 3.7 or ChatGPT.",
+        "Review the thoughtful vocational guidance and timing insights."
+      ],
+      "exampleOutput": "Constructive vocational analysis highlighting analytical and technology-focused career strengths."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-18",
+  "seo": {
+    "title": "Generate Personalized Career Guidance from Vedic Astrology with AI | futureclub.tech",
+    "description": "Synthesize ancient astrological principles with advanced AI language capabilities. Input birth coordinates and receive an analytical breakdown of vocational hou"
+  }
+}

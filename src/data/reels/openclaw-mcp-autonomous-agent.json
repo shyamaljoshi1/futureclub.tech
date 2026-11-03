@@ -1,0 +1,37 @@
+{
+  "id": "reel-057",
+  "slug": "openclaw-mcp-autonomous-agent",
+  "title": "OpenClaw Now Speaks MCP: Universal Protocol for Autonomous AI Agents",
+  "toolName": "OpenClaw Autonomous MCP Agent",
+  "toolUrl": "https://github.com/",
+  "description": "OpenClaw integrates Anthropic's universal Model Context Protocol (MCP). Now, Claude and other frontier models can directly inspect your filesystem, run terminal commands, and control browser sessions with secure permissions.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Open Source agent framework",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DWihgsNmfDc/",
+  "instagramReelId": "DWihgsNmfDc",
+  "reelThumbnail": "https://instagram.frtm1-2.fna.fbcdn.net/v/t51.82787-15/658896915_18072545606646996_2976986835006107269_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzg2NDc5ODc5Mzk4OTQ2NDQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=d_5OXL7t6u8Q7kNvwGEW0oi&_nc_oc=AdqSsMFcigwe3VkNvedn6zVPnI3TnBm2EPm754YccWvfK8MCKns3XDTc2aV5Qk7Nx_I&_nc_ad=z-m&_nc_cid=1207&_nc_zt=23&_nc_ht=instagram.frtm1-2.fna&_nc_gid=QJY8N5SYPDKOl3npAjocAQ&_nc_ss=7320f&oh=00_AQS80YFO5pJMY0pidJkomvDvShkIwjnseKD2Ee_JJWmHJg&oe=6AEF5517",
+  "promptSet": [
+    {
+      "id": "pmt-057",
+      "title": "MCP Server Configuration & Tool Definition",
+      "prompt": "Write a Model Context Protocol (MCP) server in TypeScript that exposes two tools: list_git_branches and run_typecheck. Include proper JSON schema parameter definitions and error handling.",
+      "instructions": [
+        "Install OpenClaw from the official GitHub repository.",
+        "Configure your local MCP servers in your claude_desktop_config.json.",
+        "Instruct your agent to perform complex multi-step developer operations."
+      ],
+      "exampleOutput": "Complete MCP server implementation in TypeScript with schemas and IPC transport."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-08",
+  "seo": {
+    "title": "OpenClaw Now Speaks MCP: Universal Protocol for Autonomous AI Agents | futureclub.tech",
+    "description": "OpenClaw integrates Anthropic's universal Model Context Protocol (MCP). Now, Claude and other frontier models can directly inspect your filesystem, run terminal"
+  }
+}

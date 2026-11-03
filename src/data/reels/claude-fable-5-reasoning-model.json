@@ -1,0 +1,37 @@
+{
+  "id": "reel-014",
+  "slug": "claude-fable-5-reasoning-model",
+  "title": "Anthropic Claude Fable 5: Frontier Reasoning and Massive Context",
+  "toolName": "Claude Fable 5 Reasoning Model",
+  "toolUrl": "https://claude.ai/",
+  "description": "Claude Fable 5 sets a new standard for analytical reasoning, code architecture, and multi-file debugging. Experience near-zero hallucinations across massive context windows and complex mathematical proofs.",
+  "category": "coding",
+  "pricing": "freemium",
+  "pricingDetails": "Free tier available on Claude.ai",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DaVLRAwu1MR/",
+  "instagramReelId": "DaVLRAwu1MR",
+  "reelThumbnail": "https://scontent-cdg4-2.cdninstagram.com/v/t51.71878-15/733977245_1739174937434376_6095018581150154186_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=MzkzMzA5OTM5NzEzODMwNTgwOTIwNDExNzQ0NTY0OTI5OTU%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=z8HWgwN7Q6oQ7kNvwH140rd&_nc_oc=AdqiYLGCFhfGKCRt69ydSz5Vk1z44JP-2BWJNyhtoDhHoNnaDZPoihfQoYWNqZj96reGmbnCZFQtMhYSknmNtLpJ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_gid=zZ_lMtdKjtbHpww2Mo595g&_nc_ss=7320f&oh=00_AQTZuDyVqpgJSrEL1sRB8o5JVdnDq9qrjLimzAxb3QpXsQ&oe=6AEF6CC1",
+  "promptSet": [
+    {
+      "id": "pmt-014",
+      "title": "Deep Codebase Refactoring & Architecture Review",
+      "prompt": "Analyze this React TypeScript codebase for state management inefficiencies, redundant re-renders, and structural anti-patterns. Recommend an optimal folder hierarchy and generate clean custom hooks to encapsulate business logic.",
+      "instructions": [
+        "Select Claude Fable 5 in your Anthropic project dashboard.",
+        "Upload your project files or paste your core components.",
+        "Review the structured architectural audit and refactored code blocks."
+      ],
+      "exampleOutput": "Complete breakdown of component re-render bottlenecks and refactored lightweight state hooks."
+    }
+  ],
+  "featured": false,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-21",
+  "seo": {
+    "title": "Anthropic Claude Fable 5: Frontier Reasoning and Massive Context | futureclub.tech",
+    "description": "Claude Fable 5 sets a new standard for analytical reasoning, code architecture, and multi-file debugging. Experience near-zero hallucinations across massive con"
+  }
+}

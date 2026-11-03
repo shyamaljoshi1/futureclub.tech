@@ -1,0 +1,37 @@
+{
+  "id": "reel-090",
+  "slug": "caveman-claude-minimalist-prompt-framework",
+  "title": "Caveman Claude: Cut Polite AI Filler, Save 40% Tokens and Latency",
+  "toolName": "Caveman Claude Minimalist Framework",
+  "toolUrl": "https://claude.ai/",
+  "description": "AI models love writing polite filler: \"Certainly! I would be happy to help you with that...\". The Caveman prompt framework forces models to drop pleasantries and respond in dense, telegraphic technical prose, saving 40% tokens and latency.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free prompt framework for all models",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DXE0_r8ia1S/",
+  "instagramReelId": "DXE0_r8ia1S",
+  "reelThumbnail": "https://instagram.fsyd7-1.fna.fbcdn.net/v/t51.82787-15/669915588_18074165618646996_6910426858182367859_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=Mzg3NDQ1NDY1NDM3NzYzNTE1NDE4MDc0MTY1NjE1NjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=XvLm-c-2HJcQ7kNvwEMcgFD&_nc_oc=AdohuhymMyFHztQYNw_vRbtAQPykTNZwwEJ5hbk97MtA9HNugmRAp5otyYEgFAEZ8gJGTzEVsdjwIqDJnPO5rJnC&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyd7-1.fna&_nc_gid=PrbxRrX_jHm7uKQbgN4Wsw&_nc_ss=7320f&oh=00_AQSafO3lpnSmqY9e_RkogdLtq2j-jWciJUd5fAM0NQnlQw&oe=6AEF4E26",
+  "promptSet": [
+    {
+      "id": "pmt-090",
+      "title": "Caveman Mode System Instruction",
+      "prompt": "Adopt Caveman mode: Respond in dense, telegraphic sentences. Drop all pleasantries, introductions, and polite conclusions. Output only actionable code, concise explanations, and direct answers. High signal, zero noise.",
+      "instructions": [
+        "Add the Caveman prompt instruction to your system prompt or custom instructions.",
+        "Watch responses arrive twice as fast without repetitive introductory fluff.",
+        "Save thousands of tokens on heavy daily terminal coding sessions."
+      ],
+      "exampleOutput": "Terse, high-density technical answer delivering the solution with zero wasted tokens."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-06",
+  "seo": {
+    "title": "Caveman Claude: Cut Polite AI Filler, Save 40% Tokens and Latency | futureclub.tech",
+    "description": "AI models love writing polite filler: \"Certainly! I would be happy to help you with that...\". The Caveman prompt framework forces models to drop pleasantries an"
+  }
+}

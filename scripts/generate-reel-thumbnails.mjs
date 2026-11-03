@@ -1,0 +1,23 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const reelsAssetsDir = path.resolve(__dirname, '../public/assets/reels');
+fs.mkdirSync(reelsAssetsDir, { recursive: true });
+
+const thumbnails = {
+  'v0-reel.svg': `<svg viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="1280" fill="#09090b"/><circle cx="360" cy="540" r="140" fill="#18181b" stroke="#27272a" stroke-width="4"/><polygon points="340,480 420,540 340,600" fill="#ffffff"/><text x="360" y="800" font-family="system-ui, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle">v0 by Vercel</text><text x="360" y="860" font-family="system-ui, sans-serif" font-size="28" fill="#a1a1aa" text-anchor="middle">Generative UI Breakdown</text><text x="360" y="1180" font-family="system-ui, sans-serif" font-size="24" fill="#71717a" text-anchor="middle">@thefutureguyy.ai</text></svg>`,
+  'claude-reel.svg': `<svg viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="1280" fill="#1c1917"/><circle cx="360" cy="540" r="140" fill="#292524" stroke="#44403c" stroke-width="4"/><polygon points="340,480 420,540 340,600" fill="#f59e0b"/><text x="360" y="800" font-family="system-ui, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle">Claude 3.5 Sonnet</text><text x="360" y="860" font-family="system-ui, sans-serif" font-size="28" fill="#d6d3d1" text-anchor="middle">Code &amp; Architecture Prompt</text><text x="360" y="1180" font-family="system-ui, sans-serif" font-size="24" fill="#78716c" text-anchor="middle">@thefutureguyy.ai</text></svg>`,
+  'midjourney-reel.svg': `<svg viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="1280" fill="#0f172a"/><circle cx="360" cy="540" r="140" fill="#1e293b" stroke="#334155" stroke-width="4"/><polygon points="340,480 420,540 340,600" fill="#38bdf8"/><text x="360" y="800" font-family="system-ui, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle">Midjourney v6.1</text><text x="360" y="860" font-family="system-ui, sans-serif" font-size="28" fill="#94a3b8" text-anchor="middle">35mm Film Portrait Formula</text><text x="360" y="1180" font-family="system-ui, sans-serif" font-size="24" fill="#64748b" text-anchor="middle">@thefutureguyy.ai</text></svg>`,
+  'elevenlabs-reel.svg': `<svg viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="1280" fill="#18181b"/><circle cx="360" cy="540" r="140" fill="#27272a" stroke="#3f3f46" stroke-width="4"/><polygon points="340,480 420,540 340,600" fill="#ec4899"/><text x="360" y="800" font-family="system-ui, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle">ElevenLabs</text><text x="360" y="860" font-family="system-ui, sans-serif" font-size="28" fill="#a1a1aa" text-anchor="middle">AI Voice Cloning Workflow</text><text x="360" y="1180" font-family="system-ui, sans-serif" font-size="24" fill="#71717a" text-anchor="middle">@thefutureguyy.ai</text></svg>`,
+  'chatgpt-reel.svg': `<svg viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="1280" fill="#064e3b"/><circle cx="360" cy="540" r="140" fill="#065f46" stroke="#047857" stroke-width="4"/><polygon points="340,480 420,540 340,600" fill="#34d399"/><text x="360" y="800" font-family="system-ui, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle">ChatGPT</text><text x="360" y="860" font-family="system-ui, sans-serif" font-size="28" fill="#a7f3d0" text-anchor="middle">LinkedIn Viral Post Formula</text><text x="360" y="1180" font-family="system-ui, sans-serif" font-size="24" fill="#6ee7b7" text-anchor="middle">@thefutureguyy.ai</text></svg>`,
+  'cursor-reel.svg': `<svg viewBox="0 0 720 1280" xmlns="http://www.w3.org/2000/svg"><rect width="720" height="1280" fill="#000000"/><circle cx="360" cy="540" r="140" fill="#18181b" stroke="#27272a" stroke-width="4"/><polygon points="340,480 420,540 340,600" fill="#3b82f6"/><text x="360" y="800" font-family="system-ui, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" text-anchor="middle">Cursor AI</text><text x="360" y="860" font-family="system-ui, sans-serif" font-size="28" fill="#93c5fd" text-anchor="middle">Composer Agent Full-Stack</text><text x="360" y="1180" font-family="system-ui, sans-serif" font-size="24" fill="#60a5fa" text-anchor="middle">@thefutureguyy.ai</text></svg>`
+};
+
+for (const [filename, svg] of Object.entries(thumbnails)) {
+  fs.writeFileSync(path.join(reelsAssetsDir, filename), svg);
+}
+
+console.log('Reel thumbnail SVGs generated.');

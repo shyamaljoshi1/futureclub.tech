@@ -1,0 +1,148 @@
+[
+  {
+    "id": "res-001",
+    "slug": "how-to-write-better-prompts",
+    "title": "How to Write High-Performing Prompts for ChatGPT & Claude",
+    "description": "The definitive principles of modern prompt engineering: persona calibration, context anchoring, few-shot examples, and output constraints.",
+    "category": "ai-writing",
+    "readTime": "6 min read",
+    "publishedAt": "2026-10-21",
+    "status": "published",
+    "sections": [
+      {
+        "title": "1. Replace Vague Demands with Strict Constraints",
+        "content": "The single most common mistake in prompting is asking a model to 'write a good post' or 'make this sound professional'. Without boundary conditions, modern LLMs revert to the statistical average of all internet prose—resulting in buzzwords, corporate passive voice, and hollow cheerleading.\n\nInstead, supply explicit negative constraints: 'Do not use words like navigate, delve, landscape, or revolutionize. Keep paragraphs to 2 lines max. Use active verbs only.'",
+        "tips": [
+          "State what NOT to do explicitly in a dedicated constraints block.",
+          "Specify the exact format (bullet list, table, markdown headers).",
+          "Set target character or word limits."
+        ]
+      },
+      {
+        "title": "2. Provide a Crystal-Clear Role and Calibrated Audience",
+        "content": "Language models adjust their vocabulary distribution based on the persona assigned. Don't simply say 'Act as an expert'. Be granular: 'Act as a Senior Staff Performance Engineer auditing a Node.js microservice experiencing p99 latency spikes during Black Friday.'",
+        "tips": [
+          "Specify both the expert role AND the target reader's seniority level.",
+          "Define the consequence of failure to heighten the model's analytical rigor."
+        ]
+      },
+      {
+        "title": "3. The Power of Few-Shot Examples",
+        "content": "Giving one or two high-quality examples of your desired input/output pairing increases output quality by over 80%. Show the model what a 10/10 answer looks like before requesting yours.",
+        "tips": [
+          "Include one input example and one desired output example.",
+          "Highlight the specific tone nuances you appreciate in the example."
+        ]
+      }
+    ],
+    "seo": {
+      "title": "How to Write Better Prompts for ChatGPT & Claude (2026 Guide)",
+      "description": "Master prompt engineering for ChatGPT and Claude. Learn persona calibration, negative constraints, and few-shot formatting."
+    }
+  },
+  {
+    "id": "res-002",
+    "slug": "developer-ai-workflow-guide",
+    "title": "The Full-Stack Developer AI Workflow in 2026",
+    "description": "How top engineering teams combine Cursor, Claude 3.5 Sonnet, and v0 to build production-grade web applications 5x faster.",
+    "category": "coding",
+    "readTime": "8 min read",
+    "publishedAt": "2026-10-23",
+    "status": "published",
+    "sections": [
+      {
+        "title": "1. Scaffolding with Generative UI (v0)",
+        "content": "Instead of starting frontend interfaces with empty CSS files, begin by generating individual UI atoms in v0. Describe the interaction states (empty, loading, filled, error) and copy the accessible Tailwind + React markup straight into your repository.",
+        "tips": [
+          "Prompt for WCAG 2.1 accessibility and keyboard focus rings.",
+          "Use the npx v0 add CLI command to pull directly into Next.js or Vite projects."
+        ]
+      },
+      {
+        "title": "2. Multi-File Refactoring with Cursor Composer",
+        "content": "Cursor's Composer allows you to stage edits across multiple files in a single turn. By referencing @Codebase or specific file paths like @src/types/content.ts, you provide the agent with whole-repository coherence, eliminating broken imports and type mismatches.",
+        "tips": [
+          "Keep .cursorrules updated with your team's code conventions.",
+          "Stage git commits frequently before running broad multi-file prompts."
+        ]
+      },
+      {
+        "title": "3. Architectural Review with Claude Artifacts",
+        "content": "Before writing complex business logic or database schemas, bounce architectural trade-offs off Claude 3.5 Sonnet. Claude's large context window and live artifact rendering allow you to test state machine diagrams and database relationships in minutes.",
+        "tips": [
+          "Provide real mock data schemas rather than abstract descriptions.",
+          "Ask Claude to critique edge cases: what fails when concurrent requests surge?"
+        ]
+      }
+    ],
+    "seo": {
+      "title": "Full-Stack Developer AI Workflow Guide (Cursor, Claude, v0)",
+      "description": "Learn the modern software developer workflow using Cursor, Claude 3.5 Sonnet, and v0. Build scalable React and TypeScript apps faster."
+    }
+  },
+  {
+    "id": "res-003",
+    "slug": "mastering-midjourney-photorealism",
+    "title": "Mastering Photorealistic Image Generation with Midjourney v6",
+    "description": "A comprehensive breakdown of cameras, lenses, film stocks, and lighting setups to produce documentary-grade realism in AI imagery.",
+    "category": "image-generation",
+    "readTime": "7 min read",
+    "publishedAt": "2026-10-25",
+    "status": "published",
+    "sections": [
+      {
+        "title": "1. Why '8K Photorealistic' Actually Ruins Your Images",
+        "content": "Buzzwords like '8K', 'hyper-realistic', and 'award-winning' are recognized in generative models as amateur SEO spam tags. They often trigger plastic skin smoothing and excessive saturation. Instead, use real photographic terminology: camera models, film stock emulsions, and lens focal lengths.",
+        "tips": [
+          "Use specific film stocks: Kodak Portra 400, Fujifilm Superia, Ilford HP5.",
+          "Specify lens millimeters: 35mm, 50mm f/1.4, 85mm f/1.8.",
+          "Always add --style raw to disable Midjourney's default stylized aesthetic."
+        ]
+      },
+      {
+        "title": "2. Controlling the Light: The Heart of Realism",
+        "content": "Lighting dictates perceived texture. Frontal flash creates a raw snapshot aesthetic; overcast northern window light produces soft portrait transitions; golden hour side-lighting reveals skin pores and fabric weaves.",
+        "tips": [
+          "Specify direction: side-lighting, rim lighting, overcast diffused daylight.",
+          "Avoid multi-colored neon highlights unless intentionally producing cyberpunk aesthetics."
+        ]
+      }
+    ],
+    "seo": {
+      "title": "Midjourney v6 Photorealism Guide: Camera Settings & Lighting",
+      "description": "Learn the exact prompt formulas for realistic photos in Midjourney v6. Film stocks, lens focal lengths, and lighting strategies."
+    }
+  },
+  {
+    "id": "res-004",
+    "slug": "automate-instagram-content-workflow",
+    "title": "Automating Content Repurposing with AI for Instagram",
+    "description": "How @thefutureguyy.ai turns one research insight into viral Instagram carousels, 60-second Reels, and website visitors.",
+    "category": "automation",
+    "readTime": "5 min read",
+    "publishedAt": "2026-10-27",
+    "status": "published",
+    "sections": [
+      {
+        "title": "1. The 1-to-5 Repurposing Engine",
+        "content": "Every piece of foundational content (like an in-depth tool review or prompt breakdown) can be systematically atomized into:\n1. A 7-slide Instagram carousel summarizing the core workflow\n2. A 60-second screen-recording Reel demonstrating the tool live\n3. A high-converting LinkedIn thought leadership post\n4. A detailed directory entry on the website with copyable prompts\n5. An email tip for your subscriber list.",
+        "tips": [
+          "Always direct Instagram followers to a simple, clean website URL for the full prompt text.",
+          "Use Descript to auto-caption Reels with high-contrast text overlays."
+        ]
+      },
+      {
+        "title": "2. Driving Website Traffic from Instagram",
+        "content": "Social platforms restrict external link reach in standard post captions. The highest converting funnel is directing followers to comment a specific keyword (e.g., 'TOOL') on your Reel. An automated tool like ManyChat then DMs them the exact web directory link immediately.",
+        "tips": [
+          "Keep the destination URL clean and fast-loading on mobile phones.",
+          "Ensure the copy button is positioned above the fold on mobile screens."
+        ]
+      }
+    ],
+    "seo": {
+      "title": "Automating Instagram Content Repurposing with AI (2026 Guide)",
+      "description": "The exact content repurposing workflow used by @thefutureguyy.ai to grow on Instagram and drive organic website visitors."
+    }
+  }
+]

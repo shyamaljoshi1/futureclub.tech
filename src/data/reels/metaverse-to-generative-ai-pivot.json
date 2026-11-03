@@ -1,0 +1,37 @@
+{
+  "id": "reel-084",
+  "slug": "metaverse-to-generative-ai-pivot",
+  "title": "From Virtual Worlds to Generative AI: How Big Tech Pivoted $100B+",
+  "toolName": "Tech Industry Capital Pivot Analysis",
+  "toolUrl": "",
+  "description": "In 2021, Mark Zuckerberg rebranded Facebook to Meta with a multi-billion dollar bet on virtual reality. By 2024, the entire tech industry pivoted resources toward open-weights AI and compute clusters. Discover the economics behind the pivot.",
+  "category": "research",
+  "pricing": "free",
+  "pricingDetails": "Business strategy case study",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DWY4C_VFWWA/",
+  "instagramReelId": "DWY4C_VFWWA",
+  "reelThumbnail": "https://scontent-lhr6-1.cdninstagram.com/v/t51.82787-15/658554707_18072077828646996_4487563382396422101_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=Mzg2MjA4MzE3NjUxMzIzNDMwNDE4MDcyMDc3ODIyNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=cUSEDw-raGMQ7kNvwFM4kSU&_nc_oc=AdpSXQbcDHfQYVYGkLghPjS7Qp9YdHqxgEWajgSpQPLzxVQH8QJ_UH-ltYE2gEFObMU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lhr6-1.cdninstagram.com&_nc_gid=vgCjAyVMce6rehdGIS67BQ&_nc_ss=7320f&oh=00_AQQw0UbkABWjHXmcmp3xBosNQO5MBY8diw0autprzhsUCw&oe=6AEF7104",
+  "promptSet": [
+    {
+      "id": "pmt-084",
+      "title": "Big Tech Strategic Capital Allocation Case Study",
+      "prompt": "Analyze the strategic pivot of Silicon Valley capital from VR/Metaverse infrastructure (2021) to Generative AI datacenters (2024-2026). Detail the factors of consumer adoption, developer ecosystem, and revenue timelines.",
+      "instructions": [
+        "Read the business strategy retrospective.",
+        "Use this prompt to examine shifting technology investment cycles.",
+        "Align your career skills with sectors receiving massive institutional capital."
+      ],
+      "exampleOutput": "Analytical case study detailing the macroeconomic shift from VR headsets to GPU compute clusters."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-12",
+  "seo": {
+    "title": "From Virtual Worlds to Generative AI: How Big Tech Pivoted $100B+ | futureclub.tech",
+    "description": "In 2021, Mark Zuckerberg rebranded Facebook to Meta with a multi-billion dollar bet on virtual reality. By 2024, the entire tech industry pivoted resources towa"
+  }
+}

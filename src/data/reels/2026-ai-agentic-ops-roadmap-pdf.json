@@ -1,0 +1,37 @@
+{
+  "id": "reel-076",
+  "slug": "2026-ai-agentic-ops-roadmap-pdf",
+  "title": "Free PDF Download: The Complete 2026 AI Automation & Agentic Ops Guide",
+  "toolName": "2026 AI Agentic Ops Learning Roadmap",
+  "toolUrl": "",
+  "description": "Master the high-demand skills of 2026: n8n workflow automation, Claude autonomous agents, Lovable web generation, vector databases, and LLMOps. Download the complete visual roadmap to guide your learning.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "Free downloadable curriculum & workflow blueprints",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DWib3EVku5-/",
+  "instagramReelId": "DWib3EVku5-",
+  "reelThumbnail": "https://scontent-cdg4-2.cdninstagram.com/v/t51.71878-15/659113155_919222320931342_4820060552399458344_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzg2NDc3Mzk2MTcyMTI0NTMxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Dc6Ll6o54OQQ7kNvwHOYtoR&_nc_oc=AdoDLoR-un9B5C96pipKZr5bTxbzZ5x_4lbqaxyAhP2AZd-8Vkd11Gc3ia6vqacCjhQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_gid=7_gE1aZUYhwK0ImJWK6nDA&_nc_ss=7320f&oh=00_AQTyR39o22VBtcYUU9aonyrhOAfbCfbkISc5YBadQGvX0g&oe=6AEF5493",
+  "promptSet": [
+    {
+      "id": "pmt-076",
+      "title": "End-to-End n8n Agent Workflow Blueprint",
+      "prompt": "Design an n8n automation workflow that ingests customer support tickets via webhook, classifies urgency with an LLM, queries an internal vector store for documentation, and drafts a suggested response in Slack.",
+      "instructions": [
+        "Download the visual PDF roadmap.",
+        "Set up your local n8n instance using Docker.",
+        "Build your first autonomous multi-agent pipeline following the guide."
+      ],
+      "exampleOutput": "Complete n8n JSON workflow configuration ready to import into your automation engine."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-20",
+  "seo": {
+    "title": "Free PDF Download: The Complete 2026 AI Automation & Agentic Ops Guide | futureclub.tech",
+    "description": "Master the high-demand skills of 2026: n8n workflow automation, Claude autonomous agents, Lovable web generation, vector databases, and LLMOps. Download the com"
+  }
+}

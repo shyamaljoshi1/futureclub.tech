@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cat-writing",
+    "slug": "ai-writing",
+    "name": "AI Writing & Copy",
+    "description": "Tools and prompts for long-form essays, copywriting, social posts, and editorial drafts.",
+    "icon": "PenTool"
+  },
+  {
+    "id": "cat-coding",
+    "slug": "coding",
+    "name": "Coding & Development",
+    "description": "AI code editors, debugging agents, terminal companions, and full-stack scaffolding.",
+    "icon": "Code2"
+  },
+  {
+    "id": "cat-image",
+    "slug": "image-generation",
+    "name": "Image Generation",
+    "description": "Photorealistic image synthesizers, vector illustration engines, and graphic design tools.",
+    "icon": "Image"
+  },
+  {
+    "id": "cat-video",
+    "slug": "video-generation",
+    "name": "Video & Animation",
+    "description": "Generative video, cinematic camera movement, avatars, and automated editing suites.",
+    "icon": "Video"
+  },
+  {
+    "id": "cat-productivity",
+    "slug": "productivity",
+    "name": "Productivity & Notes",
+    "description": "Meeting summarizers, second brains, knowledge retrieval, and workflow organizers.",
+    "icon": "CheckSquare"
+  },
+  {
+    "id": "cat-research",
+    "slug": "research",
+    "name": "Research & Search",
+    "description": "Deep citation engines, academic paper synthesizers, and fact-checked search assistants.",
+    "icon": "Search"
+  },
+  {
+    "id": "cat-automation",
+    "slug": "automation",
+    "name": "AI Automation",
+    "description": "No-code workflow orchestrators, autonomous scrapers, and background task runners.",
+    "icon": "Cpu"
+  },
+  {
+    "id": "cat-design",
+    "slug": "design",
+    "name": "Design & UI/UX",
+    "description": "Generative UI builders, icon creators, color palette explorers, and mockups.",
+    "icon": "Layout"
+  },
+  {
+    "id": "cat-audio",
+    "slug": "audio-voice",
+    "name": "Audio & Voice",
+    "description": "Natural voice synthesis, voice cloning, podcast mastering, and music generation.",
+    "icon": "Mic"
+  }
+]

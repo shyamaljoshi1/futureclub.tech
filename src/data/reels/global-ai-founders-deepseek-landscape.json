@@ -1,0 +1,37 @@
+{
+  "id": "reel-075",
+  "slug": "global-ai-founders-deepseek-landscape",
+  "title": "Behind the Scenes of Global AI Startups: Exits, Sanctions & Open Weights",
+  "toolName": "Global AI Founders Landscape",
+  "toolUrl": "",
+  "description": "The untold narrative of startup founders navigating global compute sanctions, model acquisitions, and open-weights releases. Learn how resource constraints breed architectural breakthroughs like DeepSeek.",
+  "category": "research",
+  "pricing": "free",
+  "pricingDetails": "Investigative narrative & business analysis",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DWY8JNMmew8/",
+  "instagramReelId": "DWY8JNMmew8",
+  "reelThumbnail": "https://scontent-fra3-1.cdninstagram.com/v/t51.82787-15/657222565_18072082094646996_4669083741139530521_n.webp?_nc_cat=105&ig_cache_key=Mzg2MjEwMDU2ODUyOTcxMzI4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Osazrka1_rMQ7kNvwGfwjGt&_nc_oc=Adqh2opTiOkZ5f0IPCBO5LAxiY-t9lZ6pTkZRDen8bGhMVOWHAUH2l1ow5TKHAtFmBG9RvLtLPaqQ-c7OaVt41LD&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra3-1.cdninstagram.com&_nc_gid=FHJxJxIo-4B0Ss-Q8SeY6g&_nc_ss=7320f&oh=00_AQR4zPLT5fUhn8uiAxohjh15q-FdqXXONLjtatIRbkM-MQ&oe=6AEF558C",
+  "promptSet": [
+    {
+      "id": "pmt-075",
+      "title": "Open-Weights vs Closed-Weights Business Strategy",
+      "prompt": "Analyze the competitive defensibility of deploying self-hosted open-weights models (DeepSeek, Llama) versus building on proprietary API endpoints. Compare cost curves, data privacy, and latency tradeoffs.",
+      "instructions": [
+        "Read the case study on capital efficiency in AI startups.",
+        "Evaluate whether your tech stack should prioritize open or closed models.",
+        "Architect your systems with model-agnostic abstraction layers."
+      ],
+      "exampleOutput": "Strategic framework evaluating privacy, latency, and TCO for enterprise AI adoption."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-21",
+  "seo": {
+    "title": "Behind the Scenes of Global AI Startups: Exits, Sanctions & Open Weights | futureclub.tech",
+    "description": "The untold narrative of startup founders navigating global compute sanctions, model acquisitions, and open-weights releases. Learn how resource constraints bree"
+  }
+}

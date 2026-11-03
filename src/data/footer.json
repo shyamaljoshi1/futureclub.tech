@@ -1,0 +1,56 @@
+{
+  "aboutText": "futureclub.tech (@thefutureguyy.ai) is an independent AI discovery platform and prompt repository curating the most powerful artificial intelligence tools, prompt workflows, and practical guides for modern builders.",
+  "columns": [
+    {
+      "title": "Directory",
+      "links": [
+        { "label": "All AI Tools", "href": "/tools" },
+        { "label": "AI Writing Tools", "href": "/tools?category=ai-writing" },
+        { "label": "Coding Tools", "href": "/tools?category=coding" },
+        { "label": "Image Generators", "href": "/tools?category=image-generation" },
+        { "label": "Video Tools", "href": "/tools?category=video-generation" },
+        { "label": "Free AI Tools", "href": "/collections/best-free-ai-tools" }
+      ]
+    },
+    {
+      "title": "Prompt Library",
+      "links": [
+        { "label": "All Prompts", "href": "/prompts" },
+        { "label": "ChatGPT Prompts", "href": "/prompts?platform=chatgpt" },
+        { "label": "Claude Prompts", "href": "/prompts?platform=claude" },
+        { "label": "Gemini Prompts", "href": "/prompts?platform=gemini" },
+        { "label": "Midjourney Prompts", "href": "/prompts?platform=midjourney" },
+        { "label": "Developer Prompts", "href": "/prompts?category=coding" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "links": [
+        { "label": "All Guides", "href": "/resources" },
+        { "label": "Prompt Engineering Guide", "href": "/resources/how-to-write-better-prompts" },
+        { "label": "Developer Workflow", "href": "/resources/developer-ai-workflow-guide" },
+        { "label": "Midjourney Realism Guide", "href": "/resources/mastering-midjourney-photorealism" },
+        { "label": "Instagram Repurposing", "href": "/resources/automate-instagram-content-workflow" }
+      ]
+    },
+    {
+      "title": "Company & Legal",
+      "links": [
+        { "label": "About", "href": "/about" },
+        { "label": "Contact & Submit", "href": "/contact" },
+        { "label": "Instagram Profile", "href": "https://www.instagram.com/thefutureguyy.ai/", "isExternal": true },
+        { "label": "Privacy Policy", "href": "/privacy-policy" },
+        { "label": "Terms of Service", "href": "/terms" },
+        { "label": "Disclaimer", "href": "/disclaimer" }
+      ]
+    }
+  ],
+  "legal": [
+    { "label": "Privacy Policy", "href": "/privacy-policy" },
+    { "label": "Terms of Service", "href": "/terms" },
+    { "label": "Disclaimer", "href": "/disclaimer" },
+    { "label": "Sitemap", "href": "/sitemap.xml", "isExternal": true }
+  ],
+  "copyright": "© 2026 futureclub.tech (@thefutureguyy.ai). All rights reserved.",
+  "disclaimer": "futureclub.tech is an independent publication by @thefutureguyy.ai. Trademarks, logos, and brand names are the property of their respective owners. Listing does not imply official endorsement."
+}

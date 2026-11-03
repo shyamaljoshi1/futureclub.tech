@@ -1,0 +1,37 @@
+{
+  "id": "reel-089",
+  "slug": "claude-deep-research-skill",
+  "title": "This Claude Deep Research Skill Is Actually Insane: Full-Team Research",
+  "toolName": "Claude Deep Research Agent Skill",
+  "toolUrl": "https://github.com/",
+  "description": "Give it one broad topic, and it investigates like a full analyst team: forms sub-hypotheses, searches across hundreds of academic and news sources, cross-verifies conflicting data, and synthesizes an authoritative report.",
+  "category": "research",
+  "pricing": "free",
+  "pricingDetails": "Free open source skill for Claude Code and coding agents",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DYZjOq6xNEy/",
+  "instagramReelId": "DYZjOq6xNEy",
+  "reelThumbnail": "https://scontent-cdg4-2.cdninstagram.com/v/t51.71878-15/702107048_767993969636647_3464738937227281997_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzg5ODMwMTg5MjI0OTU3MTYzNDg2MjQ5NjkxNjg5ODgxMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=0d5C_YSqQ4kQ7kNvwEtAM0x&_nc_oc=AdqcDZH0-jXpmiQlkmfjz4DI3mYQBZ8A4fDXPm8DnJDVLh_7BziHMLpP3btB7nNtVVA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_gid=RXeiiCXarYBazVDo-IixnQ&_nc_ss=7320f&oh=00_AQSayXPhzMaLzLrt5HM8QM779XwCg49qqmVQKEpRrW9epQ&oe=6AEF4167",
+  "promptSet": [
+    {
+      "id": "pmt-089",
+      "title": "Autonomous Deep Investigative Research Protocol",
+      "prompt": "Investigate the market landscape for AI code editors in 2026. Break down market shares, key technological differentiators (local indexing vs cloud LLMs), developer sentiment, and enterprise pricing models with full citations.",
+      "instructions": [
+        "Install the deep research skill into your Claude workspace.",
+        "Provide your research topic and depth requirements.",
+        "Read the generated comprehensive analytical brief with verified references."
+      ],
+      "exampleOutput": "Exhaustive 12-page research report with comparative matrices and verified data sources."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-07",
+  "seo": {
+    "title": "This Claude Deep Research Skill Is Actually Insane: Full-Team Research | futureclub.tech",
+    "description": "Give it one broad topic, and it investigates like a full analyst team: forms sub-hypotheses, searches across hundreds of academic and news sources, cross-verifi"
+  }
+}

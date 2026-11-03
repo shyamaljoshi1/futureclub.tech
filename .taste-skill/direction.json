@@ -1,0 +1,522 @@
+{
+ "version": 1,
+ "at": "2026-11-03T05:39:03.781Z",
+ "seed": 1500762047,
+ "redraws": 0,
+ "input": {
+  "brief": "The Future Guy AI: curated AI tools discovery and copy-paste prompt library for builders, creators, and students",
+  "sector": "ai-product",
+  "tone": null,
+  "have": [],
+  "keep": [],
+  "avoid": [],
+  "sections": [
+   "intro",
+   "features",
+   "showcase",
+   "list",
+   "cta",
+   "footer"
+  ],
+  "direction": "quiet-instrument"
+ },
+ "imagery": "interface",
+ "allow": [],
+ "direction": {
+  "id": "quiet-instrument",
+  "name": "The quiet instrument",
+  "sectors": [
+   "saas",
+   "dev-tool",
+   "ai-product",
+   "personal-portfolio",
+   "consumer-app",
+   "finance",
+   "other"
+  ],
+  "tones": [
+   "quiet",
+   "technical"
+  ],
+  "needs": [],
+  "idea": "Radical understatement. Where every competitor shouts, this page almost whispers: a headline barely larger than body text, a narrow column, small exact demonstrations, and a great deal of untouched space. The restraint is the claim. It says the thing is simple, finished and sure of itself. This only works when it is carried through completely; one loud element breaks it. In the study, a tool for simple lists sold itself with a 27px headline and 12–14px copy and was one of the most confident pages in the set.",
+  "composition": "A single column 440–560px wide, placed left of centre (starting at about 22% of the viewport width) or dead centre, running the whole page. The headline is the one large thing on the first screen: two lines at display size (5–7vw), medium weight, starting on the column's left edge and allowed to run wider than the column. The supporting paragraph follows at body size (17–19px) in the full ink. One small primary button and one text link. Below, each point is a short paragraph followed by a compact demonstration or image no wider than the column. Sections are separated only by space (96–140px). Nothing spans the full width until the footer, which is a single quiet line. The first screen is mostly empty and that emptiness is composed: the column's top edge sits at about 30% of the viewport height.",
+  "typography": "One family, two weights. A display size for the headline (5–7vw), one heading size for section titles (about 32–40px), body at 17–19px, a small size for captions (14–15px). Leading 1.5 for text. Letter-spacing near zero. The typeface must be handsome at small sizes.",
+  "typeClasses": [
+   "grotesk-light",
+   "serif-text",
+   "geometric"
+  ],
+  "colour": "Paper and two inks (full and soft). One accent used on exactly one element per screen.",
+  "paletteTags": [
+   "light-neutral",
+   "mono-accent"
+  ],
+  "imagery": "Precise rather than loud: cropped interface details at true size, and real photographs of the customer's world held to the column width, each doing one job. One short looping clip can sit at column width too. Never a large stock hero image.",
+  "sectionTags": [
+   "quiet",
+   "ui-led",
+   "type-led"
+  ],
+  "motion": "stillness",
+  "richness": "Precision. With so little on the page, alignment, spacing and the exact size relationships are the design. Every element shares the column's left edge.",
+  "pitfalls": "This is the one direction where a small headline is right; the inspector will not object, but do not mix it with a large display line. Emptiness must look decided: keep the column edges exact and the vertical rhythm even. Not suitable when the subject needs emotion or photography to sell. Quiet is not thin: the column must still deliver every piece of content the brief asks for, in full, at 16px or more in the full ink. In blind tests the quiet version lost every time it was quiet everywhere: a small headline beside an empty panel read as unfinished. Quiet means few things, not small things: the headline and the demonstration are large, and every screen holds content.",
+  "seenIn": [
+   "opl-rows",
+   "opl-compile",
+   "opl-plastic",
+   "opl-bueno-fyi",
+   "aww-gil-huybrecht"
+  ],
+  "allow": []
+ },
+ "hero": {
+  "id": "two-doors-on-a-dark-wall",
+  "name": "Two doors on a dark wall",
+  "archetype": "split",
+  "directions": [
+   "dark-room",
+   "quiet-instrument"
+  ],
+  "needs": [],
+  "blueprint": "For a subject with two halves a visitor must choose between: two exhibitions, two audiences, two places, two collections. One near-black flat field. Two portrait photographs at 3:4, each 280×373px, stand side by side 80px apart, so the pair spans x 400–1040 (44% of the width) with their tops at 300px; square corners, no frame, the pictures supplying every colour on the screen. Each photograph is the link to its half, and directly beneath it, left-aligned to the frame, sit its name at 22px in the light ink and one line at 16px in the soft ink. The headline is centred above the pair: two lines at clamp(36px, 3.4vw, 52px), leading 1.05, its first line 104px from the top, at most 26 characters per line. Wordmark top-left and one text link top-right at 15px on 32px margins. About 150px of dark ground stays below the pair and 400px either side of it, closed by the two doors at the centre. Pointing at or focusing one door keeps it at full strength and dims the other to 50%. The page continues below with the two halves in order, so each door is also an anchor to its half.",
+  "mobile": "The pair stays side by side: each photograph 168px wide at 3:4 with a 14px gap, centred at 46% of the height, its name at 17px and its line at 16px beneath it. The headline sits above at 8vw on two lines, centred, 64px down. The wordmark and the link stay in the top corners.",
+  "headline": "A 4–8 word sentence on two lines that names the choice, at most 26 characters per line.",
+  "motion": "stillness",
+  "seenIn": [
+   "aww-hearst-exhibit-2026"
+  ]
+ },
+ "type": {
+  "id": "young-source",
+  "name": "Young Serif / Source Serif 4",
+  "class": "serif-text",
+  "display": {
+   "family": "Young Serif",
+   "source": "google",
+   "weights": [
+    400
+   ],
+   "italic": false,
+   "settings": "weight 400 (single heavy cut) · tracking -0.02em · leading 0.95 · sentence case",
+   "css": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap\" rel=\"stylesheet\">"
+  },
+  "text": {
+   "family": "Source Serif 4",
+   "source": "google",
+   "weights": [
+    400,
+    600
+   ],
+   "italic": true,
+   "settings": "400 for body, 600 for emphasis, italic for quotations · leading 1.55 · tracking 0",
+   "css": "<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n<link href=\"https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap\" rel=\"stylesheet\">"
+  },
+  "standsInFor": [
+   "FS Kim",
+   "Recoleta",
+   "Gelica"
+  ],
+  "note": "A heavy, round old-style headline face with soft bracketed serifs over a clear transitional text serif. Suits essays, food, independent publishers and personal sites that want warmth with weight.",
+  "seenIn": [
+   "opl-applied-imagination",
+   "opl-flowjam-2",
+   "opl-marina-rachello"
+  ],
+  "links": [
+   "https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Source+Serif+4:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+  ],
+  "scale": {
+   "step-small": "clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem)",
+   "step-body": "clamp(1.125rem, 1.05rem + 0.3vw, 1.3125rem)",
+   "step-lead": "clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem)",
+   "step-head": "clamp(2rem, 1.3rem + 3.2vw, 4rem)"
+  }
+ },
+ "palette": {
+  "id": "soot-pale-lime",
+  "name": "Soot and lime",
+  "tags": [
+   "mono-accent",
+   "dark-neutral"
+  ],
+  "bg": "#0f0f0f",
+  "surface": "#1a1a1a",
+  "ink": "#ffffff",
+  "muted": "#8f8f8f",
+  "accent": "#dafa9c",
+  "accentInk": "#0f0f0f",
+  "fields": [
+   {
+    "bg": "#ffffff",
+    "ink": "#0f0f0f"
+   },
+   {
+    "bg": "#dafa9c",
+    "ink": "#0f0f0f"
+   }
+  ],
+  "note": "A soot-black opening and close bracket white middle sections, all in black, white and grey. Pale lime is the single action colour: every button, and at most one headline set in it on the dark ground.",
+  "seenIn": [
+   "opl-builders-table",
+   "aww-made-with-gsap-1",
+   "aww-hilden-kaira"
+  ]
+ },
+ "photos": {
+  "set": "sky-and-space",
+  "title": "Sky and space",
+  "note": "skies, clouds, stars and night skies",
+  "treatment": null,
+  "others": [
+   "fog-and-quiet",
+   "architecture",
+   "water"
+  ],
+  "photos": [
+   {
+    "id": 505,
+    "alt": "Tiny silhouetted figure on a dark ridge under a blue and orange twilight sky",
+    "tone": "dark",
+    "colours": [
+     "deep blue",
+     "orange",
+     "black"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 5,
+    "ratio": 1.5,
+    "by": "lee Scott",
+    "page": "https://unsplash.com/photos/_VTgctRg0tA"
+   },
+   {
+    "id": 967,
+    "alt": "Earth's curved horizon with green aurora seen from an orbiting spacecraft",
+    "tone": "dark",
+    "colours": [
+     "emerald green",
+     "violet",
+     "black"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "NASA",
+    "page": "https://unsplash.com/photos/NuE8Nu3otjo"
+   },
+   {
+    "id": 869,
+    "alt": "Starry night sky above a mountain glowing warm at its peak",
+    "tone": "dark",
+    "colours": [
+     "navy",
+     "deep blue",
+     "amber"
+    ],
+    "mono": false,
+    "calm": "top",
+    "quality": 4,
+    "ratio": 1.5,
+    "by": "Caleb Ralston",
+    "page": "https://unsplash.com/photos/6hxvm0NzYP8"
+   },
+   {
+    "id": 901,
+    "alt": "Green aurora sweeping across the night sky above snowy ground",
+    "tone": "dark",
+    "colours": [
+     "emerald green",
+     "dark teal",
+     "slate"
+    ],
+    "mono": false,
+    "calm": "none",
+    "quality": 4,
+    "ratio": 1,
+    "by": "Marcelo Quinan",
+    "page": "https://unsplash.com/photos/R3pUGn5YiTg"
+   }
+  ]
+ },
+ "motion": {
+  "id": "stillness",
+  "name": "Stillness",
+  "description": "No showpiece. The page is simply there, instantly, and the discipline is the statement. Motion is limited to exact feedback: a 140ms press on the button, a 180ms colour change on links, focus rings that appear without delay. Do not add a load animation or scroll reveals to this direction."
+ },
+ "sections": [
+  {
+   "id": "intro-narrow-column",
+   "role": "intro",
+   "name": "Narrow column, empty field",
+   "shape": "stack",
+   "tags": [
+    "quiet",
+    "type-led"
+   ],
+   "directions": [
+    "quiet-instrument",
+    "split-stage",
+    "hero-object",
+    "name-as-monument",
+    "contact-sheet",
+    "product-performs"
+   ],
+   "needs": [],
+   "blueprint": "A single text column 300–340px wide, its left edge at 15% of the viewport width, starting 64px below the section top. It holds four or five short paragraphs at 15–16px with leading 1.5 and one blank line between them; the first paragraph is in medium weight and full ink, the rest in regular weight and the soft ink. No heading, no image, no button; one underlined text link may end the last paragraph. The remaining three-quarters of the 1440 screen is untouched ground, and the section is only as tall as the text plus 160px of padding below. The column's left edge must match a line used elsewhere on the page (the wordmark's left edge or a later column). Where the page has a large object or a fixed photograph, this column is the small text beside it. Holds 90–150 words comfortably.",
+   "mobile": "The column becomes 78% of the width, left-aligned at the 20px margin, so a strip of empty ground remains on the right as a deliberate margin. Text stays at 15–16px with the first paragraph in medium weight. Padding is 72px above and 96px below.",
+   "seenIn": [
+    "opl-when-you-wish-upon-a-starboy",
+    "opl-deeo-studio-2",
+    "aww-vero-new-york"
+   ]
+  },
+  {
+   "id": "features-panel-with-margin-notes",
+   "role": "features",
+   "name": "Panel with margin notes",
+   "shape": "index",
+   "tags": [
+    "ui-led",
+    "quiet",
+    "object-led"
+   ],
+   "directions": [
+    "editorial-report",
+    "quiet-instrument",
+    "product-performs",
+    "borrowed-category",
+    "dark-room"
+   ],
+   "needs": [],
+   "blueprint": "One tall panel from the product is shown whole, like a plate in a manual, with notes in both margins. The panel (an inspector, a sidebar, a composer) is built at true size, 360–400px wide and 640–720px tall, root marked data-ui, and stands in columns 5–8 on the plain ground with no stage behind it. Six notes describe six of its parts: three in columns 1–4, right-aligned, and three in columns 9–12, left-aligned, each 24ch wide and placed by absolute top offsets so its first line is level with the control it explains. A note is a name at 18px medium and two lines at 15px in the soft ink. Hovering or focusing a note keeps its control at full strength and drops the rest of the panel to 30% opacity; the controls themselves also work. The heading, two to four words at 32–40px, sits right-aligned in columns 1–4, level with the panel's top edge.",
+   "mobile": "The panel is shown in three slices, top, middle and bottom, each at true size and centred, cut where the next begins. Under each slice its two notes sit side by side in two columns at 15px. 56px between slices. The heading leads at 26px on the left margin.",
+   "seenIn": [
+    "aww-the-watch",
+    "opl-specia1ne"
+   ]
+  },
+  {
+   "id": "showcase-one-row-three-states",
+   "role": "showcase",
+   "name": "One row, three states",
+   "shape": "stack",
+   "tags": [
+    "ui-led",
+    "quiet"
+   ],
+   "directions": [
+    "quiet-instrument",
+    "product-performs",
+    "editorial-report",
+    "dark-room"
+   ],
+   "needs": [],
+   "blueprint": "The product's central row (a task, a transaction, a message, a deploy) is shown three times, one directly beneath the other, in three states: as it arrives, with the pointer on it and its actions revealed, and finished. Each copy is built at true size, 640px wide, with real names, amounts and times, its root marked data-ui; inside it the product's own control borders and radii apply. The copies sit in columns 4–9 with 56px between them and nothing framing them. In columns 1–3, right-aligned and level with each copy, one word at 22px in the soft ink names its state. Columns 10–12 stay empty. The middle copy is live: its checkbox or button works and turns it into the third state. The heading, two to four words at 28–32px, sits on column 4's left edge, 96px above the first copy, with no supporting line.",
+   "mobile": "Copies stack at full width with 16px margins and stay at true size; a row wider than the screen is cropped at its right end, never shrunk. Each state word sits beneath its copy at 17px in the soft ink, 10px away. 48px separates the three groups. Heading at 26px.",
+   "seenIn": [
+    "opl-rows"
+   ]
+  },
+  {
+   "id": "list-two-ended-rows",
+   "role": "list",
+   "name": "Two-ended rows, narrow column",
+   "shape": "list",
+   "tags": [
+    "quiet",
+    "type-led"
+   ],
+   "directions": [
+    "quiet-instrument",
+    "product-performs",
+    "contact-sheet",
+    "type-only-statement",
+    "split-stage"
+   ],
+   "needs": [],
+   "blueprint": "A list in one narrow column, 520px wide, starting at 22% of the viewport width or centred. Every row is 34–38px tall with no box and nothing drawn between rows. Each row has two ends: at the left, a 16px round image (a face, a logo, a colour dot) followed after 8px by the name at 15–16px in full ink; at the far right of the column, a short value at 13px in the soft ink (a date, a price, a domain, an opening time) with tabular figures. Entries that need a sentence run to two lines at the left, and the value aligns with the first line. Groups are separated by 40px of space and begin with one plain word in the soft ink at the same size. A heading of two to four words at 24–28px in medium weight sits 32px above the first row. Holds 10–40 rows.",
+   "mobile": "The column fills the width with 20px margins. Rows are 44px tall for touch; the left image stays 16px. Long values wrap beneath the name at 13px, left-aligned with it, and the row grows. Group spacing is 32px.",
+   "seenIn": [
+    "opl-tiny-computer-co"
+   ]
+  },
+  {
+   "id": "cta-plain-sentence-one-action",
+   "role": "cta",
+   "name": "A plain sentence, one action",
+   "shape": "stack",
+   "tags": [
+    "quiet"
+   ],
+   "directions": [
+    "quiet-instrument",
+    "product-performs",
+    "contact-sheet",
+    "uneven-photographs",
+    "split-stage",
+    "dark-room"
+   ],
+   "needs": [],
+   "blueprint": "The page ends on an almost empty screen. On the page ground, with no band and no panel, one sentence of eight to fourteen words is set at 18–22px in the regular weight, in the full ink, no wider than 34ch, on the same left edge as the page's text column (or centred only if the whole page is centred). 24px beneath it sits one small filled button, about 40px tall with 18px side padding, and optionally one text link beside it on the same baseline. That is all. Above the sentence leave at least 30svh of empty ground and below it at least 20svh before the footer line, so the emptiness reads as decided. The sentence is written as something a person would say, and it names the action plainly. No headline-sized type appears anywhere in this section.",
+   "mobile": "Identical in spirit: the sentence at 18px with 20px margins, the button beneath at its natural width (not full width), 44px tall. Keep 20svh of empty ground above the sentence and 14svh below the button, before the footer line.",
+   "seenIn": [
+    "opl-compile",
+    "opl-rows"
+   ]
+  },
+  {
+   "id": "footer-single-quiet-line",
+   "role": "footer",
+   "name": "A single quiet line",
+   "shape": "strip",
+   "tags": [
+    "quiet"
+   ],
+   "directions": [
+    "quiet-instrument",
+    "contact-sheet",
+    "product-performs",
+    "split-stage",
+    "dark-room",
+    "pinned-poster"
+   ],
+   "needs": [],
+   "blueprint": "No footer block at all. After at least 30svh of empty page ground, one baseline 30px above the bottom edge carries three items in the page's ordinary small text size (14–16px), the same size and weight as the navigation: at the left margin, what this is in three or four words; centred, two to five links separated by 24px of space; at the right margin, the year and a privacy link. Use a three-column grid (1fr auto 1fr) so the centre group is truly centred whatever the side lengths. No logo, no background change, no line above it, no columns. Links are in the full ink; the rest in the softer ink. If the page has a narrow text column, the three items may instead sit on that column's left edge as one wrapped line. The restraint only works if the page above has already made its invitation.",
+   "mobile": "Three short lines at 14px on the left margin with 8px between them: the description, the links on one wrapped line, then year and privacy. Links stay in the full ink. Leave 20svh of empty ground above and 24px below.",
+   "seenIn": [
+    "aww-studio-k95-3",
+    "aww-gil-huybrecht",
+    "opl-rows",
+    "opl-compile",
+    "opl-tiny-computer-co"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "id": "opl-rows",
+   "name": "Rows",
+   "url": "https://rows.gg/",
+   "source": "One Page Love",
+   "kind": "saas",
+   "score": 7.5,
+   "idea": "Radical understatement: a product about simple lists is sold with a 27px headline, 12px copy and a column of small live demos, each proving one interaction.",
+   "mood": [
+    "quiet",
+    "dry",
+    "precise",
+    "warm",
+    "confident"
+   ],
+   "archetype": "left-statement-quiet",
+   "hero": "Warm off-white page, almost empty. Everything hangs on one vertical line 27% in from the left. A small striped-letter logo mark sits there near the top; 220px lower comes a two-line headline at only 27px (under 2vw), then three lines of 13px body about 370px wide, then a near-black rectangular button with 4px corners beside a text link with an arrow. A single grey sign-in link sits in the top-right corner; there is no navigation bar. More than 80% of the viewport is blank. At the bottom edge the first feature module peeks in: grey demo panel left, short text column right.",
+   "type": "Suisse Intl only, weight 450–500, tracking −0.04em. Headline 27px, feature headings about 16px on two lines, body 12px. Three sizes in total, no uppercase and no display moment; hierarchy comes from weight and empty space alone.",
+   "colour": "#f5f6f1 #e6e7e1 #1a191d #ffffff #c7372f #3aa56a — Warm paper off-white with slightly darker grey-green demo panels and near-black type; colour appears only inside the UI as priority dots, outlined status pills and one green or red action button.",
+   "imagery": "No pictures: small live-rendered fragments of the app (two or three white list rows with dots, status pills, avatars and a visible cursor) sit in flat grey panels of fixed 368px width with barely rounded corners.",
+   "layout": "One content block about 650px wide, offset left of centre, repeated down the page: 368px demo panel plus a 245px text column, top-aligned, separated by 200px or more of empty space. The logo mark sticks to the top-left corner on scroll. Footer is one line.",
+   "sections": [
+    {
+     "role": "features",
+     "description": "The repeating module: a flat grey panel roughly 368px wide and 120–190px tall holding a tiny mock list (white rows with 6px radius, a coloured numbered dot at left, task title, an outlined status pill, an avatar, a chevron) and often a cursor mid-action. To its right, 20px away and top-aligned, a medium-weight heading of one or two lines and two short paragraphs at 11–12px in a column only 245px wide. Modules never alternate sides; they stack with large gaps."
+    },
+    {
+     "role": "cta",
+     "description": "The closing block keeps the same narrow measure: a three-line paragraph at 13px, then the identical button and arrow-link pair from the hero, left-aligned on the text column's axis. After a long gap a single hairline spans the 650px block and under it sits one row of tiny footer text: brand line at left, six links and a copyright strung along the right."
+    }
+   ],
+   "steal": [
+    "Set the headline at near-body size (under 2vw) and let empty space, not scale, give it importance.",
+    "Explain each feature with a tiny cropped fragment of real UI in a fixed-width flat panel, one interaction per panel, with the cursor left visible.",
+    "Hang the whole page on one off-centre left edge and never break it, logo and footer included."
+   ]
+  },
+  {
+   "id": "opl-plastic",
+   "name": "Plastic",
+   "url": "https://myplastic.app",
+   "source": "One Page Love",
+   "kind": "consumer-app",
+   "score": 7.1,
+   "idea": "A plain, quiet app page given one physical object: a photographed vinyl record cropped by the top-right corner of the viewport.",
+   "mood": [
+    "clean",
+    "calm",
+    "tactile",
+    "friendly"
+   ],
+   "archetype": "other: centred-statement-with-corner-object",
+   "hero": "Pale grey page with no navigation, only a bold wordmark with a small orange-red caps descriptor beneath it at top left (80px margin). A photographed black vinyl record with an orange-red label is cropped by the top-right corner, showing a quarter disc about 360px wide and tall, with an orange wire stand poking out below it. The headline is centred slightly above the middle in two lines at 74px (5.2vw), about 37% of the viewport wide, followed by a two-line 17px sentence and two black store badges side by side. Lower down, an award mark and a laurel-framed rating sit centred; the bottom fifth is empty.",
+   "type": "Archivo only. Headline weight 500, sentence case, tight leading, 74px against 17px body, about a 4.4x jump. Feature headings near 30px in two colours, a much larger heading in the dark section (digest peak 12vw), and tiny tracked caps in the footer.",
+   "colour": "#f5f5f5 #d5d5d5 #090d0e #171615 #e0441c — Greys and near-black with one orange-red accent taken from the record label; it colours the logo descriptor and the first line of each feature heading. One near-black section breaks the light page.",
+   "imagery": "Phone mockups with real app screens (album-cover grids, a camera view) sit inside mid-grey rounded panels and are cropped by the panel edge. The hero uses a cut-out photographed record with a soft shadow; album art supplies the colour.",
+   "layout": "Centred hero, then feature rows on a wide container: a tall grey panel on one side and a short text block vertically centred on the other, sides swapping per row. A dark full-width section with offset white cards follows, then a narrow FAQ column and a sparse footer.",
+   "sections": [
+    {
+     "role": "features",
+     "description": "Each feature is a two-column row. One column is a mid-grey rounded panel about 540px wide and 720px tall containing a phone mockup pinned near the top, with the next phone's top edge peeking in at the panel's bottom. The other column holds a two-line heading, first line orange-red and second near-black at the same size, over a three-line grey paragraph, vertically centred. The panel side alternates left and right."
+    },
+    {
+     "role": "showcase",
+     "description": "A near-black full-width section opens with a large centred white heading. Below it, white rounded cards of different sizes are placed off-grid at staggered horizontal positions: one holds an album-cover collage with a record sliding out, with a bold white caption and a grey line beneath it on the dark ground; another is a small data card listing collection fields as label and value rows."
+    },
+    {
+     "role": "faq",
+     "description": "A left-aligned column about 480px wide, offset toward the page centre and headed by a bold short title. Six questions in small bold text are separated by hairlines, each with a plus sign at the right edge. A generous empty gap follows before a footer of three tiny caps link groups spread left, centre and right, small legal notes, and a pipe-separated caps link row."
+    }
+   ],
+   "steal": [
+    "Crop one photographed physical object by a viewport corner so the hero has a subject without a centred mockup.",
+    "Set two-line feature headings at one size with the first line in the accent colour and the second in ink.",
+    "Drop the nav entirely on a one-page app site: wordmark plus a one-line descriptor top left, store badges directly under the headline."
+   ]
+  },
+  {
+   "id": "opl-vestris",
+   "name": "Vestris",
+   "url": "https://vestris.ai",
+   "source": "One Page Love",
+   "kind": "ai-product",
+   "score": 7.5,
+   "idea": "Dry title-settlement software wrapped in a calm painted countryside: gouache-style foliage and skies frame the product so paperwork feels pastoral.",
+   "mood": [
+    "calm",
+    "pastoral",
+    "editorial",
+    "warm",
+    "polished"
+   ],
+   "archetype": "centred-statement-media-below",
+   "hero": "Cream field. Nav in a ~1150px container: serif-italic wordmark with a compass icon left, three links centred, sign-in and an olive rounded button right. A centred stack begins at 17% height: a small bordered backer badge, then a one-line serif headline at ~6.7vw, its last two words italic, flanked by oversized parentheses pushed about 100px away from the words so the line spans 60% of the width. A three-line grey sans paragraph (~570px) and an olive button follow. From 62% height a sky-painted panel rises, holding a browser-framed app screenshot ~900px wide, cropped by the fold. Painted leafy branches grow in from both viewport edges, overlapping cream and panel.",
+   "type": "Instrument Serif regular at 96px (-0.03em) for headlines, typically one roman line and one italic line; Geist 18px grey for body and 14px for interface text. Section heads sit near 56px. About four sizes; headings are always centred.",
+   "colour": "#f2efe5 #62654e #bcd3e6 #3f5a2a #fafaf8 #2a2a26 — Warm cream ground, olive buttons, charcoal serif type; sky blue and leaf green arrive only through the painted illustrations. Sections stay cream apart from illustrated panels and the landscape footer.",
+   "imagery": "Painterly gouache-style illustrations (foliage, clouds, a bee, a handshake framed as a perforated postage stamp, a farmhouse landscape) combined with clean app screenshots in rounded browser frames sitting on the painted skies.",
+   "layout": "Centred throughout in a ~1150px container: headline, short paragraph, button, then media. Bare cream screens alternate with large rounded sky-painted panels inset about 20px from the viewport edges; three-column card rows hang off the panels. Vertical gaps exceed 150px.",
+   "sections": [
+    {
+     "role": "features",
+     "description": "A rounded-corner panel inset about 20px from the viewport sides, filled with a soft painted sky and a leaf branch entering bottom-left. Centred inside: a two-line serif heading at ~4vw (roman line, then italic line) and a two-line grey sentence. Three white rounded cards in a row overlap the lower part of the panel, each with a bold sans title and three lines of small copy."
+    },
+    {
+     "role": "intro",
+     "description": "A bare cream screen with a small painted bee inside a faint circle, centred above a two-line serif heading whose first line is roman and second italic. The letters fill from pale grey to charcoal as the reader scrolls (caught mid-word in the capture). A two-line grey sentence sits beneath. Nothing else occupies the viewport."
+    },
+    {
+     "role": "features",
+     "description": "Three columns. The outer two each hold a centred two-line serif subhead near 28px, four lines of grey copy and a proof line with a small tick icon. The middle column holds a handshake painting cropped as a postage stamp with a perforated white edge, tilted about ten degrees, breaking the row's symmetry of text."
+    },
+    {
+     "role": "footer",
+     "description": "A full-bleed painted landscape (hills, a white farmhouse, a fenced path) about one viewport tall, with a dark green scrim rising from the bottom. Two buttons float over the sky at top centre. The wordmark and a one-line descriptor sit bottom-left, two short link columns bottom-right, and a legal row runs along the base, all in cream."
+    }
+   ],
+   "steal": [
+    "Widen a short headline by setting it between oversized parentheses spaced far from the words.",
+    "Commission one painted illustration style and use it for section backgrounds, spot icons and the footer, with clean interface screenshots sitting on top.",
+    "Crop a spot illustration as a perforated postage stamp and tilt it between two text columns to break a three-column row."
+   ]
+  }
+ ],
+ "scenes": []
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-030",
+  "slug": "10-second-recruiter-portfolio-website",
+  "title": "Build a Developer Portfolio That Impresses Recruiters in 10 Seconds",
+  "toolName": "10-Second Recruiter Portfolio Template",
+  "toolUrl": "https://github.com/",
+  "description": "Recruiters spend an average of 10 seconds glancing at your portfolio before deciding to interview you. This ultra-clean, fast-loading template highlights your top 3 live projects, GitHub metrics, and tech stack.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free open source GitHub template",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/Daku5yuJgDA/",
+  "instagramReelId": "Daku5yuJgDA",
+  "reelThumbnail": "https://scontent-lga3-1.cdninstagram.com/v/t51.71878-15/741556505_1000729152762544_9135515693617527246_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=MzkzNzQ3ODI1NTgzOTY3NDU2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=i_BGKFrvq4wQ7kNvwGFMf_q&_nc_oc=AdpUnxjqMSv9eAqxck1TpOc8yy9QwpPw6ORLSAzNLTzZttkd4qf-mEUlN0HzhNrfs4bOL6a0bCAxBNgudOw92lTn&_nc_ad=z-m&_nc_cid=1087&_nc_zt=23&_nc_ht=scontent-lga3-1.cdninstagram.com&_nc_gid=HuHgXeMrcEb5oSMaXzNRYQ&_nc_ss=7320f&oh=00_AQSLR1bsP1-bcU7dh431p4u3SExSI1vrrroTgCAughTkMQ&oe=6AEF6F7A",
+  "promptSet": [
+    {
+      "id": "pmt-030",
+      "title": "Recruiter-Optimized Project Case Study Writer",
+      "prompt": "Write a concise, high-impact case study summary for my full-stack web project. Highlight: Problem Statement, Tech Stack Chosen (and why), Engineering Challenges Overcome, and Measurable Outcome (e.g. latency reduced, users served).",
+      "instructions": [
+        "Clone the minimal portfolio repository from GitHub.",
+        "Edit the single projects.json data file with your projects.",
+        "Deploy to Vercel or GitHub Pages in under 2 minutes."
+      ],
+      "exampleOutput": "Punchy 3-bullet project case study with metrics that catch engineering managers' attention."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-05",
+  "seo": {
+    "title": "Build a Developer Portfolio That Impresses Recruiters in 10 Seconds | futureclub.tech",
+    "description": "Recruiters spend an average of 10 seconds glancing at your portfolio before deciding to interview you. This ultra-clean, fast-loading template highlights your t"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-079",
+  "slug": "frontier-system-prompts-archive",
+  "title": "Leaked System Prompts: How OpenAI and Anthropic Prompt Their Models",
+  "toolName": "Frontier System Prompts Archive",
+  "toolUrl": "https://github.com/",
+  "description": "Dissect the exact system instructions, ethical boundaries, and tool-calling schemas used internally by frontier AI labs. Learn how industry leaders craft prompts that maintain razor-sharp focus and strict formatting.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free educational GitHub repository",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DWngUauDnGD/",
+  "instagramReelId": "DWngUauDnGD",
+  "reelThumbnail": "https://scontent-mrs2-3.cdninstagram.com/v/t51.71878-15/656427005_816081094272506_7489254681561300784_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzg2NjIwMDk0NTY4ODczNjEzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=05h9j53Z8VcQ7kNvwGO2TGY&_nc_oc=AdrpkSVkvB1ELtGsMylSvBYbGw_Lk6yZGVro2pB5HgFthsHtLL8xlF6WWGK41nLtfr8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mrs2-3.cdninstagram.com&_nc_gid=tdnhsHcCQq3NjhXG5cuhCA&_nc_ss=7320f&oh=00_AQSjMnKivzME57jjs2jAAlpKJuxA2O3hAtIvbX1nXClptQ&oe=6AEF600A",
+  "promptSet": [
+    {
+      "id": "pmt-079",
+      "title": "Industrial-Strength System Prompt Template",
+      "prompt": "Write a comprehensive system prompt for an autonomous coding assistant. Define operational constraints, tool-calling behavior, rules for asking clarifying questions, and strict prohibition of hallucinated package names.",
+      "instructions": [
+        "Explore the system prompts repository on GitHub.",
+        "Study the constraint patterns top AI labs use to prevent hallucinations.",
+        "Incorporate these proven guidelines into your own application system prompts."
+      ],
+      "exampleOutput": "Battle-tested 400-word system prompt with strict negative constraints and tool execution rules."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-17",
+  "seo": {
+    "title": "Leaked System Prompts: How OpenAI and Anthropic Prompt Their Models | futureclub.tech",
+    "description": "Dissect the exact system instructions, ethical boundaries, and tool-calling schemas used internally by frontier AI labs. Learn how industry leaders craft prompt"
+  }
+}

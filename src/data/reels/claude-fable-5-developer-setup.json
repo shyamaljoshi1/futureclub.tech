@@ -1,0 +1,37 @@
+{
+  "id": "reel-019",
+  "slug": "claude-fable-5-developer-setup",
+  "title": "Mastering Claude Fable 5 for Complex Software Engineering",
+  "toolName": "Claude Fable 5 Dev Workflow",
+  "toolUrl": "https://claude.ai/",
+  "description": "If you're a developer still using basic chat windows, you're working too hard. Harness Claude Fable 5's massive context window to ingest entire multi-repo codebases, conduct root-cause debugging, and generate regression tests.",
+  "category": "coding",
+  "pricing": "freemium",
+  "pricingDetails": "Free tier with pro limits",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DaW9ie0PvNY/",
+  "instagramReelId": "DaW9ie0PvNY",
+  "reelThumbnail": "https://instagram.fsvq7-1.fna.fbcdn.net/v/t51.71878-15/729664046_1369052975087287_6478562344784158514_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=MzkzMzYwMTk3NDk0Mjg4ODc5MjE2ODI2NTY2NDYzNTM0Mjk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=85POa0YqJZUQ7kNvwHH7uwT&_nc_oc=AdpXsxC9zKxpuyThCRrBCaRKxdKt2H_NB9q302ik-2vsMrPEvAeSN0-XprJxrbW2S1g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsvq7-1.fna&_nc_gid=d8QcPItEGHbpNCf4FdIx0A&_nc_ss=7320f&oh=00_AQRN75AyhlancuZG1P9rFr--NBNrr_-Ml1Wr8mpjyGVUkg&oe=6AEF5D03",
+  "promptSet": [
+    {
+      "id": "pmt-019",
+      "title": "Full Codebase Ingestion & Regression Suite",
+      "prompt": "Review the attached 5 source files. Identify edge cases not covered by existing test suites, generate comprehensive Vitest test cases with mock handlers, and identify any unhandled promise rejections.",
+      "instructions": [
+        "Upload your project files into Claude Fable 5 project knowledge.",
+        "Run the prompt to generate exhaustive unit and integration tests.",
+        "Verify the test suite passes locally in your terminal."
+      ],
+      "exampleOutput": "Complete Vitest test suite covering edge cases with 95%+ branch coverage."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-16",
+  "seo": {
+    "title": "Mastering Claude Fable 5 for Complex Software Engineering | futureclub.tech",
+    "description": "If you're a developer still using basic chat windows, you're working too hard. Harness Claude Fable 5's massive context window to ingest entire multi-repo codeb"
+  }
+}

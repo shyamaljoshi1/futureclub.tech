@@ -1,0 +1,37 @@
+{
+  "id": "reel-029",
+  "slug": "google-antigravity-cli-overview",
+  "title": "Google Drops Free Antigravity AI Coding Agent for Developers",
+  "toolName": "Google Antigravity CLI Agent",
+  "toolUrl": "https://antigravity.google/",
+  "description": "Google Antigravity is a completely free AI coding agent offering local terminal integration, multi-agent orchestrations, and full Gemini 4 Argon model access. Discover why developers are switching from paid tools.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free developer preview with high daily limits",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DZcoSPltyzE/",
+  "instagramReelId": "DZcoSPltyzE",
+  "reelThumbnail": "https://instagram.fslz19-1.fna.fbcdn.net/v/t51.71878-15/721169367_1741712100176056_1778840399000718188_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzkxNzE4Mjk1MTQ1NTQwMzIwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=lJXPU3eou8YQ7kNvwHA0dJC&_nc_oc=AdqAGvLBBTviZ_WcpyFQxX4SI4ID_YoI5ENiu639qoqLsh0JtlYwZ2DKWV5auuRgMcs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fslz19-1.fna&_nc_gid=QLtCC1uanzJRZMNuB8r2OA&_nc_ss=7320f&oh=00_AQSoFOd4sh_0kwmWfoINYl6ORj9S-sHM-ip5wmuf8h5Nbg&oe=6AEF74B2",
+  "promptSet": [
+    {
+      "id": "pmt-029",
+      "title": "Antigravity Full-Stack Microservice Generator",
+      "prompt": "Generate a production-ready Express TypeScript backend microservice with JWT authentication, rate limiting middleware, and SQLite Prisma ORM. Include Dockerfile, docker-compose.yml, and Vitest endpoint tests.",
+      "instructions": [
+        "Download and install Google Antigravity CLI.",
+        "Authenticate with your Google account via agy auth.",
+        "Run agy build to scaffold full-stack applications with built-in agent review."
+      ],
+      "exampleOutput": "Scaffolded TypeScript repository with passing test suite and automated Docker build."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-06",
+  "seo": {
+    "title": "Google Drops Free Antigravity AI Coding Agent for Developers | futureclub.tech",
+    "description": "Google Antigravity is a completely free AI coding agent offering local terminal integration, multi-agent orchestrations, and full Gemini 4 Argon model access. D"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-045",
+  "slug": "nano-banana-cinematic-photoshoot-part-1",
+  "title": "Nano Banana AI Photoshoot: Studio Lighting Prompts That Look 100% Real",
+  "toolName": "Nano Banana Photoshoot Part 1",
+  "toolUrl": "",
+  "description": "None of these carousel photos were taken with a real camera. Learn how to use Nano Banana with precise focal lengths, ISO film noise, and Rembrandt lighting prompts to create indistinguishable studio images.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "Free generative photoshoot prompt",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DZkEb-RCod-/",
+  "instagramReelId": "DZkEb-RCod-",
+  "reelThumbnail": "https://instagram.fvlc9-1.fna.fbcdn.net/v/t51.82787-15/719828037_18082560092646996_6646316118957054039_n.webp?_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=MzkxOTI3NjUxNDAwMjgzMDMwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-5lFQXeti9cQ7kNvwHxNu9b&_nc_oc=Adqdg2O8KQl06qnorQVJ6-uJbW0XdpDZQaa9M9eyGzLHWTY_6Y2r4SqocRps9mSUFQw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fvlc9-1.fna&_nc_gid=qzyeUM0JE1d3hKBR-YsuQA&_nc_ss=7320f&oh=00_AQQQqHvaNRVozCnZowemXcacEMSdkb_PZzERwDtIJYtIJQ&oe=6AEF433C",
+  "promptSet": [
+    {
+      "id": "pmt-045",
+      "title": "Rembrandt Studio Portrait with Film Texture",
+      "prompt": "Moody studio portrait of a subject, dramatic single light source from the side creating classic Rembrandt triangle on cheek, deep matte shadows, 50mm vintage Leica lens, subtle 35mm film grain, 8k resolution.",
+      "instructions": [
+        "Open your AI image generator running Nano Banana.",
+        "Paste the prompt and adjust the lighting mood or subject attire.",
+        "Generate high-resolution variations and pick the best portrait."
+      ],
+      "exampleOutput": "A moody, fine-art portrait featuring authentic Leica lens depth and natural grain."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-20",
+  "seo": {
+    "title": "Nano Banana AI Photoshoot: Studio Lighting Prompts That Look 100% Real | futureclub.tech",
+    "description": "None of these carousel photos were taken with a real camera. Learn how to use Nano Banana with precise focal lengths, ISO film noise, and Rembrandt lighting pro"
+  }
+}

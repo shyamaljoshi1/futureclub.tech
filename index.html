@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <title>futureclub.tech — Premium AI Tools & Prompt Directory</title>
+    <meta name="description" content="Discover top-rated AI tools, curated ChatGPT, Claude, and Gemini prompts, and practical workflows on futureclub.tech." />
+    <link rel="canonical" href="https://futureclub.tech/" />
+
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0c0d0f" media="(prefers-color-scheme: dark)" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://futureclub.tech/" />
+    <meta property="og:title" content="futureclub.tech — Premium AI Tools & Prompt Directory" />
+    <meta property="og:description" content="Discover top-rated AI tools, curated ChatGPT, Claude, and Gemini prompts, and practical workflows on futureclub.tech." />
+    <meta property="og:site_name" content="futureclub.tech" />
+    <meta property="og:image" content="https://futureclub.tech/logo-original.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="futureclub.tech — Premium AI Tools & Prompt Directory" />
+    <meta name="twitter:description" content="Discover top-rated AI tools, curated ChatGPT, Claude, and Gemini prompts, and practical workflows on futureclub.tech." />
+    <meta name="twitter:image" content="https://futureclub.tech/logo-original.png" />
+
+    <!-- Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Prevent Dark Mode Flash -->
+    <script>
+      (function() {
+        try {
+          var savedTheme = localStorage.getItem('theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'dark' || (!savedTheme && systemDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#fbfbfa] text-[#111215] dark:bg-[#0c0d0f] dark:text-[#f4f4f5] antialiased selection:bg-[#1e3a8a] selection:text-white dark:selection:bg-[#3b82f6] dark:selection:text-white min-h-screen">
+    <div id="root"><!--ssr-outlet--></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

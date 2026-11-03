@@ -1,0 +1,37 @@
+{
+  "id": "reel-022",
+  "slug": "photo-editing-2020-vs-2026",
+  "title": "Editing Photos in 2020 vs 2026: AI Generative Fill & Relighting",
+  "toolName": "2026 AI Photo Inpainting & Relighting",
+  "toolUrl": "",
+  "description": "Remember spending hours cutting out subjects and manually brushing layer masks in 2020? In 2026, AI understands semantic depth, geometry, and raytracing to relight and inpaint photos in seconds.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "Free generative editing tools available",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DarivNiOBTI/",
+  "instagramReelId": "DarivNiOBTI",
+  "reelThumbnail": "https://instagram.flhr4-3.fna.fbcdn.net/v/t51.71878-15/744042780_1717317702646942_1014209408282770467_n.jpg?stp=dst-jpegr_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=MzkzOTM5NTA3Njk5NTE1OTI0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=eUjdUQzfr78Q7kNvwHa4Q9J&_nc_oc=Adobf53mEh10PLIxIOJ0vYDkcvelQ4Fa-ZQOX0ZPq1mnOWJTYDul3aRDlrrlW6kUfrQhYw1zCvCPLFBP4AAswm-v&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=instagram.flhr4-3.fna&_nc_gid=CthO1EeX9oMsiWVmGnzwAw&_nc_ss=7320f&oh=00_AQQQ-ULWDsdmRI9BmOVP8-JBfLklzJ8qlMJ5K5wzgECU0g&oe=6AEF5AC1",
+  "promptSet": [
+    {
+      "id": "pmt-022",
+      "title": "Generative Subject Relighting & Background Swap",
+      "prompt": "Keep the foreground subject perfectly intact with natural hair edge blending. Replace the mundane office background with a sun-drenched Scandinavian minimalist apartment with warm wooden textures and soft ambient light.",
+      "instructions": [
+        "Load your raw photo into your AI editing platform.",
+        "Select the background mask and enter the prompt.",
+        "Refine the ambient light color temperature to match the subject."
+      ],
+      "exampleOutput": "Seamlessly relit subject with photorealistic Scandinavian background and natural hair edge bleed."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-13",
+  "seo": {
+    "title": "Editing Photos in 2020 vs 2026: AI Generative Fill & Relighting | futureclub.tech",
+    "description": "Remember spending hours cutting out subjects and manually brushing layer masks in 2020? In 2026, AI understands semantic depth, geometry, and raytracing to reli"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-040",
+  "slug": "engineers-claude-companion-ecc",
+  "title": "Supercharge Claude Code with Engineers Claude Companion (ECC)",
+  "toolName": "Engineers Claude Companion (ECC)",
+  "toolUrl": "https://github.com/",
+  "description": "ECC is a game-changing developer companion for Claude Code CLI. It automatically runs background test watchers, enforces strict type checking, and flags dangerous terminal commands before execution.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "100% Free Open Source Tool",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DY14MkbNknQ/",
+  "instagramReelId": "DY14MkbNknQ",
+  "reelThumbnail": "https://instagram.fbhx1-2.fna.fbcdn.net/v/t51.71878-15/707749896_1445315960762682_1176551700398871266_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=MzkwNjI3NTQwNjE2MzM2NDMwNDE1OTI2MzIzMzUxMzg1NDU%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=DnbxXq2J0o4Q7kNvwGes0et&_nc_oc=AdoYt5N44llt6Zp_W6HK383tgdyPbuKela_mQFzdN-dlP7kAShb1AIMvupP59ZkcIb4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbhx1-2.fna&_nc_gid=aOwWzssOsShguueBxsorwQ&_nc_ss=7320f&oh=00_AQTi19k_x_fgxDSCJ_2_PAILghUJfV47ijmUYhTKP2zz0w&oe=6AEF5D38",
+  "promptSet": [
+    {
+      "id": "pmt-040",
+      "title": "ECC Automated Test-Driven Development Loop",
+      "prompt": "Configure an autonomous test-driven development workflow: write failing unit tests for an authentication service, execute tests via ECC watcher, implement minimal passing code, and refactor cleanly.",
+      "instructions": [
+        "Install ECC alongside Claude Code via npm install -g ecc-companion.",
+        "Run ecc init in your project root directory.",
+        "Watch Claude Code autonomously verify every code change against live tests."
+      ],
+      "exampleOutput": "Terminal output demonstrating automated test verification pass with 0 failures."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-25",
+  "seo": {
+    "title": "Supercharge Claude Code with Engineers Claude Companion (ECC) | futureclub.tech",
+    "description": "ECC is a game-changing developer companion for Claude Code CLI. It automatically runs background test watchers, enforces strict type checking, and flags dangero"
+  }
+}

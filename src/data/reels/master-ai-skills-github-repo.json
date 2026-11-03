@@ -1,0 +1,37 @@
+{
+  "id": "reel-054",
+  "slug": "master-ai-skills-github-repo",
+  "title": "The Hidden GitHub Repo for AI Engineers: Practical Skills & Roadmaps",
+  "toolName": "Master AI Skills GitHub Repository",
+  "toolUrl": "https://github.com/",
+  "description": "A treasure trove for developers and AI practitioners. This comprehensive open-source GitHub repository features curated learning paths, production MCP server configs, RAG blueprints, and system prompt architectures.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "100% Free Open Source Repository",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DYHgjaNpApc/",
+  "instagramReelId": "DYHgjaNpApc",
+  "reelThumbnail": "https://instagram.fsvq4-1.fna.fbcdn.net/v/t51.71878-15/687823099_852739907852263_6531692768136079685_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ig_cache_key=Mzg5MzIyMzU3MzcwMTI2NjAxMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=EI6m-ti646QQ7kNvwFS0Edu&_nc_oc=Adq9RZpcArvr1ujb3LWpbHKSOT-Krh6pGrOtTr7UwMEIuZ7ivjT1jOQTvrvnXmnsSXQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsvq4-1.fna&_nc_gid=dDoekLIbhm-ClPvkJ4vT6w&_nc_ss=7320f&oh=00_AQTUirUJoD4aFMm7je8xafas4t4pyEdmKDD-OLGRAqstog&oe=6AEF7417",
+  "promptSet": [
+    {
+      "id": "pmt-054",
+      "title": "Enterprise RAG Architecture Review & Pipeline",
+      "prompt": "Design an enterprise-grade Retrieval Augmented Generation (RAG) architecture. Specify chunking strategy, hybrid dense/sparse vector search, re-ranking with cross-encoders, and hallucination guardrails.",
+      "instructions": [
+        "Clone the master AI repository to your local computer.",
+        "Explore the organized topic folders (RAG, Agents, Finetuning).",
+        "Run the included starter code notebooks to build hands-on skills."
+      ],
+      "exampleOutput": "Comprehensive RAG architectural diagram and Python code for hybrid retrieval with cross-encoder re-ranking."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-11",
+  "seo": {
+    "title": "The Hidden GitHub Repo for AI Engineers: Practical Skills & Roadmaps | futureclub.tech",
+    "description": "A treasure trove for developers and AI practitioners. This comprehensive open-source GitHub repository features curated learning paths, production MCP server co"
+  }
+}

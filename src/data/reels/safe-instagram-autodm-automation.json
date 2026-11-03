@@ -1,0 +1,37 @@
+{
+  "id": "reel-036",
+  "slug": "safe-instagram-autodm-automation",
+  "title": "Avoid Account Bans: Safe Instagram Auto-DM Workflows for Creators",
+  "toolName": "Safe Instagram Auto-DM Workflow",
+  "toolUrl": "https://manychat.com/",
+  "description": "Sending identical repetitive direct messages to thousands of followers triggers Instagram's anti-bot algorithms, risking shadowbans. Discover how to randomize reply variants, add human delays, and maintain account safety.",
+  "category": "automation",
+  "pricing": "freemium",
+  "pricingDetails": "Free starter tier with ManyChat or official Meta API",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DYpAF1GtY2F/",
+  "instagramReelId": "DYpAF1GtY2F",
+  "reelThumbnail": "https://scontent-waw2-1.cdninstagram.com/v/t51.71878-15/704527451_1183111757241520_2697024238650890657_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkwMjY1MDk1MjcxMTUwNzMzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=NOHYv_M3-50Q7kNvwG1CPq1&_nc_oc=Adrlw500bPZfISSG2VAHhKr3IU2EluHUxx49T1tz4ZPHxXd8vX05K4dwjpRnnaY9O-Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=Bkqa2-6W5jP9VL_uiMI-jw&_nc_ss=7320f&oh=00_AQTXGGvnbBxBQp_nmZfkNnZE0BSyKk0HNEUsdZocWHhZYw&oe=6AEF45B4",
+  "promptSet": [
+    {
+      "id": "pmt-036",
+      "title": "Varied Auto-DM Response Matrix Generator",
+      "prompt": "Generate 12 distinct, natural conversational DM reply templates delivering a resource link to an Instagram user who commented \"TOOL\". Vary greetings, emojis, and phrasing to ensure 0% repetition across automated replies.",
+      "instructions": [
+        "Open your automation tool (ManyChat or Meta Graph API).",
+        "Paste the 12 dynamic message variants into a randomized rotation block.",
+        "Set an artificial 15-45 second jitter delay before each message dispatch."
+      ],
+      "exampleOutput": "A 12-variant reply dictionary with natural phrasing and randomized emoji placements."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-29",
+  "seo": {
+    "title": "Avoid Account Bans: Safe Instagram Auto-DM Workflows for Creators | futureclub.tech",
+    "description": "Sending identical repetitive direct messages to thousands of followers triggers Instagram's anti-bot algorithms, risking shadowbans. Discover how to randomize r"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-073",
+  "slug": "vercel-v0-generative-ui-builder",
+  "title": "Vercel v0: Instant Production-Ready React & Tailwind Components",
+  "toolName": "Vercel v0 Generative UI",
+  "toolUrl": "https://v0.dev/",
+  "description": "Turn your design ideas into clean, semantic React code in seconds. Vercel v0 generates modular components using modern Tailwind CSS and Lucide React icons, ready to copy straight into your Next.js project.",
+  "category": "design",
+  "pricing": "freemium",
+  "pricingDetails": "Free monthly generation credits",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DXYvd2YoGsz/",
+  "instagramReelId": "DXYvd2YoGsz",
+  "reelThumbnail": "https://instagram.fsyd5-1.fna.fbcdn.net/v/t51.82787-15/670610998_18075164645646996_7286502016033613674_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=Mzg4MDA1OTgzODQyNTc1NDQxOTE4MDc1MTY0NjQyNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=pbEalmkcW5kQ7kNvwGyg8sF&_nc_oc=AdpQYrW3HItn1h2MzxCIg9ZZC_Ogbhn8fXtBMZHO8i_gQaH86EtSGzwaL7IVnZ9ySAw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyd5-1.fna&_nc_gid=59WGCZF0mKc1xDFKOgi54w&_nc_ss=7320f&oh=00_AQTm3ieH87l6jf8hE1zNiA1WO-4KKrLX4WOlmEJXTAaNww&oe=6AEF60BE",
+  "promptSet": [
+    {
+      "id": "pmt-073",
+      "title": "Modern Bento-Grid Analytics Dashboard",
+      "prompt": "Create a responsive bento-grid analytics dashboard for an AI SaaS application. Include 4 stat cards with sparkline trend charts, a recent activity feed, and a quick actions menu. Use clean neutral styling.",
+      "instructions": [
+        "Go to v0.dev and enter your component requirements.",
+        "Iterate on specific sections by clicking and describing changes.",
+        "Copy the component code directly into your React/Next.js repository."
+      ],
+      "exampleOutput": "Clean, modular React component code utilizing modern Tailwind utility classes."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-23",
+  "seo": {
+    "title": "Vercel v0: Instant Production-Ready React & Tailwind Components | futureclub.tech",
+    "description": "Turn your design ideas into clean, semantic React code in seconds. Vercel v0 generates modular components using modern Tailwind CSS and Lucide React icons, read"
+  }
+}

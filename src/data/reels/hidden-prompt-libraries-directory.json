@@ -1,0 +1,37 @@
+{
+  "id": "reel-088",
+  "slug": "hidden-prompt-libraries-directory",
+  "title": "These Prompt Websites Feel Illegal to Know: Secret AI Prompt Vaults",
+  "toolName": "Curated Hidden Prompt Libraries",
+  "toolUrl": "",
+  "description": "Stop staring at an empty chat box wondering what to write. Discover the web's most valuable, underground prompt repositories containing battle-tested formulas for copywriting, full-stack coding, and Midjourney visuals.",
+  "category": "ai-writing",
+  "pricing": "free",
+  "pricingDetails": "Free web directories and prompt repositories",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DYKOj59BJdi/",
+  "instagramReelId": "DYKOj59BJdi",
+  "reelThumbnail": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/686991819_2861429747535920_7040585685423237973_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzg5Mzk4ODg2Nzg3NTA1MTM2MjQzMjc3ODc0MTA3Njg2NTE%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=HNlcyI42bQIQ7kNvwGxZqf8&_nc_oc=AdpzccyWbNiG6rov2uH8wv3dCfbD_RdEtjt-U6At37lwVKR3S_8mnTq6PZ5PtuG-JCE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=GI_gjAh0dwVI1uiuJoclpg&_nc_ss=7320f&oh=00_AQTZy8t64qaboyAvaPpnFCn7CZOReywFTULC95S4ryzHRA&oe=6AEF6944",
+  "promptSet": [
+    {
+      "id": "pmt-088",
+      "title": "High-Impact Copywriting Formula Injector",
+      "prompt": "Rewrite this product landing page copy using the classic PAS (Problem-Agitate-Solution) copywriting framework. Ensure the headline grabs attention, agitates the latent pain point, and presents the tool as the obvious remedy.",
+      "instructions": [
+        "Bookmark the recommended prompt vault websites.",
+        "Search by specific use case (cold outreach, code refactoring, portrait photography).",
+        "Copy verified templates to produce 10x better outputs instantly."
+      ],
+      "exampleOutput": "High-converting landing page copy structured cleanly with the PAS copywriting framework."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-08",
+  "seo": {
+    "title": "These Prompt Websites Feel Illegal to Know: Secret AI Prompt Vaults | futureclub.tech",
+    "description": "Stop staring at an empty chat box wondering what to write. Discover the web's most valuable, underground prompt repositories containing battle-tested formulas f"
+  }
+}

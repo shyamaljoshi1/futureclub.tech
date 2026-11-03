@@ -1,0 +1,37 @@
+{
+  "id": "reel-077",
+  "slug": "kimi-ai-presentation-deck-builder",
+  "title": "From Blank Slide to \"Who Made This?\" in Seconds with Kimi AI",
+  "toolName": "Kimi AI Presentation Builder",
+  "toolUrl": "https://kimi.ai/",
+  "description": "Creating high-stakes presentations doesn't have to consume your weekend. Kimi AI transforms rough notes, outlines, and spreadsheets into beautifully structured, visually engaging presentation decks in seconds.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "pricingDetails": "Free tier with generous daily slide generation credits",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DWPKpnDk6sk/",
+  "instagramReelId": "DWPKpnDk6sk",
+  "reelThumbnail": "https://scontent-fco2-1.cdninstagram.com/v/t51.71878-15/655272774_1439118717139862_1643424460171918829_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzg1OTM1MDI0NTU3OTQwMjAyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=04dM2pEq8p4Q7kNvwEDI6I6&_nc_oc=Adox7S57iEhinJiT2MLN4lDitrv6XuFeqaX_qXFKvDa2b6LeVR9e_FX-bqCtwQqEP6M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=r4oF8VjHxS8sSOBTK-aBdA&_nc_ss=7320f&oh=00_AQQ6b-pD-2NUuyFJdPwNPJjgxaApMdpOiHaMhlUZiOg_vQ&oe=6AEF74C5",
+  "promptSet": [
+    {
+      "id": "pmt-077",
+      "title": "Executive Pitch Deck Outline & Slide Content",
+      "prompt": "Create a 10-slide investor pitch deck for a B2B AI analytics startup. Include problem slide, solution, market size (TAM/SAM/SOM), business model, traction metrics, competitive advantage, and ask.",
+      "instructions": [
+        "Open Kimi AI at kimi.ai.",
+        "Paste your draft outline or project brief.",
+        "Review the generated presentation slides and export as PowerPoint or PDF."
+      ],
+      "exampleOutput": "Complete 10-slide executive deck structure with compelling headlines and bullet points."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-19",
+  "seo": {
+    "title": "From Blank Slide to \"Who Made This?\" in Seconds with Kimi AI | futureclub.tech",
+    "description": "Creating high-stakes presentations doesn't have to consume your weekend. Kimi AI transforms rough notes, outlines, and spreadsheets into beautifully structured,"
+  }
+}

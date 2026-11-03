@@ -1,0 +1,191 @@
+[
+  {
+    "id": "col-001",
+    "slug": "best-free-ai-tools",
+    "title": "Best Free & Freemium AI Tools for 2026",
+    "description": "Hand-picked artificial intelligence tools you can use immediately without entering a credit card.",
+    "coverImage": "/assets/collections/free-tools.svg",
+    "toolIds": [
+      "reel-003",
+      "reel-004",
+      "reel-007",
+      "reel-008",
+      "reel-009",
+      "reel-010",
+      "reel-011",
+      "reel-015"
+    ],
+    "promptIds": [
+      "pmt-003",
+      "pmt-004",
+      "pmt-007",
+      "pmt-008",
+      "pmt-009",
+      "pmt-010"
+    ],
+    "featured": true,
+    "status": "published",
+    "publishedAt": "2026-10-20",
+    "seo": {
+      "title": "Best Free AI Tools in 2026 (No Credit Card Required) | futureclub.tech",
+      "description": "Discover top free AI tools for writing, coding, search, and design. Hand-tested and verified free tiers."
+    }
+  },
+  {
+    "id": "col-002",
+    "slug": "ai-tools-for-developers",
+    "title": "Essential AI Tools for Modern Developers",
+    "description": "The definitive toolkit for software engineers, frontend architects, and full-stack builders.",
+    "coverImage": "/assets/collections/developers.svg",
+    "toolIds": [
+      "reel-002",
+      "reel-006",
+      "reel-008",
+      "reel-009",
+      "reel-010",
+      "reel-014",
+      "reel-019",
+      "reel-024"
+    ],
+    "promptIds": [
+      "pmt-002",
+      "pmt-006",
+      "pmt-008",
+      "pmt-009",
+      "pmt-010",
+      "pmt-014"
+    ],
+    "featured": true,
+    "status": "published",
+    "publishedAt": "2026-10-22",
+    "seo": {
+      "title": "Essential AI Tools for Developers (2026 Guide) | futureclub.tech",
+      "description": "Curated collection of the best AI code editors, CLI tools, and agent frameworks for modern engineers."
+    }
+  },
+  {
+    "id": "col-003",
+    "slug": "instagram-creator-toolkit",
+    "title": "AI Creator Toolkit for Instagram & Video",
+    "description": "Everything creators need to write viral scripts, generate B-roll, clean podcast audio, and automate posting.",
+    "coverImage": "/assets/collections/creators.svg",
+    "toolIds": [
+      "reel-001",
+      "reel-005",
+      "reel-013",
+      "reel-015",
+      "reel-016",
+      "reel-017",
+      "reel-020",
+      "reel-022"
+    ],
+    "promptIds": [
+      "pmt-001",
+      "pmt-005",
+      "pmt-013",
+      "pmt-015",
+      "pmt-016",
+      "pmt-017"
+    ],
+    "featured": true,
+    "status": "published",
+    "publishedAt": "2026-10-24",
+    "seo": {
+      "title": "AI Tools for Instagram & Video Creators | futureclub.tech",
+      "description": "Scale your short-form video content with AI voiceover, script generators, and photographic prompt formulas."
+    }
+  },
+  {
+    "id": "col-004",
+    "slug": "high-converting-prompts",
+    "title": "High-Converting Problem-Solving & Coding Prompts",
+    "description": "Battle-tested prompts engineered for first-principles reasoning, deep research, and production code.",
+    "coverImage": "/assets/collections/copywriting.svg",
+    "toolIds": [
+      "reel-001",
+      "reel-002",
+      "reel-008",
+      "reel-014",
+      "reel-019",
+      "reel-024",
+      "reel-025"
+    ],
+    "promptIds": [
+      "pmt-001",
+      "pmt-002",
+      "pmt-008",
+      "pmt-014",
+      "pmt-019",
+      "pmt-024"
+    ],
+    "featured": false,
+    "status": "published",
+    "publishedAt": "2026-10-26",
+    "seo": {
+      "title": "First-Principles Problem Solving Prompts for ChatGPT & Claude",
+      "description": "Curated collection of reasoning and architectural prompts for ChatGPT, Claude, and DeepSeek."
+    }
+  },
+  {
+    "id": "col-005",
+    "slug": "ai-tools-for-students",
+    "title": "AI Tools for Students & Academic Researchers",
+    "description": "Ethical research assistants, citation finders, and study summarizers that accelerate deep learning.",
+    "coverImage": "/assets/collections/students.svg",
+    "toolIds": [
+      "reel-003",
+      "reel-009",
+      "reel-010",
+      "reel-011",
+      "reel-012",
+      "reel-015",
+      "reel-018"
+    ],
+    "promptIds": [
+      "pmt-003",
+      "pmt-009",
+      "pmt-010",
+      "pmt-011",
+      "pmt-012",
+      "pmt-015"
+    ],
+    "featured": false,
+    "status": "published",
+    "publishedAt": "2026-10-27",
+    "seo": {
+      "title": "Best AI Tools for Students & Research (2026) | futureclub.tech",
+      "description": "Discover ethical and powerful AI tools for college students, thesis research, and study notes."
+    }
+  },
+  {
+    "id": "col-006",
+    "slug": "generative-multimedia-suite",
+    "title": "Generative Media: Image, Video & Voice",
+    "description": "The ultimate state-of-the-art suite for generating commercial-grade visual and auditory assets.",
+    "coverImage": "/assets/collections/multimedia.svg",
+    "toolIds": [
+      "reel-001",
+      "reel-013",
+      "reel-016",
+      "reel-017",
+      "reel-022",
+      "reel-025",
+      "reel-026"
+    ],
+    "promptIds": [
+      "pmt-001",
+      "pmt-013",
+      "pmt-016",
+      "pmt-017",
+      "pmt-022",
+      "pmt-025"
+    ],
+    "featured": false,
+    "status": "published",
+    "publishedAt": "2026-10-28",
+    "seo": {
+      "title": "Generative Media Suite: Midjourney, Gemini, Nano Banana & Veo",
+      "description": "Explore the top generative AI tools for producing cinema-grade imagery, studio audio, and accurate captions."
+    }
+  }
+]

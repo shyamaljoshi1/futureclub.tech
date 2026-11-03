@@ -1,0 +1,37 @@
+{
+  "id": "reel-028",
+  "slug": "vedic-kundali-astrology-ai-prompt",
+  "title": "Generate In-Depth Vedic Kundali & Horoscope Analyses with AI",
+  "toolName": "Vedic Kundali AI Astrology Engine",
+  "toolUrl": "https://claude.ai/",
+  "description": "Explore the fascinating intersection of traditional Vedic astrology and LLMs. This structured prompt takes birth date, time, and coordinates to calculate Ascendant houses, planetary positions, and Mahadasha timelines.",
+  "category": "ai-writing",
+  "pricing": "free",
+  "pricingDetails": "Free prompt works on any frontier LLM",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DZPFVK0NxQ4/",
+  "instagramReelId": "DZPFVK0NxQ4",
+  "reelThumbnail": "https://scontent-nrt6-1.cdninstagram.com/v/t51.71878-15/718481074_2038947446830947_1576070235131187830_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&ig_cache_key=MzkxMzM3MDA0NjE2MzI2MDQ3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=eFVkdm9AL44Q7kNvwE7Brcw&_nc_oc=AdrcYf1lwK8WMsIKCqU-wD6LgNN7PggA7y05EmsI1TdTWireeCHqiEwQzC25r8cWWqI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt6-1.cdninstagram.com&_nc_gid=kBl9FIlff9W9vMCwSwe3Ug&_nc_ss=7320f&oh=00_AQSccQWThNQdAdMzyF1P2cGMk1jJTa3aYEWkq3IaOppqeg&oe=6AEF699E",
+  "promptSet": [
+    {
+      "id": "pmt-028",
+      "title": "Vedic Natal Chart & Dasha Period Interpreter",
+      "prompt": "Act as an expert Vedic astrologer. Based on the provided birth details (Date: [DD/MM/YYYY], Time: [HH:MM], Place: [City, Country]), analyze the Lagna chart, key planetary aspects on the 10th house of career, and the current Mahadasha/Antardasha influence with constructive guidance.",
+      "instructions": [
+        "Replace bracketed variables with your birth details.",
+        "Paste into Claude 3.7 or ChatGPT with extended thinking enabled.",
+        "Review the comprehensive multi-house breakdown and planetary strengths."
+      ],
+      "exampleOutput": "Detailed breakdown of 1st and 10th houses with constructive timing advice for career moves."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-07",
+  "seo": {
+    "title": "Generate In-Depth Vedic Kundali & Horoscope Analyses with AI | futureclub.tech",
+    "description": "Explore the fascinating intersection of traditional Vedic astrology and LLMs. This structured prompt takes birth date, time, and coordinates to calculate Ascend"
+  }
+}

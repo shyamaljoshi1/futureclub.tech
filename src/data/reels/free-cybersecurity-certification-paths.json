@@ -1,0 +1,37 @@
+{
+  "id": "reel-018",
+  "slug": "free-cybersecurity-certification-paths",
+  "title": "The Best Free Cybersecurity Courses to Land Six-Figure Tech Roles",
+  "toolName": "Free Cybersecurity Certification Roadmap",
+  "toolUrl": "",
+  "description": "You don't need a $50k college degree to break into cybersecurity in 2026. A hand-curated compilation of the highest-rated free certifications, hands-on penetration testing labs, and practical networking modules.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "100% Free Certifications & Labs",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/Dau8poVNduj/",
+  "instagramReelId": "Dau8poVNduj",
+  "reelThumbnail": "https://instagram.fbfh8-2.fna.fbcdn.net/v/t51.82787-15/746308289_18086999249646996_3367636493993891824_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=Mzk0MDM1MzQ2NzU5MDQ5OTIzNTE4MDg2OTk5MjQzNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=9338wZlU8AIQ7kNvwFGyM9Z&_nc_oc=AdrVZ-AvK0iKEkhgSgthU012OADUhzCoVqNQ9JlmqbEKFFR2WvvEsFLnn_L2Z1tvpHk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbfh8-2.fna&_nc_gid=PMd5otki3DEcYrAO8VHIPA&_nc_ss=7320f&oh=00_AQQi2Ol10APkS8t_1LUAh3YwSSta62oU4o3Oi20LPFeZzA&oe=6AEF42C3",
+  "promptSet": [
+    {
+      "id": "pmt-018",
+      "title": "Cybersecurity Entry-Level Roadmap & Lab Guide",
+      "prompt": "Create a 90-day self-study plan to earn entry-level cybersecurity credentials. Include links to free hands-on practice labs (TryHackMe, OverTheWire), Linux command essentials, and sample interview questions.",
+      "instructions": [
+        "Review the recommended free certifications in the guide.",
+        "Dedicate 1 hour daily to interactive lab environments.",
+        "Document your CTF challenge write-ups on GitHub to build proof of work."
+      ],
+      "exampleOutput": "Structured 12-week study schedule with specific free lab exercises and Linux commands."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-17",
+  "seo": {
+    "title": "The Best Free Cybersecurity Courses to Land Six-Figure Tech Roles | futureclub.tech",
+    "description": "You don't need a $50k college degree to break into cybersecurity in 2026. A hand-curated compilation of the highest-rated free certifications, hands-on penetrat"
+  }
+}

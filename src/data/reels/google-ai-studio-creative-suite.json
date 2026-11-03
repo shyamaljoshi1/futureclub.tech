@@ -1,0 +1,37 @@
+{
+  "id": "reel-003",
+  "slug": "google-ai-studio-creative-suite",
+  "title": "9 Groundbreaking Google AI Tools for Creators and Developers",
+  "toolName": "Google AI Studio & 9 Creative Tools",
+  "toolUrl": "https://aistudio.google.com/",
+  "description": "A comprehensive breakdown of Google's 9 newest AI utilities: Gemini Notebook for deep PDF analysis, Google AI Studio for instant app prototyping, Stitch UI generator, Flow video studio, Flow Music, and Pomelli branded design tools.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "Free developer tier on Google AI Studio with high rate limits",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DfQv_b6lEa3/",
+  "instagramReelId": "DfQv_b6lEa3",
+  "reelThumbnail": "https://scontent-hou1-1.cdninstagram.com/v/t51.71878-15/886376081_2688541844934099_2285865103082116208_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=NDAyMTkyNTUzNDcyODczNDM5MTE2Mjk5MDY3ODE5NDExNzE%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=JjWv7djzOiwQ7kNvwE73Lx9&_nc_oc=AdpuFRHkZdnB-4XA1JRQmEaXSSlqlHS834s4F-L_rhklenY-GWfamwD9LrRyB5hLApGEMkBfq0jrG-_cRaPhOEFQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_gid=P3TpQvWHuOoXka8V--on8g&_nc_ss=7320f&oh=00_AQQTX2skyulwpcmiwswckNz6ZYRj6ZArSuGJH4XAzEqjnQ&oe=6AEF41B3",
+  "promptSet": [
+    {
+      "id": "pmt-003",
+      "title": "Google AI Studio Full-Stack Scaffolder",
+      "prompt": "Build a production-ready React 18 dashboard using Tailwind CSS and Lucide icons. Implement a responsive sidebar, searchable data table with client-side sorting, and real-time metric cards. Return the complete code in a single standalone file.",
+      "instructions": [
+        "Navigate to Google AI Studio at aistudio.google.com.",
+        "Select Gemini 2.5 Flash or Pro with system prompt capabilities.",
+        "Enter the prompt to generate functional, production-ready frontend components."
+      ],
+      "exampleOutput": "Fully structured React component code ready to copy-paste into your project."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-01",
+  "seo": {
+    "title": "9 Groundbreaking Google AI Tools for Creators and Developers | futureclub.tech",
+    "description": "A comprehensive breakdown of Google's 9 newest AI utilities: Gemini Notebook for deep PDF analysis, Google AI Studio for instant app prototyping, Stitch UI gene"
+  }
+}

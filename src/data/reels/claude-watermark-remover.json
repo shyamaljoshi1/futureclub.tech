@@ -1,0 +1,37 @@
+{
+  "id": "reel-004",
+  "slug": "claude-watermark-remover",
+  "title": "How to Remove the Claude Artifact Watermark for Clean Exports",
+  "toolName": "Claude Watermark Remover",
+  "toolUrl": "https://claude.ai/",
+  "description": "A simple, non-destructive browser inspector trick to remove the default Claude artifact badge and watermark for clean client presentations, portfolio screenshots, and UI mockups.",
+  "category": "design",
+  "pricing": "free",
+  "pricingDetails": "100% free browser tweak",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DcGoQE4h2H-/",
+  "instagramReelId": "DcGoQE4h2H-",
+  "reelThumbnail": "https://scontent-fra5-1.cdninstagram.com/v/t51.82787-15/773677641_18092445422646996_1678527008826811299_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzk2NTAzMzU0ODU2MTczNjE5MDE4MDkyNDQ1NDE5NjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=pFoRZQYcr68Q7kNvwH-J1xh&_nc_oc=Adr8ITk4dxGaVj0y92m43mkGev5TDX-dHL74CbDZQy4ldAf7Kv_KVn65gZ5PO2TCGAvG9inqAfZteZ30ldB0UwTs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fra5-1.cdninstagram.com&_nc_gid=JgCnduxlsE7FJREQSDd9jQ&_nc_ss=7320f&oh=00_AQTQCgHyd20cAZQpG9dIoMVaKU8TNAN0TKnFX1EeqsjC4Q&oe=6AEF6E96",
+  "promptSet": [
+    {
+      "id": "pmt-004",
+      "title": "Clean Artifact UI Injector",
+      "prompt": "Generate a polished single-page landing page mockup for a modern SaaS product. Omit all external branding badges, default footers, and decorative framework watermarks.",
+      "instructions": [
+        "Open your Claude artifact view in your browser.",
+        "Right click the artifact canvas and inspect the watermark container element.",
+        "Apply custom CSS or display:none for clean full-bleed exports."
+      ],
+      "exampleOutput": "Watermark-free, pristine vector canvas ready for high-resolution client presentation."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-31",
+  "seo": {
+    "title": "How to Remove the Claude Artifact Watermark for Clean Exports | futureclub.tech",
+    "description": "A simple, non-destructive browser inspector trick to remove the default Claude artifact badge and watermark for clean client presentations, portfolio screenshot"
+  }
+}

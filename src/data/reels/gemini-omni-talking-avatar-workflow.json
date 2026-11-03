@@ -1,0 +1,37 @@
+{
+  "id": "reel-039",
+  "slug": "gemini-omni-talking-avatar-workflow",
+  "title": "How to Build Realistic AI Video Avatars with Google Omni & Gemini",
+  "toolName": "Google Omni AI Talking Avatar",
+  "toolUrl": "https://gemini.google.com/",
+  "description": "Create lifelike talking video presenters with natural facial micro-expressions, synchronized lip movements, and multi-lingual voiceover without ever getting in front of a camera.",
+  "category": "video-generation",
+  "pricing": "free",
+  "pricingDetails": "Free workflow using public preview tools",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DYpVfgKNGzh/",
+  "instagramReelId": "DYpVfgKNGzh",
+  "reelThumbnail": "https://scontent-fco2-1.cdninstagram.com/v/t51.82787-15/704682125_18079401008646996_6219244357311286422_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=MzkwMjc0NTA3NTkwNDcwMzcxMzE4MDc5NDAxMDA1NjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=QYSHWKouEecQ7kNvwFJWRMl&_nc_oc=AdpJSUKhKNznnBEGvvvMliOb00idkX607xTVmA20MDpAqxjIvQUVtugBHjXIpf24zoU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=gBkK6DtMF5M12wMWvxlhiQ&_nc_ss=7320f&oh=00_AQQY7LwUJzWdn40sccn2eHfNp03yfe9GHNVsQQmJeINgyg&oe=6AEF57DC",
+  "promptSet": [
+    {
+      "id": "pmt-039",
+      "title": "Viral Short-Form Educational Script with Stage Directions",
+      "prompt": "Write a 45-second educational video script explaining quantum computing basics. Include bracketed visual stage cues, camera zooms, and facial expression directions for an AI avatar presenter.",
+      "instructions": [
+        "Generate your video script with Gemini.",
+        "Synthesize natural voiceover with realistic breath marks.",
+        "Feed the audio and reference avatar photo into Omni for lip sync."
+      ],
+      "exampleOutput": "Complete 45-second script with timecodes and emotive facial expression markers."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-26",
+  "seo": {
+    "title": "How to Build Realistic AI Video Avatars with Google Omni & Gemini | futureclub.tech",
+    "description": "Create lifelike talking video presenters with natural facial micro-expressions, synchronized lip movements, and multi-lingual voiceover without ever getting in "
+  }
+}

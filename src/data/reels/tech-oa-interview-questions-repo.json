@@ -1,0 +1,37 @@
+{
+  "id": "reel-010",
+  "slug": "tech-oa-interview-questions-repo",
+  "title": "483+ Companies Tech OA and Coding Interview Questions (GitHub)",
+  "toolName": "Tech OA & Interview Questions Master Repo",
+  "toolUrl": "https://github.com/",
+  "description": "Ace your campus placement and lateral hiring rounds. This viral open-source GitHub repository aggregates real, verified 2026-2027 Online Assessment (OA) coding problems, SQL queries, and system design questions from 483+ top tech firms.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "100% Free Open Source GitHub Repo",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DfKJ8jZBTwk/",
+  "instagramReelId": "DfKJ8jZBTwk",
+  "reelThumbnail": "https://scontent-man2-1.cdninstagram.com/v/t51.82787-15/867705687_18104059256646996_1070976019575741873_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=NDAyMDA2OTM2MDk2OTUzMDQwNDE4MTA0MDU5MjUzNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=ZsIG1gw7OEgQ7kNvwHDjs7J&_nc_oc=AdryiDWUzlVuk_GXtbA6ACzuIkYQ2yUrjvtkdu2E-VzAtVwKrFT3rCeR3eiuv5yJnbg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-man2-1.cdninstagram.com&_nc_gid=vzIinQyAPEHTkGS01Bkcvw&_nc_ss=7320f&oh=00_AQSgYNzX4THBEXGUdXQpX9Mhbp9B2-yJ8d3sC3WuvqV49A&oe=6AEF4ADE",
+  "promptSet": [
+    {
+      "id": "pmt-010",
+      "title": "OA Technical Problem Solver & Edge-Case Analyzer",
+      "prompt": "Here is a recent online assessment coding question from a top tech company. Provide the optimal solution in C++/Python, analyze time and space complexity, and list 5 edge cases that standard test suites use to fail submissions.",
+      "instructions": [
+        "Find the company-specific question from the master GitHub repository.",
+        "Paste the problem statement and constraints into your AI model with this prompt.",
+        "Review the optimal dynamic programming or graph algorithm with edge cases."
+      ],
+      "exampleOutput": "Optimal O(N log N) solution with memory-efficient sliding window and detailed corner case coverage."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-25",
+  "seo": {
+    "title": "483+ Companies Tech OA and Coding Interview Questions (GitHub) | futureclub.tech",
+    "description": "Ace your campus placement and lateral hiring rounds. This viral open-source GitHub repository aggregates real, verified 2026-2027 Online Assessment (OA) coding "
+  }
+}

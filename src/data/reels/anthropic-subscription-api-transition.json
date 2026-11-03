@@ -1,0 +1,37 @@
+{
+  "id": "reel-070",
+  "slug": "anthropic-subscription-api-transition",
+  "title": "Anthropic Email Update: What Developers Need to Know About API Access",
+  "toolName": "Anthropic Subscription Policy Guide",
+  "toolUrl": "https://anthropic.com/",
+  "description": "Anthropic quietly updated its terms to clarify that web consumer subscriptions will no longer subsidize high-volume third-party wrappers. Learn how to transition smoothly to pay-as-you-go API keys with cost limits.",
+  "category": "coding",
+  "pricing": "paid",
+  "pricingDetails": "Direct developer API billing per million tokens",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DWs-dyQD6PR/",
+  "instagramReelId": "DWs-dyQD6PR",
+  "reelThumbnail": "https://scontent-lhr6-2.cdninstagram.com/v/t51.82787-15/657649808_18073043516646996_4365031426513257739_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=Mzg2Nzc0MDkwNTcwOTQ3ODg2NTE4MDczMDQzNTEzNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=R6qrnJvizyoQ7kNvwFjJfj0&_nc_oc=Adrxt63I5Dsq2nvXzWUE2inCvMiBMWckbgYE4VRiFYDXgS47xD8TewC-Y09OLifissY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-lhr6-2.cdninstagram.com&_nc_gid=JgsBdSLX_M4IgQEORUAr-g&_nc_ss=7320f&oh=00_AQQ0B_GN350e_SJfnJpwKuG0YpgLUuXOeT2i18VX4tTAFg&oe=6AEF4A46",
+  "promptSet": [
+    {
+      "id": "pmt-070",
+      "title": "API Cost Optimization & Caching Implementation",
+      "prompt": "Implement prompt caching in an Anthropic TypeScript API call. Mark large static system prompts and documentation with type: \"ephemeral\" to reduce input token costs by up to 90%.",
+      "instructions": [
+        "Open your Anthropic Console at console.anthropic.com.",
+        "Create an API key with explicit monthly spend limits to prevent surprises.",
+        "Enable prompt caching on your system prompts to cut token expenses drastically."
+      ],
+      "exampleOutput": "TypeScript code snippet demonstrating proper Anthropic prompt caching implementation."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-26",
+  "seo": {
+    "title": "Anthropic Email Update: What Developers Need to Know About API Access | futureclub.tech",
+    "description": "Anthropic quietly updated its terms to clarify that web consumer subscriptions will no longer subsidize high-volume third-party wrappers. Learn how to transitio"
+  }
+}

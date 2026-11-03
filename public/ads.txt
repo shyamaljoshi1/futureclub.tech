@@ -1,0 +1,5 @@
+# Google AdSense authorized digital sellers record
+# Replace the placeholder below with your actual publisher ID once approved by Google AdSense:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# For more info: https://support.google.com/adsense/answer/7532444

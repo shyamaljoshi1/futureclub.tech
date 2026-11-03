@@ -1,0 +1,37 @@
+{
+  "id": "reel-053",
+  "slug": "nostalgic-family-portrait-ai-prompt",
+  "title": "Generate Heartwarming Film-Grain Family Portraits with AI Prompts",
+  "toolName": "Nostalgic Family Portrait Generator",
+  "toolUrl": "https://chatgpt.com/",
+  "description": "Celebrate special memories and family bonds with emotional, analog film-inspired portrait prompts. Recreate the nostalgic warmth of 1990s 35mm film photography with authentic color saturation and soft grain.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "Free prompt works on Midjourney & ChatGPT",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DYJaxfaSoIQ/",
+  "instagramReelId": "DYJaxfaSoIQ",
+  "reelThumbnail": "https://scontent-gig4-2.cdninstagram.com/v/t51.71878-15/688894053_1725185738834132_3939446096008759821_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzg5Mzc2MTEwMzAyOTI0MDMzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=GuEc0VIlr40Q7kNvwEOYVdk&_nc_oc=Adq5KAOPYD-xOpZ01pxodcI2NluWih6rJMtBKr00jvHOVxa6JMZGRlt9wtQ9jHoILlk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gig4-2.cdninstagram.com&_nc_gid=djA74SL_7__ki0N82GXYhA&_nc_ss=7320f&oh=00_AQTyrRGx7AVCRqEOGqNqCWLxoDphUPKOrM1ylOLpIwZ9ew&oe=6AEF7183",
+  "promptSet": [
+    {
+      "id": "pmt-053",
+      "title": "Vintage 1990s Analog Film Family Portrait",
+      "prompt": "Heartwarming candid photograph of a mother and child smiling joyfully, shot on vintage 35mm film camera in 1995. Warm golden sunlight streaming through window, soft film grain, authentic Kodak Gold color tones, gentle motion blur, timeless nostalgic mood.",
+      "instructions": [
+        "Paste the prompt into your preferred generative image model.",
+        "Upload reference family photos if your tool supports image-to-image.",
+        "Print or frame the resulting high-resolution nostalgic portrait."
+      ],
+      "exampleOutput": "A warm, touching portrait with authentic 90s film textures and golden sunlight."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-12",
+  "seo": {
+    "title": "Generate Heartwarming Film-Grain Family Portraits with AI Prompts | futureclub.tech",
+    "description": "Celebrate special memories and family bonds with emotional, analog film-inspired portrait prompts. Recreate the nostalgic warmth of 1990s 35mm film photography "
+  }
+}

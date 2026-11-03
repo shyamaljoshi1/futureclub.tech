@@ -1,0 +1,37 @@
+{
+  "id": "reel-011",
+  "slug": "anydoc-pdf-to-markdown-converter",
+  "title": "Stop Feeding Raw PDFs to AI: AnyDoc Markdown Converter",
+  "toolName": "AnyDoc: PDF to Clean Markdown Parser",
+  "toolUrl": "https://github.com/",
+  "description": "Raw PDFs result in messy OCR errors, broken tables, and lost formatting when fed to LLMs. AnyDoc converts 14+ document formats into pristine Markdown, preserving tables, charts, financial sheets, and nested hierarchies.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "Free open source utility",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DcJKpvfzUQX/",
+  "instagramReelId": "DcJKpvfzUQX",
+  "reelThumbnail": "https://instagram.fcul3-1.fna.fbcdn.net/v/t15.5256-10/775259457_804757506031427_3626268646754915911_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzk2NTc0Nzc5NTgzOTUwMTMzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=n8eEE2CfC0cQ7kNvwFd-zjk&_nc_oc=AdpqwiuCyvoFmF7BcIDuD98z2NDqxj2RGdHXYf6tXn7WattdoIp3I_5CC10EAenULRY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fcul3-1.fna&_nc_gid=EIXO9_WHkLSBE_uPmteGkQ&_nc_ss=7320f&oh=00_AQSDAo03qVo9oLkzYf6mGOviAxq9p74MnLp0VZo2KdVGIQ&oe=6AEF3EE9",
+  "promptSet": [
+    {
+      "id": "pmt-011",
+      "title": "Financial Table & PDF Markdown Extractor",
+      "prompt": "Parse this financial PDF extract into clean GitHub Flavored Markdown. Ensure all multi-column balance sheets and footnotes are preserved in readable markdown tables with exact decimal precision.",
+      "instructions": [
+        "Run AnyDoc on your target PDF file: anydoc convert input.pdf --format markdown.",
+        "Open the generated .md file and inspect the table formatting.",
+        "Feed the clean markdown context into Claude or ChatGPT for hallucination-free analysis."
+      ],
+      "exampleOutput": "Perfect GFM Markdown table with exact column alignment and parsed financial indicators."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-24",
+  "seo": {
+    "title": "Stop Feeding Raw PDFs to AI: AnyDoc Markdown Converter | futureclub.tech",
+    "description": "Raw PDFs result in messy OCR errors, broken tables, and lost formatting when fed to LLMs. AnyDoc converts 14+ document formats into pristine Markdown, preservin"
+  }
+}

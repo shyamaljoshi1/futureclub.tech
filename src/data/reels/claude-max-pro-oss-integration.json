@@ -1,0 +1,37 @@
+{
+  "id": "reel-069",
+  "slug": "claude-max-pro-oss-integration",
+  "title": "Claude Max & Pro: How to Connect High-Limit Tiers to Open Source Tools",
+  "toolName": "Claude Max Open Source Integration",
+  "toolUrl": "https://claude.ai/",
+  "description": "Anthropic's high-limit tiers give power developers the bandwidth needed for heavy daily coding. Discover how to safely connect your credentials with open-source CLI agents and local developer IDE extensions.",
+  "category": "coding",
+  "pricing": "freemium",
+  "pricingDetails": "Requires Claude subscription or developer API access",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DXZJQxcgfqQ/",
+  "instagramReelId": "DXZJQxcgfqQ",
+  "reelThumbnail": "https://instagram.fsvq4-1.fna.fbcdn.net/v/t51.82787-15/670907193_18075192992646996_2451270772223472463_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ig_cache_key=Mzg4MDE3MzI4ODk3ODI1MDM4NDE4MDc1MTkyOTg2NjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=DQug8nVfjzwQ7kNvwF_TgIc&_nc_oc=AdpqYanGvsyJaefXmwzFiY0PX0ubcxSv80ZTyN-pTYG9Ni9VoDMqZnLD-DQBQKrZS7c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsvq4-1.fna&_nc_gid=VBtyVjuAri6nuQHtv4DAaQ&_nc_ss=7320f&oh=00_AQQmRRJtHE3PUyuabaBy3xqw_DaHWnbMIhy3bS_JF6QDGw&oe=6AEF601B",
+  "promptSet": [
+    {
+      "id": "pmt-069",
+      "title": "Autonomous Architecture Scaffold in Local Repo",
+      "prompt": "Scaffold a production Next.js 15 app router template with Tailwind CSS v4, Lucide icons, Supabase auth helpers, and clean server actions. Include full directory structure and sample route handlers.",
+      "instructions": [
+        "Set up your developer API key or authorized session.",
+        "Connect your CLI tool with your high-limit tier.",
+        "Execute large repository scaffolding without hitting rate limits."
+      ],
+      "exampleOutput": "Complete directory scaffold with configured Next.js app router and server actions."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-27",
+  "seo": {
+    "title": "Claude Max & Pro: How to Connect High-Limit Tiers to Open Source Tools | futureclub.tech",
+    "description": "Anthropic's high-limit tiers give power developers the bandwidth needed for heavy daily coding. Discover how to safely connect your credentials with open-source"
+  }
+}

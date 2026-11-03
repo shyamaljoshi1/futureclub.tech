@@ -1,0 +1,37 @@
+{
+  "id": "reel-061",
+  "slug": "ai-memory-migration-blueprint",
+  "title": "How to Migrate Your AI Memory from ChatGPT & Google to Claude",
+  "toolName": "Cross-Platform AI Memory Migration",
+  "toolUrl": "https://claude.ai/",
+  "description": "Switching AI assistants shouldn't mean starting from scratch. Learn how to export your personalized preferences, project contexts, and biographical memories from ChatGPT and import them into Anthropic Claude Projects.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "Free setup guide & memory prompt template",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DXWwnRWDrjU/",
+  "instagramReelId": "DXWwnRWDrjU",
+  "reelThumbnail": "https://scontent-mel1-1.cdninstagram.com/v/t51.82787-15/671227038_18075060947646996_9119987262187100101_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ig_cache_key=Mzg3OTUwMTkzMzk0MjA2MTI2ODE4MDc1MDYwOTQxNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=OpGbspGi5SUQ7kNvwEN8M69&_nc_oc=Adpg0wX7QMJ4SdVjI1nnu5N13E5B-hM_tuZk6ydp_JbK3USDF5ntkMKVTEL0eDiD_dQj21XDPhHzydoFBd1bYyXs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mel1-1.cdninstagram.com&_nc_gid=SJ-ZMTGGOZMgXMUF9frT3g&_nc_ss=7320f&oh=00_AQTgJf3BBsf8pv7lvm8xRpuI4J5M-ulYyu4t090yJ1TY5w&oe=6AEF4A3F",
+  "promptSet": [
+    {
+      "id": "pmt-061",
+      "title": "Master Personal Context & Preference Dossier",
+      "prompt": "Review everything you know about my profession, communication style, tech stack, and goals. Synthesize this into a structured markdown document titled \"System Context: User Profile\" that I can import into another AI tool.",
+      "instructions": [
+        "Run this extraction prompt in your existing AI assistant.",
+        "Copy the generated Markdown profile document.",
+        "Upload the file to Claude's Project Knowledge to retain full context."
+      ],
+      "exampleOutput": "A structured markdown document containing your full professional persona and coding style preferences."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-04",
+  "seo": {
+    "title": "How to Migrate Your AI Memory from ChatGPT & Google to Claude | futureclub.tech",
+    "description": "Switching AI assistants shouldn't mean starting from scratch. Learn how to export your personalized preferences, project contexts, and biographical memories fro"
+  }
+}

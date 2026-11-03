@@ -1,0 +1,37 @@
+{
+  "id": "reel-021",
+  "slug": "superprofile-ai-digital-monetization",
+  "title": "How to Monetize AI Prompts & Digital Templates with SuperProfile",
+  "toolName": "SuperProfile Creator Storefront",
+  "toolUrl": "https://superprofile.bio/",
+  "description": "Earning online with AI is simpler than most people think. Package your curated prompts, code snippets, or video templates into an instant digital storefront with SuperProfile and automate sales 24/7.",
+  "category": "productivity",
+  "pricing": "freemium",
+  "pricingDetails": "Free plan available, pay-as-you-sell transaction model",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/Dbdbo9msH3v/",
+  "instagramReelId": "Dbdbo9msH3v",
+  "reelThumbnail": "https://scontent-nrt1-2.cdninstagram.com/v/t51.71878-15/759904210_1765008671193509_6922718114635387244_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk1MzQzNzYxMDA4MzM4NDgxNTIzMTk0MTE3MjIxOTE4Mzk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=aPnpRK-yJ4AQ7kNvwH4ZGAB&_nc_oc=AdpSZxsj77KhOb96rqeeU63q9UhTZADry_MP7nS8M2n4syZs-VLof3OHnZUYQ7UclGLAfsgmEibII9azhLxJzo-3&_nc_ad=z-m&_nc_cid=1698&_nc_zt=23&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_gid=IcwV6gxP--q_fz3IoaIyvw&_nc_ss=7320f&oh=00_AQSKgAivRfSEczwlIjwyBYQBuZiIHAFviwB2xMb_2sz96w&oe=6AEF4E51",
+  "promptSet": [
+    {
+      "id": "pmt-021",
+      "title": "Digital Product Launch & Funnel Blueprint",
+      "prompt": "Develop a high-converting 7-day email launch sequence for a digital AI prompt toolkit. Include subject line variations, benefit-focused bullet points, and urgency triggers.",
+      "instructions": [
+        "Create your free storefront profile on SuperProfile.",
+        "Upload your digital template or prompt PDF guide.",
+        "Connect payment gateway and share link in your Instagram bio."
+      ],
+      "exampleOutput": "Complete 7-day launch email sequence with subject lines and call-to-action buttons."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-14",
+  "seo": {
+    "title": "How to Monetize AI Prompts & Digital Templates with SuperProfile | futureclub.tech",
+    "description": "Earning online with AI is simpler than most people think. Package your curated prompts, code snippets, or video templates into an instant digital storefront wit"
+  }
+}

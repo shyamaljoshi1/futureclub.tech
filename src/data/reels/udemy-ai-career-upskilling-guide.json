@@ -1,0 +1,37 @@
+{
+  "id": "reel-023",
+  "slug": "udemy-ai-career-upskilling-guide",
+  "title": "Stop Fearing AI: Master Generative Tech on Udemy in 2026",
+  "toolName": "Udemy AI & Tech Upskilling",
+  "toolUrl": "https://www.udemy.com/",
+  "description": "The future doesn't belong to those who fear technological change—it belongs to those who adapt. Discover the highest-rated Udemy courses covering prompt engineering, agentic development, and deep learning.",
+  "category": "productivity",
+  "pricing": "paid",
+  "pricingDetails": "Courses start under ₹499 during seasonal sales",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DZpgDT6N7GB/",
+  "instagramReelId": "DZpgDT6N7GB",
+  "reelThumbnail": "https://scontent-cdg4-2.cdninstagram.com/v/t51.71878-15/723154088_1253368217849787_6425000481242813694_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkyMDgwNTkxNTYyNzMzNjA2NTE3NjY1NDY2MTExNjkzMzI%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=ONiMOh6qe0oQ7kNvwHsE-CD&_nc_oc=AdoLEe3qQIE5AcoFHoOEu-0gDZ3mKnUMEJFkIrf-FCqpgFFjobrTvQb3tzgdDTsa6f8ZaaEqCuOk8oBdirp4Si1-&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cdg4-2.cdninstagram.com&_nc_gid=YkD7SGuh4xRmYYPa2ukWXg&_nc_ss=7320f&oh=00_AQQGkzoCuuXp41a7xe1Vg_FJXwf7AJ_K8tATAUFkOdcYew&oe=6AEF6E54",
+  "promptSet": [
+    {
+      "id": "pmt-023",
+      "title": "Personalized Tech Career Upskilling Roadmap",
+      "prompt": "I am a junior web developer wanting to pivot into full-stack AI engineering. Create a structured 6-month study syllabus, highlighting key libraries (LangChain, LlamaIndex, MCP) and recommended hands-on portfolio projects.",
+      "instructions": [
+        "Browse curated AI engineering tracks on Udemy.",
+        "Dedicate 30 minutes every morning to video lectures and code-alongs.",
+        "Publish your working code to GitHub after each course module."
+      ],
+      "exampleOutput": "6-month curriculum covering Python fundamentals, embeddings, vector databases, and multi-agent systems."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-12",
+  "seo": {
+    "title": "Stop Fearing AI: Master Generative Tech on Udemy in 2026 | futureclub.tech",
+    "description": "The future doesn't belong to those who fear technological change—it belongs to those who adapt. Discover the highest-rated Udemy courses covering prompt enginee"
+  }
+}

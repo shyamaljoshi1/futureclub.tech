@@ -1,0 +1,37 @@
+{
+  "id": "reel-082",
+  "slug": "claude-code-cli-terminal-setup-guide",
+  "title": "Claude Code Setup Guide: How to Install, Configure & Master the CLI",
+  "toolName": "Claude Code CLI Setup Guide",
+  "toolUrl": "https://claude.ai/",
+  "description": "Vibe coding reaches its final form when your AI lives directly in your terminal. Follow this step-by-step tutorial to install Claude Code, configure environment variables, authorize MCP servers, and set up custom rules.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free setup video and configuration files",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DW_cNdbjzIH/",
+  "instagramReelId": "DW_cNdbjzIH",
+  "reelThumbnail": "https://scontent-nrt1-1.cdninstagram.com/v/t51.71878-15/670422861_1540184047692203_8062345127373542339_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzg3MjkzODI3NDgxODMwNjU2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=peOUfSosGlMQ7kNvwEXucaH&_nc_oc=AdoWDpB9IeXC2lJA8V2P0S04Xr-BKt9G8hvrPak94fwODKGhivNHy4U8-ciYRadPAe0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt1-1.cdninstagram.com&_nc_gid=cs5h9X60j9H0b1ejqXEjlw&_nc_ss=7320f&oh=00_AQTs4LI1sPjM1oT4ULJbasZJ0nOav0LkIEmtv4RH_lAx-g&oe=6AEF6D95",
+  "promptSet": [
+    {
+      "id": "pmt-082",
+      "title": "Claude Code Project Rules Configuration (.clauderc)",
+      "prompt": "Generate a comprehensive .clauderc configuration file for a TypeScript full-stack project. Include guidelines on code formatting, preferred libraries, test runner commands, and strict security rules.",
+      "instructions": [
+        "Install the Claude Code CLI using npm install -g @anthropic-ai/claude-code.",
+        "Authenticate with your Anthropic account in your terminal.",
+        "Add custom project instructions in CLAUDE.md to keep your agent aligned."
+      ],
+      "exampleOutput": "A complete CLAUDE.md guidelines file tailored for modern React and Node.js codebases."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-14",
+  "seo": {
+    "title": "Claude Code Setup Guide: How to Install, Configure & Master the CLI | futureclub.tech",
+    "description": "Vibe coding reaches its final form when your AI lives directly in your terminal. Follow this step-by-step tutorial to install Claude Code, configure environment"
+  }
+}

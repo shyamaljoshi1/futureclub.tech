@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181920" />
+      <stop offset="100%" stop-color="#0a0b0e" />
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#5d2fb5" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Base Squircle -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGrad)" />
+  <rect width="504" height="504" x="4" y="4" rx="116" fill="none" stroke="#2a2c36" stroke-width="6" opacity="0.7" />
+  
+  <!-- fc Monogram in bold geometric styling -->
+  <g font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="252" letter-spacing="-6">
+    <text x="86" y="348" fill="#ffffff">f</text>
+    <text x="210" y="348" fill="url(#purpleGrad)">c</text>
+  </g>
+  
+  <!-- Minimalist accent dot -->
+  <circle cx="406" cy="336" r="18" fill="url(#purpleGrad)" />
+</svg>

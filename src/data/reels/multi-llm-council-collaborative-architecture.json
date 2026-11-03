@@ -1,0 +1,37 @@
+{
+  "id": "reel-078",
+  "slug": "multi-llm-council-collaborative-architecture",
+  "title": "Build a Multi-LLM Council: Claude, ChatGPT & Gemini Working Together",
+  "toolName": "Multi-LLM Council Architecture",
+  "toolUrl": "https://github.com/",
+  "description": "Why rely on a single model when you can convene a council? In this architecture, Claude drafts the code, ChatGPT critiques logic bugs, and Gemini fact-checks citations, producing near-zero hallucination rates.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free open source architectural blueprint",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DYCeTEtxly8/",
+  "instagramReelId": "DYCeTEtxly8",
+  "reelThumbnail": "https://scontent-icn2-1.cdninstagram.com/v/t51.82787-15/694859427_18077742461646996_6480576779112457155_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzg5MTgwNjI4MDEyOTg2Mjg0NDE4MDc3NzQyNDU1NjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=I-ecTyWFFwoQ7kNvwGlB_6I&_nc_oc=AdrKGsAv4LnhNGST5tRz-OLdZzukMISaFS0_Uf4wij1JbwK6Xo9EDMQeQ32xoffF0-k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=6QrZE1elVqucntq7ZNuM4A&_nc_ss=7320f&oh=00_AQQL3jGTxSqlNoYZnX0KKosnnfCHgq1CgQBq5R6286AbxA&oe=6AEF5FEB",
+  "promptSet": [
+    {
+      "id": "pmt-078",
+      "title": "Multi-Agent Code Peer Review Protocol",
+      "prompt": "Act as the Moderator of an LLM Council. Present this code to Model A (Architect) for refactoring, then prompt Model B (Security Auditor) to attack it, and finally synthesize the hardened output.",
+      "instructions": [
+        "Set up an orchestration script connecting to your favorite LLM APIs.",
+        "Configure the sequential debate protocol defined in the repository.",
+        "Enjoy thoroughly stress-tested code and zero obvious oversights."
+      ],
+      "exampleOutput": "Multi-pass code verification transcript showing security fixes introduced during debate."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-18",
+  "seo": {
+    "title": "Build a Multi-LLM Council: Claude, ChatGPT & Gemini Working Together | futureclub.tech",
+    "description": "Why rely on a single model when you can convene a council? In this architecture, Claude drafts the code, ChatGPT critiques logic bugs, and Gemini fact-checks ci"
+  }
+}

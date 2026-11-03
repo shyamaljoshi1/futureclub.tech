@@ -1,0 +1,37 @@
+{
+  "id": "reel-059",
+  "slug": "ai-builder-mindset-playbook",
+  "title": "Stop Being Just a User: The Playbook to Become a High-Leverage AI Builder",
+  "toolName": "The AI Builder Playbook",
+  "toolUrl": "",
+  "description": "Every prompt you write and link you click is training data for someone else's platform. Shift from passive consumption to building your own defensible software tools, custom agent systems, and automated digital assets.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "Strategic mindset and execution guide",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DXyftW5uiB_/",
+  "instagramReelId": "DXyftW5uiB_",
+  "reelThumbnail": "https://scontent-itm1-1.cdninstagram.com/v/t51.71878-15/683667303_1415657917258351_1229331042713054660_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=Mzg4NzMwODg4NDc4MzI3NjE1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=sa-Lj19hT5sQ7kNvwHPEygK&_nc_oc=AdqsYJ6eI8DLWsJzaWJQ_puFMp9P5xl9mEsDzmnRgRiSExZwIt_V97Fh3RN9_tgwajA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-itm1-1.cdninstagram.com&_nc_gid=SCy54pHroJMiCBuSMyt1-g&_nc_ss=7320f&oh=00_AQSx9TGJp2vFr7nnTL4Jsf6kcL1yQP217PGkqWuRzELafg&oe=6AEF4DB5",
+  "promptSet": [
+    {
+      "id": "pmt-059",
+      "title": "Micro-SaaS Product Discovery Matrix",
+      "prompt": "Identify 3 unserved workflow pain points in legal or accounting administration that can be solved with a simple single-page AI tool. For each, describe the input format, the processing logic, and the perceived user value.",
+      "instructions": [
+        "Audit the manual digital chores you perform repeatedly every week.",
+        "Use this prompt to turn those chores into a standalone tool concept.",
+        "Build and launch the tool with low-code or AI coding agents in days."
+      ],
+      "exampleOutput": "Three validated micro-SaaS concepts targeting specific corporate operational bottlenecks."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-06",
+  "seo": {
+    "title": "Stop Being Just a User: The Playbook to Become a High-Leverage AI Builder | futureclub.tech",
+    "description": "Every prompt you write and link you click is training data for someone else's platform. Shift from passive consumption to building your own defensible software "
+  }
+}

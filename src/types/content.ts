@@ -1,0 +1,163 @@
+import { z } from 'zod';
+
+// Pricing Enum
+export const PricingSchema = z.enum(['free', 'freemium', 'paid']);
+export type Pricing = z.infer<typeof PricingSchema>;
+
+// Status Enum
+export const StatusSchema = z.enum(['draft', 'published']);
+export type Status = z.infer<typeof StatusSchema>;
+
+// AI Model / Prompt Platform Enum
+export const AIPlatformSchema = z.enum([
+  'chatgpt',
+  'claude',
+  'gemini',
+  'midjourney',
+  'flux',
+  'general'
+]);
+export type AIPlatform = z.infer<typeof AIPlatformSchema>;
+
+// SEO Meta Schema
+export const SeoSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  canonical: z.string().optional(),
+  keywords: z.array(z.string()).optional(),
+  ogImage: z.string().optional(),
+});
+export type SeoMeta = z.infer<typeof SeoSchema>;
+
+// Prompt Item inside a Reel
+export const PromptItemSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  prompt: z.string(),
+  instructions: z.array(z.string()).optional(),
+  exampleOutput: z.string().optional(),
+});
+export type PromptItem = z.infer<typeof PromptItemSchema>;
+
+// Post Type & Content Type Enums (for classifying Reels vs Carousels)
+export const PostTypeSchema = z.enum(['reel', 'carousel']);
+export type PostType = z.infer<typeof PostTypeSchema>;
+
+export const ContentTypeSchema = z.enum(['tool', 'prompt']);
+export type ContentType = z.infer<typeof ContentTypeSchema>;
+
+// Reel Entry Schema (1 file = 1 reel / tool / prompt set)
+export const ReelItemSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  title: z.string(),
+  toolName: z.string(),
+  toolUrl: z.union([z.string().url(), z.literal('')]),
+  description: z.string(),
+  category: z.string(),
+  pricing: PricingSchema,
+  pricingDetails: z.string().optional(),
+  postType: PostTypeSchema.default('reel'),
+  contentType: ContentTypeSchema.default('tool'),
+  instagramReelUrl: z.union([z.string().url(), z.literal('')]),
+  instagramReelId: z.string().optional(),
+  reelThumbnail: z.string(),
+  promptSet: z.array(PromptItemSchema).default([]),
+  featured: z.boolean().default(false),
+  trending: z.boolean().default(false),
+  status: StatusSchema.default('published'),
+  publishedAt: z.string(),
+  seo: SeoSchema,
+});
+export type ReelItem = z.infer<typeof ReelItemSchema>;
+
+// Category Schema
+export const CategorySchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  name: z.string(),
+  description: z.string(),
+  icon: z.string(),
+});
+export type Category = z.infer<typeof CategorySchema>;
+
+// Collection Schema
+export const CollectionSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  title: z.string(),
+  description: z.string(),
+  coverImage: z.string().optional(),
+  toolIds: z.array(z.string()).default([]),
+  promptIds: z.array(z.string()).default([]),
+  featured: z.boolean().default(false),
+  status: StatusSchema.default('published'),
+  publishedAt: z.string(),
+  seo: SeoSchema,
+});
+export type Collection = z.infer<typeof CollectionSchema>;
+
+// Resource Section Schema
+export const ResourceSectionSchema = z.object({
+  title: z.string(),
+  content: z.string(),
+  tips: z.array(z.string()).optional(),
+});
+
+// Resource Schema
+export const ResourceSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  title: z.string(),
+  description: z.string(),
+  category: z.string(),
+  readTime: z.string(),
+  publishedAt: z.string(),
+  status: StatusSchema.default('published'),
+  sections: z.array(ResourceSectionSchema),
+  seo: SeoSchema,
+});
+export type Resource = z.infer<typeof ResourceSchema>;
+
+// Site Config Schema
+export const SiteConfigSchema = z.object({
+  brandName: z.string(),
+  tagline: z.string(),
+  subheadline: z.string(),
+  instagramHandle: z.string(),
+  instagramUrl: z.string().url(),
+  contactEmail: z.string().email(),
+  siteUrl: z.string().url(),
+  defaultTitle: z.string(),
+  defaultDescription: z.string(),
+});
+export type SiteConfig = z.infer<typeof SiteConfigSchema>;
+
+// Navigation Schema
+export const NavigationItemSchema = z.object({
+  label: z.string(),
+  href: z.string(),
+  isExternal: z.boolean().optional(),
+});
+export type NavigationItem = z.infer<typeof NavigationItemSchema>;
+
+export const NavigationSchema = z.object({
+  primary: z.array(NavigationItemSchema),
+  cta: NavigationItemSchema,
+});
+export type NavigationConfig = z.infer<typeof NavigationSchema>;
+
+// Footer Schema
+export const FooterColumnSchema = z.object({
+  title: z.string(),
+  links: z.array(NavigationItemSchema),
+});
+
+export const FooterSchema = z.object({
+  aboutText: z.string(),
+  columns: z.array(FooterColumnSchema),
+  legal: z.array(NavigationItemSchema),
+  copyright: z.string(),
+  disclaimer: z.string(),
+});
+export type FooterConfig = z.infer<typeof FooterSchema>;

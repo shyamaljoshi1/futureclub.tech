@@ -1,0 +1,37 @@
+{
+  "id": "reel-015",
+  "slug": "notebooklm-short-video-overviews",
+  "title": "Turn Any PDF or Notes into 60-Second Animated Explainer Videos",
+  "toolName": "NotebookLM Short Video Overviews",
+  "toolUrl": "https://notebooklm.google.com/",
+  "description": "Google NotebookLM introduces short vertical video overviews. Upload any PDF, research article, or class lecture, and NotebookLM automatically scripts, animates, and narrates a 60-second Reels-style explainer video.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "100% Free on Google NotebookLM",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DaSphZagb2F/",
+  "instagramReelId": "DaSphZagb2F",
+  "reelThumbnail": "https://scontent-waw2-2.cdninstagram.com/v/t51.71878-15/731711722_1324014649944642_5143399462960742343_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=MzkzMjM4ODAzOTU4NTgwNzc0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=oy8PJhmEwRUQ7kNvwFmA-IM&_nc_oc=Adrc6lPz2zkJVRR9Jg_9Hp1Xn0YSbdHZJF6nv9eJw3pTfE5QmK6sR_k6d2LwC3GAKiM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_gid=FF4bjnib8ljZ7iFSJvkang&_nc_ss=7320f&oh=00_AQTh_hZEcSlIh8DePFM8Y6QB6bnIRzYZx13oup77nXoAzg&oe=6AEF754C",
+  "promptSet": [
+    {
+      "id": "pmt-015",
+      "title": "PDF to High-Retention Video Script Blueprint",
+      "prompt": "Extract the core 3 takeaways from this 20-page research document. Format as a 60-second viral educational video script with a 3-second visual hook, fast-paced bullet points, and an actionable conclusion.",
+      "instructions": [
+        "Go to notebooklm.google.com and create a new notebook.",
+        "Upload your source PDF or lecture slides.",
+        "Click Generate Short Video Overview and download your vertical MP4."
+      ],
+      "exampleOutput": "Ready-to-post 60-second narrated video summarizing complex academic material."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-20",
+  "seo": {
+    "title": "Turn Any PDF or Notes into 60-Second Animated Explainer Videos | futureclub.tech",
+    "description": "Google NotebookLM introduces short vertical video overviews. Upload any PDF, research article, or class lecture, and NotebookLM automatically scripts, animates,"
+  }
+}

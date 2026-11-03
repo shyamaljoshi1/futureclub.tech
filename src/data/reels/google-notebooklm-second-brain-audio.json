@@ -1,0 +1,37 @@
+{
+  "id": "reel-060",
+  "slug": "google-notebooklm-second-brain-audio",
+  "title": "Google NotebookLM: Turn Notes, PDFs & Books into an Interactive Brain",
+  "toolName": "Google NotebookLM Second Brain",
+  "toolUrl": "https://notebooklm.google.com/",
+  "description": "Google NotebookLM changes how research is organized. Upload dense books, academic papers, and lecture slides to create a personalized AI assistant that answers questions grounded strictly in your source documents.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "100% Free with Google Account",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DXD6Nlgj35N/",
+  "instagramReelId": "DXD6Nlgj35N",
+  "reelThumbnail": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/670596621_18074137514646996_7834029368589708670_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzg3NDE5NjEyNDc5NDMyMjUwOTE4MDc0MTM3NTA4NjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=UwlVPB2s4YUQ7kNvwGtZWxY&_nc_oc=Adp6Mik7D3MAMCkzZ-q1uqA68RI0x8xOhVp8ITDlRKcqXiJYvDh9ZPC7QuKp2IM7yfc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=PshLwIF7mxvdzzmy18pwkQ&_nc_ss=7320f&oh=00_AQRFj98G6LjqZeh2KJK0b1KTggggh5GJfLWRH7KKTBautQ&oe=6AEF40B9",
+  "promptSet": [
+    {
+      "id": "pmt-060",
+      "title": "Grounded Source Synthesis & Comparative Analysis",
+      "prompt": "Based exclusively on the uploaded 4 research documents, compare the competing theories on economic inflation. Cite exact page numbers and quotes for each argument, without introducing outside knowledge.",
+      "instructions": [
+        "Visit notebooklm.google.com and upload your study materials.",
+        "Ask specific questions to get fully cited answers with inline click-to-source links.",
+        "Generate an Audio Overview to listen to a 2-host podcast deep dive."
+      ],
+      "exampleOutput": "Comprehensive comparative synthesis with exact page citations from your source files."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-05",
+  "seo": {
+    "title": "Google NotebookLM: Turn Notes, PDFs & Books into an Interactive Brain | futureclub.tech",
+    "description": "Google NotebookLM changes how research is organized. Upload dense books, academic papers, and lecture slides to create a personalized AI assistant that answers "
+  }
+}

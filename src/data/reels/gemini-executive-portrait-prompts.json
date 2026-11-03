@@ -1,0 +1,37 @@
+{
+  "id": "reel-025",
+  "slug": "gemini-executive-portrait-prompts",
+  "title": "Google Gemini Studio Portrait Prompts for High-Impact Profiles",
+  "toolName": "Gemini Executive Portrait Framework",
+  "toolUrl": "https://gemini.google.com/",
+  "description": "Your profile photo shapes initial credibility in seconds. Leverage Google Gemini's neural photo engine to generate crisp, approachable executive portraits with lifelike skin micro-textures and subtle rim lighting.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "Free access via Gemini Advanced student plan or web",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DZVDkEZjfHm/",
+  "instagramReelId": "DZVDkEZjfHm",
+  "reelThumbnail": "https://instagram.fabe1-1.fna.fbcdn.net/v/t51.82787-15/719548568_18081762224646996_5145622064063786003_n.webp?_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=MzkxNTA1MDc4MTU3MTkxMDA5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2mcgpzG-1qkQ7kNvwFeDeXJ&_nc_oc=AdqLNxfzyArRgUdVbd4R4bayq6SXwT1M3D6hkY99SKyuUg2hJau9YrPixrNH8krtGbY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fabe1-1.fna&_nc_gid=olhR9xKgQsAephuHVX7zaA&_nc_ss=7320f&oh=00_AQQ_scqrQ22dBzFtu-VL7Srd1ymLzxbZBUGtMoBQTsjagg&oe=6AEF64FC",
+  "promptSet": [
+    {
+      "id": "pmt-025",
+      "title": "Approachable Tech Founder Profile Picture",
+      "prompt": "High-resolution headshot portrait of a confident technology founder with a warm smile, wearing a minimalist black turtleneck. Shot on Canon EOS R5 with 85mm f/1.2 lens. Soft directional morning light, gentle natural shadows, sharp focus on iris, clean matte studio backdrop.",
+      "instructions": [
+        "Open Google Gemini and ensure image generation is enabled.",
+        "Paste this portrait prompt template and personalize eye color or hair style.",
+        "Crop to square aspect ratio and update your founder profile."
+      ],
+      "exampleOutput": "Studio-caliber portrait with lifelike eye catchlights and crisp optical focus."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-10",
+  "seo": {
+    "title": "Google Gemini Studio Portrait Prompts for High-Impact Profiles | futureclub.tech",
+    "description": "Your profile photo shapes initial credibility in seconds. Leverage Google Gemini's neural photo engine to generate crisp, approachable executive portraits with "
+  }
+}

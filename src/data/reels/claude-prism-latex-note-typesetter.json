@@ -1,0 +1,37 @@
+{
+  "id": "reel-086",
+  "slug": "claude-prism-latex-note-typesetter",
+  "title": "Turn Raw Handwritten Notes into Publication-Grade LaTeX PDFs with AI",
+  "toolName": "Claude + Prism LaTeX Note Typesetter",
+  "toolUrl": "https://claude.ai/",
+  "description": "This is how students and researchers should actually study in 2026. Photograph your messy handwritten lecture notes or whiteboard sketches, and let Claude + Prism format them into gorgeous, publication-ready LaTeX PDFs.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "Free academic workflow tools",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DWUTFsBFWAE/",
+  "instagramReelId": "DWUTFsBFWAE",
+  "reelThumbnail": "https://scontent-gig4-1.cdninstagram.com/v/t51.82787-15/657338430_18071835755646996_6403274120424141322_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzg2MDc5NDczNDMwNzI3MDY2MDE4MDcxODM1NzUyNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=rVzuqJqGBSQQ7kNvwFBMR7h&_nc_oc=AdoR8I1_29oC3a4qcXBgNSaX7juupAEnsp0FsKhUUQs9RibJHbpmh4p7VJcq0qg1AMU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gig4-1.cdninstagram.com&_nc_gid=Y66WdHvELi9SRFjNMBaJ_A&_nc_ss=7320f&oh=00_AQT2VsySYxFFutkU9NHZyCyTucSAsttSTjci74Sk7Z7sRQ&oe=6AEF6F7C",
+  "promptSet": [
+    {
+      "id": "pmt-086",
+      "title": "Handwritten Math to Clean LaTeX Document",
+      "prompt": "Transcribe these photographed math lecture notes into a complete, compilable LaTeX document. Use amsmath and tikz for diagrams. Format all theorems, proofs, and definitions in structured colored boxes.",
+      "instructions": [
+        "Snap a photo of your handwritten lecture notes.",
+        "Upload the image to Claude with this LaTeX prompt.",
+        "Compile the generated .tex code in Overleaf or TeXShop to produce a pristine PDF."
+      ],
+      "exampleOutput": "Compilable LaTeX document with beautiful theorem environments and typeset equations."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-10",
+  "seo": {
+    "title": "Turn Raw Handwritten Notes into Publication-Grade LaTeX PDFs with AI | futureclub.tech",
+    "description": "This is how students and researchers should actually study in 2026. Photograph your messy handwritten lecture notes or whiteboard sketches, and let Claude + Pri"
+  }
+}

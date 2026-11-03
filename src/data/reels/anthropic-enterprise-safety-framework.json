@@ -1,0 +1,37 @@
+{
+  "id": "reel-065",
+  "slug": "anthropic-enterprise-safety-framework",
+  "title": "Anthropic's Restricted Frontier Security: Why It Wasn't Publicly Released",
+  "toolName": "Anthropic Enterprise Safety Architecture",
+  "toolUrl": "https://anthropic.com/",
+  "description": "An analysis of Anthropic's restricted enterprise safety evaluations. Discover why frontier models undergo rigorous cyber defense testing and biological threat screening with global institutions before general release.",
+  "category": "research",
+  "pricing": "free",
+  "pricingDetails": "Security whitepaper breakdown",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DW6mkILDn15/",
+  "instagramReelId": "DW6mkILDn15",
+  "reelThumbnail": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/662053328_870135832748225_4021063862671576168_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=102&ig_cache_key=Mzg3MTU3NjQzODEyMjM4MDY2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=8QKiT1mgVkQQ7kNvwHAQhQJ&_nc_oc=AdozhxhO_fckBQyA8cWv_h7tv_SxvScmxokWQ_szjsZr_SyUeJjEhY-to6OHLl8DyO4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=R7LxABEAPC744Hj6goy3fA&_nc_ss=7f20f&oh=00_AQQyrbWxC802yGqoLvlu18JFJ6_Q4C40ncQGMokCKRniwA&oe=6AEF45E3",
+  "promptSet": [
+    {
+      "id": "pmt-065",
+      "title": "AI Red-Teaming & Threat Model Framework",
+      "prompt": "Develop a red-teaming checklist for an enterprise LLM deployment. Outline prompt injection vectors, indirect data poisoning methods, data exfiltration risks, and recommended guardrail mitigation layers.",
+      "instructions": [
+        "Study the security whitepaper summary.",
+        "Deploy defense-in-depth safety layers in your LLM application architecture.",
+        "Conduct regular automated red-teaming runs on prompt endpoints."
+      ],
+      "exampleOutput": "Comprehensive enterprise red-teaming checklist with 5 vulnerability vectors and guardrail configs."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-31",
+  "seo": {
+    "title": "Anthropic's Restricted Frontier Security: Why It Wasn't Publicly Released | futureclub.tech",
+    "description": "An analysis of Anthropic's restricted enterprise safety evaluations. Discover why frontier models undergo rigorous cyber defense testing and biological threat s"
+  }
+}

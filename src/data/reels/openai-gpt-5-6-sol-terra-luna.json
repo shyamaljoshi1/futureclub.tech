@@ -1,0 +1,37 @@
+{
+  "id": "reel-002",
+  "slug": "openai-gpt-5-6-sol-terra-luna",
+  "title": "OpenAI GPT-5.6 Architecture: Sol, Terra & Luna Multi-Tier Models",
+  "toolName": "OpenAI GPT-5.6 (Sol, Terra, Luna)",
+  "toolUrl": "https://openai.com/",
+  "description": "OpenAI introduces the GPT-5.6 three-tier model family: Sol for frontier coding and reasoning (scoring 91.9% on TerminalBench), Terra as the balanced daily driver, and Luna for ultra-fast, cost-effective high-volume tasks.",
+  "category": "coding",
+  "pricing": "freemium",
+  "pricingDetails": "Free access via ChatGPT, tiered usage for high compute",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DandSxNmatl/",
+  "instagramReelId": "DandSxNmatl",
+  "reelThumbnail": "https://instagram.fpaz4-1.fna.fbcdn.net/v/t51.82787-15/729503774_18086545097646996_4233102409382382507_n.webp?_nc_cat=105&_nc_map=urlgen_bucketless&ig_cache_key=MzkzODI0NDkzNjA0MTc1MTk4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=PO2TBsRx0I8Q7kNvwF7r89Q&_nc_oc=AdphkhuXG9NMjRrbUnlC_ZqzxxMu51wooRCyt0mgCEn0jXMebSfIwC7vyK4LdmfP7og&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fpaz4-1.fna&_nc_gid=1OjTY_EnA4UtHFTtPGHlnw&_nc_ss=7320f&oh=00_AQTbGshSdI9zJcZQzFdtnYtw_TDQ2BIjPeL3pEjm0UQwVA&oe=6AEF3EF8",
+  "promptSet": [
+    {
+      "id": "pmt-002",
+      "title": "TerminalBench Frontier Code Architect",
+      "prompt": "Act as a principal software engineer. Analyze the following full-stack architecture for performance bottlenecks, concurrency race conditions, and memory leaks. Provide refactored code with strict TypeScript types, unit tests, and asymptotic complexity analysis.",
+      "instructions": [
+        "Select GPT-5.6 Sol or o3-mini in your OpenAI workspace.",
+        "Provide your full repository directory structure and target code file.",
+        "Execute the reasoning pass and review the architectural breakdown."
+      ],
+      "exampleOutput": "Step-by-step diagnostic breakdown with fixed race condition and production-ready async mutex implementation."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-02",
+  "seo": {
+    "title": "OpenAI GPT-5.6 Architecture: Sol, Terra & Luna Multi-Tier Models | futureclub.tech",
+    "description": "OpenAI introduces the GPT-5.6 three-tier model family: Sol for frontier coding and reasoning (scoring 91.9% on TerminalBench), Terra as the balanced daily drive"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-074",
+  "slug": "ai-automation-impact-engineering-teams",
+  "title": "The Real Impact of AI on Software Teams: Headcount, Speed & Velocity",
+  "toolName": "AI Engineering Impact Analysis",
+  "toolUrl": "",
+  "description": "They said AI couldn't replace engineering workflows—until companies began shipping 10x more features with smaller, elite teams. An honest analysis of engineering velocity metrics, layoffs, and emerging roles.",
+  "category": "research",
+  "pricing": "free",
+  "pricingDetails": "Industry analytical report",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DXLjMUTmQwV/",
+  "instagramReelId": "DXLjMUTmQwV",
+  "reelThumbnail": "https://scontent-nrt6-1.cdninstagram.com/v/t51.82787-15/671121823_18074478407646996_7702557620553753659_n.webp?_nc_cat=100&ig_cache_key=Mzg3NjM0NjIyMTg5NjMzOTY5Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMiJ9&_nc_ohc=7MM-N2tUD6gQ7kNvwH-Do3u&_nc_oc=AdrK5loGDQjPtH2SLZaSQkvk_xY8JX-eQBkM12hBVSD5J5ykEDiWiaFjYMd2Kh8VI-s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt6-1.cdninstagram.com&_nc_gid=xDtmv7kltCN6XKeu4SIpug&_nc_ss=7320f&oh=00_AQTTWF3DZq-DEzi6vmFqHHaWYHqM_QMUqbfsHfRo7p9NFw&oe=6AEF600A",
+  "promptSet": [
+    {
+      "id": "pmt-074",
+      "title": "Engineering Velocity & Tooling ROI Audit",
+      "prompt": "Conduct an ROI analysis of adopting AI coding assistants across an 8-person engineering team. Calculate time saved on boilerplate, PR reviews, and unit test generation versus subscription costs.",
+      "instructions": [
+        "Examine the shifting landscape of modern engineering orgs.",
+        "Use this prompt to audit where your engineering hours are actually spent.",
+        "Shift team focus toward architectural design, security audits, and product strategy."
+      ],
+      "exampleOutput": "Detailed ROI spreadsheet analysis projecting 32% faster sprint velocity and reduced tech debt."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-22",
+  "seo": {
+    "title": "The Real Impact of AI on Software Teams: Headcount, Speed & Velocity | futureclub.tech",
+    "description": "They said AI couldn't replace engineering workflows—until companies began shipping 10x more features with smaller, elite teams. An honest analysis of engineerin"
+  }
+}

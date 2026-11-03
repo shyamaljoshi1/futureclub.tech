@@ -1,0 +1,37 @@
+{
+  "id": "reel-008",
+  "slug": "taste-skill-anti-slop-frontend",
+  "title": "Stop Generic AI Websites: The Taste Skill Anti-Slop Design Guide",
+  "toolName": "Taste Skill: Anti-Slop Frontend Engine",
+  "toolUrl": "https://github.com/Leonxlnx/taste-skill",
+  "description": "Tired of identical purple gradients, floating cards, and AI slop? The Taste Skill frontend art direction system installs in one command and enforces award-level typography, strict contrast, and authentic editorial composition.",
+  "category": "design",
+  "pricing": "free",
+  "pricingDetails": "Open Source Skill for AI Coding Agents",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DcTn5SIwlid/",
+  "instagramReelId": "DcTn5SIwlid",
+  "reelThumbnail": "https://scontent-gig4-1.cdninstagram.com/v/t15.5256-10/778882180_2139033330352457_413899294494857849_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzk2ODY5MTE1Njk0MTk1MzE4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=METHFCONknQQ7kNvwFjw1Jn&_nc_oc=Adr9YiAq9pXvxWUTzFmR4WwYXlqRBEzf391hnqA5PeovGegnA3DDGiYrJT5CEATX0-8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gig4-1.cdninstagram.com&_nc_gid=pHg7wJVE11Jr_kg_-wG3tg&_nc_ss=7320f&oh=00_AQQYSNBT85Ir3VdvF3rS5MpN0V9Z3FgBKY_6D8OK9Zcrzg&oe=6AEF5D8D",
+  "promptSet": [
+    {
+      "id": "pmt-008",
+      "title": "Anti-Slop Modern Landing Page Prompt",
+      "prompt": "Design a high-craft landing page for a developer tool. Follow strict anti-slop rules: warm neutral off-white canvas, near-black charcoal type, zero saturated primary buttons, mono typography for technical labels, and zero generic 3-column feature cards.",
+      "instructions": [
+        "Install the taste skill via npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\".",
+        "Invoke the skill before generating any React or Tailwind components.",
+        "Run npm run lint:taste to guarantee 0 FAIL and 0 WARN compliance."
+      ],
+      "exampleOutput": "A gorgeous, bespoke editorial webpage with 75:1 contrast ratio and custom typography."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-27",
+  "seo": {
+    "title": "Stop Generic AI Websites: The Taste Skill Anti-Slop Design Guide | futureclub.tech",
+    "description": "Tired of identical purple gradients, floating cards, and AI slop? The Taste Skill frontend art direction system installs in one command and enforces award-level"
+  }
+}

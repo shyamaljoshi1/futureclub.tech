@@ -1,0 +1,37 @@
+{
+  "id": "reel-033",
+  "slug": "amd-rocm-local-ai-breakthrough",
+  "title": "AMD's Huge Breakthrough: Open Source Local AI Without Nvidia Tax",
+  "toolName": "AMD ROCm AI Hardware Acceleration",
+  "toolUrl": "https://www.amd.com/",
+  "description": "Nvidia dominated the AI hardware conversation for years, forcing developers to pay heavy GPU premiums. AMD's latest ROCm release brings native PyTorch, Ollama, and vLLM support to consumer Radeon cards at a fraction of the cost.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Open-source drivers and hardware architecture",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DZngeBbNC3h/",
+  "instagramReelId": "DZngeBbNC3h",
+  "reelThumbnail": "https://scontent-nrt1-2.cdninstagram.com/v/t51.71878-15/723144592_1028562346193250_489802741356758273_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=MzkyMDI0NDgwMTI1MjEwOTc5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=3tk8J4pxNAIQ7kNvwGIsUxU&_nc_oc=AdpBNIZZOXRdnfOFnlhtb3WBl8Zd5NwrrrvaofgSS4H9mSAbWryrynUJxke3xHNExiM-3fPhG-6wSKFuQKfK1fgB&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-nrt1-2.cdninstagram.com&_nc_gid=zgxv_OVpIVxdILUWmIVIJQ&_nc_ss=7320f&oh=00_AQR2NP4je1Hk9JVsss-o8jJRdC0oSE9UHpZNRkT7Q61Dng&oe=6AEF6A57",
+  "promptSet": [
+    {
+      "id": "pmt-033",
+      "title": "ROCm Local LLM Inference Benchmarking Script",
+      "prompt": "Write a Python benchmarking script using PyTorch with ROCm HIP backend to measure tokens-per-second throughput and VRAM allocation across batch sizes 1, 4, 8, and 16 for a 14B parameter quantized model.",
+      "instructions": [
+        "Install AMD ROCm drivers on your Linux/Windows WSL system.",
+        "Pull quantized models using Ollama or vLLM with HIP acceleration.",
+        "Benchmark inference speed and run local models completely private."
+      ],
+      "exampleOutput": "Benchmarking script reporting 42 tokens/sec on Radeon 7900 XTX with 24GB VRAM."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-02",
+  "seo": {
+    "title": "AMD's Huge Breakthrough: Open Source Local AI Without Nvidia Tax | futureclub.tech",
+    "description": "Nvidia dominated the AI hardware conversation for years, forcing developers to pay heavy GPU premiums. AMD's latest ROCm release brings native PyTorch, Ollama, "
+  }
+}

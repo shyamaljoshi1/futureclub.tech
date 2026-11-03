@@ -1,0 +1,37 @@
+{
+  "id": "reel-024",
+  "slug": "olmsted-deep-research-agent",
+  "title": "Stop Wasting Hours on Google: Olmsted Autonomous Deep Research",
+  "toolName": "Olmsted Deep Research Agent Skill",
+  "toolUrl": "https://github.com/",
+  "description": "Instead of opening 40 browser tabs and manually sifting through sponsored search results, Olmsted's Deep Research Skill autonomously queries scientific papers, cross-references sources, and writes executive briefs.",
+  "category": "research",
+  "pricing": "free",
+  "pricingDetails": "Open-source research skill for coding agents",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DZScO7TtRkC/",
+  "instagramReelId": "DZScO7TtRkC",
+  "reelThumbnail": "https://instagram.fbnu2-1.fna.fbcdn.net/v/t51.71878-15/718942102_1302242081557939_4242811311597581333_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ig_cache_key=MzkxNDMxNTE5NzE5NDc3MDY5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=PX6uDgVjqCsQ7kNvwHrgDtF&_nc_oc=AdrUb9SzI_x-EL3w_NNBimdJ77ajuyOMBuzSwuYlCb1-rMT1wSRTjvY4L8VtSAOcmvc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbnu2-1.fna&_nc_gid=55ZUWdI7VTQadPdYFEnyBg&_nc_ss=7320f&oh=00_AQQmK44qk9Ty6qDFfF5MRpl0yqw9RlBkB5Jqr8oDBTi-Cw&oe=6AEF4F96",
+  "promptSet": [
+    {
+      "id": "pmt-024",
+      "title": "Autonomous Scientific Hypothesis Synthesizer",
+      "prompt": "Conduct deep literature research on solid-state battery manufacturing breakthroughs in 2025-2026. Extract verified data on energy density (Wh/kg), cycle life, and primary commercial bottlenecks with full academic citations.",
+      "instructions": [
+        "Install the Olmsted research skill into your agent workspace.",
+        "Issue the research topic prompt in your terminal.",
+        "Review the structured analytical dossier complete with direct DOI citations."
+      ],
+      "exampleOutput": "Comprehensive 8-section research brief summarizing 14 peer-reviewed battery chemistry papers."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-11",
+  "seo": {
+    "title": "Stop Wasting Hours on Google: Olmsted Autonomous Deep Research | futureclub.tech",
+    "description": "Instead of opening 40 browser tabs and manually sifting through sponsored search results, Olmsted's Deep Research Skill autonomously queries scientific papers, "
+  }
+}

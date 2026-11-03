@@ -1,0 +1,37 @@
+{
+  "id": "reel-032",
+  "slug": "ai-detector-bypass-humanizer-skill",
+  "title": "Stop Getting Caught by AI Detectors: The Humanizer Skill Guide",
+  "toolName": "Undetectable AI Humanizer Skill",
+  "toolUrl": "",
+  "description": "AI detectors look for uniform sentence lengths, predictable vocabulary tokens, and lack of conversational rhythm. Learn the prompt constraints that introduce natural perplexity and burstiness into your drafts.",
+  "category": "ai-writing",
+  "pricing": "free",
+  "pricingDetails": "Free prompt-based skill for Claude and ChatGPT",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DZKeQZcNZIf/",
+  "instagramReelId": "DZKeQZcNZIf",
+  "reelThumbnail": "https://scontent-waw2-1.cdninstagram.com/v/t51.71878-15/716270349_2192037508217658_6174886082775198848_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkxMjA3MjI5NDU0ODQ3NjQ0NzE2OTg4OTc4NTgwMjQwMzk%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=BncmeMeHEcYQ7kNvwHGiW1S&_nc_oc=AdrPZtXunhEaB5ZDGQ_HYlXA-E4vZCWRodITHwo96-yQ6tdI95OB5hTkMqKiCrtEvhc&_nc_ad=z-m&_nc_cid=1330&_nc_zt=23&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_gid=rRzawwjpUXW3OlBLxHw5CQ&_nc_ss=7320f&oh=00_AQSUWXiO0R0Y772Nh5vHAe2EfoQG842p-rUNQARPOXAgug&oe=6AEF6853",
+  "promptSet": [
+    {
+      "id": "pmt-032",
+      "title": "Natural Cadence & Perplexity Injector",
+      "prompt": "Rewrite the following text so that it reads like natural, experienced human prose. Vary sentence lengths drastically (mix 4-word punchy sentences with complex clauses). Remove corporate filler words like \"delve\", \"testament\", \"crucial\", and \"landscape\".",
+      "instructions": [
+        "Paste your draft article or essay into Claude.",
+        "Apply this cadence and burstiness prompt modifier.",
+        "Verify with ZeroGPT or Turnitin to see the human score rise."
+      ],
+      "exampleOutput": "Lively, authentic human text with natural pacing that passes AI detection filters effortlessly."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-03",
+  "seo": {
+    "title": "Stop Getting Caught by AI Detectors: The Humanizer Skill Guide | futureclub.tech",
+    "description": "AI detectors look for uniform sentence lengths, predictable vocabulary tokens, and lack of conversational rhythm. Learn the prompt constraints that introduce na"
+  }
+}

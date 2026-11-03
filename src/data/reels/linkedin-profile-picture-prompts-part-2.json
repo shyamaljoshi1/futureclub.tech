@@ -1,0 +1,37 @@
+{
+  "id": "reel-013",
+  "slug": "linkedin-profile-picture-prompts-part-2",
+  "title": "Studio Headshot AI Prompts for LinkedIn & Professional Profiles",
+  "toolName": "LinkedIn Profile Picture Prompts Part 2",
+  "toolUrl": "https://gemini.google.com/",
+  "description": "Generate hyperrealistic, executive-tier LinkedIn headshots without a studio photographer. Detailed prompt formulas featuring balanced corporate lighting, soft depth of field, and natural skin textures.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "Free prompt templates for Gemini & Nano Banana",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DaAfo00mQtq/",
+  "instagramReelId": "DaAfo00mQtq",
+  "reelThumbnail": "https://instagram.fbne8-1.fna.fbcdn.net/v/t51.82787-15/730917401_18084189842646996_6651328315173910120_n.webp?_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=MzkyNzI3NzIzOTg5MTMyMTI0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=WrabKtvfJxUQ7kNvwFApgym&_nc_oc=AdrEVFA_7vtiPBzTjUKbcwX6Z-6xoiB-ayOALaRA0kVGAxB0oY27kG1WV1e3NMJil2A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbne8-1.fna&_nc_gid=jWpbsttoFAjr-knOBmjEYg&_nc_ss=7320f&oh=00_AQRAAMreruaiBwUL_QkIzOQLe023Z-r5FlYdu6uOu7rJSA&oe=6AEF4DAC",
+  "promptSet": [
+    {
+      "id": "pmt-013",
+      "title": "Corporate Executive LinkedIn Headshot",
+      "prompt": "Ultra-realistic corporate headshot of a professional, smiling warmly at camera, dressed in smart casual blazer. Shot on Sony A7R V with 85mm f/1.8 lens in a bright modern tech office with blurred architectural glass background. Soft natural window light, subtle warm highlights, true skin tones, high dynamic range, 4k photo.",
+      "instructions": [
+        "Open Google Gemini or Nano Banana image generator.",
+        "Paste this prompt and specify your desired attire or office vibe.",
+        "Export the generated 1:1 image and set it as your LinkedIn profile photo."
+      ],
+      "exampleOutput": "Crisp corporate headshot with flattering natural lighting and realistic office bokeh."
+    }
+  ],
+  "featured": false,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-22",
+  "seo": {
+    "title": "Studio Headshot AI Prompts for LinkedIn & Professional Profiles | futureclub.tech",
+    "description": "Generate hyperrealistic, executive-tier LinkedIn headshots without a studio photographer. Detailed prompt formulas featuring balanced corporate lighting, soft d"
+  }
+}

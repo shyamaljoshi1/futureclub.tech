@@ -1,0 +1,37 @@
+{
+  "id": "reel-051",
+  "slug": "1-3-billion-free-tokens-github-repo",
+  "title": "Get 1.3 Billion Free AI Tokens Using This Viral GitHub Repository",
+  "toolName": "1.3B Free Tokens GitHub Repo",
+  "toolUrl": "https://github.com/",
+  "description": "Running out of API tokens halts development fast. This curated GitHub repository indexes verified developer free tiers, student grants, and sponsor endpoints totaling over 1.3 billion combined free LLM tokens.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "100% Free Developer Credits & Open Endpoints",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DY93u5DNLNa/",
+  "instagramReelId": "DY93u5DNLNa",
+  "reelThumbnail": "https://scontent-ssn1-1.cdninstagram.com/v/t51.71878-15/711786996_860175253804411_2424385629876896428_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=MzkwODUyNTE2NjUzODU2ODUzODEyNjI0MTc2MjkyOTc5MDI%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=jJfDJprkbzkQ7kNvwE1HVge&_nc_oc=AdpnqhLObR-XKw-35scOKA8QZY-EurIuiQSAt7dQQBgz_DlfCdNYN-2eCuo0YJ4FzN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_gid=LzTG9B7gPmNhN0oIpVOFng&_nc_ss=7320f&oh=00_AQQz-cDy0FEcPnnJ3xb9e9pbyxeConJ7C06nehvAya9bww&oe=6AEF7159",
+  "promptSet": [
+    {
+      "id": "pmt-051",
+      "title": "Token Usage Tracking & Budget Optimizer",
+      "prompt": "Create a Python script that tracks token consumption across different model endpoints, calculates projected monthly costs, and alerts when usage approaches free-tier thresholds.",
+      "instructions": [
+        "Star and clone the free tokens repository from GitHub.",
+        "Follow the setup instructions to claim credits from eligible providers.",
+        "Integrate the endpoints into your local dev environment for cost-free testing."
+      ],
+      "exampleOutput": "Terminal dashboard tracking tokens consumed across Groq, OpenRouter, and Google AI Studio."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-14",
+  "seo": {
+    "title": "Get 1.3 Billion Free AI Tokens Using This Viral GitHub Repository | futureclub.tech",
+    "description": "Running out of API tokens halts development fast. This curated GitHub repository indexes verified developer free tiers, student grants, and sponsor endpoints to"
+  }
+}

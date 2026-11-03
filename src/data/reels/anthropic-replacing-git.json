@@ -1,0 +1,37 @@
+{
+  "id": "reel-006",
+  "slug": "anthropic-replacing-git",
+  "title": "Why Anthropic Replaced Git to Handle 30,000 Daily AI Pull Requests",
+  "toolName": "Anthropic Agentic Version Control",
+  "toolUrl": "https://anthropic.com/",
+  "description": "When Anthropic scaled their autonomous coding agents from 2,500 to 30,000 PRs per day, traditional Git choked under network spikes and storage limits. Discover the 7-engineer custom distributed storage system that replaced it.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Open technical architecture breakdown",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DfPYncppZ_p/",
+  "instagramReelId": "DfPYncppZ_p",
+  "reelThumbnail": "https://instagram.fmad23-1.fna.fbcdn.net/v/t51.82787-15/876396028_18104416034646996_803380610350088391_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMTU0MTI1NjIwNDQ5Mjc3NzE4MTA0NDE2MDMxNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl91cGxvYWRlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=XeGzqHHnyUsQ7kNvwEs2_mL&_nc_oc=AdpWaeOICSa0Cj3OChMmdbQMAnMHwpIefWVOAtGgVdRHfwRoSbi1UczDRbjxT_pXMgI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fmad23-1.fna&_nc_gid=H4R0iU3yjrEfGLbSGrQ6Gg&_nc_ss=7320f&oh=00_AQRUluDGWT-wsj45yqP8VoK1uMLtGbnHas2kovLFZG2GCg&oe=6AEF7160",
+  "promptSet": [
+    {
+      "id": "pmt-006",
+      "title": "Autonomous Multi-Agent PR Reviewer",
+      "prompt": "Act as an autonomous Git reviewer agent. Parse the following git diff, identify breaking changes, test coverage deficits, and security vulnerabilities. Format the response as a GitHub PR review markdown with clear pass/fail status.",
+      "instructions": [
+        "Provide your Git diff or pull request changes.",
+        "Run the prompt through Claude Code or your agent terminal.",
+        "Review automated line-by-line recommendations and test coverage gaps."
+      ],
+      "exampleOutput": "Markdown formatted PR review identifying 2 potential null pointer exceptions with proposed patch code."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-29",
+  "seo": {
+    "title": "Why Anthropic Replaced Git to Handle 30,000 Daily AI Pull Requests | futureclub.tech",
+    "description": "When Anthropic scaled their autonomous coding agents from 2,500 to 30,000 PRs per day, traditional Git choked under network spikes and storage limits. Discover "
+  }
+}

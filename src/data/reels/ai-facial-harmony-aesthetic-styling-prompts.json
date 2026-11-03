@@ -1,0 +1,37 @@
+{
+  "id": "reel-087",
+  "slug": "ai-facial-harmony-aesthetic-styling-prompts",
+  "title": "Upload One Photo, Get Complete AI Face Analysis & Aesthetic Styling",
+  "toolName": "AI Facial Harmony & Styling Prompts",
+  "toolUrl": "https://gemini.google.com/",
+  "description": "Upload a single portrait photo and receive an exhaustive facial harmony report: exact face shape classification, most flattering hairstyles, color season palette (warm autumn vs cool winter), and ideal glasses frame geometry.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "Free prompt templates for Gemini and Claude Vision",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DYd96bzhQeE/",
+  "instagramReelId": "DYd96bzhQeE",
+  "reelThumbnail": "https://scontent-mrs2-3.cdninstagram.com/v/t51.71878-15/702142584_1552454229788668_5396730561882931739_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzg5OTU0NTE0ODc5NDkzMTA3Njk2MjAwOTUxNjU5NTg2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=s3go5Q1oYv0Q7kNvwFb3fb_&_nc_oc=Adqc2K_k-KupFePhvkXWbCMW7f5h9utes0SsuxG6gwfUqEPuZrHAqB57YCB-GxZuyRpHY292Fbb7gti3fSGuGudg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mrs2-3.cdninstagram.com&_nc_gid=8mWMdWXdppI142xVWy0cZA&_nc_ss=7320f&oh=00_AQTMPd8G9rjvdQOr69hDUfZqMlT-6tG0Qxm2xYhKjBhhBw&oe=6AEF5F23",
+  "promptSet": [
+    {
+      "id": "pmt-087",
+      "title": "Facial Geometry & Aesthetic Color Harmony Analysis",
+      "prompt": "Analyze this portrait photo objectively. Classify face shape (oval, square, heart, diamond), determine seasonal color palette (spring/summer/autumn/winter), and recommend 3 flattering hairstyles and eyewear frame shapes.",
+      "instructions": [
+        "Take a well-lit, neutral-expression selfie looking straight at the camera.",
+        "Upload the image to Google Gemini or Claude 3.7 with this prompt.",
+        "Review your comprehensive facial analysis and personalized styling guide."
+      ],
+      "exampleOutput": "Personalized aesthetic dossier recommending rectangular matte frames and textured hairstyles."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-09",
+  "seo": {
+    "title": "Upload One Photo, Get Complete AI Face Analysis & Aesthetic Styling | futureclub.tech",
+    "description": "Upload a single portrait photo and receive an exhaustive facial harmony report: exact face shape classification, most flattering hairstyles, color season palett"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-071",
+  "slug": "ai-solutions-architect-tech-stack-roadmap",
+  "title": "From Junior Coder to AI Solutions Architect: The Complete Tech Roadmap",
+  "toolName": "AI Solutions Architect Roadmap",
+  "toolUrl": "https://roadmap.sh/",
+  "description": "One ordinary developer armed with modern agentic tools and architectural skills can deliver the output of an entire solutions team. Follow this clear roadmap covering vector databases, orchestration, and evaluation.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free developer roadmap guide",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DXTCb-2gdRD/",
+  "instagramReelId": "DXTCb-2gdRD",
+  "reelThumbnail": "https://instagram.fcia5-1.fna.fbcdn.net/v/t51.82787-15/671759445_18074865446646996_3295430494942112852_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=Mzg3ODQ1NDQyMzEwMTQ5NDMzOTE4MDc0ODY1NDQwNjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Z4SV_hGBI1UQ7kNvwGxS-xq&_nc_oc=AdoWteInJaRR41HyzkY_ouCwemUleSE4cPp6FE3vvfcN3MsAh6mnZ5zo4htd8qk_JNo&_nc_ad=z-m&_nc_cid=1028&_nc_zt=23&_nc_ht=instagram.fcia5-1.fna&_nc_gid=uLcxwWxQKofnk2U_G9BFzg&_nc_ss=7320f&oh=00_AQT4b2dO65qomF5HdsfNp54RgQQ5xxUpjw9cZIF0ydc3-w&oe=6AEF5059",
+  "promptSet": [
+    {
+      "id": "pmt-071",
+      "title": "AI Enterprise Architecture Specification Document",
+      "prompt": "Draft an architectural design document for an AI knowledge retrieval platform. Include data ingestion pipeline, chunking and embedding service, vector store selection criteria, LLM gateway, and monitoring telemetry.",
+      "instructions": [
+        "Follow the step-by-step roadmap milestones.",
+        "Build 3 capstone projects: a hybrid RAG engine, an MCP agent, and an automated evaluator.",
+        "Showcase your architectural design docs publicly to attract senior roles."
+      ],
+      "exampleOutput": "Comprehensive architecture design document with system diagrams and component interfaces."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-25",
+  "seo": {
+    "title": "From Junior Coder to AI Solutions Architect: The Complete Tech Roadmap | futureclub.tech",
+    "description": "One ordinary developer armed with modern agentic tools and architectural skills can deliver the output of an entire solutions team. Follow this clear roadmap co"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-034",
+  "slug": "claude-fable-5-frontier-reasoning",
+  "title": "Claude Fable 5 Deep Dive: Breakthrough SWE-bench Performance",
+  "toolName": "Claude Fable 5 Frontier Reasoning",
+  "toolUrl": "https://claude.ai/",
+  "description": "Explore the full capabilities of Claude Fable 5: handling 100,000+ line codebases, reasoning through distributed systems bugs, and writing rigorous unit tests without getting sidetracked by complex requirements.",
+  "category": "coding",
+  "pricing": "freemium",
+  "pricingDetails": "Free tier on Claude.ai, pro tier for unlimited daily turns",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DZfJx0HNpW8/",
+  "instagramReelId": "DZfJx0HNpW8",
+  "reelThumbnail": "https://instagram.fktw4-1.fna.fbcdn.net/v/t51.82787-15/722961643_18082294928646996_1478681532846140997_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ig_cache_key=MzkxNzg5MzIwNjQ2NDE3MzUwMDE4MDgyMjk0OTI1NjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=hx0vLLPiAxwQ7kNvwFRXElv&_nc_oc=AdraaBrqSqGGiO5-Pbtz50nxaPuQysWmJDXchY9uU77QWnmWmvAqN7eN64iPPDGCEgk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fktw4-1.fna&_nc_gid=mMNOz2g_o6NVCLLlqXK52w&_nc_ss=7320f&oh=00_AQScaiSafok-fA5RRQwOFIZc7itfWF67gqVvAPN2AoEm_A&oe=6AEF43A1",
+  "promptSet": [
+    {
+      "id": "pmt-034",
+      "title": "Complex Distributed Concurrency Bug Fixer",
+      "prompt": "Analyze this distributed microservices trace log. Locate the root cause of the intermittent HTTP 504 gateway timeout, determine if connection pooling or database locks are responsible, and provide the exact patch.",
+      "instructions": [
+        "Upload the relevant microservice log trace to Claude Fable 5.",
+        "Ask the model to isolate race conditions and connection exhaustion.",
+        "Apply the recommended database connection pool configuration patch."
+      ],
+      "exampleOutput": "Detailed diagnostic tracing identifying connection starvation in Prisma connection pool with fix."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-01",
+  "seo": {
+    "title": "Claude Fable 5 Deep Dive: Breakthrough SWE-bench Performance | futureclub.tech",
+    "description": "Explore the full capabilities of Claude Fable 5: handling 100,000+ line codebases, reasoning through distributed systems bugs, and writing rigorous unit tests w"
+  }
+}

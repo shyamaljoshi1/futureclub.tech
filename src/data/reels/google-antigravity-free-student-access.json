@@ -1,0 +1,37 @@
+{
+  "id": "reel-009",
+  "slug": "google-antigravity-free-student-access",
+  "title": "Students Get Free Google Antigravity & Gemini 4 Argon Access",
+  "toolName": "Google Antigravity Student Suite",
+  "toolUrl": "https://antigravity.google/",
+  "description": "Google is opening the doors to its state-of-the-art Antigravity AI agent platform with free access for students. Unlock Gemini 4 Argon, multi-agent workflows, browser automation, and terminal dev tools without paying a cent.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free for verified students & educational emails",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DfMrhW-ovaz/",
+  "instagramReelId": "DfMrhW-ovaz",
+  "reelThumbnail": "https://scontent-muc2-1.cdninstagram.com/v/t51.71878-15/872997693_1005703991791706_5820118399423589015_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=NDAyMDc3OTk3NTc1MDkwNzU3MTE2NDM4MzkyOTQwNDI1NDg%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=9JuzNzB0UwAQ7kNvwFpdV_T&_nc_oc=AdqzOOhYD-6o6zmVK3WhGi5tb0pz3Cz4a2xbwFkziYc9GFF25PEl2CQnO_1lIpE4_Is&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-muc2-1.cdninstagram.com&_nc_gid=NrQYxPjgjmQeD-loCexBEg&_nc_ss=7320f&oh=00_AQTBtsdl7Hd0hVx-spwCVkQXgnrwklg4ekEXE-C4yxfgsA&oe=6AEF41AD",
+  "promptSet": [
+    {
+      "id": "pmt-009",
+      "title": "Google Antigravity CLI Autonomous Task Runner",
+      "prompt": "Configure an Antigravity agent workflow to clone a GitHub repo, inspect the project structure, locate all outdated dependencies in package.json, run security audits, and generate an update checklist.",
+      "instructions": [
+        "Verify your student email address on the Google educational portal.",
+        "Install the Antigravity CLI on your machine.",
+        "Connect Gemini 4 Argon and run automated workflows directly in your terminal."
+      ],
+      "exampleOutput": "Terminal execution log showing automated dependency audit and generated upgrade report."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-26",
+  "seo": {
+    "title": "Students Get Free Google Antigravity & Gemini 4 Argon Access | futureclub.tech",
+    "description": "Google is opening the doors to its state-of-the-art Antigravity AI agent platform with free access for students. Unlock Gemini 4 Argon, multi-agent workflows, b"
+  }
+}

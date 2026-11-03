@@ -1,0 +1,37 @@
+{
+  "id": "reel-017",
+  "slug": "ghatak-extension-veo-3-watermark-remover",
+  "title": "Remove Gemini & Veo 3 Video Watermarks Instantly for Free",
+  "toolName": "Ghatak Extension: Veo 3 Watermark Cleaner",
+  "toolUrl": "",
+  "description": "Remove annoying corner watermarks from Google Gemini and Veo 3 generated video clips with 0% editing skills. Essential for video editors, social media managers, and digital creators producing clean content.",
+  "category": "design",
+  "pricing": "free",
+  "pricingDetails": "Free browser extension",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DaxxGViyw2y/",
+  "instagramReelId": "DaxxGViyw2y",
+  "reelThumbnail": "https://scontent-icn2-1.cdninstagram.com/v/t51.71878-15/747334844_1643884346696228_8041939111152975931_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzk0MTE0NzA4ODY1NDExMDEzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=coYpShHAGXEQ7kNvwGqoWYR&_nc_oc=AdoDhifk2zLpgcYPmxyzsWLmNy-rJiK4vq4I11ZzZWUMFa66CCvl06m7OncSJWeS5Wsah_Qj0-lY71EWa3oCtV_T&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-icn2-1.cdninstagram.com&_nc_gid=g1d6RZ4NC5uCCItAG2MTHQ&_nc_ss=7320f&oh=00_AQQ1g62QVDPn9NSNUpWti7vN6otSWjsnzjqI2pWCPoq0WA&oe=6AEF7029",
+  "promptSet": [
+    {
+      "id": "pmt-017",
+      "title": "Clean Video Frame Processing Guidelines",
+      "prompt": "Provide the optimal aspect ratio, bitrate, and frame interpolation settings for exporting AI generated video clips without compression artifacts or blurred borders.",
+      "instructions": [
+        "Install the lightweight Ghatak browser extension.",
+        "Open your generated Veo 3 or Gemini media preview.",
+        "Click the Ghatak icon to download the pristine, watermark-free MP4 file directly."
+      ],
+      "exampleOutput": "Clean full-resolution video file without corner branding ready for final edit."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-18",
+  "seo": {
+    "title": "Remove Gemini & Veo 3 Video Watermarks Instantly for Free | futureclub.tech",
+    "description": "Remove annoying corner watermarks from Google Gemini and Veo 3 generated video clips with 0% editing skills. Essential for video editors, social media managers,"
+  }
+}

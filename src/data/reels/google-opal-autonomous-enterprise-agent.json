@@ -1,0 +1,37 @@
+{
+  "id": "reel-085",
+  "slug": "google-opal-autonomous-enterprise-agent",
+  "title": "Google Drops Opal: The Multi-Agent Workflow Engine That Changes Everything",
+  "toolName": "Google Opal Enterprise Automation",
+  "toolUrl": "https://opal.google/",
+  "description": "The automation world is undergoing a seismic shift. Google Opal connects your spreadsheets, internal databases, Slack channels, and customer support desks into collaborative, autonomous multi-agent workflows.",
+  "category": "automation",
+  "pricing": "freemium",
+  "pricingDetails": "Free developer preview via Google Cloud",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DW1YeLHjeNq/",
+  "instagramReelId": "DW1YeLHjeNq",
+  "reelThumbnail": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-15/660470963_18073462079646996_8995375500710708798_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzg3MDEwNzA4MTQzMzI3NzI5MDE4MDczNDYyMDc2NjQ2OTk2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=aJp_rJC3RecQ7kNvwG9Cu03&_nc_oc=AdoKAYIWDjPmcSh28Z_TR1Yh0F-RRugiWPFMvuo35szVPMH71-tH3zAw4ciKOBJWr34&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_gid=Fd0m4p3E4_ngyUyIO2QtYw&_nc_ss=7320f&oh=00_AQQK9QpwNhUn_2rfv107L2FbrBiQSR4CGSvesr0PK5t8IQ&oe=6AEF7553",
+  "promptSet": [
+    {
+      "id": "pmt-085",
+      "title": "Google Opal Enterprise Agent Flow Designer",
+      "prompt": "Design a Google Opal multi-agent workflow for an e-commerce refund request. Specify the triage agent, fraud verification agent, database lookup agent, and final customer email generation step.",
+      "instructions": [
+        "Access Google Opal on the Google Cloud developer console.",
+        "Connect your workspace data sources (Sheets, BigQuery, Gmail).",
+        "Deploy autonomous agents with human-in-the-loop approval thresholds."
+      ],
+      "exampleOutput": "Visual workflow schema defining 4 specialized agents collaborating on customer operations."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-11",
+  "seo": {
+    "title": "Google Drops Opal: The Multi-Agent Workflow Engine That Changes Everything | futureclub.tech",
+    "description": "The automation world is undergoing a seismic shift. Google Opal connects your spreadsheets, internal databases, Slack channels, and customer support desks into "
+  }
+}

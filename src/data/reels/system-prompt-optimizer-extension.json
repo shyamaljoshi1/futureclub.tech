@@ -1,0 +1,37 @@
+{
+  "id": "reel-048",
+  "slug": "system-prompt-optimizer-extension",
+  "title": "The Secret to God-Tier AI Results: The Prompt Optimizer Extension",
+  "toolName": "System Prompt Optimizer Extension",
+  "toolUrl": "",
+  "description": "The secret to god-tier AI results isn't typing longer essays—it's structuring instructions with system constraints. This extension injects few-shot examples, chain-of-thought instructions, and schema rules automatically.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "Free productivity tool",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DYTdTgjhOrq/",
+  "instagramReelId": "DYTdTgjhOrq",
+  "reelThumbnail": "https://scontent-ams2-1.cdninstagram.com/v/t51.71878-15/689521356_1868783930452878_3353780784618592552_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzg5NjU4Njk4NjU4MDE0MjgyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=CoCn7nffRMEQ7kNvwGCd0pa&_nc_oc=AdolAj6v0YjELpbc_kPk44oBs6pUotTkCkZgBbAXqrRr2XRbTm9Wl5oNiTqhB493qLA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_gid=YxuCGF9Z6ol--Jvt8FeOwg&_nc_ss=7320f&oh=00_AQSSy4Fjc3skl5_ZTiGvpgX3JcwpzGHi_plX3rfN9YkdiA&oe=6AEF4B89",
+  "promptSet": [
+    {
+      "id": "pmt-048",
+      "title": "Meta-Prompt Architect: Turn Any Idea into an Elite Prompt",
+      "prompt": "Act as an expert prompt engineer. Take the following objective: \"[INSERT GOAL]\". Write an optimized prompt containing Role, Task, Input Data Schema, Operational Constraints, and Output Format specification.",
+      "instructions": [
+        "Enter your raw idea or task into the extension.",
+        "Click Optimize to generate a structured system prompt.",
+        "Paste into your model for dramatically higher reasoning accuracy."
+      ],
+      "exampleOutput": "A multi-section prompt framework guaranteeing strict JSON output and step-by-step reasoning."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-17",
+  "seo": {
+    "title": "The Secret to God-Tier AI Results: The Prompt Optimizer Extension | futureclub.tech",
+    "description": "The secret to god-tier AI results isn't typing longer essays—it's structuring instructions with system constraints. This extension injects few-shot examples, ch"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-066",
+  "slug": "ai-viva-technical-exam-simulator",
+  "title": "Ace Your College Viva & Technical Interviews with This AI Simulator",
+  "toolName": "AI Viva & Technical Exam Coach",
+  "toolUrl": "https://aistudio.google.com/",
+  "description": "Nervous about your college viva or technical hiring interview? This prompt configures an AI examiner that grills you with probing follow-up questions, tests edge cases, and grades your answers objectively.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free prompt setup on Google AI Studio or Claude",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DXMWG09DaXm/",
+  "instagramReelId": "DXMWG09DaXm",
+  "reelThumbnail": "https://scontent-fco2-1.cdninstagram.com/v/t51.82787-15/670996380_18074516009646996_7607363847878344416_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzg3NjU3MDYwNTQ1ODEzODU5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=HobGq2R29U8Q7kNvwFH_n5P&_nc_oc=AdpnX7jlACHl3oqgztmSe8COUQDM_l-vNYHvZdMFgs1fGdCAed6DEZxIWGb6suHyrGc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-fco2-1.cdninstagram.com&_nc_gid=JjMwJBmvVRkiGgh7xs_GDw&_nc_ss=7320f&oh=00_AQSdEqLwVbNXbtE22gmglgIjh6UVwWOLRbGTNXjuhZf_xA&oe=6AEF3F94",
+  "promptSet": [
+    {
+      "id": "pmt-066",
+      "title": "Strict Engineering Professor Viva Simulator",
+      "prompt": "Act as a strict, knowledgeable computer science professor conducting an oral viva exam on Operating Systems (process scheduling, virtual memory, deadlocks). Ask me one challenging question at a time. Evaluate my answer honestly and follow up.",
+      "instructions": [
+        "Select your subject (Operating Systems, DBMS, System Design).",
+        "Start the viva simulation and answer each question in your own words.",
+        "Receive constructive critiques and targeted areas for improvement."
+      ],
+      "exampleOutput": "Rigorous oral exam simulation that tests your actual conceptual understanding under pressure."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-08-30",
+  "seo": {
+    "title": "Ace Your College Viva & Technical Interviews with This AI Simulator | futureclub.tech",
+    "description": "Nervous about your college viva or technical hiring interview? This prompt configures an AI examiner that grills you with probing follow-up questions, tests edg"
+  }
+}

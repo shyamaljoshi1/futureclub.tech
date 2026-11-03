@@ -1,0 +1,37 @@
+{
+  "id": "reel-043",
+  "slug": "gemini-editorial-profile-picture-prompts",
+  "title": "Generate Professional Executive Headshots with Google Gemini",
+  "toolName": "Gemini Editorial Profile Prompts",
+  "toolUrl": "https://gemini.google.com/",
+  "description": "Your profile picture does more than fill a circle—it establishes authority and approachability. Master these refined prompt templates for Google Gemini to render natural, studio-lit headshots.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "Free prompt templates",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DZAMMZpjVnJ/",
+  "instagramReelId": "DZAMMZpjVnJ",
+  "reelThumbnail": "https://scontent-atl3-2.cdninstagram.com/v/t51.82787-15/711906145_18080630741646996_9110869725369948236_n.webp?_nc_cat=105&ig_cache_key=MzkwOTE3NzMzNDk0MTg3NTIxMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4RPUVEKpimUQ7kNvwFpgo8U&_nc_oc=AdqTxoE3P6RiFk6u5h_1JVd8eKw8SDaASbQL8q7W_c4D-Jm9lCnF5HcTXC1TbHoGHAM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-atl3-2.cdninstagram.com&_nc_gid=DP9n9HxnX7MRkoqqTon56g&_nc_ss=7320f&oh=00_AQQju6C0-3xI-M7W7pChpCZTHONELqaEtxwd5l-6Bk4pjA&oe=6AEF7679",
+  "promptSet": [
+    {
+      "id": "pmt-043",
+      "title": "Natural Outdoor Bokeh Professional Portrait",
+      "prompt": "Editorial portrait of a young professional in a navy blue casual sweater, standing outdoors in front of modern architecture with lush green foliage. Golden hour backlight, beautiful round optical bokeh, 85mm f/1.4 lens, natural skin tones, relaxed smile.",
+      "instructions": [
+        "Open Gemini in your browser.",
+        "Paste the prompt and specify your desired background ambiance.",
+        "Download and set as your official profile picture."
+      ],
+      "exampleOutput": "Warm, golden-hour outdoor portrait with gorgeous circular bokeh and natural highlights."
+    }
+  ],
+  "featured": true,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-22",
+  "seo": {
+    "title": "Generate Professional Executive Headshots with Google Gemini | futureclub.tech",
+    "description": "Your profile picture does more than fill a circle—it establishes authority and approachability. Master these refined prompt templates for Google Gemini to rende"
+  }
+}

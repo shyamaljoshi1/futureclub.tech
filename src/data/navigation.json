@@ -1,0 +1,33 @@
+{
+  "primary": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "AI Tools",
+      "href": "/tools"
+    },
+    {
+      "label": "Prompts",
+      "href": "/prompts"
+    },
+    {
+      "label": "Collections",
+      "href": "/collections"
+    },
+    {
+      "label": "Resources",
+      "href": "/resources"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    }
+  ],
+  "cta": {
+    "label": "@thefutureguyy.ai",
+    "href": "https://www.instagram.com/thefutureguyy.ai/",
+    "isExternal": true
+  }
+}

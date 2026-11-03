@@ -1,0 +1,37 @@
+{
+  "id": "reel-027",
+  "slug": "claude-terminal-coding-skills",
+  "title": "Supercharge Your CLI: Essential Developer Skills for Claude Code",
+  "toolName": "Claude Terminal Coding Skills Suite",
+  "toolUrl": "https://claude.ai/",
+  "description": "Move beyond basic web browser chat windows. Integrate custom slash commands, git hooks, and automatic linter verification into Claude Code so the agent can autonomously diagnose failing tests and file PRs.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "Free open source CLI configurations",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DZaL3gGt5PP/",
+  "instagramReelId": "DZaL3gGt5PP",
+  "reelThumbnail": "https://scontent-man2-1.cdninstagram.com/v/t51.71878-15/720200237_1335133702122158_7651086824352283534_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&ig_cache_key=MzkxNjQ5NTAxODUwNzM0Mjc5OTQ0Njc4MjU5NTAwOTk0Njg%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=jXmFySt-hTQQ7kNvwErrhE0&_nc_oc=AdqaoGAYopebHpeSR0VWMaUfOeKADYXeDFX3LFwDyrxBaUt2LUNLXRHpGu1iFtV8Zjs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-man2-1.cdninstagram.com&_nc_gid=_F99N0-7qitWKfZN8TWQJw&_nc_ss=7320f&oh=00_AQS1iZ6isxDzFpCsfV_Q61QRC3EIFLLNtaoxGuApS5Hcbw&oe=6AEF3FDF",
+  "promptSet": [
+    {
+      "id": "pmt-027",
+      "title": "Automated Git Commit & Changelog Generator",
+      "prompt": "Analyze git diff HEAD~1. Categorize all modifications according to Conventional Commits (feat, fix, refactor, chore). Generate a concise semantic commit message and an updated release notes entry.",
+      "instructions": [
+        "Install the Claude Code CLI utility in your local terminal.",
+        "Add this prompt to your custom skills directory.",
+        "Trigger automated commit analysis before pushing branch updates."
+      ],
+      "exampleOutput": "feat(auth): implement PKCE authorization flow with refresh token rotation"
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-08",
+  "seo": {
+    "title": "Supercharge Your CLI: Essential Developer Skills for Claude Code | futureclub.tech",
+    "description": "Move beyond basic web browser chat windows. Integrate custom slash commands, git hooks, and automatic linter verification into Claude Code so the agent can auto"
+  }
+}

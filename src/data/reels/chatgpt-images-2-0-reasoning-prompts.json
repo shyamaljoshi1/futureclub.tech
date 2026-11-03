@@ -1,0 +1,37 @@
+{
+  "id": "reel-063",
+  "slug": "chatgpt-images-2-0-reasoning-prompts",
+  "title": "ChatGPT Images 2.0: Multi-Step Reasoning Before Pixels are Rendered",
+  "toolName": "ChatGPT Images 2.0 Reasoning",
+  "toolUrl": "https://chatgpt.com/",
+  "description": "OpenAI's ChatGPT Images 2.0 doesn't just map text to pixels—it thinks first. It plans lighting, perspective, and typography before rendering, enabling perfect text rendering on signs and intricate spatial compositions.",
+  "category": "image-generation",
+  "pricing": "freemium",
+  "pricingDetails": "Available on ChatGPT Plus and Team accounts",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DXeVPncj7s6/",
+  "instagramReelId": "DXeVPncj7s6",
+  "reelThumbnail": "https://instagram.fvlc7-1.fna.fbcdn.net/v/t51.82787-15/673141677_18075450911646996_4935864384119027773_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=Mzg4MTYzMzM2MDk2Mzk0MzIyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Ze8xOBWttYwQ7kNvwFSfhdb&_nc_oc=AdpX5k3hs1s9DUY9cL4mzv-WDwEHp7eunVRONGH-8nLSkhPARV6NlBOyJxsEMgXQRug&_nc_ad=z-m&_nc_cid=3033&_nc_zt=23&_nc_ht=instagram.fvlc7-1.fna&_nc_gid=pNopOtKkEM9p5EtB82jDQA&_nc_ss=7320f&oh=00_AQRcrzQprbdPblB9as2mH8XYx13Em_J7V8MunY-o26B4yA&oe=6AEF445D",
+  "promptSet": [
+    {
+      "id": "pmt-063",
+      "title": "Flawless Typography & Composition Visual Prompt",
+      "prompt": "High-end coffee shop storefront in Tokyo at dusk. Beautiful wooden signage with the exact text \"THE FUTURE GUY\" carved in gold leaf letters. Warm glowing interior lights, barista visible through clear window, rainy pavement reflection, 8k photo.",
+      "instructions": [
+        "Open ChatGPT and choose the newest image generation pipeline.",
+        "Specify exact text strings within quotes for accurate sign rendering.",
+        "Enjoy crisp, legible typography on packaging, signs, and apparel."
+      ],
+      "exampleOutput": "Photorealistic Tokyo coffee shop with perfectly rendered, sharp gold lettering on the sign."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-09-02",
+  "seo": {
+    "title": "ChatGPT Images 2.0: Multi-Step Reasoning Before Pixels are Rendered | futureclub.tech",
+    "description": "OpenAI's ChatGPT Images 2.0 doesn't just map text to pixels—it thinks first. It plans lighting, perspective, and typography before rendering, enabling perfect t"
+  }
+}

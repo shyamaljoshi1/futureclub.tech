@@ -1,0 +1,37 @@
+{
+  "id": "reel-007",
+  "slug": "open-source-ai-tools-directory",
+  "title": "Zero-Budget AI: Free Open Source Replacements for Paid Subscriptions",
+  "toolName": "Free Open Source AI Alternatives",
+  "toolUrl": "",
+  "description": "Cut monthly AI subscription bills without sacrificing quality. Discover vetted, self-hostable and free cloud open-source tools for AI image generation, vector search, code completion, and voice synthesis.",
+  "category": "productivity",
+  "pricing": "free",
+  "pricingDetails": "100% Free & Open Source",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DfHipA4PH0S/",
+  "instagramReelId": "DfHipA4PH0S",
+  "reelThumbnail": "https://instagram.fbcn14-1.fna.fbcdn.net/v/t15.5256-10/881720505_29769284972663905_7259387798624722278_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ig_cache_key=NDAxOTMzMzU0NDQ3NDg2OTAxMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZmlyc3RfZnJhbWVfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=pQ7ul95xaCoQ7kNvwFhD3iR&_nc_oc=AdpYyjJcoQDhc275CvcJfxV4eRN6qZvp9HJMmF0IB1jfZPyuUIQxWrpmfvMiUOrGR-o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fbcn14-1.fna&_nc_gid=w5hGT4mnaZ8N8FPuBIe0BA&_nc_ss=7320f&oh=00_AQShzHCH2RZQNI42_r3bHgCJo347wkULzs_3hc186uVIlw&oe=6AEF5ACA",
+  "promptSet": [
+    {
+      "id": "pmt-007",
+      "title": "Subscription Cost Audit & Open-Source Finder",
+      "prompt": "I currently spend money on Midjourney, Grammarly, and GitHub Copilot. List the top open-source, locally runnable or free hosted alternatives for each, including hardware requirements and setup links.",
+      "instructions": [
+        "List the paid AI services you currently use.",
+        "Input the prompt to get vetted FOSS alternatives with zero license fees.",
+        "Install the recommended open-source models using Ollama or HuggingFace."
+      ],
+      "exampleOutput": "Comprehensive table comparing FLUX.1 Schell, Llama 3.3, and Continue.dev against paid equivalents."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-10-28",
+  "seo": {
+    "title": "Zero-Budget AI: Free Open Source Replacements for Paid Subscriptions | futureclub.tech",
+    "description": "Cut monthly AI subscription bills without sacrificing quality. Discover vetted, self-hostable and free cloud open-source tools for AI image generation, vector s"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "reel-016",
+  "slug": "gemini-nano-banana-viral-visuals",
+  "title": "Create High-Aesthetic Viral Instagram Visuals with Gemini & Nano Banana",
+  "toolName": "Gemini × Nano Banana Viral Visuals",
+  "toolUrl": "https://gemini.google.com/",
+  "description": "Generate jaw-dropping lifestyle, travel, and editorial visuals that look straight out of Vogue or National Geographic. Master the exact prompt recipes that give your Instagram feed a premium, cohesive aesthetic.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "Free generative pipeline",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DaR4MTmmbT0/",
+  "instagramReelId": "DaR4MTmmbT0",
+  "reelThumbnail": "https://scontent-mxp2-1.cdninstagram.com/v/t51.82787-15/730173293_18085265705646996_1965009257106783195_n.webp?_nc_cat=111&ig_cache_key=MzkzMjE3MDQ3NTcxMDcyNTk3Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ayO5HFnJI7MQ7kNvwHbhxlE&_nc_oc=AdoUEac5Sb2z5IWXpnu41xxWlLW7Y5VzBiVrVALcwV12o30F1NQhLzmpNSTyYyigDQ4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-mxp2-1.cdninstagram.com&_nc_gid=rHJs7Wreyq4aOsNFMVVWtw&_nc_ss=7320f&oh=00_AQTJIM9rJtJZOgIGBrdklDnJXzgMMhPSMwgt24ozmnK8Ww&oe=6AEF5371",
+  "promptSet": [
+    {
+      "id": "pmt-016",
+      "title": "Cinematic Lifestyle Aesthetic Generator",
+      "prompt": "Cinematic wide-angle photo of a young creator working on a sleek laptop on a sunlit balcony overlooking Amalfi coast at golden hour. 35mm film photography, Kodak Portra 400 aesthetic, soft warm glow, natural shadows, effortless elegance, 8k resolution.",
+      "instructions": [
+        "Open Gemini with Nano Banana image processing.",
+        "Copy the prompt and substitute the location or subject to match your niche.",
+        "Download and publish high-engagement carousel posts."
+      ],
+      "exampleOutput": "Stunning Amalfi golden hour image with authentic 35mm film grain and luminous tones."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-19",
+  "seo": {
+    "title": "Create High-Aesthetic Viral Instagram Visuals with Gemini & Nano Banana | futureclub.tech",
+    "description": "Generate jaw-dropping lifestyle, travel, and editorial visuals that look straight out of Vogue or National Geographic. Master the exact prompt recipes that give"
+  }
+}

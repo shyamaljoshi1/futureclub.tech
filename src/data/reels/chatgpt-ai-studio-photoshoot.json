@@ -1,0 +1,37 @@
+{
+  "id": "reel-001",
+  "slug": "chatgpt-ai-studio-photoshoot",
+  "title": "Editorial Portrait & Studio Photoshoot Prompts for ChatGPT",
+  "toolName": "ChatGPT AI Studio Photoshoot",
+  "toolUrl": "https://chatgpt.com/",
+  "description": "Transform everyday mobile photos into studio-grade editorial portraits using ChatGPT image generation. Master realistic lighting formulas, film textures, and natural poses without high-end camera gear.",
+  "category": "image-generation",
+  "pricing": "freemium",
+  "pricingDetails": "Free tier with daily GPT-4o image generation",
+  "postType": "carousel",
+  "contentType": "prompt",
+  "instagramReelUrl": "https://www.instagram.com/p/DfMTJ59GaT1/",
+  "instagramReelId": "DfMTJ59GaT1",
+  "reelThumbnail": "https://instagram.fsyd12-1.fna.fbcdn.net/v/t51.82787-15/878354007_18104215313646996_7368272635428592613_n.webp?_nc_cat=108&_nc_map=urlgen_bucketless&ig_cache_key=NDAyMDY2OTg5MzY5ODgyODMwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=684zuo8tnqgQ7kNvwFIv1oo&_nc_oc=Adog2eTIZ3SLOvL4lhhhJxtAVplQhrK4MKd6OqhVF-eTG5KAf0QPValuP4yyXPxXUY8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fsyd12-1.fna&_nc_gid=pwFQ2XpsGWPEdDebhcECWw&_nc_ss=7320f&oh=00_AQTNm7HPg-2N2B9OkTtyoqvYBkckoTirKJX4EA9PCohheQ&oe=6AEF7476",
+  "promptSet": [
+    {
+      "id": "pmt-001",
+      "title": "Editorial Studio Portrait Generator",
+      "prompt": "Hyperrealistic editorial fashion portrait of a subject, shot on Hasselblad H6D-100c with 85mm f/1.4 lens. Soft diffused Profoto studio lighting from a 45-degree angle, subtle rim lighting, natural skin texture with visible pores, elegant neutral studio backdrop, cinematic depth of field, 8k resolution, raw photo aesthetic.",
+      "instructions": [
+        "Open ChatGPT and select the latest GPT-4o / Images model.",
+        "Upload a clear reference photo of your subject or describe the subject in detail.",
+        "Paste this prompt, adjust the lighting preference or wardrobe, and generate your high-res portrait."
+      ],
+      "exampleOutput": "A clean, high-fashion portrait with soft Rembrandt lighting, natural catchlights in the eyes, and lifelike skin tones."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-03",
+  "seo": {
+    "title": "Editorial Portrait & Studio Photoshoot Prompts for ChatGPT | futureclub.tech",
+    "description": "Transform everyday mobile photos into studio-grade editorial portraits using ChatGPT image generation. Master realistic lighting formulas, film textures, and na"
+  }
+}

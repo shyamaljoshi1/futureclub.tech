@@ -1,0 +1,37 @@
+{
+  "id": "reel-020",
+  "slug": "ai-development-automation-workflows",
+  "title": "The Real Tooling Stack Behind High-Output AI Creators and Developers",
+  "toolName": "Behind-the-Scenes AI Automation Workflows",
+  "toolUrl": "",
+  "description": "Most people only see the finished viral video or polished software release. Look behind the curtain at the exact terminal scripts, webhook triggers, and automated prompt pipelines powering modern AI content creation.",
+  "category": "automation",
+  "pricing": "free",
+  "pricingDetails": "Free workflow architecture",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DaK3V4dhhnn/",
+  "instagramReelId": "DaK3V4dhhnn",
+  "reelThumbnail": "https://scontent-msp1-1.cdninstagram.com/v/t51.71878-15/729674398_959246303830650_2793178603138415811_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzkzMDE5NzAyMTEyNjE3MTExMTEwMTQ0OTI3MTc5ODI5MzU%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=TUc-kTkwZZUQ7kNvwEVLb78&_nc_oc=AdpfIsPsqzecFIfYnXkkhkr0u_c2rf8xRUDZBmucq80JgxKSrs5WVmoW4aeS-D-qVvA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-msp1-1.cdninstagram.com&_nc_gid=i2I0zpYZ72pI24Uo70Zc7g&_nc_ss=7320f&oh=00_AQQAVx_XHmgMSukJEQnFleROo0LsnEwhtpG6LpBcbHUa1w&oe=6AEF6027",
+  "promptSet": [
+    {
+      "id": "pmt-020",
+      "title": "End-to-End Content & Automation Pipeline",
+      "prompt": "Map out an automated content pipeline using n8n and AI APIs. Detail the webhook triggers from YouTube/Instagram, the LLM summarization step, and the automated drafting into Notion and Slack.",
+      "instructions": [
+        "Identify the manual data entry tasks in your weekly routine.",
+        "Use this prompt to generate an n8n or Make.com orchestration diagram.",
+        "Deploy the webhook endpoints to automate data flows."
+      ],
+      "exampleOutput": "Complete JSON export for an n8n automated workflow connecting social inputs to a Notion database."
+    }
+  ],
+  "featured": false,
+  "trending": false,
+  "status": "published",
+  "publishedAt": "2026-10-15",
+  "seo": {
+    "title": "The Real Tooling Stack Behind High-Output AI Creators and Developers | futureclub.tech",
+    "description": "Most people only see the finished viral video or polished software release. Look behind the curtain at the exact terminal scripts, webhook triggers, and automat"
+  }
+}
