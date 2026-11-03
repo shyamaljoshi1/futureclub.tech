@@ -157,10 +157,10 @@ export const ToolDetailPage: React.FC = () => {
 
           <div>
             <span className="text-[#888d99] dark:text-[#636773] block mb-1">
-              Prompts Included
+              Category
             </span>
-            <span className="font-medium text-[#111215] dark:text-[#f4f4f5]">
-              {tool.promptSet.length} Ready prompt(s)
+            <span className="font-medium text-[#111215] dark:text-[#f4f4f5] capitalize">
+              {tool.category.replace('-', ' ')}
             </span>
           </div>
 
@@ -203,75 +203,109 @@ export const ToolDetailPage: React.FC = () => {
           />
         </div>
 
-        {/* Right Column: Prompt Set Used in the Reel */}
+        {/* Right Column: Content / Description Used in the Reel */}
         <div className="lg:col-span-7 space-y-6">
           <div className="flex items-center space-x-2">
             <FileText className="w-5 h-5 text-[#1e3a8a] dark:text-[#3b82f6]" />
             <h2 className="text-xl font-bold text-[#111215] dark:text-[#f4f4f5]">
-              Prompts Featured in this Reel
+              Description
             </h2>
           </div>
 
-          {tool.promptSet.map((p, idx) => (
+          {tool.promptSet && tool.promptSet.length > 0 ? (
+            tool.promptSet.map((p, idx) => {
+              const textContent = p.description || p.prompt || '';
+              return (
+                <div
+                  key={p.id || idx}
+                  data-ui="prompt-box"
+                  className="p-6 rounded-lg bg-[#ffffff] dark:bg-[#141619] space-y-4"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <h3 className="text-base font-semibold text-[#111215] dark:text-[#f4f4f5]">
+                      {p.title || (tool.promptSet.length > 1 ? `Description ${idx + 1}` : 'Description')}
+                    </h3>
+                    {textContent && (
+                      <CopyPromptButton
+                        promptText={textContent}
+                        promptSlug={tool.slug}
+                        promptTitle={p.title || tool.name}
+                        label="Copy"
+                        size="md"
+                      />
+                    )}
+                  </div>
+
+                  {textContent && (
+                    <pre className="p-4 rounded bg-[#fbfbfa] dark:bg-[#101215] text-xs sm:text-sm font-mono text-[#111215] dark:text-[#f4f4f5] whitespace-pre-wrap leading-relaxed select-all overflow-x-auto">
+                      {textContent}
+                    </pre>
+                  )}
+
+                  {p.instructions && p.instructions.length > 0 && (
+                    <div className="space-y-2 pt-2">
+                      <h4 className="text-xs font-semibold text-[#5e626d] dark:text-[#8e93a0]">
+                        Instructions:
+                      </h4>
+                      <ol className="space-y-1.5 text-xs text-[#5e626d] dark:text-[#8e93a0]">
+                        {p.instructions.map((inst, i) => (
+                          <li key={i} className="flex items-start space-x-2">
+                            <span className="font-bold text-[#111215] dark:text-[#f4f4f5]">{i + 1}.</span>
+                            <span>{inst}</span>
+                          </li>
+                        ))}
+                      </ol>
+                    </div>
+                  )}
+                </div>
+              );
+            })
+          ) : (
             <div
-              key={p.id || idx}
               data-ui="prompt-box"
               className="p-6 rounded-lg bg-[#ffffff] dark:bg-[#141619] space-y-4"
             >
-              <div className="flex items-center justify-between gap-3">
-                <h3 className="text-base font-semibold text-[#111215] dark:text-[#f4f4f5]">
-                  {p.title}
-                </h3>
-                <CopyPromptButton
-                  promptText={p.prompt}
-                  promptSlug={tool.slug}
-                  promptTitle={p.title}
-                  size="md"
-                />
-              </div>
-
-              <pre className="p-4 rounded bg-[#fbfbfa] dark:bg-[#101215] text-xs sm:text-sm font-mono text-[#111215] dark:text-[#f4f4f5] whitespace-pre-wrap leading-relaxed select-all overflow-x-auto">
-                {p.prompt}
-              </pre>
-
-              {p.instructions && p.instructions.length > 0 && (
-                <div className="space-y-2 pt-2">
-                  <h4 className="text-xs font-semibold text-[#5e626d] dark:text-[#8e93a0]">
-                    Instructions:
-                  </h4>
-                  <ol className="space-y-1.5 text-xs text-[#5e626d] dark:text-[#8e93a0]">
-                    {p.instructions.map((inst, i) => (
-                      <li key={i} className="flex items-start space-x-2">
-                        <span className="font-bold text-[#111215] dark:text-[#f4f4f5]">{i + 1}.</span>
-                        <span>{inst}</span>
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-              )}
+              <h3 className="text-base font-semibold text-[#111215] dark:text-[#f4f4f5]">
+                {tool.name}
+              </h3>
+              <p className="text-sm text-[#5e626d] dark:text-[#8e93a0] leading-relaxed">
+                {tool.longDescription || tool.description}
+              </p>
             </div>
-          ))}
+          )}
 
           {/* Quick tool outbound card */}
           <div className="p-5 rounded-lg bg-[#f4f4f0] dark:bg-[#101215] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <h3 className="text-sm font-bold text-[#111215] dark:text-[#f4f4f5]">
-                Ready to test this with {tool.name}?
+                Ready to explore {tool.name}?
               </h3>
               <p className="text-xs text-[#5e626d] dark:text-[#8e93a0]">
-                Copy the prompt above and test it on the official platform.
+                Access the official platform to start building and experimenting.
               </p>
             </div>
-            <a
-              href={tool.websiteUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => trackExternalVisit(tool.websiteUrl, tool.name)}
-              className="btn-primary rounded px-4 py-2 text-xs font-semibold whitespace-nowrap inline-flex items-center"
-            >
-              <span>Open {tool.name}</span>
-              <ExternalLink className="w-3.5 h-3.5 ml-1.5" />
-            </a>
+            {tool.websiteUrl ? (
+              <a
+                href={tool.websiteUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => trackExternalVisit(tool.websiteUrl, tool.name)}
+                className="btn-primary rounded px-4 py-2 text-xs font-semibold whitespace-nowrap inline-flex items-center"
+              >
+                <span>Open {tool.name}</span>
+                <ExternalLink className="w-3.5 h-3.5 ml-1.5" />
+              </a>
+            ) : (
+              <a
+                href={tool.instagramReelUrl || 'https://www.instagram.com/thefutureguyy.ai/'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary rounded px-4 py-2 text-xs font-semibold whitespace-nowrap inline-flex items-center"
+              >
+                <span>View on Instagram</span>
+                <ExternalLink className="w-3.5 h-3.5 ml-1.5" />
+              </a>
+            )}
           </div>
         </div>
       </div>

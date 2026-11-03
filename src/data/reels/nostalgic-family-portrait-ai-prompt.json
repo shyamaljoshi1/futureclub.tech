@@ -17,7 +17,7 @@
     {
       "id": "pmt-053",
       "title": "Vintage 1990s Analog Film Family Portrait",
-      "prompt": "Heartwarming candid photograph of a mother and child smiling joyfully, shot on vintage 35mm film camera in 1995. Warm golden sunlight streaming through window, soft film grain, authentic Kodak Gold color tones, gentle motion blur, timeless nostalgic mood.",
+      "description": "Heartwarming candid photograph of a mother and child smiling joyfully, shot on vintage 35mm film camera in 1995. Warm golden sunlight streaming through window, soft film grain, authentic Kodak Gold color tones, gentle motion blur, timeless nostalgic mood.",
       "instructions": [
         "Paste the prompt into your preferred generative image model.",
         "Upload reference family photos if your tool supports image-to-image.",

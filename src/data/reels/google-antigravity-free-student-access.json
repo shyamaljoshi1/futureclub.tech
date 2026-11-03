@@ -17,7 +17,7 @@
     {
       "id": "pmt-009",
       "title": "Google Antigravity CLI Autonomous Task Runner",
-      "prompt": "Configure an Antigravity agent workflow to clone a GitHub repo, inspect the project structure, locate all outdated dependencies in package.json, run security audits, and generate an update checklist.",
+      "description": "Configure an Antigravity agent workflow to clone a GitHub repo, inspect the project structure, locate all outdated dependencies in package.json, run security audits, and generate an update checklist.",
       "instructions": [
         "Verify your student email address on the Google educational portal.",
         "Install the Antigravity CLI on your machine.",

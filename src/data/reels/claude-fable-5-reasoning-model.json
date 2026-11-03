@@ -17,7 +17,7 @@
     {
       "id": "pmt-014",
       "title": "Deep Codebase Refactoring & Architecture Review",
-      "prompt": "Analyze this React TypeScript codebase for state management inefficiencies, redundant re-renders, and structural anti-patterns. Recommend an optimal folder hierarchy and generate clean custom hooks to encapsulate business logic.",
+      "description": "Analyze this React TypeScript codebase for state management inefficiencies, redundant re-renders, and structural anti-patterns. Recommend an optimal folder hierarchy and generate clean custom hooks to encapsulate business logic.",
       "instructions": [
         "Select Claude Fable 5 in your Anthropic project dashboard.",
         "Upload your project files or paste your core components.",

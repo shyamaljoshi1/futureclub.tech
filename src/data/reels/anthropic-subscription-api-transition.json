@@ -17,7 +17,7 @@
     {
       "id": "pmt-070",
       "title": "API Cost Optimization & Caching Implementation",
-      "prompt": "Implement prompt caching in an Anthropic TypeScript API call. Mark large static system prompts and documentation with type: \"ephemeral\" to reduce input token costs by up to 90%.",
+      "description": "Implement prompt caching in an Anthropic TypeScript API call. Mark large static system prompts and documentation with type: \"ephemeral\" to reduce input token costs by up to 90%.",
       "instructions": [
         "Open your Anthropic Console at console.anthropic.com.",
         "Create an API key with explicit monthly spend limits to prevent surprises.",

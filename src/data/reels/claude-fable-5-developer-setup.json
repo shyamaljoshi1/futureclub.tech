@@ -17,7 +17,7 @@
     {
       "id": "pmt-019",
       "title": "Full Codebase Ingestion & Regression Suite",
-      "prompt": "Review the attached 5 source files. Identify edge cases not covered by existing test suites, generate comprehensive Vitest test cases with mock handlers, and identify any unhandled promise rejections.",
+      "description": "Review the attached 5 source files. Identify edge cases not covered by existing test suites, generate comprehensive Vitest test cases with mock handlers, and identify any unhandled promise rejections.",
       "instructions": [
         "Upload your project files into Claude Fable 5 project knowledge.",
         "Run the prompt to generate exhaustive unit and integration tests.",

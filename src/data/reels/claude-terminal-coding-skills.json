@@ -17,7 +17,7 @@
     {
       "id": "pmt-027",
       "title": "Automated Git Commit & Changelog Generator",
-      "prompt": "Analyze git diff HEAD~1. Categorize all modifications according to Conventional Commits (feat, fix, refactor, chore). Generate a concise semantic commit message and an updated release notes entry.",
+      "description": "Analyze git diff HEAD~1. Categorize all modifications according to Conventional Commits (feat, fix, refactor, chore). Generate a concise semantic commit message and an updated release notes entry.",
       "instructions": [
         "Install the Claude Code CLI utility in your local terminal.",
         "Add this prompt to your custom skills directory.",

@@ -55,7 +55,7 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
             {tool.postType === 'carousel' ? (
               <>
                 <Layers className="w-3.5 h-3.5 text-[#d97706]" />
-                <span>Prompt Carousel</span>
+                <span>Carousel</span>
               </>
             ) : (
               <>
@@ -116,13 +116,6 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
           <p className="text-xs sm:text-sm text-[#5e626d] dark:text-[#8e93a0] line-clamp-2 leading-relaxed mb-4">
             {tool.description}
           </p>
-
-          {/* Quick Prompt Count */}
-          {tool.promptSet && tool.promptSet.length > 0 && (
-            <div className="text-xs text-[#1e3a8a] dark:text-[#3b82f6] font-medium mb-2">
-              Includes {tool.promptSet.length} verified prompt template
-            </div>
-          )}
         </div>
       </div>
 
@@ -156,7 +149,7 @@ export const ToolCard: React.FC<ToolCardProps> = ({ tool }) => {
           onClick={() => trackToolClick(tool.slug, tool.name)}
           className="text-xs font-semibold text-[#111215] dark:text-[#f4f4f5] inline-flex items-center group-hover:translate-x-0.5 transition-transform"
         >
-          <span>Watch Reel & Prompts</span>
+          <span>{tool.postType === 'carousel' ? 'View Carousel' : 'Watch Reel'}</span>
           <ArrowRight className="w-3.5 h-3.5 ml-1 text-[#888d99] dark:text-[#636773]" />
         </Link>
       </div>

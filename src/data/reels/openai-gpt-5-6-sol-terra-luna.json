@@ -17,7 +17,7 @@
     {
       "id": "pmt-002",
       "title": "TerminalBench Frontier Code Architect",
-      "prompt": "Act as a principal software engineer. Analyze the following full-stack architecture for performance bottlenecks, concurrency race conditions, and memory leaks. Provide refactored code with strict TypeScript types, unit tests, and asymptotic complexity analysis.",
+      "description": "Act as a principal software engineer. Analyze the following full-stack architecture for performance bottlenecks, concurrency race conditions, and memory leaks. Provide refactored code with strict TypeScript types, unit tests, and asymptotic complexity analysis.",
       "instructions": [
         "Select GPT-5.6 Sol or o3-mini in your OpenAI workspace.",
         "Provide your full repository directory structure and target code file.",

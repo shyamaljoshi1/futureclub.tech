@@ -17,7 +17,7 @@
     {
       "id": "pmt-024",
       "title": "Autonomous Scientific Hypothesis Synthesizer",
-      "prompt": "Conduct deep literature research on solid-state battery manufacturing breakthroughs in 2025-2026. Extract verified data on energy density (Wh/kg), cycle life, and primary commercial bottlenecks with full academic citations.",
+      "description": "Conduct deep literature research on solid-state battery manufacturing breakthroughs in 2025-2026. Extract verified data on energy density (Wh/kg), cycle life, and primary commercial bottlenecks with full academic citations.",
       "instructions": [
         "Install the Olmsted research skill into your agent workspace.",
         "Issue the research topic prompt in your terminal.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-058",
       "title": "Model Architecture & Benchmark Comparison",
-      "prompt": "Compare the architectural evolution from Claude 3.5 Sonnet to next-generation frontier reasoning models. Focus on token efficiency, test-time compute scaling, and memory retention across multi-turn reasoning.",
+      "description": "Compare the architectural evolution from Claude 3.5 Sonnet to next-generation frontier reasoning models. Focus on token efficiency, test-time compute scaling, and memory retention across multi-turn reasoning.",
       "instructions": [
         "Read the technical architecture breakdown.",
         "Run the prompt to understand test-time compute tradeoffs.",

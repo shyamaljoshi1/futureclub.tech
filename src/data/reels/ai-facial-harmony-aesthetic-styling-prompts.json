@@ -17,7 +17,7 @@
     {
       "id": "pmt-087",
       "title": "Facial Geometry & Aesthetic Color Harmony Analysis",
-      "prompt": "Analyze this portrait photo objectively. Classify face shape (oval, square, heart, diamond), determine seasonal color palette (spring/summer/autumn/winter), and recommend 3 flattering hairstyles and eyewear frame shapes.",
+      "description": "Analyze this portrait photo objectively. Classify face shape (oval, square, heart, diamond), determine seasonal color palette (spring/summer/autumn/winter), and recommend 3 flattering hairstyles and eyewear frame shapes.",
       "instructions": [
         "Take a well-lit, neutral-expression selfie looking straight at the camera.",
         "Upload the image to Google Gemini or Claude 3.7 with this prompt.",

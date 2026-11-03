@@ -17,7 +17,7 @@
     {
       "id": "pmt-061",
       "title": "Master Personal Context & Preference Dossier",
-      "prompt": "Review everything you know about my profession, communication style, tech stack, and goals. Synthesize this into a structured markdown document titled \"System Context: User Profile\" that I can import into another AI tool.",
+      "description": "Review everything you know about my profession, communication style, tech stack, and goals. Synthesize this into a structured markdown document titled \"System Context: User Profile\" that I can import into another AI tool.",
       "instructions": [
         "Run this extraction prompt in your existing AI assistant.",
         "Copy the generated Markdown profile document.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-050",
       "title": "OpenAI-Compatible Multi-Model Node.js Client",
-      "prompt": "Write a TypeScript function using the openai npm package that routes prompts dynamically across free models (DeepSeek, GLM, MiniMax) with automatic retry and fallback handling.",
+      "description": "Write a TypeScript function using the openai npm package that routes prompts dynamically across free models (DeepSeek, GLM, MiniMax) with automatic retry and fallback handling.",
       "instructions": [
         "Register for a free API gateway key on OpenRouter or free providers.",
         "Configure the base URL in your .env file.",

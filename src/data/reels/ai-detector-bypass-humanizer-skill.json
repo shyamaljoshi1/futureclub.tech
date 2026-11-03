@@ -17,7 +17,7 @@
     {
       "id": "pmt-032",
       "title": "Natural Cadence & Perplexity Injector",
-      "prompt": "Rewrite the following text so that it reads like natural, experienced human prose. Vary sentence lengths drastically (mix 4-word punchy sentences with complex clauses). Remove corporate filler words like \"delve\", \"testament\", \"crucial\", and \"landscape\".",
+      "description": "Rewrite the following text so that it reads like natural, experienced human prose. Vary sentence lengths drastically (mix 4-word punchy sentences with complex clauses). Remove corporate filler words like \"delve\", \"testament\", \"crucial\", and \"landscape\".",
       "instructions": [
         "Paste your draft article or essay into Claude.",
         "Apply this cadence and burstiness prompt modifier.",

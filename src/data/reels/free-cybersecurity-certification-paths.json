@@ -17,7 +17,7 @@
     {
       "id": "pmt-018",
       "title": "Cybersecurity Entry-Level Roadmap & Lab Guide",
-      "prompt": "Create a 90-day self-study plan to earn entry-level cybersecurity credentials. Include links to free hands-on practice labs (TryHackMe, OverTheWire), Linux command essentials, and sample interview questions.",
+      "description": "Create a 90-day self-study plan to earn entry-level cybersecurity credentials. Include links to free hands-on practice labs (TryHackMe, OverTheWire), Linux command essentials, and sample interview questions.",
       "instructions": [
         "Review the recommended free certifications in the guide.",
         "Dedicate 1 hour daily to interactive lab environments.",

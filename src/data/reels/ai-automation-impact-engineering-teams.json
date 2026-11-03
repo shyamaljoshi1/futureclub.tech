@@ -17,7 +17,7 @@
     {
       "id": "pmt-074",
       "title": "Engineering Velocity & Tooling ROI Audit",
-      "prompt": "Conduct an ROI analysis of adopting AI coding assistants across an 8-person engineering team. Calculate time saved on boilerplate, PR reviews, and unit test generation versus subscription costs.",
+      "description": "Conduct an ROI analysis of adopting AI coding assistants across an 8-person engineering team. Calculate time saved on boilerplate, PR reviews, and unit test generation versus subscription costs.",
       "instructions": [
         "Examine the shifting landscape of modern engineering orgs.",
         "Use this prompt to audit where your engineering hours are actually spent.",

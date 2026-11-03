@@ -17,7 +17,7 @@
     {
       "id": "pmt-054",
       "title": "Enterprise RAG Architecture Review & Pipeline",
-      "prompt": "Design an enterprise-grade Retrieval Augmented Generation (RAG) architecture. Specify chunking strategy, hybrid dense/sparse vector search, re-ranking with cross-encoders, and hallucination guardrails.",
+      "description": "Design an enterprise-grade Retrieval Augmented Generation (RAG) architecture. Specify chunking strategy, hybrid dense/sparse vector search, re-ranking with cross-encoders, and hallucination guardrails.",
       "instructions": [
         "Clone the master AI repository to your local computer.",
         "Explore the organized topic folders (RAG, Agents, Finetuning).",

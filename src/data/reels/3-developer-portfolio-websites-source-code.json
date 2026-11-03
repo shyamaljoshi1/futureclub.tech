@@ -17,7 +17,7 @@
     {
       "id": "pmt-042",
       "title": "Developer Bio & Technical Skills Summary",
-      "prompt": "Write a compelling 80-word developer bio for a frontend engineer. Mention React, TypeScript, Next.js, and performance optimization. Include a catchy tagline and links to GitHub and LinkedIn.",
+      "description": "Write a compelling 80-word developer bio for a frontend engineer. Mention React, TypeScript, Next.js, and performance optimization. Include a catchy tagline and links to GitHub and LinkedIn.",
       "instructions": [
         "Choose one of the three open-source portfolio repositories.",
         "Customize the colors, typography, and personal projects in data.json.",

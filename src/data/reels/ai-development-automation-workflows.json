@@ -17,7 +17,7 @@
     {
       "id": "pmt-020",
       "title": "End-to-End Content & Automation Pipeline",
-      "prompt": "Map out an automated content pipeline using n8n and AI APIs. Detail the webhook triggers from YouTube/Instagram, the LLM summarization step, and the automated drafting into Notion and Slack.",
+      "description": "Map out an automated content pipeline using n8n and AI APIs. Detail the webhook triggers from YouTube/Instagram, the LLM summarization step, and the automated drafting into Notion and Slack.",
       "instructions": [
         "Identify the manual data entry tasks in your weekly routine.",
         "Use this prompt to generate an n8n or Make.com orchestration diagram.",

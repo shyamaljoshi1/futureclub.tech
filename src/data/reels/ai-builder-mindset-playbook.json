@@ -17,7 +17,7 @@
     {
       "id": "pmt-059",
       "title": "Micro-SaaS Product Discovery Matrix",
-      "prompt": "Identify 3 unserved workflow pain points in legal or accounting administration that can be solved with a simple single-page AI tool. For each, describe the input format, the processing logic, and the perceived user value.",
+      "description": "Identify 3 unserved workflow pain points in legal or accounting administration that can be solved with a simple single-page AI tool. For each, describe the input format, the processing logic, and the perceived user value.",
       "instructions": [
         "Audit the manual digital chores you perform repeatedly every week.",
         "Use this prompt to turn those chores into a standalone tool concept.",

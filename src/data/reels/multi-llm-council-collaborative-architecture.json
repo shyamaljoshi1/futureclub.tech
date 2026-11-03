@@ -17,7 +17,7 @@
     {
       "id": "pmt-078",
       "title": "Multi-Agent Code Peer Review Protocol",
-      "prompt": "Act as the Moderator of an LLM Council. Present this code to Model A (Architect) for refactoring, then prompt Model B (Security Auditor) to attack it, and finally synthesize the hardened output.",
+      "description": "Act as the Moderator of an LLM Council. Present this code to Model A (Architect) for refactoring, then prompt Model B (Security Auditor) to attack it, and finally synthesize the hardened output.",
       "instructions": [
         "Set up an orchestration script connecting to your favorite LLM APIs.",
         "Configure the sequential debate protocol defined in the repository.",

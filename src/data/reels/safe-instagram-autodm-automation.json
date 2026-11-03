@@ -17,7 +17,7 @@
     {
       "id": "pmt-036",
       "title": "Varied Auto-DM Response Matrix Generator",
-      "prompt": "Generate 12 distinct, natural conversational DM reply templates delivering a resource link to an Instagram user who commented \"TOOL\". Vary greetings, emojis, and phrasing to ensure 0% repetition across automated replies.",
+      "description": "Generate 12 distinct, natural conversational DM reply templates delivering a resource link to an Instagram user who commented \"TOOL\". Vary greetings, emojis, and phrasing to ensure 0% repetition across automated replies.",
       "instructions": [
         "Open your automation tool (ManyChat or Meta Graph API).",
         "Paste the 12 dynamic message variants into a randomized rotation block.",

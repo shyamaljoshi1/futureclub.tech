@@ -17,7 +17,7 @@
     {
       "id": "pmt-073",
       "title": "Modern Bento-Grid Analytics Dashboard",
-      "prompt": "Create a responsive bento-grid analytics dashboard for an AI SaaS application. Include 4 stat cards with sparkline trend charts, a recent activity feed, and a quick actions menu. Use clean neutral styling.",
+      "description": "Create a responsive bento-grid analytics dashboard for an AI SaaS application. Include 4 stat cards with sparkline trend charts, a recent activity feed, and a quick actions menu. Use clean neutral styling.",
       "instructions": [
         "Go to v0.dev and enter your component requirements.",
         "Iterate on specific sections by clicking and describing changes.",

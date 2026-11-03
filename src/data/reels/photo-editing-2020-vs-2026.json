@@ -17,7 +17,7 @@
     {
       "id": "pmt-022",
       "title": "Generative Subject Relighting & Background Swap",
-      "prompt": "Keep the foreground subject perfectly intact with natural hair edge blending. Replace the mundane office background with a sun-drenched Scandinavian minimalist apartment with warm wooden textures and soft ambient light.",
+      "description": "Keep the foreground subject perfectly intact with natural hair edge blending. Replace the mundane office background with a sun-drenched Scandinavian minimalist apartment with warm wooden textures and soft ambient light.",
       "instructions": [
         "Load your raw photo into your AI editing platform.",
         "Select the background mask and enter the prompt.",

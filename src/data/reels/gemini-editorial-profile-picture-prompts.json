@@ -17,7 +17,7 @@
     {
       "id": "pmt-043",
       "title": "Natural Outdoor Bokeh Professional Portrait",
-      "prompt": "Editorial portrait of a young professional in a navy blue casual sweater, standing outdoors in front of modern architecture with lush green foliage. Golden hour backlight, beautiful round optical bokeh, 85mm f/1.4 lens, natural skin tones, relaxed smile.",
+      "description": "Editorial portrait of a young professional in a navy blue casual sweater, standing outdoors in front of modern architecture with lush green foliage. Golden hour backlight, beautiful round optical bokeh, 85mm f/1.4 lens, natural skin tones, relaxed smile.",
       "instructions": [
         "Open Gemini in your browser.",
         "Paste the prompt and specify your desired background ambiance.",

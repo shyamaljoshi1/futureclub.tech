@@ -17,7 +17,7 @@
     {
       "id": "pmt-085",
       "title": "Google Opal Enterprise Agent Flow Designer",
-      "prompt": "Design a Google Opal multi-agent workflow for an e-commerce refund request. Specify the triage agent, fraud verification agent, database lookup agent, and final customer email generation step.",
+      "description": "Design a Google Opal multi-agent workflow for an e-commerce refund request. Specify the triage agent, fraud verification agent, database lookup agent, and final customer email generation step.",
       "instructions": [
         "Access Google Opal on the Google Cloud developer console.",
         "Connect your workspace data sources (Sheets, BigQuery, Gmail).",

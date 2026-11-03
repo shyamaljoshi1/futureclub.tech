@@ -17,7 +17,7 @@
     {
       "id": "pmt-004",
       "title": "Clean Artifact UI Injector",
-      "prompt": "Generate a polished single-page landing page mockup for a modern SaaS product. Omit all external branding badges, default footers, and decorative framework watermarks.",
+      "description": "Generate a polished single-page landing page mockup for a modern SaaS product. Omit all external branding badges, default footers, and decorative framework watermarks.",
       "instructions": [
         "Open your Claude artifact view in your browser.",
         "Right click the artifact canvas and inspect the watermark container element.",

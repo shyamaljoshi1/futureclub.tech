@@ -17,7 +17,7 @@
     {
       "id": "pmt-076",
       "title": "End-to-End n8n Agent Workflow Blueprint",
-      "prompt": "Design an n8n automation workflow that ingests customer support tickets via webhook, classifies urgency with an LLM, queries an internal vector store for documentation, and drafts a suggested response in Slack.",
+      "description": "Design an n8n automation workflow that ingests customer support tickets via webhook, classifies urgency with an LLM, queries an internal vector store for documentation, and drafts a suggested response in Slack.",
       "instructions": [
         "Download the visual PDF roadmap.",
         "Set up your local n8n instance using Docker.",

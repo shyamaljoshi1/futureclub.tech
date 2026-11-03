@@ -17,7 +17,7 @@
     {
       "id": "pmt-001",
       "title": "Editorial Studio Portrait Generator",
-      "prompt": "Hyperrealistic editorial fashion portrait of a subject, shot on Hasselblad H6D-100c with 85mm f/1.4 lens. Soft diffused Profoto studio lighting from a 45-degree angle, subtle rim lighting, natural skin texture with visible pores, elegant neutral studio backdrop, cinematic depth of field, 8k resolution, raw photo aesthetic.",
+      "description": "Hyperrealistic editorial fashion portrait of a subject, shot on Hasselblad H6D-100c with 85mm f/1.4 lens. Soft diffused Profoto studio lighting from a 45-degree angle, subtle rim lighting, natural skin texture with visible pores, elegant neutral studio backdrop, cinematic depth of field, 8k resolution, raw photo aesthetic.",
       "instructions": [
         "Open ChatGPT and select the latest GPT-4o / Images model.",
         "Upload a clear reference photo of your subject or describe the subject in detail.",

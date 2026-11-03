@@ -17,7 +17,7 @@
     {
       "id": "pmt-033",
       "title": "ROCm Local LLM Inference Benchmarking Script",
-      "prompt": "Write a Python benchmarking script using PyTorch with ROCm HIP backend to measure tokens-per-second throughput and VRAM allocation across batch sizes 1, 4, 8, and 16 for a 14B parameter quantized model.",
+      "description": "Write a Python benchmarking script using PyTorch with ROCm HIP backend to measure tokens-per-second throughput and VRAM allocation across batch sizes 1, 4, 8, and 16 for a 14B parameter quantized model.",
       "instructions": [
         "Install AMD ROCm drivers on your Linux/Windows WSL system.",
         "Pull quantized models using Ollama or vLLM with HIP acceleration.",

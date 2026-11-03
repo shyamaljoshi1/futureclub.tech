@@ -17,7 +17,7 @@
     {
       "id": "pmt-013",
       "title": "Corporate Executive LinkedIn Headshot",
-      "prompt": "Ultra-realistic corporate headshot of a professional, smiling warmly at camera, dressed in smart casual blazer. Shot on Sony A7R V with 85mm f/1.8 lens in a bright modern tech office with blurred architectural glass background. Soft natural window light, subtle warm highlights, true skin tones, high dynamic range, 4k photo.",
+      "description": "Ultra-realistic corporate headshot of a professional, smiling warmly at camera, dressed in smart casual blazer. Shot on Sony A7R V with 85mm f/1.8 lens in a bright modern tech office with blurred architectural glass background. Soft natural window light, subtle warm highlights, true skin tones, high dynamic range, 4k photo.",
       "instructions": [
         "Open Google Gemini or Nano Banana image generator.",
         "Paste this prompt and specify your desired attire or office vibe.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-010",
       "title": "OA Technical Problem Solver & Edge-Case Analyzer",
-      "prompt": "Here is a recent online assessment coding question from a top tech company. Provide the optimal solution in C++/Python, analyze time and space complexity, and list 5 edge cases that standard test suites use to fail submissions.",
+      "description": "Here is a recent online assessment coding question from a top tech company. Provide the optimal solution in C++/Python, analyze time and space complexity, and list 5 edge cases that standard test suites use to fail submissions.",
       "instructions": [
         "Find the company-specific question from the master GitHub repository.",
         "Paste the problem statement and constraints into your AI model with this prompt.",

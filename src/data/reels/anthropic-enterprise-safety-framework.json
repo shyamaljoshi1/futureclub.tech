@@ -17,7 +17,7 @@
     {
       "id": "pmt-065",
       "title": "AI Red-Teaming & Threat Model Framework",
-      "prompt": "Develop a red-teaming checklist for an enterprise LLM deployment. Outline prompt injection vectors, indirect data poisoning methods, data exfiltration risks, and recommended guardrail mitigation layers.",
+      "description": "Develop a red-teaming checklist for an enterprise LLM deployment. Outline prompt injection vectors, indirect data poisoning methods, data exfiltration risks, and recommended guardrail mitigation layers.",
       "instructions": [
         "Study the security whitepaper summary.",
         "Deploy defense-in-depth safety layers in your LLM application architecture.",

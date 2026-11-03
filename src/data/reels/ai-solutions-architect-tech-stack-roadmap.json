@@ -17,7 +17,7 @@
     {
       "id": "pmt-071",
       "title": "AI Enterprise Architecture Specification Document",
-      "prompt": "Draft an architectural design document for an AI knowledge retrieval platform. Include data ingestion pipeline, chunking and embedding service, vector store selection criteria, LLM gateway, and monitoring telemetry.",
+      "description": "Draft an architectural design document for an AI knowledge retrieval platform. Include data ingestion pipeline, chunking and embedding service, vector store selection criteria, LLM gateway, and monitoring telemetry.",
       "instructions": [
         "Follow the step-by-step roadmap milestones.",
         "Build 3 capstone projects: a hybrid RAG engine, an MCP agent, and an automated evaluator.",

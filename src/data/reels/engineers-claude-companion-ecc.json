@@ -17,7 +17,7 @@
     {
       "id": "pmt-040",
       "title": "ECC Automated Test-Driven Development Loop",
-      "prompt": "Configure an autonomous test-driven development workflow: write failing unit tests for an authentication service, execute tests via ECC watcher, implement minimal passing code, and refactor cleanly.",
+      "description": "Configure an autonomous test-driven development workflow: write failing unit tests for an authentication service, execute tests via ECC watcher, implement minimal passing code, and refactor cleanly.",
       "instructions": [
         "Install ECC alongside Claude Code via npm install -g ecc-companion.",
         "Run ecc init in your project root directory.",

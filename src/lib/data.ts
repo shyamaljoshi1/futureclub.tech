@@ -89,8 +89,9 @@ export function getReelItems(options: ReelFilterOptions = {}): ReelItem[] {
         item.description.toLowerCase().includes(p) ||
         item.promptSet.some(
           (pr) =>
-            pr.title.toLowerCase().includes(p) ||
-            pr.prompt.toLowerCase().includes(p)
+            (pr.title && pr.title.toLowerCase().includes(p)) ||
+            (pr.description && pr.description.toLowerCase().includes(p)) ||
+            (pr.prompt && pr.prompt.toLowerCase().includes(p))
         )
     );
   }
@@ -112,8 +113,9 @@ export function getReelItems(options: ReelFilterOptions = {}): ReelItem[] {
         item.description.toLowerCase().includes(q) ||
         item.promptSet.some(
           (p) =>
-            p.title.toLowerCase().includes(q) ||
-            p.prompt.toLowerCase().includes(q)
+            (p.title && p.title.toLowerCase().includes(q)) ||
+            (p.description && p.description.toLowerCase().includes(q)) ||
+            (p.prompt && p.prompt.toLowerCase().includes(q))
         )
     );
   }
@@ -186,10 +188,12 @@ export interface ToolAdapter {
   postType?: 'reel' | 'carousel';
   contentType?: 'tool' | 'prompt';
   promptSet: Array<{
-    id: string;
-    title: string;
-    prompt: string;
+    id?: string;
+    title?: string;
+    description?: string;
+    prompt?: string;
     instructions?: string[];
+    exampleOutput?: string;
   }>;
 }
 
@@ -305,7 +309,7 @@ export function getPrompts(options: ReelFilterOptions = {}): PromptAdapter[] {
         platform: reel.toolName,
         postType: reel.postType,
         contentType: reel.contentType,
-        prompt: p.prompt,
+        prompt: p.description || (p as any).Description || p.prompt || (p as any).Prompt || '',
         instructions: p.instructions || [
           `Open ${reel.toolName} at ${reel.toolUrl || 'the web interface'}`,
           `Swipe through the Instagram carousel slides for visual references`,
@@ -342,7 +346,7 @@ export function getPromptBySlug(slug: string): PromptAdapter | undefined {
     platform: reel.toolName,
     postType: reel.postType,
     contentType: reel.contentType,
-    prompt: p.prompt,
+    prompt: p.description || (p as any).Description || p.prompt || (p as any).Prompt || '',
     instructions: p.instructions || [
       `Open ${reel.toolName} at ${reel.toolUrl || 'the web interface'}`,
       `Swipe through the Instagram carousel slides for visual references`,

@@ -17,7 +17,7 @@
     {
       "id": "pmt-044",
       "title": "JSON Data Schema Generator for Developer Resume",
-      "prompt": "Convert this bulleted resume into a structured JSON file matching this schema: { name, title, bio, skills: [], projects: [{ title, description, tags: [], liveUrl, repoUrl }] }.",
+      "description": "Convert this bulleted resume into a structured JSON file matching this schema: { name, title, bio, skills: [], projects: [{ title, description, tags: [], liveUrl, repoUrl }] }.",
       "instructions": [
         "Clone the repository from GitHub.",
         "Replace the data in src/data/portfolio.json with your own.",

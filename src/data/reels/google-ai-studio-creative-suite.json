@@ -17,7 +17,7 @@
     {
       "id": "pmt-003",
       "title": "Google AI Studio Full-Stack Scaffolder",
-      "prompt": "Build a production-ready React 18 dashboard using Tailwind CSS and Lucide icons. Implement a responsive sidebar, searchable data table with client-side sorting, and real-time metric cards. Return the complete code in a single standalone file.",
+      "description": "Build a production-ready React 18 dashboard using Tailwind CSS and Lucide icons. Implement a responsive sidebar, searchable data table with client-side sorting, and real-time metric cards. Return the complete code in a single standalone file.",
       "instructions": [
         "Navigate to Google AI Studio at aistudio.google.com.",
         "Select Gemini 2.5 Flash or Pro with system prompt capabilities.",

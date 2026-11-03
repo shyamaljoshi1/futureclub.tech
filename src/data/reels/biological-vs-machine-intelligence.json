@@ -17,7 +17,7 @@
     {
       "id": "pmt-064",
       "title": "Energy Efficiency in Neural Computing Essay",
-      "prompt": "Write a compelling, thought-provoking essay comparing the biological energy efficiency of the human brain with modern GPU datacenters. Explore neuromorphic computing, synaptic pruning, and the future of sustainable AI.",
+      "description": "Write a compelling, thought-provoking essay comparing the biological energy efficiency of the human brain with modern GPU datacenters. Explore neuromorphic computing, synaptic pruning, and the future of sustainable AI.",
       "instructions": [
         "Read the scientific reflection on compute vs biology.",
         "Run the prompt to explore neuromorphic hardware architectures.",

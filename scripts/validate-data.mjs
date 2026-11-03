@@ -18,12 +18,13 @@ const SeoSchema = z.object({
 });
 
 const PromptItemSchema = z.object({
-  id: z.string(),
-  title: z.string(),
-  prompt: z.string(),
+  id: z.string().optional(),
+  title: z.string().optional(),
+  description: z.string().optional(),
+  prompt: z.string().optional(),
   instructions: z.array(z.string()).optional(),
   exampleOutput: z.string().optional(),
-});
+}).passthrough();
 
 const ReelItemSchema = z.object({
   id: z.string(),

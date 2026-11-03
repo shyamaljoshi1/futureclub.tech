@@ -17,7 +17,7 @@
     {
       "id": "pmt-028",
       "title": "Vedic Natal Chart & Dasha Period Interpreter",
-      "prompt": "Act as an expert Vedic astrologer. Based on the provided birth details (Date: [DD/MM/YYYY], Time: [HH:MM], Place: [City, Country]), analyze the Lagna chart, key planetary aspects on the 10th house of career, and the current Mahadasha/Antardasha influence with constructive guidance.",
+      "description": "Act as an expert Vedic astrologer. Based on the provided birth details (Date: [DD/MM/YYYY], Time: [HH:MM], Place: [City, Country]), analyze the Lagna chart, key planetary aspects on the 10th house of career, and the current Mahadasha/Antardasha influence with constructive guidance.",
       "instructions": [
         "Replace bracketed variables with your birth details.",
         "Paste into Claude 3.7 or ChatGPT with extended thinking enabled.",

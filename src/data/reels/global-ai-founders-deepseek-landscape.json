@@ -17,7 +17,7 @@
     {
       "id": "pmt-075",
       "title": "Open-Weights vs Closed-Weights Business Strategy",
-      "prompt": "Analyze the competitive defensibility of deploying self-hosted open-weights models (DeepSeek, Llama) versus building on proprietary API endpoints. Compare cost curves, data privacy, and latency tradeoffs.",
+      "description": "Analyze the competitive defensibility of deploying self-hosted open-weights models (DeepSeek, Llama) versus building on proprietary API endpoints. Compare cost curves, data privacy, and latency tradeoffs.",
       "instructions": [
         "Read the case study on capital efficiency in AI startups.",
         "Evaluate whether your tech stack should prioritize open or closed models.",

@@ -8,6 +8,7 @@ interface CopyPromptButtonProps {
   promptTitle?: string;
   className?: string;
   size?: 'sm' | 'md' | 'lg';
+  label?: string;
 }
 
 export const CopyPromptButton: React.FC<CopyPromptButtonProps> = ({
@@ -16,6 +17,7 @@ export const CopyPromptButton: React.FC<CopyPromptButtonProps> = ({
   promptTitle = 'AI Prompt',
   className = '',
   size = 'md',
+  label = 'Copy',
 }) => {
   const [copied, setCopied] = useState(false);
 
@@ -58,7 +60,7 @@ export const CopyPromptButton: React.FC<CopyPromptButtonProps> = ({
       ) : (
         <>
           <Copy className="w-3.5 h-3.5 mr-1" aria-hidden="true" />
-          <span>Copy Prompt</span>
+          <span>{label}</span>
         </>
       )}
     </button>

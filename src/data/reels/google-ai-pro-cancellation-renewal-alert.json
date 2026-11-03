@@ -17,7 +17,7 @@
     {
       "id": "pmt-041",
       "title": "Cloud Storage & AI Subscription Audit Checklist",
-      "prompt": "List the exact steps to audit Google One cloud storage, export large files to local backup using Google Takeout, and cleanly cancel premium recurring subscriptions without losing access to Gmail.",
+      "description": "List the exact steps to audit Google One cloud storage, export large files to local backup using Google Takeout, and cleanly cancel premium recurring subscriptions without losing access to Gmail.",
       "instructions": [
         "Visit one.google.com/settings to verify your promotion end date.",
         "Download your primary archives using Google Takeout.",

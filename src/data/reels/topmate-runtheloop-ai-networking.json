@@ -17,7 +17,7 @@
     {
       "id": "pmt-037",
       "title": "Consulting Service Pitch & Intake Questionnaire",
-      "prompt": "Draft a 4-question intake form for prospective clients wanting a 1-on-1 AI strategy session. Ensure questions filter for budget, timeline, current tech stack, and clear project goals.",
+      "description": "Draft a 4-question intake form for prospective clients wanting a 1-on-1 AI strategy session. Ensure questions filter for budget, timeline, current tech stack, and clear project goals.",
       "instructions": [
         "Create or log into your Topmate profile.",
         "Enable the RunTheLoop AI agent assistant.",

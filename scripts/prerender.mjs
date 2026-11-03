@@ -147,7 +147,7 @@ reels.forEach((reel) => {
         name: site.brandName,
         url: site.instagramUrl,
       },
-      text: reel.promptSet[0]?.prompt || reel.description,
+      text: reel.promptSet[0]?.description || reel.promptSet[0]?.prompt || reel.description,
     },
   });
 });

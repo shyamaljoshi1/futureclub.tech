@@ -17,7 +17,7 @@
     {
       "id": "pmt-006",
       "title": "Autonomous Multi-Agent PR Reviewer",
-      "prompt": "Act as an autonomous Git reviewer agent. Parse the following git diff, identify breaking changes, test coverage deficits, and security vulnerabilities. Format the response as a GitHub PR review markdown with clear pass/fail status.",
+      "description": "Act as an autonomous Git reviewer agent. Parse the following git diff, identify breaking changes, test coverage deficits, and security vulnerabilities. Format the response as a GitHub PR review markdown with clear pass/fail status.",
       "instructions": [
         "Provide your Git diff or pull request changes.",
         "Run the prompt through Claude Code or your agent terminal.",

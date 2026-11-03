@@ -17,7 +17,7 @@
     {
       "id": "pmt-083",
       "title": "Task Decomposition & Prompt Splitting Plan",
-      "prompt": "I need to build a complex feature: [FEATURE]. Break this project down into 4 isolated, self-contained sub-tasks with clear inputs and outputs so each can be executed in a fresh, lightweight chat thread.",
+      "description": "I need to build a complex feature: [FEATURE]. Break this project down into 4 isolated, self-contained sub-tasks with clear inputs and outputs so each can be executed in a fresh, lightweight chat thread.",
       "instructions": [
         "Decompose large requests into discrete, modular steps.",
         "Start a fresh chat thread for each sub-task to keep token weight near zero.",

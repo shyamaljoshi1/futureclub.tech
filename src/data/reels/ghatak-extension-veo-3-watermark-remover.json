@@ -17,7 +17,7 @@
     {
       "id": "pmt-017",
       "title": "Clean Video Frame Processing Guidelines",
-      "prompt": "Provide the optimal aspect ratio, bitrate, and frame interpolation settings for exporting AI generated video clips without compression artifacts or blurred borders.",
+      "description": "Provide the optimal aspect ratio, bitrate, and frame interpolation settings for exporting AI generated video clips without compression artifacts or blurred borders.",
       "instructions": [
         "Install the lightweight Ghatak browser extension.",
         "Open your generated Veo 3 or Gemini media preview.",

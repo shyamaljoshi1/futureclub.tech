@@ -17,7 +17,7 @@
     {
       "id": "pmt-048",
       "title": "Meta-Prompt Architect: Turn Any Idea into an Elite Prompt",
-      "prompt": "Act as an expert prompt engineer. Take the following objective: \"[INSERT GOAL]\". Write an optimized prompt containing Role, Task, Input Data Schema, Operational Constraints, and Output Format specification.",
+      "description": "Act as an expert prompt engineer. Take the following objective: \"[INSERT GOAL]\". Write an optimized prompt containing Role, Task, Input Data Schema, Operational Constraints, and Output Format specification.",
       "instructions": [
         "Enter your raw idea or task into the extension.",
         "Click Optimize to generate a structured system prompt.",

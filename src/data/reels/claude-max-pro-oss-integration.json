@@ -17,7 +17,7 @@
     {
       "id": "pmt-069",
       "title": "Autonomous Architecture Scaffold in Local Repo",
-      "prompt": "Scaffold a production Next.js 15 app router template with Tailwind CSS v4, Lucide icons, Supabase auth helpers, and clean server actions. Include full directory structure and sample route handlers.",
+      "description": "Scaffold a production Next.js 15 app router template with Tailwind CSS v4, Lucide icons, Supabase auth helpers, and clean server actions. Include full directory structure and sample route handlers.",
       "instructions": [
         "Set up your developer API key or authorized session.",
         "Connect your CLI tool with your high-limit tier.",

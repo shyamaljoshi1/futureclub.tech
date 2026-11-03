@@ -17,7 +17,7 @@
     {
       "id": "pmt-062",
       "title": "Terminal Workflow Audit & Custom Aliases",
-      "prompt": "Audit this list of frequent bash commands and create 10 powerful zsh/bash aliases and function helpers with auto-completion to streamline everyday git commits, docker containers, and project switches.",
+      "description": "Audit this list of frequent bash commands and create 10 powerful zsh/bash aliases and function helpers with auto-completion to streamline everyday git commits, docker containers, and project switches.",
       "instructions": [
         "Clone the Mentos shortcuts repository from GitHub.",
         "Source the alias config file in your ~/.zshrc or ~/.bashrc.",

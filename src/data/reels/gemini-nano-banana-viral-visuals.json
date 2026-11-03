@@ -17,7 +17,7 @@
     {
       "id": "pmt-016",
       "title": "Cinematic Lifestyle Aesthetic Generator",
-      "prompt": "Cinematic wide-angle photo of a young creator working on a sleek laptop on a sunlit balcony overlooking Amalfi coast at golden hour. 35mm film photography, Kodak Portra 400 aesthetic, soft warm glow, natural shadows, effortless elegance, 8k resolution.",
+      "description": "Cinematic wide-angle photo of a young creator working on a sleek laptop on a sunlit balcony overlooking Amalfi coast at golden hour. 35mm film photography, Kodak Portra 400 aesthetic, soft warm glow, natural shadows, effortless elegance, 8k resolution.",
       "instructions": [
         "Open Gemini with Nano Banana image processing.",
         "Copy the prompt and substitute the location or subject to match your niche.",

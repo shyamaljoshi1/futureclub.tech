@@ -17,7 +17,7 @@
     {
       "id": "pmt-049",
       "title": "Markdown Chat Exporter & Documentation Builder",
-      "prompt": "Format the following conversation into clean technical documentation: summarize key decisions in a table, provide copyable code blocks with file names, and list open action items.",
+      "description": "Format the following conversation into clean technical documentation: summarize key decisions in a table, provide copyable code blocks with file names, and list open action items.",
       "instructions": [
         "Install Ghatak in your browser.",
         "Use the sidebar to search and inject your saved prompt presets.",

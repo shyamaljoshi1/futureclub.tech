@@ -17,7 +17,7 @@
     {
       "id": "pmt-056",
       "title": "Claude Design Interactive Prototype Generator",
-      "prompt": "Generate a high-fidelity interactive SaaS pricing calculator component using React and Tailwind CSS. Include a monthly/annual toggle, dynamic seat count slider, feature comparison accordion, and clear checkout CTA.",
+      "description": "Generate a high-fidelity interactive SaaS pricing calculator component using React and Tailwind CSS. Include a monthly/annual toggle, dynamic seat count slider, feature comparison accordion, and clear checkout CTA.",
       "instructions": [
         "Select Claude Opus 4.7 in your workspace.",
         "Paste the component prompt and describe your design aesthetic.",

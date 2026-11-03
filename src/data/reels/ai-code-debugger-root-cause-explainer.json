@@ -17,7 +17,7 @@
     {
       "id": "pmt-081",
       "title": "Stack Trace Root Cause Diagnostic Prompt",
-      "prompt": "Analyze this full application stack trace and the relevant function code. Pinpoint the exact line causing the crash, explain the underlying memory/concurrency mechanism responsible, and provide the minimal patch to fix it.",
+      "description": "Analyze this full application stack trace and the relevant function code. Pinpoint the exact line causing the crash, explain the underlying memory/concurrency mechanism responsible, and provide the minimal patch to fix it.",
       "instructions": [
         "Copy the complete terminal stack trace and the failing code snippet.",
         "Paste into Claude 3.7 or ChatGPT with this diagnostic prompt.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-023",
       "title": "Personalized Tech Career Upskilling Roadmap",
-      "prompt": "I am a junior web developer wanting to pivot into full-stack AI engineering. Create a structured 6-month study syllabus, highlighting key libraries (LangChain, LlamaIndex, MCP) and recommended hands-on portfolio projects.",
+      "description": "I am a junior web developer wanting to pivot into full-stack AI engineering. Create a structured 6-month study syllabus, highlighting key libraries (LangChain, LlamaIndex, MCP) and recommended hands-on portfolio projects.",
       "instructions": [
         "Browse curated AI engineering tracks on Udemy.",
         "Dedicate 30 minutes every morning to video lectures and code-alongs.",

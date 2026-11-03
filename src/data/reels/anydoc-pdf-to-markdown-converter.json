@@ -17,7 +17,7 @@
     {
       "id": "pmt-011",
       "title": "Financial Table & PDF Markdown Extractor",
-      "prompt": "Parse this financial PDF extract into clean GitHub Flavored Markdown. Ensure all multi-column balance sheets and footnotes are preserved in readable markdown tables with exact decimal precision.",
+      "description": "Parse this financial PDF extract into clean GitHub Flavored Markdown. Ensure all multi-column balance sheets and footnotes are preserved in readable markdown tables with exact decimal precision.",
       "instructions": [
         "Run AnyDoc on your target PDF file: anydoc convert input.pdf --format markdown.",
         "Open the generated .md file and inspect the table formatting.",

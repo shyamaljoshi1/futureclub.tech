@@ -17,7 +17,7 @@
     {
       "id": "pmt-045",
       "title": "Rembrandt Studio Portrait with Film Texture",
-      "prompt": "Moody studio portrait of a subject, dramatic single light source from the side creating classic Rembrandt triangle on cheek, deep matte shadows, 50mm vintage Leica lens, subtle 35mm film grain, 8k resolution.",
+      "description": "Moody studio portrait of a subject, dramatic single light source from the side creating classic Rembrandt triangle on cheek, deep matte shadows, 50mm vintage Leica lens, subtle 35mm film grain, 8k resolution.",
       "instructions": [
         "Open your AI image generator running Nano Banana.",
         "Paste the prompt and adjust the lighting mood or subject attire.",

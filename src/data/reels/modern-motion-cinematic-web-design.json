@@ -17,7 +17,7 @@
     {
       "id": "pmt-052",
       "title": "Framer Motion Smooth Scroll Section Scaffold",
-      "prompt": "Write a React component using Tailwind CSS and Framer Motion that implements a sticky horizontal scroll gallery with smooth parallax card transitions and subtle opacity reveals.",
+      "description": "Write a React component using Tailwind CSS and Framer Motion that implements a sticky horizontal scroll gallery with smooth parallax card transitions and subtle opacity reveals.",
       "instructions": [
         "Study the curated website showcase for interaction inspiration.",
         "Implement custom scroll physics using Framer Motion or GSAP.",

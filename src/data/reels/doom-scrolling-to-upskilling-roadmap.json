@@ -17,7 +17,7 @@
     {
       "id": "pmt-012",
       "title": "Daily 45-Minute AI Skill Accelerator Plan",
-      "prompt": "Design a personalized 30-day learning curriculum to master AI tools for a non-technical professional. Limit each day to 45 minutes of hands-on project work. Focus on practical tools: ChatGPT, Claude, and automation.",
+      "description": "Design a personalized 30-day learning curriculum to master AI tools for a non-technical professional. Limit each day to 45 minutes of hands-on project work. Focus on practical tools: ChatGPT, Claude, and automation.",
       "instructions": [
         "Set your target career goal (e.g. freelance copywriter, product manager, coder).",
         "Generate your daily 45-minute structured sprint using this prompt.",

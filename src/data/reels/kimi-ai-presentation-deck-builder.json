@@ -17,7 +17,7 @@
     {
       "id": "pmt-077",
       "title": "Executive Pitch Deck Outline & Slide Content",
-      "prompt": "Create a 10-slide investor pitch deck for a B2B AI analytics startup. Include problem slide, solution, market size (TAM/SAM/SOM), business model, traction metrics, competitive advantage, and ask.",
+      "description": "Create a 10-slide investor pitch deck for a B2B AI analytics startup. Include problem slide, solution, market size (TAM/SAM/SOM), business model, traction metrics, competitive advantage, and ask.",
       "instructions": [
         "Open Kimi AI at kimi.ai.",
         "Paste your draft outline or project brief.",

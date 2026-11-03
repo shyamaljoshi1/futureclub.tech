@@ -17,7 +17,7 @@
     {
       "id": "pmt-089",
       "title": "Autonomous Deep Investigative Research Protocol",
-      "prompt": "Investigate the market landscape for AI code editors in 2026. Break down market shares, key technological differentiators (local indexing vs cloud LLMs), developer sentiment, and enterprise pricing models with full citations.",
+      "description": "Investigate the market landscape for AI code editors in 2026. Break down market shares, key technological differentiators (local indexing vs cloud LLMs), developer sentiment, and enterprise pricing models with full citations.",
       "instructions": [
         "Install the deep research skill into your Claude workspace.",
         "Provide your research topic and depth requirements.",

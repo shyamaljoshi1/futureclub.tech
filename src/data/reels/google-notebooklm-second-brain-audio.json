@@ -17,7 +17,7 @@
     {
       "id": "pmt-060",
       "title": "Grounded Source Synthesis & Comparative Analysis",
-      "prompt": "Based exclusively on the uploaded 4 research documents, compare the competing theories on economic inflation. Cite exact page numbers and quotes for each argument, without introducing outside knowledge.",
+      "description": "Based exclusively on the uploaded 4 research documents, compare the competing theories on economic inflation. Cite exact page numbers and quotes for each argument, without introducing outside knowledge.",
       "instructions": [
         "Visit notebooklm.google.com and upload your study materials.",
         "Ask specific questions to get fully cited answers with inline click-to-source links.",

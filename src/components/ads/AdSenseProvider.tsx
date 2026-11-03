@@ -31,7 +31,7 @@ export const AdSenseProvider: React.FC<AdSenseProviderProps> = ({ children }) =>
     }
 
     // Check if script is already present
-    const existingScript = document.getElementById('adsbygoogle-script');
+    const existingScript = document.getElementById('adsbygoogle-script') || document.querySelector('script[src*="pagead2.googlesyndication.com"]');
     if (existingScript) {
       setIsLoaded(true);
       return;

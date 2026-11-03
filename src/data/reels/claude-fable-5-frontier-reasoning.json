@@ -17,7 +17,7 @@
     {
       "id": "pmt-034",
       "title": "Complex Distributed Concurrency Bug Fixer",
-      "prompt": "Analyze this distributed microservices trace log. Locate the root cause of the intermittent HTTP 504 gateway timeout, determine if connection pooling or database locks are responsible, and provide the exact patch.",
+      "description": "Analyze this distributed microservices trace log. Locate the root cause of the intermittent HTTP 504 gateway timeout, determine if connection pooling or database locks are responsible, and provide the exact patch.",
       "instructions": [
         "Upload the relevant microservice log trace to Claude Fable 5.",
         "Ask the model to isolate race conditions and connection exhaustion.",

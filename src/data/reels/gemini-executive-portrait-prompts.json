@@ -17,7 +17,7 @@
     {
       "id": "pmt-025",
       "title": "Approachable Tech Founder Profile Picture",
-      "prompt": "High-resolution headshot portrait of a confident technology founder with a warm smile, wearing a minimalist black turtleneck. Shot on Canon EOS R5 with 85mm f/1.2 lens. Soft directional morning light, gentle natural shadows, sharp focus on iris, clean matte studio backdrop.",
+      "description": "High-resolution headshot portrait of a confident technology founder with a warm smile, wearing a minimalist black turtleneck. Shot on Canon EOS R5 with 85mm f/1.2 lens. Soft directional morning light, gentle natural shadows, sharp focus on iris, clean matte studio backdrop.",
       "instructions": [
         "Open Google Gemini and ensure image generation is enabled.",
         "Paste this portrait prompt template and personalize eye color or hair style.",

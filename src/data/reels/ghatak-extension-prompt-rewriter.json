@@ -17,7 +17,7 @@
     {
       "id": "pmt-031",
       "title": "Vague Prompt Auto-Expansion Engine",
-      "prompt": "Transform this basic prompt into an elite, few-shot prompt: \"[INSERT VAGUE PROMPT]\". Include Persona, Analytical Goal, Specific Constraints, Step-by-Step Reasoning Instructions, and Output Formatting Rules.",
+      "description": "Transform this basic prompt into an elite, few-shot prompt: \"[INSERT VAGUE PROMPT]\". Include Persona, Analytical Goal, Specific Constraints, Step-by-Step Reasoning Instructions, and Output Formatting Rules.",
       "instructions": [
         "Install Ghatak in Google Chrome or Brave.",
         "Type your draft thought in any AI chat box and press Alt + G.",

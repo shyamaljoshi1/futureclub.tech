@@ -31,12 +31,13 @@ export type SeoMeta = z.infer<typeof SeoSchema>;
 
 // Prompt Item inside a Reel
 export const PromptItemSchema = z.object({
-  id: z.string(),
-  title: z.string(),
-  prompt: z.string(),
+  id: z.string().optional(),
+  title: z.string().optional().default(''),
+  description: z.string().optional(),
+  prompt: z.string().optional(),
   instructions: z.array(z.string()).optional(),
   exampleOutput: z.string().optional(),
-});
+}).passthrough();
 export type PromptItem = z.infer<typeof PromptItemSchema>;
 
 // Post Type & Content Type Enums (for classifying Reels vs Carousels)

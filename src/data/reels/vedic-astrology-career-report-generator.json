@@ -17,7 +17,7 @@
     {
       "id": "pmt-047",
       "title": "Vocational Astrology Chart Analysis",
-      "prompt": "Analyze the 10th house of career and 6th house of daily work based on the following planetary placements: [INPUT PLACEMENTS]. Provide grounded, constructive advice on suitable industries, work styles, and timing for career shifts.",
+      "description": "Analyze the 10th house of career and 6th house of daily work based on the following planetary placements: [INPUT PLACEMENTS]. Provide grounded, constructive advice on suitable industries, work styles, and timing for career shifts.",
       "instructions": [
         "Input your planetary chart details into the bracketed fields.",
         "Run the prompt in Claude 3.7 or ChatGPT.",

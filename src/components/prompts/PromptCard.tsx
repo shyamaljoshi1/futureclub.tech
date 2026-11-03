@@ -57,20 +57,24 @@ export const PromptCard: React.FC<PromptCardProps> = ({ prompt }) => {
           </p>
 
           {/* Prompt snippet preview in code element */}
-          <code className="block p-3 rounded bg-[#f4f4f0] dark:bg-[#101215] mb-4 text-xs font-mono text-[#5e626d] dark:text-[#8e93a0] line-clamp-3 leading-relaxed">
-            {prompt.prompt}
-          </code>
+          {prompt.prompt && (
+            <code className="block p-3 rounded bg-[#f4f4f0] dark:bg-[#101215] mb-4 text-xs font-mono text-[#5e626d] dark:text-[#8e93a0] line-clamp-3 leading-relaxed">
+              {prompt.prompt}
+            </code>
+          )}
         </div>
       </div>
 
       {/* Bottom actions: Copy Button & Full Guide */}
       <div className="px-5 pb-5 pt-1 flex items-center justify-between gap-2">
-        <CopyPromptButton
-          promptText={prompt.prompt}
-          promptSlug={prompt.slug}
-          promptTitle={prompt.title}
-          size="sm"
-        />
+        {prompt.prompt ? (
+          <CopyPromptButton
+            promptText={prompt.prompt}
+            promptSlug={prompt.slug}
+            promptTitle={prompt.title}
+            size="sm"
+          />
+        ) : <div />}
 
         <div className="flex items-center space-x-3">
           {prompt.toolUrl && (

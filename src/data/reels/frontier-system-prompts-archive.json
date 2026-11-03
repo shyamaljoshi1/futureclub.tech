@@ -17,7 +17,7 @@
     {
       "id": "pmt-079",
       "title": "Industrial-Strength System Prompt Template",
-      "prompt": "Write a comprehensive system prompt for an autonomous coding assistant. Define operational constraints, tool-calling behavior, rules for asking clarifying questions, and strict prohibition of hallucinated package names.",
+      "description": "Write a comprehensive system prompt for an autonomous coding assistant. Define operational constraints, tool-calling behavior, rules for asking clarifying questions, and strict prohibition of hallucinated package names.",
       "instructions": [
         "Explore the system prompts repository on GitHub.",
         "Study the constraint patterns top AI labs use to prevent hallucinations.",

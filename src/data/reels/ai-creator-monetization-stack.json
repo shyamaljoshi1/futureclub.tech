@@ -17,7 +17,7 @@
     {
       "id": "pmt-005",
       "title": "Digital Product Idea Validator & Offer Pitch",
-      "prompt": "Analyze my target audience of freelance designers. Formulate 3 high-perceived-value digital templates I can build with AI tools (e.g. prompt sets, workflow blueprints). For each, write a compelling value proposition and landing page headline.",
+      "description": "Analyze my target audience of freelance designers. Formulate 3 high-perceived-value digital templates I can build with AI tools (e.g. prompt sets, workflow blueprints). For each, write a compelling value proposition and landing page headline.",
       "instructions": [
         "Define your specific professional niche and skillset.",
         "Run this prompt in ChatGPT or Claude to extract high-demand product offers.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-029",
       "title": "Antigravity Full-Stack Microservice Generator",
-      "prompt": "Generate a production-ready Express TypeScript backend microservice with JWT authentication, rate limiting middleware, and SQLite Prisma ORM. Include Dockerfile, docker-compose.yml, and Vitest endpoint tests.",
+      "description": "Generate a production-ready Express TypeScript backend microservice with JWT authentication, rate limiting middleware, and SQLite Prisma ORM. Include Dockerfile, docker-compose.yml, and Vitest endpoint tests.",
       "instructions": [
         "Download and install Google Antigravity CLI.",
         "Authenticate with your Google account via agy auth.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-055",
       "title": "Executive AI Market Analysis & Strategic Implications",
-      "prompt": "Analyze the strategic implications of autonomous cyber security models identifying critical zero-day software vulnerabilities. Outline potential risks for enterprise software vendors and the defense industry.",
+      "description": "Analyze the strategic implications of autonomous cyber security models identifying critical zero-day software vulnerabilities. Outline potential risks for enterprise software vendors and the defense industry.",
       "instructions": [
         "Read the executive briefing highlights.",
         "Use this prompt to run scenario planning for your company's tech stack.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-084",
       "title": "Big Tech Strategic Capital Allocation Case Study",
-      "prompt": "Analyze the strategic pivot of Silicon Valley capital from VR/Metaverse infrastructure (2021) to Generative AI datacenters (2024-2026). Detail the factors of consumer adoption, developer ecosystem, and revenue timelines.",
+      "description": "Analyze the strategic pivot of Silicon Valley capital from VR/Metaverse infrastructure (2021) to Generative AI datacenters (2024-2026). Detail the factors of consumer adoption, developer ecosystem, and revenue timelines.",
       "instructions": [
         "Read the business strategy retrospective.",
         "Use this prompt to examine shifting technology investment cycles.",

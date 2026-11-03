@@ -17,7 +17,7 @@
     {
       "id": "pmt-082",
       "title": "Claude Code Project Rules Configuration (.clauderc)",
-      "prompt": "Generate a comprehensive .clauderc configuration file for a TypeScript full-stack project. Include guidelines on code formatting, preferred libraries, test runner commands, and strict security rules.",
+      "description": "Generate a comprehensive .clauderc configuration file for a TypeScript full-stack project. Include guidelines on code formatting, preferred libraries, test runner commands, and strict security rules.",
       "instructions": [
         "Install the Claude Code CLI using npm install -g @anthropic-ai/claude-code.",
         "Authenticate with your Anthropic account in your terminal.",

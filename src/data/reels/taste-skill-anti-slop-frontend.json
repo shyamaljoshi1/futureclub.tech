@@ -17,7 +17,7 @@
     {
       "id": "pmt-008",
       "title": "Anti-Slop Modern Landing Page Prompt",
-      "prompt": "Design a high-craft landing page for a developer tool. Follow strict anti-slop rules: warm neutral off-white canvas, near-black charcoal type, zero saturated primary buttons, mono typography for technical labels, and zero generic 3-column feature cards.",
+      "description": "Design a high-craft landing page for a developer tool. Follow strict anti-slop rules: warm neutral off-white canvas, near-black charcoal type, zero saturated primary buttons, mono typography for technical labels, and zero generic 3-column feature cards.",
       "instructions": [
         "Install the taste skill via npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\".",
         "Invoke the skill before generating any React or Tailwind components.",

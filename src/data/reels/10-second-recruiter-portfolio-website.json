@@ -17,7 +17,7 @@
     {
       "id": "pmt-030",
       "title": "Recruiter-Optimized Project Case Study Writer",
-      "prompt": "Write a concise, high-impact case study summary for my full-stack web project. Highlight: Problem Statement, Tech Stack Chosen (and why), Engineering Challenges Overcome, and Measurable Outcome (e.g. latency reduced, users served).",
+      "description": "Write a concise, high-impact case study summary for my full-stack web project. Highlight: Problem Statement, Tech Stack Chosen (and why), Engineering Challenges Overcome, and Measurable Outcome (e.g. latency reduced, users served).",
       "instructions": [
         "Clone the minimal portfolio repository from GitHub.",
         "Edit the single projects.json data file with your projects.",

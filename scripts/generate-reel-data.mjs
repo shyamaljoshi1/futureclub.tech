@@ -45,7 +45,7 @@ const reelsData = [
       {
         id: "pmt-001",
         title: "Autonomous Terminal Refactoring Prompt",
-        prompt: "agy -p \"Audit this repository for async/await performance bottlenecks, redundant imports, and untyped functions. Propose atomic git commits and verify with test suite.\"",
+        description: "agy -p \"Audit this repository for async/await performance bottlenecks, redundant imports, and untyped functions. Propose atomic git commits and verify with test suite.\"",
         instructions: [
           "Install the agy binary via the official script: curl -fsSL https://antigravity.google/cli/install.sh | bash",
           "Sign in with your Google Developer credentials via `agy auth login`.",
@@ -80,7 +80,7 @@ const reelsData = [
       {
         id: "pmt-002",
         title: "NVIDIA NIM OpenAI-Compatible cURL Starter",
-        prompt: "curl -X POST 'https://integrate.api.nvidia.com/v1/chat/completions' \\\n  -H 'Authorization: Bearer $NVIDIA_API_KEY' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n    \"model\": \"meta/llama-3.3-70b-instruct\",\n    \"messages\": [{\"role\":\"user\",\"content\":\"Explain vector embeddings in 3 sentences.\"}],\n    \"temperature\": 0.2\n  }'",
+        description: "curl -X POST 'https://integrate.api.nvidia.com/v1/chat/completions' \\\n  -H 'Authorization: Bearer $NVIDIA_API_KEY' \\\n  -H 'Content-Type: application/json' \\\n  -d '{\n    \"model\": \"meta/llama-3.3-70b-instruct\",\n    \"messages\": [{\"role\":\"user\",\"content\":\"Explain vector embeddings in 3 sentences.\"}],\n    \"temperature\": 0.2\n  }'",
         instructions: [
           "Sign up at build.nvidia.com and generate your free developer API key.",
           "Export your key: export NVIDIA_API_KEY='nvapi-...'",
@@ -115,7 +115,7 @@ const reelsData = [
       {
         id: "pmt-003",
         title: "NotebookLM Academic Exam Synthesis Prompt",
-        prompt: "Synthesize the uploaded lecture slides and research papers. Identify the 5 most heavily tested concepts, generate 10 active-recall flashcard questions with concise answers, and flag counter-intuitive traps.",
+        description: "Synthesize the uploaded lecture slides and research papers. Identify the 5 most heavily tested concepts, generate 10 active-recall flashcard questions with concise answers, and flag counter-intuitive traps.",
         instructions: [
           "Claim your free student Google AI plan using your college .edu or university domain.",
           "Open NotebookLM and upload PDF lecture slides, textbooks, or research notes.",
@@ -150,7 +150,7 @@ const reelsData = [
       {
         id: "pmt-004",
         title: "n8n Support Triage Agent System Prompt",
-        prompt: "You are an automated support routing agent. Read the incoming customer inquiry, categorize it (Billing, Bug, Feature Request, Urgent), extract customer sentiments, and output JSON with routing destination and draft reply.",
+        description: "You are an automated support routing agent. Read the incoming customer inquiry, categorize it (Billing, Bug, Feature Request, Urgent), extract customer sentiments, and output JSON with routing destination and draft reply.",
         instructions: [
           "Deploy n8n via Docker: `docker run -it --rm -p 5678:5678 n8nio/n8n`.",
           "Add the AI Agent node paired with an OpenAI or Ollama model node.",
@@ -185,7 +185,7 @@ const reelsData = [
       {
         id: "pmt-005",
         title: "CrewAI Researcher & Senior Writer Configuration",
-        prompt: "researcher = Agent(\n  role='Lead Market Analyst',\n  goal='Discover emerging open-source AI developer tools',\n  backstory='Veteran tech strategist experienced in tracking GitHub trending and arXiv papers',\n  verbose=True\n)",
+        description: "researcher = Agent(\n  role='Lead Market Analyst',\n  goal='Discover emerging open-source AI developer tools',\n  backstory='Veteran tech strategist experienced in tracking GitHub trending and arXiv papers',\n  verbose=True\n)",
         instructions: [
           "Install via pip: `pip install crewai crewai-tools`.",
           "Configure your agents with complementary roles and backstories.",
@@ -220,7 +220,7 @@ const reelsData = [
       {
         id: "pmt-006",
         title: "Strict TypeScript .cursorrules Configuration",
-        prompt: "You are an elite TypeScript & React engineer. When implementing changes:\n- Always prefer explicit type annotations over any.\n- Maintain strict zero lint warning policies.\n- Write atomic modular components under 150 lines.\n- Provide executable inline diffs only.",
+        description: "You are an elite TypeScript & React engineer. When implementing changes:\n- Always prefer explicit type annotations over any.\n- Maintain strict zero lint warning policies.\n- Write atomic modular components under 150 lines.\n- Provide executable inline diffs only.",
         instructions: [
           "Create a `.cursorrules` file in the root directory of your repository.",
           "Paste this configuration to enforce clean architecture and eliminate hallucinations.",
@@ -255,7 +255,7 @@ const reelsData = [
       {
         id: "pmt-007",
         title: "Claude Production React Artifact Master Prompt",
-        prompt: "Build an interactive, production-ready React component in a single artifact. Include Tailwind CSS for responsive styling, Lucide React icons, comprehensive error states, accessible keyboard controls, and realistic mock data.",
+        description: "Build an interactive, production-ready React component in a single artifact. Include Tailwind CSS for responsive styling, Lucide React icons, comprehensive error states, accessible keyboard controls, and realistic mock data.",
         instructions: [
           "Open Claude.ai and ensure Artifacts are toggled on in your settings.",
           "Select Claude 3.5 Sonnet for the highest frontend code fidelity.",
@@ -290,7 +290,7 @@ const reelsData = [
       {
         id: "pmt-008",
         title: "Systematic Market & Technical Benchmarking Prompt",
-        prompt: "Perform a deep multi-source competitive audit of [Industry/Domain]. Structure into: 1) Market Size & Growth drivers, 2) Top 5 players with strengths and weaknesses, 3) Verified pricing models, 4) Critical risks. Include authoritative web citations for every quantitative claim.",
+        description: "Perform a deep multi-source competitive audit of [Industry/Domain]. Structure into: 1) Market Size & Growth drivers, 2) Top 5 players with strengths and weaknesses, 3) Verified pricing models, 4) Critical risks. Include authoritative web citations for every quantitative claim.",
         instructions: [
           "Go to perplexity.ai and toggle the Focus mode to 'Academic' or 'Web'.",
           "Replace the bracketed industry with your target domain.",
@@ -325,7 +325,7 @@ const reelsData = [
       {
         id: "pmt-009",
         title: "First-Principles Architectural Trade-off Prompt",
-        prompt: "Analyze [Problem/Architecture] using first-principles thinking. Break down the system into its absolute irreducible physical and computational limits. Identify conventional assumptions that can be challenged, and derive three alternative architectures ranked by cost, reliability, and developer velocity.",
+        description: "Analyze [Problem/Architecture] using first-principles thinking. Break down the system into its absolute irreducible physical and computational limits. Identify conventional assumptions that can be challenged, and derive three alternative architectures ranked by cost, reliability, and developer velocity.",
         instructions: [
           "Select a reasoning-optimized model (e.g. o1 or o3-mini) in ChatGPT.",
           "Provide concrete context, metrics, and traffic constraints.",
@@ -360,7 +360,7 @@ const reelsData = [
       {
         id: "pmt-010",
         title: "35mm Editorial Portrait Master Prompt",
-        prompt: "Editorial portrait photograph, natural ambient window lighting, captured on Leica M11 with 50mm Summilux lens at f/1.4, 35mm Kodak Portra 400 film grain, candid expression, realistic skin pores and texture, neutral color grading, zero digital airbrushing --ar 4:5 --raw",
+        description: "Editorial portrait photograph, natural ambient window lighting, captured on Leica M11 with 50mm Summilux lens at f/1.4, 35mm Kodak Portra 400 film grain, candid expression, realistic skin pores and texture, neutral color grading, zero digital airbrushing --ar 4:5 --raw",
         instructions: [
           "Avoid buzzwords like 'photorealistic', '8k', or 'hyper-detailed'.",
           "Specify the focal length, camera body, and film emulsion directly.",
@@ -395,7 +395,7 @@ const reelsData = [
       {
         id: "pmt-011",
         title: "Voice Cadence & Audio Script Prompt",
-        prompt: "Read in an engaging, conversational, tech-podcast cadence. Emphasize punchy phrases with subtle micro-pauses [pause=0.3s]. Maintain confident warmth without sounding robotic or theatrical.",
+        description: "Read in an engaging, conversational, tech-podcast cadence. Emphasize punchy phrases with subtle micro-pauses [pause=0.3s]. Maintain confident warmth without sounding robotic or theatrical.",
         instructions: [
           "Record 1 minute of clear, background-noise-free vocal sample.",
           "Upload to ElevenLabs Instant Voice Cloning.",
@@ -430,7 +430,7 @@ const reelsData = [
       {
         id: "pmt-012",
         title: "SaaS Pricing Table with Annual Switch Prompt",
-        prompt: "Design a modern, minimalist 3-tier SaaS pricing table (Hobby, Pro, Enterprise). Include an annual/monthly toggle with a 'Save 20%' badge, highlighted 'Most Popular' card with a subtle border, feature checklists, and accessible buttons using Tailwind CSS.",
+        description: "Design a modern, minimalist 3-tier SaaS pricing table (Hobby, Pro, Enterprise). Include an annual/monthly toggle with a 'Save 20%' badge, highlighted 'Most Popular' card with a subtle border, feature checklists, and accessible buttons using Tailwind CSS.",
         instructions: [
           "Visit v0.dev and enter the prompt into the generation input.",
           "Iterate by selecting specific elements in the visual canvas.",
@@ -465,7 +465,7 @@ const reelsData = [
       {
         id: "pmt-013",
         title: "Investor Pitch Deck Structure Prompt",
-        prompt: "Create an 8-slide seed-stage pitch deck for an AI developer platform. Cover: 1) The Problem, 2) The Solution, 3) Product Demo, 4) Market Size (TAM/SAM/SOM), 5) Business Model, 6) Competitive Advantage, 7) Traction, 8) Team and Ask.",
+        description: "Create an 8-slide seed-stage pitch deck for an AI developer platform. Cover: 1) The Problem, 2) The Solution, 3) Product Demo, 4) Market Size (TAM/SAM/SOM), 5) Business Model, 6) Competitive Advantage, 7) Traction, 8) Team and Ask.",
         instructions: [
           "Sign up at gamma.app and select 'Presentation'.",
           "Paste this outline into the prompt field.",
@@ -500,7 +500,7 @@ const reelsData = [
       {
         id: "pmt-014",
         title: "Markdown Blog with Supabase Auth Prompt",
-        prompt: "Build a complete fullstack React application using Vite and Tailwind CSS. Create an interactive Markdown notes app with local storage persistence, tag filtering, dark mode toggle, and responsive mobile navigation.",
+        description: "Build a complete fullstack React application using Vite and Tailwind CSS. Create an interactive Markdown notes app with local storage persistence, tag filtering, dark mode toggle, and responsive mobile navigation.",
         instructions: [
           "Navigate to bolt.new in your browser.",
           "Paste the specification prompt and watch the terminal install dependencies in WebContainer.",
@@ -535,7 +535,7 @@ const reelsData = [
       {
         id: "pmt-015",
         title: "Automated Express.js Test Suite Prompt",
-        prompt: "Generate a complete Jest & Supertest test suite for this REST endpoint. Cover happy path, 400 invalid schema payload, 401 unauthorized token, and 500 database timeout edge cases.",
+        description: "Generate a complete Jest & Supertest test suite for this REST endpoint. Cover happy path, 400 invalid schema payload, 401 unauthorized token, and 500 database timeout edge cases.",
         instructions: [
           "Install Codeium extension in VS Code, JetBrains, or Neovim.",
           "Open Codeium Chat with Ctrl+Shift+A (or Cmd+Shift+A).",
@@ -570,7 +570,7 @@ const reelsData = [
       {
         id: "pmt-016",
         title: "Local Code Reviewer Modelfile Configuration",
-        prompt: "FROM llama3.2:latest\nPARAMETER temperature 0.1\nSYSTEM \"\"\"\nYou are a private offline code reviewer. Flag security flaws, memory leaks, and performance bottlenecks without sharing data externally.\n\"\"\"",
+        description: "FROM llama3.2:latest\nPARAMETER temperature 0.1\nSYSTEM \"\"\"\nYou are a private offline code reviewer. Flag security flaws, memory leaks, and performance bottlenecks without sharing data externally.\n\"\"\"",
         instructions: [
           "Download Ollama from ollama.com and install on your machine.",
           "Save this Modelfile and run `ollama create code-reviewer -f Modelfile`.",
@@ -605,7 +605,7 @@ const reelsData = [
       {
         id: "pmt-017",
         title: "Multi-Step Mathematical & Logic Verification Prompt",
-        prompt: "Solve this algorithmic challenge step-by-step. Expose your full chain of thought, rigorously examine boundary edge cases (n=0, negative inputs, large arrays), and provide optimal time/space complexity analysis.",
+        description: "Solve this algorithmic challenge step-by-step. Expose your full chain of thought, rigorously examine boundary edge cases (n=0, negative inputs, large arrays), and provide optimal time/space complexity analysis.",
         instructions: [
           "Open chat.deepseek.com and enable 'DeepThink (R1)'.",
           "Paste your hardest coding or math problem.",
@@ -640,7 +640,7 @@ const reelsData = [
       {
         id: "pmt-018",
         title: "Audio Overview Focus Direction Prompt",
-        prompt: "Focus the Deep Dive audio discussion on practical implementation hurdles and real-world trade-offs. Have the hosts challenge conventional wisdom and explain the technical architecture using relatable everyday analogies.",
+        description: "Focus the Deep Dive audio discussion on practical implementation hurdles and real-world trade-offs. Have the hosts challenge conventional wisdom and explain the technical architecture using relatable everyday analogies.",
         instructions: [
           "Upload your PDF, Google Doc, or web links to notebooklm.google.com.",
           "Under Studio, click Customize Audio Overview.",
@@ -675,7 +675,7 @@ const reelsData = [
       {
         id: "pmt-019",
         title: "pgvector Cosine Similarity Match SQL Function",
-        prompt: "CREATE OR REPLACE FUNCTION match_documents (\n  query_embedding vector(1536),\n  match_threshold float,\n  match_count int\n)\nRETURNS TABLE (id bigint, content text, similarity float)\nLANGUAGE sql STABLE\nAS $$\n  SELECT id, content, 1 - (documents.embedding <=> query_embedding) AS similarity\n  FROM documents\n  WHERE 1 - (documents.embedding <=> query_embedding) > match_threshold\n  ORDER BY similarity DESC\n  LIMIT match_count;\n$$;",
+        description: "CREATE OR REPLACE FUNCTION match_documents (\n  query_embedding vector(1536),\n  match_threshold float,\n  match_count int\n)\nRETURNS TABLE (id bigint, content text, similarity float)\nLANGUAGE sql STABLE\nAS $$\n  SELECT id, content, 1 - (documents.embedding <=> query_embedding) AS similarity\n  FROM documents\n  WHERE 1 - (documents.embedding <=> query_embedding) > match_threshold\n  ORDER BY similarity DESC\n  LIMIT match_count;\n$$;",
         instructions: [
           "Enable the `vector` extension in your Supabase SQL Editor.",
           "Execute this query to create the cosine similarity search function.",
@@ -710,7 +710,7 @@ const reelsData = [
       {
         id: "pmt-020",
         title: "Fast Whisper CLI Caption Generation Command",
-        prompt: "whisper input_video.mp4 --model medium --language en --output_format srt --word_timestamps True",
+        description: "whisper input_video.mp4 --model medium --language en --output_format srt --word_timestamps True",
         instructions: [
           "Install Whisper via pip: `pip install -U openai-whisper`.",
           "Ensure ffmpeg is installed on your operating system.",
@@ -745,7 +745,7 @@ const reelsData = [
       {
         id: "pmt-021",
         title: "Minimalist Apple-Style Hardware Product Prompt",
-        prompt: "Commercial studio product photography of a sleek titanium smart device on a matte concrete pedestal, clean diffuse softbox lighting from the left, subtle geometric shadows, shallow depth of field, 85mm lens at f/2.8, neutral studio grey background --ar 16:9 --style raw",
+        description: "Commercial studio product photography of a sleek titanium smart device on a matte concrete pedestal, clean diffuse softbox lighting from the left, subtle geometric shadows, shallow depth of field, 85mm lens at f/2.8, neutral studio grey background --ar 16:9 --style raw",
         instructions: [
           "Open Midjourney in Discord or via web interface at midjourney.com.",
           "Use the `/imagine` command and paste the prompt.",
@@ -780,7 +780,7 @@ const reelsData = [
       {
         id: "pmt-022",
         title: "Autonomous Web Agent Goal Instruction",
-        prompt: "", // Left blank for user to customize
+        description: "", // Left blank for user to customize
         instructions: [
           "Define the high-level objective with strict boundary parameters.",
           "Specify the desired output format (e.g., CSV, Notion table, PDF summary).",
@@ -815,7 +815,7 @@ const reelsData = [
       {
         id: "pmt-023",
         title: "Critical Essay Counter-Argument Generator",
-        prompt: "", // Left blank for user to customize
+        description: "", // Left blank for user to customize
         instructions: [
           "Enter your thesis statement into your preferred AI research tool.",
           "Request 3 strong empirical counter-arguments and scholarly objections.",
@@ -850,7 +850,7 @@ const reelsData = [
       {
         id: "pmt-024",
         title: "High-Retention 45-Second Tech Reel Script",
-        prompt: "", // Left blank for user to add exact prompt
+        description: "", // Left blank for user to add exact prompt
         instructions: [
           "Hook (0-3s): State a bold contrarian claim or unveil an unknown tool.",
           "Agitate (3-15s): Demonstrate the painful conventional way people waste time.",
@@ -886,7 +886,7 @@ const reelsData = [
       {
         id: "pmt-025",
         title: "StateGraph Cyclic Routing Agent Definition",
-        prompt: "from langgraph.graph import StateGraph, END\n\nworkflow = StateGraph(AgentState)\nworkflow.add_node(\"researcher\", call_researcher)\nworkflow.add_node(\"reviewer\", call_reviewer)\nworkflow.add_conditional_edges(\n  \"reviewer\",\n  should_continue,\n  {\"retry\": \"researcher\", \"finish\": END}\n)",
+        description: "from langgraph.graph import StateGraph, END\n\nworkflow = StateGraph(AgentState)\nworkflow.add_node(\"researcher\", call_researcher)\nworkflow.add_node(\"reviewer\", call_reviewer)\nworkflow.add_conditional_edges(\n  \"reviewer\",\n  should_continue,\n  {\"retry\": \"researcher\", \"finish\": END}\n)",
         instructions: [
           "Install via pip: `pip install -U langgraph langchain-openai`.",
           "Define your state schema and graph node functions.",

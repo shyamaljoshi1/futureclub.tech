@@ -1917,7 +1917,7 @@ function generateAll90Posts() {
         {
           id: `pmt-${String(postNumber).padStart(3, '0')}`,
           title: promptTitle,
-          prompt: promptText,
+          description: promptText,
           instructions: instructions,
           exampleOutput: exampleOutput
         }

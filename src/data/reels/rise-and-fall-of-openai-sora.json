@@ -17,7 +17,7 @@
     {
       "id": "pmt-080",
       "title": "Generative Video Unit Economics Analysis",
-      "prompt": "Break down the estimated GPU compute cost per minute of generating 1080p diffusion video versus traditional CGI rendering. Analyze when generative video becomes cost-effective for commercial marketing.",
+      "description": "Break down the estimated GPU compute cost per minute of generating 1080p diffusion video versus traditional CGI rendering. Analyze when generative video becomes cost-effective for commercial marketing.",
       "instructions": [
         "Read the investigative retrospective on AI video compute barriers.",
         "Evaluate whether short-form video generation aligns with your creator budget.",

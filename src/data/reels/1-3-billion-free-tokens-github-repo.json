@@ -17,7 +17,7 @@
     {
       "id": "pmt-051",
       "title": "Token Usage Tracking & Budget Optimizer",
-      "prompt": "Create a Python script that tracks token consumption across different model endpoints, calculates projected monthly costs, and alerts when usage approaches free-tier thresholds.",
+      "description": "Create a Python script that tracks token consumption across different model endpoints, calculates projected monthly costs, and alerts when usage approaches free-tier thresholds.",
       "instructions": [
         "Star and clone the free tokens repository from GitHub.",
         "Follow the setup instructions to claim credits from eligible providers.",

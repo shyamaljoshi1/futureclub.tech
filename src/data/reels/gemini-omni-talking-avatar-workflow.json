@@ -17,7 +17,7 @@
     {
       "id": "pmt-039",
       "title": "Viral Short-Form Educational Script with Stage Directions",
-      "prompt": "Write a 45-second educational video script explaining quantum computing basics. Include bracketed visual stage cues, camera zooms, and facial expression directions for an AI avatar presenter.",
+      "description": "Write a 45-second educational video script explaining quantum computing basics. Include bracketed visual stage cues, camera zooms, and facial expression directions for an AI avatar presenter.",
       "instructions": [
         "Generate your video script with Gemini.",
         "Synthesize natural voiceover with realistic breath marks.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-057",
       "title": "MCP Server Configuration & Tool Definition",
-      "prompt": "Write a Model Context Protocol (MCP) server in TypeScript that exposes two tools: list_git_branches and run_typecheck. Include proper JSON schema parameter definitions and error handling.",
+      "description": "Write a Model Context Protocol (MCP) server in TypeScript that exposes two tools: list_git_branches and run_typecheck. Include proper JSON schema parameter definitions and error handling.",
       "instructions": [
         "Install OpenClaw from the official GitHub repository.",
         "Configure your local MCP servers in your claude_desktop_config.json.",

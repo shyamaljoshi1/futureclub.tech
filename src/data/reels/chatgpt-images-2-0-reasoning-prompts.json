@@ -17,7 +17,7 @@
     {
       "id": "pmt-063",
       "title": "Flawless Typography & Composition Visual Prompt",
-      "prompt": "High-end coffee shop storefront in Tokyo at dusk. Beautiful wooden signage with the exact text \"THE FUTURE GUY\" carved in gold leaf letters. Warm glowing interior lights, barista visible through clear window, rainy pavement reflection, 8k photo.",
+      "description": "High-end coffee shop storefront in Tokyo at dusk. Beautiful wooden signage with the exact text \"THE FUTURE GUY\" carved in gold leaf letters. Warm glowing interior lights, barista visible through clear window, rainy pavement reflection, 8k photo.",
       "instructions": [
         "Open ChatGPT and choose the newest image generation pipeline.",
         "Specify exact text strings within quotes for accurate sign rendering.",

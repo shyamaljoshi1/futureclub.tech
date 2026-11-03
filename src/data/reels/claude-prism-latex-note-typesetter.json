@@ -17,7 +17,7 @@
     {
       "id": "pmt-086",
       "title": "Handwritten Math to Clean LaTeX Document",
-      "prompt": "Transcribe these photographed math lecture notes into a complete, compilable LaTeX document. Use amsmath and tikz for diagrams. Format all theorems, proofs, and definitions in structured colored boxes.",
+      "description": "Transcribe these photographed math lecture notes into a complete, compilable LaTeX document. Use amsmath and tikz for diagrams. Format all theorems, proofs, and definitions in structured colored boxes.",
       "instructions": [
         "Snap a photo of your handwritten lecture notes.",
         "Upload the image to Claude with this LaTeX prompt.",

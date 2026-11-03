@@ -17,7 +17,7 @@
     {
       "id": "pmt-035",
       "title": "Academic Thesis Literature Review Assistant",
-      "prompt": "I am researching the social impact of autonomous vehicles. Synthesize the attached 3 academic papers into a 1,000-word literature review. Compare methodologies, sample sizes, conclusions, and note gaps in current scholarship.",
+      "description": "I am researching the social impact of autonomous vehicles. Synthesize the attached 3 academic papers into a 1,000-word literature review. Compare methodologies, sample sizes, conclusions, and note gaps in current scholarship.",
       "instructions": [
         "Navigate to the Google One student promotional page.",
         "Verify your college email with SheerID or institutional SSO.",

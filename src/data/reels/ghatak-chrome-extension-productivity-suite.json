@@ -17,7 +17,7 @@
     {
       "id": "pmt-046",
       "title": "Instant Web Article Executive Brief",
-      "prompt": "Extract the core thesis, top 3 counter-arguments, and actionable takeaways from the current web page. Format as an executive briefing note with zero fluff.",
+      "description": "Extract the core thesis, top 3 counter-arguments, and actionable takeaways from the current web page. Format as an executive briefing note with zero fluff.",
       "instructions": [
         "Add Ghatak to your Chrome browser.",
         "Press the shortcut key on any long article or documentation page.",

@@ -17,7 +17,7 @@
     {
       "id": "pmt-068",
       "title": "High-Velocity Multi-File Refactoring Command",
-      "prompt": "Audit all files in the src/api directory. Standardize error responses to use our AppError class, ensure all async functions have proper try/catch blocks with logging, and update corresponding integration tests.",
+      "description": "Audit all files in the src/api directory. Standardize error responses to use our AppError class, ensure all async functions have proper try/catch blocks with logging, and update corresponding integration tests.",
       "instructions": [
         "Review the workflow habits of top Silicon Valley developers.",
         "Configure auto-approvals for read-only commands in Claude Code.",
