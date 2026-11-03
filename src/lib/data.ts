@@ -288,6 +288,131 @@ export interface PromptAdapter {
   reelThumbnail: string;
   postType?: 'reel' | 'carousel';
   contentType?: 'tool' | 'prompt';
+  promptSet?: ReelItem['promptSet'];
+}
+
+export interface ParsedPromptSection {
+  id: string;
+  title: string;
+  content: string;
+  instructions?: string[];
+  exampleOutput?: string;
+}
+
+export function parsePromptSections(
+  rawText: string,
+  defaultTitle = 'Copy-Paste Prompt Template'
+): ParsedPromptSection[] {
+  if (!rawText || !rawText.trim()) {
+    return [{ id: 'prompt-1', title: defaultTitle, content: '' }];
+  }
+
+  const normalized = rawText.replace(/\r\n/g, '\n').trim();
+  const regex = /(?:^|\n\s*\n)(?=Prompt\s+\d+[:\s\n-])/i;
+  const parts = normalized.split(regex).map((p) => p.trim()).filter(Boolean);
+
+  if (parts.length > 1) {
+    return parts.map((part, idx) => {
+      const match = part.match(/^Prompt\s+(\d+)[:\s-]*(.*)/i);
+      let title = `Prompt ${idx + 1}`;
+      let content = part;
+      if (match) {
+        const promptNum = match[1];
+        const rest = match[2].trim();
+        const isSubtitle =
+          rest.length > 0 &&
+          rest.length <= 40 &&
+          rest.split(/\s+/).length <= 6 &&
+          !/[.,;]$/.test(rest);
+        if (isSubtitle) {
+          title = `Prompt ${promptNum}: ${rest}`;
+          content = part.substring(match[0].length).trim();
+        } else {
+          title = `Prompt ${promptNum}`;
+          content = part.replace(/^Prompt\s+\d+[:\s-]*/i, '').trim();
+        }
+      }
+      return {
+        id: `prompt-${idx + 1}`,
+        title,
+        content,
+      };
+    });
+  }
+
+  if (/^Prompt\s+\d+[:\s\n-]/i.test(normalized)) {
+    const match = normalized.match(/^Prompt\s+(\d+)[:\s-]*(.*)/i);
+    let title = 'Prompt 1';
+    let content = normalized;
+    if (match) {
+      const promptNum = match[1];
+      const rest = match[2].trim();
+      const isSubtitle =
+        rest.length > 0 &&
+        rest.length <= 40 &&
+        rest.split(/\s+/).length <= 6 &&
+        !/[.,;]$/.test(rest);
+      if (isSubtitle) {
+        title = `Prompt ${promptNum}: ${rest}`;
+        content = normalized.substring(match[0].length).trim();
+      } else {
+        title = `Prompt ${promptNum}`;
+        content = normalized.replace(/^Prompt\s+\d+[:\s-]*/i, '').trim();
+      }
+    }
+    return [{ id: 'prompt-1', title, content }];
+  }
+
+  return [
+    {
+      id: 'prompt-1',
+      title: defaultTitle,
+      content: normalized,
+    },
+  ];
+}
+
+export function getPromptSections(
+  item: {
+    prompt?: string;
+    promptSet?: Array<{
+      id?: string;
+      title?: string;
+      description?: string;
+      prompt?: string;
+      instructions?: string[];
+      exampleOutput?: string;
+    }>;
+  },
+  defaultTitle = 'Copy-Paste Prompt Template'
+): ParsedPromptSection[] {
+  if (item.promptSet && item.promptSet.length > 1) {
+    const sections: ParsedPromptSection[] = [];
+    item.promptSet.forEach((p, idx) => {
+      const text = p.description || (p as any).Description || p.prompt || (p as any).Prompt || '';
+      const fallbackTitle = p.title || `Prompt ${idx + 1}`;
+      const parsed = parsePromptSections(text, fallbackTitle);
+      parsed.forEach((s) => {
+        if (p.instructions && !s.instructions) s.instructions = p.instructions;
+        if (p.exampleOutput && !s.exampleOutput) s.exampleOutput = p.exampleOutput;
+      });
+      sections.push(...parsed);
+    });
+    return sections;
+  }
+
+  const singleItem = item.promptSet && item.promptSet[0] ? item.promptSet[0] : null;
+  const rawText = (singleItem
+    ? singleItem.description || (singleItem as any).Description || singleItem.prompt || (singleItem as any).Prompt
+    : item.prompt) || '';
+
+  const parsed = parsePromptSections(rawText, defaultTitle);
+  if (singleItem?.instructions) {
+    parsed.forEach((s) => {
+      if (!s.instructions) s.instructions = singleItem.instructions;
+    });
+  }
+  return parsed;
 }
 
 export function getPrompts(options: ReelFilterOptions = {}): PromptAdapter[] {
@@ -326,6 +451,7 @@ export function getPrompts(options: ReelFilterOptions = {}): PromptAdapter[] {
         toolUrl: reel.toolUrl,
         instagramReelUrl: reel.instagramReelUrl,
         reelThumbnail: reel.reelThumbnail,
+        promptSet: reel.promptSet,
       });
     });
   });
@@ -363,6 +489,7 @@ export function getPromptBySlug(slug: string): PromptAdapter | undefined {
     toolUrl: reel.toolUrl,
     instagramReelUrl: reel.instagramReelUrl,
     reelThumbnail: reel.reelThumbnail,
+    promptSet: reel.promptSet,
   };
 }
 

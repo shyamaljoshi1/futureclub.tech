@@ -16,14 +16,15 @@
   "promptSet": [
     {
       "id": "pmt-025",
-      "title": "Approachable Tech Founder Profile Picture",
-      "description": "High-resolution headshot portrait of a confident technology founder with a warm smile, wearing a minimalist black turtleneck. Shot on Canon EOS R5 with 85mm f/1.2 lens. Soft directional morning light, gentle natural shadows, sharp focus on iris, clean matte studio backdrop.",
+      "title": "Editorial & Studio Executive Portrait Prompts (4 Styles)",
+      "description": "Prompt 1:\n\"reference\": \"use uploaded image face as reference, preserve original face and identity\",\n\"outfit\": \"oversized black sweatshirt and lemon green trousers\",\n\"footwear\": \"lemon green neutral or Nike sneakers\",\n\"socks\": \"white ribbed socks, only slightly visible above the sneakers\",\n\"environment\": \"muted lemon green-toned studio background\",\n\"lighting\": \"soft cinematic glow highlighting skin and fabric textures\",\n\"style\": \"fashion editorial x futuristic\",\n\"composition\": \"model seated elegantly with a relaxed posture\"\n\n\nPrompt 2:\nCinematic portrait photography, motion blur crowd effect, urban stillness aesthetic, modern editorial style, minimal fashion mood, emotional realism.\nStreet photography vibes, fine art portrait, contemporary visual storytelling, high fashion editorial look, moody color grading, depth and motion contrast.\nSubject isolation technique, viral visual composition, cinematic framing, artistic photography style.\n\n\nPrompt 3:\nA black-and-white aesthetic portrait of a stylish me (use my image with accurate face 100%) sitting on the floor in dramatic lighting. He is wearing an oversized dark coat. His pose is emotional and introspective, with one hand near his mouth and his head slightly turned to the side. Shadows from a window fall across the wall behind him, creating a moody and artistic atmosphere. The overall vibe is mysterious, emotional, and cinematic\n\n\nPrompt 4:\nUse the model (the person in the image) to create a dark orange studio photo featuring a young man sitting casually on a metal folding chair with his legs crossed.\nHe is wearing black denim baggy jeans, a black T-shirt, and black boots. The lighting is soft and minimal, producing sharp shadows and a moody atmosphere.\nHis pose is relaxed, slightly leaning back with one hand resting on the chair's backrest. His face is turned to the side, giving a modern and stylish look.\nUse the same face as the uploaded image.\nDO NOT CHANGE THE FACE.",
       "instructions": [
-        "Open Google Gemini and ensure image generation is enabled.",
-        "Paste this portrait prompt template and personalize eye color or hair style.",
-        "Crop to square aspect ratio and update your founder profile."
+        "Open Google Gemini, Nano Banana, Midjourney, or Flux.",
+        "Select from Prompts 1 through 4 based on your visual direction (Futuristic Lemon-Green Studio, Urban Motion Blur, Noir Window Shadow, or Dark Orange Studio).",
+        "Upload a reference photo of your face to preserve exact identity and facial likeness.",
+        "Generate in 4:5 vertical portrait or 1:1 aspect ratio for high-impact profile pictures."
       ],
-      "exampleOutput": "Studio-caliber portrait with lifelike eye catchlights and crisp optical focus."
+      "exampleOutput": "High-impact editorial studio portraits with authentic identity preservation, dramatic shadows, and contemporary fashion aesthetics."
     }
   ],
   "featured": false,

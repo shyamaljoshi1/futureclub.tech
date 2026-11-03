@@ -8,7 +8,7 @@
   "category": "image-generation",
   "pricing": "free",
   "pricingDetails": "Free prompt templates for Gemini and Claude Vision",
-  "postType": "carousel",
+  "postType": "reel",
   "contentType": "prompt",
   "instagramReelUrl": "https://www.instagram.com/p/DYd96bzhQeE/",
   "instagramReelId": "DYd96bzhQeE",
@@ -17,7 +17,7 @@
     {
       "id": "pmt-087",
       "title": "Facial Geometry & Aesthetic Color Harmony Analysis",
-      "description": "Analyze this portrait photo objectively. Classify face shape (oval, square, heart, diamond), determine seasonal color palette (spring/summer/autumn/winter), and recommend 3 flattering hairstyles and eyewear frame shapes.",
+      "description": "Prompt 1: Skin Analysis\nCreate a skin analysis graphic using this portrait. Show side-by-side skin comparisons to highlight which skin type suit the subject best. Make it visual-first, with short labels only and no paragraphs.\n\nPrompt 2: Color Analysis\nCreate a personal color analysis graphic using this portrait. Show side-by-side clothing color comparisons to highlight which colors suit the subject best. Make it visual-first, with short labels only and no paragraphs.\n\nPrompt 3: Face Features Analysis\nTitle: \"Face Features Analysis\". Place the portrait in the center. Automatically analyze the face (do not use fixed or pre-written labels). Detect and label face shape, eyes, eyebrows, nose, cheeks, and lips. Add thin arrows pointing to each feature. For each feature, include a short label (e.g. \"Soft Oval\", \"Almond Eyes\") and 2–3 short bullet points describing the actual features based on the image. Use small rounded info cards with simple icons.\n\nPrompt 4: Spectacles Guide\nCreate a clean, modern infographic poster using the uploaded portrait (100% facial followed) as the main subject. Style should be minimal, aesthetic, and visual-first, clean typography, rounded cards, thin lines, subtle shadows, and a high-end editorial look. Title: \"Spectacles Guide\". Automatically analyze the face shape and proportions, then generate suitable and unsuitable eyewear recommendations. Show side-by-side glasses try-on variations using the same face.\n\nPrompt 5: Hairstyle Analysis\nCreate a hairstyle analysis graphic using this portrait. Show side-by-side hairstyles comparisons to highlight which hairstyles suit the subject best. Make it visual-first, with short labels only and no paragraphs.",
       "instructions": [
         "Take a well-lit, neutral-expression selfie looking straight at the camera.",
         "Upload the image to Google Gemini or Claude 3.7 with this prompt.",

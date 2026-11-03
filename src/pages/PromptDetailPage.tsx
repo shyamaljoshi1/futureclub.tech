@@ -9,7 +9,7 @@ import {
   Wrench,
   ExternalLink,
 } from 'lucide-react';
-import { getPromptBySlug, getRelatedPrompts, getTools } from '@/lib/data';
+import { getPromptBySlug, getRelatedPrompts, getTools, getPromptSections } from '@/lib/data';
 import { updatePageSeo, getBreadcrumbSchema } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/common/Breadcrumbs';
 import { CopyPromptButton } from '@/components/prompts/CopyPromptButton';
@@ -49,7 +49,9 @@ export const PromptDetailPage: React.FC = () => {
   const relatedPrompts = getRelatedPrompts(prompt, 2);
   const relatedTools = getTools().filter((t) => t.slug === prompt.slug);
 
-  const wordCount = prompt.prompt.trim().split(/\s+/).length;
+  const promptSections = getPromptSections(prompt, 'Copy-Paste Prompt Template');
+  const allPromptText = promptSections.map((s) => s.content).join(' ');
+  const wordCount = (allPromptText || prompt.prompt).trim().split(/\s+/).filter(Boolean).length;
   const estimatedTokens = Math.round(wordCount * 1.35);
 
   return (
@@ -141,33 +143,44 @@ export const PromptDetailPage: React.FC = () => {
 
         {/* Right: Full Prompt Text + Instructions */}
         <div className="lg:col-span-7 space-y-6">
-          <section aria-labelledby="prompt-content-heading" className="space-y-3">
-            <div className="flex items-center justify-between">
-              <h2 id="prompt-content-heading" className="text-lg font-bold text-[#111215] dark:text-[#f4f4f5] flex items-center">
-                <FileText className="w-4 h-4 mr-2 text-[#1e3a8a] dark:text-[#3b82f6]" />
-                Copy-Paste Prompt Template
-              </h2>
+          {promptSections.map((section, idx) => (
+            <section
+              key={section.id || idx}
+              aria-labelledby={`prompt-content-heading-${idx}`}
+              className="space-y-3"
+            >
+              <div className="flex items-center justify-between">
+                <h2
+                  id={`prompt-content-heading-${idx}`}
+                  className="text-lg font-bold text-[#111215] dark:text-[#f4f4f5] flex items-center"
+                >
+                  <FileText className="w-4 h-4 mr-2 text-[#1e3a8a] dark:text-[#3b82f6]" />
+                  {section.title}
+                </h2>
 
-              <CopyPromptButton
-                promptText={prompt.prompt}
-                promptSlug={prompt.slug}
-                promptTitle={prompt.title}
-                size="md"
-              />
-            </div>
+                {section.content.trim() && (
+                  <CopyPromptButton
+                    promptText={section.content}
+                    promptSlug={prompt.slug}
+                    promptTitle={`${prompt.title} - ${section.title}`}
+                    size="md"
+                  />
+                )}
+              </div>
 
-            <div className="p-5 sm:p-6 rounded-lg bg-[#ffffff] dark:bg-[#141619]">
-              {prompt.prompt.trim() ? (
-                <pre className="font-mono text-xs sm:text-sm text-[#111215] dark:text-[#f4f4f5] whitespace-pre-wrap leading-relaxed select-all overflow-x-auto">
-                  {prompt.prompt}
-                </pre>
-              ) : (
-                <div className="text-xs sm:text-sm text-[#888d99] dark:text-[#636773] italic">
-                  Prompt text will be added soon. Watch the embedded Instagram reel breakdown on the left or check @thefutureguyy.ai on Instagram!
-                </div>
-              )}
-            </div>
-          </section>
+              <div className="p-5 sm:p-6 rounded-lg bg-[#ffffff] dark:bg-[#141619]">
+                {section.content.trim() ? (
+                  <pre className="font-mono text-xs sm:text-sm text-[#111215] dark:text-[#f4f4f5] whitespace-pre-wrap leading-relaxed select-all overflow-x-auto">
+                    {section.content}
+                  </pre>
+                ) : (
+                  <div className="text-xs sm:text-sm text-[#888d99] dark:text-[#636773] italic">
+                    Prompt text will be added soon. Watch the embedded Instagram reel breakdown on the left or check @thefutureguyy.ai on Instagram!
+                  </div>
+                )}
+              </div>
+            </section>
+          ))}
 
           {/* Step-by-Step Execution Guide */}
           <section className="p-6 rounded-lg bg-[#ffffff] dark:bg-[#141619]">

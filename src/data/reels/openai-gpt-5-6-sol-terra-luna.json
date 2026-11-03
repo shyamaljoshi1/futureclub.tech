@@ -28,7 +28,7 @@
   ],
   "featured": true,
   "trending": true,
-  "status": "published",
+  "status": "draft",
   "publishedAt": "2026-11-02",
   "seo": {
     "title": "OpenAI GPT-5.6 Architecture: Sol, Terra & Luna Multi-Tier Models | futureclub.tech",

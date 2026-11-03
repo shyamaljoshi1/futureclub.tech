@@ -8,7 +8,7 @@
   "category": "ai-writing",
   "pricing": "free",
   "pricingDetails": "Prompt works on Claude, ChatGPT & Gemini",
-  "postType": "carousel",
+  "postType": "reel",
   "contentType": "prompt",
   "instagramReelUrl": "https://www.instagram.com/p/DX3KBX3Nc5h/",
   "instagramReelId": "DX3KBX3Nc5h",
@@ -17,7 +17,7 @@
     {
       "id": "pmt-047",
       "title": "Vocational Astrology Chart Analysis",
-      "description": "Analyze the 10th house of career and 6th house of daily work based on the following planetary placements: [INPUT PLACEMENTS]. Provide grounded, constructive advice on suitable industries, work styles, and timing for career shifts.",
+      "description": "Prompt 1:\nYou are a highly skilled Vedic astrologer with decades of experience in chart analysis and predictive astrology. I need a comprehensive 5-year forecast focused primarily on career and wealth.\n\nBirth Details:\nDate of Birth: DD/MM/YY\nTime of Birth: XX:XX AM/PM\nPlace of Birth: City, State, Country\n\nAnalysis Requirements:\n\nBirth Chart Foundation:\n- Calculate and present my complete Vedic birth chart (Rashi and Navamsa)\n- Identify my Ascendant (Lagna), Moon sign, and Sun sign\n- Note the positions of key planets, especially those governing career (10th house lord, Saturn, Sun) and wealth (2nd and 11th house lords, Jupiter, Venus)\n- Identify my current Mahadasha and Antardasha periods\n\n5-Year Career Forecast (Primary Focus):\n- Year-by-year predictions for career growth, job changes, promotions, or business opportunities\n- Analysis of professional challenges and favorable periods\n- Specific timing for major career breakthroughs or transitions\n- Guidance on career direction and suitable industries based on my chart\n\n5-Year Wealth & Finance Forecast (Primary Focus):\n- Income growth potential and financial stability patterns\n- Best periods for investments, savings, or major purchases\n- Potential windfalls, inheritance, or unexpected gains\n- Financial challenges to watch for and remedies\n\nSupporting Life Areas:\n- Health highlights (any periods requiring extra care)\n- Relationships and family (brief overview)\n- Overall life themes and spiritual growth\n\nPractical Guidance:\n- Specific gemstone recommendations with reasoning\n- Favorable dates/periods for important decisions\n- Mantras or remedies for strengthening weak planetary positions\n- Practical actions to maximize opportunities\n\nProvide detailed, specific predictions with approximate timeframes rather than vague generalities. Structure the forecast chronologically and highlight the most significant events or periods.",
       "instructions": [
         "Input your planetary chart details into the bracketed fields.",
         "Run the prompt in Claude 3.7 or ChatGPT.",

@@ -39,22 +39,11 @@ export const AdSlot: React.FC<AdSlotProps> = ({
     }
   }, [isEnabled, isLoaded, slotId]);
 
-  // If globally disabled or no slot ID provided
-  if (!isEnabled || !clientId || clientId.includes('XXXXXXXXXXXXXXXX') || !slotId) {
-    if (import.meta.env.DEV) {
-      return (
-        <aside
-          data-ui="ad-placeholder"
-          aria-label="Development Ad Slot Placeholder"
-          className={`my-8 p-4 text-center rounded text-xs text-[#888d99] dark:text-[#636773] bg-[#f4f4f0] dark:bg-[#141619] ${className}`}
-        >
-          <span className="text-xs font-medium block mb-1">
-            Ad slot placeholder: {slotId || 'No Slot ID'}
-          </span>
-          Ads disabled in development (VITE_ADSENSE_ENABLED=false)
-        </aside>
-      );
-    }
+  // Check if slot ID is empty or a dummy placeholder
+  const isDummySlot = !slotId || /^(1234567890|2345678901|3456789012|4567890123)$/.test(slotId.trim());
+
+  // If globally disabled or no manual slot ID provided
+  if (!isEnabled || !clientId || clientId.includes('XXXXXXXXXXXXXXXX') || isDummySlot) {
     return null;
   }
 

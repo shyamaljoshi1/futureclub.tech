@@ -9,7 +9,7 @@ import {
   FileText,
   Instagram,
 } from 'lucide-react';
-import { getToolBySlug, getRelatedTools } from '@/lib/data';
+import { getToolBySlug, getRelatedTools, getPromptSections } from '@/lib/data';
 import {
   updatePageSeo,
   getBreadcrumbSchema,
@@ -72,6 +72,7 @@ export const ToolDetailPage: React.FC = () => {
   if (!tool) return null;
 
   const relatedTools = getRelatedTools(tool, 3);
+  const toolSections = getPromptSections(tool, 'Description');
 
   return (
     <div className="space-y-12">
@@ -212,9 +213,9 @@ export const ToolDetailPage: React.FC = () => {
             </h2>
           </div>
 
-          {tool.promptSet && tool.promptSet.length > 0 ? (
-            tool.promptSet.map((p, idx) => {
-              const textContent = p.description || p.prompt || '';
+          {toolSections.length > 0 ? (
+            toolSections.map((p, idx) => {
+              const textContent = p.content || '';
               return (
                 <div
                   key={p.id || idx}
@@ -223,7 +224,7 @@ export const ToolDetailPage: React.FC = () => {
                 >
                   <div className="flex items-center justify-between gap-3">
                     <h3 className="text-base font-semibold text-[#111215] dark:text-[#f4f4f5]">
-                      {p.title || (tool.promptSet.length > 1 ? `Description ${idx + 1}` : 'Description')}
+                      {p.title}
                     </h3>
                     {textContent && (
                       <CopyPromptButton

@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-053",
-      "title": "Vintage 1990s Analog Film Family Portrait",
-      "description": "Heartwarming candid photograph of a mother and child smiling joyfully, shot on vintage 35mm film camera in 1995. Warm golden sunlight streaming through window, soft film grain, authentic Kodak Gold color tones, gentle motion blur, timeless nostalgic mood.",
+      "title": "Mother's Day Prompt",
+      "description": "a child version of me with my mom (from a childhood photo looking with an innocent smile to the right, with 2003 written above it. On the right: A present version of me with my mom (from a recent photo) sits and looks at the child with a calm smile, with \"2026\" written above In the middle: a table with a simple, elegant birthday cake with number 23 on top. Studio background: plain and soft (studio background) The lighting: Soft, cinematic, warm (even a black-and-white photo). Style: Professional, minimal, emotional photography, focusing on feelings and visual communication between the two versions. Make the picture look so real like a real photoshoot. Keep my original features without changing. photo size 4:5",
       "instructions": [
         "Paste the prompt into your preferred generative image model.",
         "Upload reference family photos if your tool supports image-to-image.",

@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Sparkles, Layers, ExternalLink } from 'lucide-react';
 import type { PromptAdapter } from '@/lib/data';
-import { CopyPromptButton } from './CopyPromptButton';
 import { trackExternalVisit } from '@/lib/analytics';
 
 interface PromptCardProps {
@@ -52,52 +51,36 @@ export const PromptCard: React.FC<PromptCardProps> = ({ prompt }) => {
           </h3>
 
           {/* Description */}
-          <p className="text-xs sm:text-sm text-[#5e626d] dark:text-[#8e93a0] line-clamp-2 leading-relaxed mb-4">
+          <p className="text-xs sm:text-sm text-[#5e626d] dark:text-[#8e93a0] line-clamp-2 leading-relaxed">
             {prompt.description}
           </p>
-
-          {/* Prompt snippet preview in code element */}
-          {prompt.prompt && (
-            <code className="block p-3 rounded bg-[#f4f4f0] dark:bg-[#101215] mb-4 text-xs font-mono text-[#5e626d] dark:text-[#8e93a0] line-clamp-3 leading-relaxed">
-              {prompt.prompt}
-            </code>
-          )}
         </div>
       </div>
 
-      {/* Bottom actions: Copy Button & Full Guide */}
+      {/* Bottom actions: Official Tool Link & Full Guide */}
       <div className="px-5 pb-5 pt-1 flex items-center justify-between gap-2">
-        {prompt.prompt ? (
-          <CopyPromptButton
-            promptText={prompt.prompt}
-            promptSlug={prompt.slug}
-            promptTitle={prompt.title}
-            size="sm"
-          />
-        ) : <div />}
-
-        <div className="flex items-center space-x-3">
-          {prompt.toolUrl && (
-            <a
-              href={prompt.toolUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => trackExternalVisit(prompt.toolUrl, prompt.toolName)}
-              className="text-xs text-[#5e626d] dark:text-[#8e93a0] hover:text-[#111215] dark:hover:text-[#f4f4f5] inline-flex items-center"
-            >
-              <span>{prompt.toolName}</span>
-              <ExternalLink className="w-3 h-3 ml-1" />
-            </a>
-          )}
-
-          <Link
-            to={`/prompts/${prompt.slug}`}
-            className="text-xs font-semibold text-[#111215] dark:text-[#f4f4f5] inline-flex items-center group-hover:translate-x-0.5 transition-transform"
+        {prompt.toolUrl ? (
+          <a
+            href={prompt.toolUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => trackExternalVisit(prompt.toolUrl, prompt.toolName)}
+            className="text-xs font-medium text-[#5e626d] dark:text-[#8e93a0] hover:text-[#111215] dark:hover:text-[#f4f4f5] inline-flex items-center"
           >
-            <span>View Carousel</span>
-            <ArrowRight className="w-3.5 h-3.5 ml-1 text-[#888d99] dark:text-[#636773]" />
-          </Link>
-        </div>
+            <span>{prompt.toolName}</span>
+            <ExternalLink className="w-3 h-3 ml-1" />
+          </a>
+        ) : (
+          <div />
+        )}
+
+        <Link
+          to={`/prompts/${prompt.slug}`}
+          className="text-xs font-semibold text-[#111215] dark:text-[#f4f4f5] inline-flex items-center group-hover:translate-x-0.5 transition-transform"
+        >
+          <span>View Carousel</span>
+          <ArrowRight className="w-3.5 h-3.5 ml-1 text-[#888d99] dark:text-[#636773]" />
+        </Link>
       </div>
     </article>
   );
