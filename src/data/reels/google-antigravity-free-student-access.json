@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-009",
-      "title": "Google Antigravity CLI Autonomous Task Runner",
-      "description": "Configure an Antigravity agent workflow to clone a GitHub repo, inspect the project structure, locate all outdated dependencies in package.json, run security audits, and generate an update checklist.",
+      "title": "Google Antigravity Student Suite Overview & Features",
+      "description": "Google Antigravity Student Suite – Students Get Free Google Antigravity & Gemini 4 Argon Access\n\nGoogle is opening the doors to its state-of-the-art Antigravity AI agent platform with free access for students. Unlock Gemini 4 Argon, multi-agent workflows, browser automation, and terminal dev tools without paying a cent.\n\nDesigned for developers and engineering teams, Google Antigravity Student Suite accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Verify your student email address on the Google educational portal.\n• Install the Antigravity CLI on your machine.\n• Connect Gemini 4 Argon and run automated workflows directly in your terminal.\n• Terminal execution log showing automated dependency audit and generated upgrade report.\n\nOfficial Website: https://antigravity.google/\nInstagram Breakdown: https://www.instagram.com/p/DfMrhW-ovaz/",
       "instructions": [
         "Verify your student email address on the Google educational portal.",
         "Install the Antigravity CLI on your machine.",

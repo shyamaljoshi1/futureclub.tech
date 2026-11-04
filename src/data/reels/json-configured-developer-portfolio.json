@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-044",
-      "title": "JSON Data Schema Generator for Developer Resume",
-      "description": "Convert this bulleted resume into a structured JSON file matching this schema: { name, title, bio, skills: [], projects: [{ title, description, tags: [], liveUrl, repoUrl }] }.",
+      "title": "JSON-Configured Portfolio Template Overview & Features",
+      "description": "JSON-Configured Portfolio Template – Developer Portfolio Giveaway: Change One JSON File to Update Everything\n\nStop wasting weeks building your portfolio from scratch. This high-performance React template is 100% data-driven: simply update one JSON file with your projects, social links, and skills to deploy immediately.\n\nDesigned for developers and engineering teams, JSON-Configured Portfolio Template accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Clone the repository from GitHub.\n• Replace the data in src/data/portfolio.json with your own.\n• Deploy to GitHub Pages or Cloudflare Pages for free.\n• Clean, formatted JSON document representing your complete portfolio profile.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DZNGEiHtwGQ/",
       "instructions": [
         "Clone the repository from GitHub.",
         "Replace the data in src/data/portfolio.json with your own.",

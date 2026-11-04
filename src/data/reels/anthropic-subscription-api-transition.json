@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-070",
-      "title": "API Cost Optimization & Caching Implementation",
-      "description": "Implement prompt caching in an Anthropic TypeScript API call. Mark large static system prompts and documentation with type: \"ephemeral\" to reduce input token costs by up to 90%.",
+      "title": "Anthropic Subscription Policy Guide Overview & Features",
+      "description": "Anthropic Subscription Policy Guide – Anthropic Email Update: What Developers Need to Know About API Access\n\nAnthropic quietly updated its terms to clarify that web consumer subscriptions will no longer subsidize high-volume third-party wrappers. Learn how to transition smoothly to pay-as-you-go API keys with cost limits.\n\nDesigned for developers and engineering teams, Anthropic Subscription Policy Guide accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Open your Anthropic Console at console.anthropic.com.\n• Create an API key with explicit monthly spend limits to prevent surprises.\n• Enable prompt caching on your system prompts to cut token expenses drastically.\n• TypeScript code snippet demonstrating proper Anthropic prompt caching implementation.\n\nOfficial Website: https://anthropic.com/\nInstagram Breakdown: https://www.instagram.com/p/DWs-dyQD6PR/",
       "instructions": [
         "Open your Anthropic Console at console.anthropic.com.",
         "Create an API key with explicit monthly spend limits to prevent surprises.",

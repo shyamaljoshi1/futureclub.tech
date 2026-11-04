@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-057",
-      "title": "MCP Server Configuration & Tool Definition",
-      "description": "Write a Model Context Protocol (MCP) server in TypeScript that exposes two tools: list_git_branches and run_typecheck. Include proper JSON schema parameter definitions and error handling.",
+      "title": "OpenClaw Autonomous MCP Agent Overview & Features",
+      "description": "OpenClaw Autonomous MCP Agent – OpenClaw Now Speaks MCP: Universal Protocol for Autonomous AI Agents\n\nOpenClaw integrates Anthropic's universal Model Context Protocol (MCP). Now, Claude and other frontier models can directly inspect your filesystem, run terminal commands, and control browser sessions with secure permissions.\n\nDesigned for developers and engineering teams, OpenClaw Autonomous MCP Agent accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Install OpenClaw from the official GitHub repository.\n• Configure your local MCP servers in your claude_desktop_config.json.\n• Instruct your agent to perform complex multi-step developer operations.\n• Complete MCP server implementation in TypeScript with schemas and IPC transport.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DWihgsNmfDc/",
       "instructions": [
         "Install OpenClaw from the official GitHub repository.",
         "Configure your local MCP servers in your claude_desktop_config.json.",

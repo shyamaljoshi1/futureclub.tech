@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-042",
-      "title": "Developer Bio & Technical Skills Summary",
-      "description": "Write a compelling 80-word developer bio for a frontend engineer. Mention React, TypeScript, Next.js, and performance optimization. Include a catchy tagline and links to GitHub and LinkedIn.",
+      "title": "3 Production Developer Portfolios Overview & Features",
+      "description": "3 Production Developer Portfolios – 3 Stunning Developer Portfolio Websites with Complete Source Code\n\nYour portfolio makes the crucial first impression before an interview is scheduled. Get the complete source code for 3 distinct, modern developer websites: minimal editorial, bento-grid dynamic, and terminal-style.\n\nDesigned for developers and engineering teams, 3 Production Developer Portfolios accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Choose one of the three open-source portfolio repositories.\n• Customize the colors, typography, and personal projects in data.json.\n• Publish live to Vercel or Netlify with one click.\n• Ready-to-use developer bio and formatted project showcase metadata.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DZ99p69tP-y/",
       "instructions": [
         "Choose one of the three open-source portfolio repositories.",
         "Customize the colors, typography, and personal projects in data.json.",

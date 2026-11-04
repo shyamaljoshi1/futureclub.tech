@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-010",
-      "title": "OA Technical Problem Solver & Edge-Case Analyzer",
-      "description": "Here is a recent online assessment coding question from a top tech company. Provide the optimal solution in C++/Python, analyze time and space complexity, and list 5 edge cases that standard test suites use to fail submissions.",
+      "title": "Tech OA & Interview Questions Master Repo Overview & Features",
+      "description": "Tech OA & Interview Questions Master Repo – 483+ Companies Tech OA and Coding Interview Questions (GitHub)\n\nAce your campus placement and lateral hiring rounds. This viral open-source GitHub repository aggregates real, verified 2026-2027 Online Assessment (OA) coding problems, SQL queries, and system design questions from 483+ top tech firms.\n\nDesigned for developers and engineering teams, Tech OA & Interview Questions Master Repo accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Find the company-specific question from the master GitHub repository.\n• Paste the problem statement and constraints into your AI model with this prompt.\n• Review the optimal dynamic programming or graph algorithm with edge cases.\n• Optimal O(N log N) solution with memory-efficient sliding window and detailed corner case coverage.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DfKJ8jZBTwk/",
       "instructions": [
         "Find the company-specific question from the master GitHub repository.",
         "Paste the problem statement and constraints into your AI model with this prompt.",

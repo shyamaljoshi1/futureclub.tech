@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-046",
-      "title": "Instant Web Article Executive Brief",
-      "description": "Extract the core thesis, top 3 counter-arguments, and actionable takeaways from the current web page. Format as an executive briefing note with zero fluff.",
+      "title": "Ghatak Chrome Productivity Suite Overview & Features",
+      "description": "Ghatak Chrome Productivity Suite – Ghatak Chrome Extension: Speed Up Your Daily AI Workflows\n\nA powerful, lightweight browser extension designed for developers, students, and digital creators. Instant keyboard shortcuts to summon AI prompts, summarize lengthy web articles, and extract code blocks.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Ghatak Chrome Productivity Suite removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Add Ghatak to your Chrome browser.\n• Press the shortcut key on any long article or documentation page.\n• Read the instant executive briefing without leaving the tab.\n• Bulleted executive brief highlighting the 3 primary points of a 5,000-word essay.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DYUsCZdy6YA/",
       "instructions": [
         "Add Ghatak to your Chrome browser.",
         "Press the shortcut key on any long article or documentation page.",

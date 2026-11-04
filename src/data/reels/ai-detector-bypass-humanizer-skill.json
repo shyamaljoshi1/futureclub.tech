@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-032",
-      "title": "Natural Cadence & Perplexity Injector",
-      "description": "Rewrite the following text so that it reads like natural, experienced human prose. Vary sentence lengths drastically (mix 4-word punchy sentences with complex clauses). Remove corporate filler words like \"delve\", \"testament\", \"crucial\", and \"landscape\".",
+      "title": "Undetectable AI Humanizer Skill Overview & Features",
+      "description": "Undetectable AI Humanizer Skill – Stop Getting Caught by AI Detectors: The Humanizer Skill Guide\n\nAI detectors look for uniform sentence lengths, predictable vocabulary tokens, and lack of conversational rhythm. Learn the prompt constraints that introduce natural perplexity and burstiness into your drafts.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Undetectable AI Humanizer Skill removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Paste your draft article or essay into Claude.\n• Apply this cadence and burstiness prompt modifier.\n• Verify with ZeroGPT or Turnitin to see the human score rise.\n• Lively, authentic human text with natural pacing that passes AI detection filters effortlessly.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DZKeQZcNZIf/",
       "instructions": [
         "Paste your draft article or essay into Claude.",
         "Apply this cadence and burstiness prompt modifier.",

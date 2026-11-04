@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-020",
-      "title": "End-to-End Content & Automation Pipeline",
-      "description": "Map out an automated content pipeline using n8n and AI APIs. Detail the webhook triggers from YouTube/Instagram, the LLM summarization step, and the automated drafting into Notion and Slack.",
+      "title": "Behind-the-Scenes AI Automation Workflows Overview & Features",
+      "description": "Behind-the-Scenes AI Automation Workflows – The Real Tooling Stack Behind High-Output AI Creators and Developers\n\nMost people only see the finished viral video or polished software release. Look behind the curtain at the exact terminal scripts, webhook triggers, and automated prompt pipelines powering modern AI content creation.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Behind-the-Scenes AI Automation Workflows removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Identify the manual data entry tasks in your weekly routine.\n• Use this prompt to generate an n8n or Make.com orchestration diagram.\n• Deploy the webhook endpoints to automate data flows.\n• Complete JSON export for an n8n automated workflow connecting social inputs to a Notion database.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DaK3V4dhhnn/",
       "instructions": [
         "Identify the manual data entry tasks in your weekly routine.",
         "Use this prompt to generate an n8n or Make.com orchestration diagram.",

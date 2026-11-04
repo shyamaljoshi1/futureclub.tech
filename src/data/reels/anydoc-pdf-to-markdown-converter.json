@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-011",
-      "title": "Financial Table & PDF Markdown Extractor",
-      "description": "Parse this financial PDF extract into clean GitHub Flavored Markdown. Ensure all multi-column balance sheets and footnotes are preserved in readable markdown tables with exact decimal precision.",
+      "title": "AnyDoc: PDF to Clean Markdown Parser Overview & Features",
+      "description": "AnyDoc: PDF to Clean Markdown Parser – Stop Feeding Raw PDFs to AI: AnyDoc Markdown Converter\n\nRaw PDFs result in messy OCR errors, broken tables, and lost formatting when fed to LLMs. AnyDoc converts 14+ document formats into pristine Markdown, preserving tables, charts, financial sheets, and nested hierarchies.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, AnyDoc: PDF to Clean Markdown Parser removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Run AnyDoc on your target PDF file: anydoc convert input.pdf --format markdown.\n• Open the generated .md file and inspect the table formatting.\n• Feed the clean markdown context into Claude or ChatGPT for hallucination-free analysis.\n• Perfect GFM Markdown table with exact column alignment and parsed financial indicators.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DcJKpvfzUQX/",
       "instructions": [
         "Run AnyDoc on your target PDF file: anydoc convert input.pdf --format markdown.",
         "Open the generated .md file and inspect the table formatting.",

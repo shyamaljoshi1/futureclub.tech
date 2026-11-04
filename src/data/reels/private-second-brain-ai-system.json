@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-067",
-      "title": "Personal Knowledge Base Synthesis Prompt",
-      "description": "Search through my local notes for mentions of \"Product Marketing Strategy\". Synthesize all ideas into a cohesive strategic document, noting contradictions between earlier notes and current plans.",
+      "title": "Private Second Brain AI System Overview & Features",
+      "description": "Private Second Brain AI System – Build a Fully Private Second Brain with Local Embeddings & Obsidian\n\nKeep your personal journal, project notes, and company secrets 100% private. Learn how to connect Obsidian with Ollama and local vector embeddings so you can chat with your second brain completely offline.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Private Second Brain AI System removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Install Obsidian and the Smart Connections community plugin.\n• Run Ollama with a local embedding model (nomic-embed-text).\n• Query your personal notes with instant semantic retrieval and zero cloud upload.\n• Semantic synthesis of your personal notes with direct links to individual markdown files.\n\nOfficial Website: https://obsidian.md/\nInstagram Breakdown: https://www.instagram.com/p/DXOlWi-juLn/",
       "instructions": [
         "Install Obsidian and the Smart Connections community plugin.",
         "Run Ollama with a local embedding model (nomic-embed-text).",

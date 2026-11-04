@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-073",
-      "title": "Modern Bento-Grid Analytics Dashboard",
-      "description": "Create a responsive bento-grid analytics dashboard for an AI SaaS application. Include 4 stat cards with sparkline trend charts, a recent activity feed, and a quick actions menu. Use clean neutral styling.",
+      "title": "Vercel v0 Generative UI Overview & Features",
+      "description": "Vercel v0 Generative UI – Vercel v0: Instant Production-Ready React & Tailwind Components\n\nTurn your design ideas into clean, semantic React code in seconds. Vercel v0 generates modular components using modern Tailwind CSS and Lucide React icons, ready to copy straight into your Next.js project.\n\nTailored for designers, visual artists, and creative professionals, Vercel v0 Generative UI enhances design precision, speeds up production-grade asset generation, and ensures consistent visual polish.\n\nKey Features:\n• Go to v0.dev and enter your component requirements.\n• Iterate on specific sections by clicking and describing changes.\n• Copy the component code directly into your React/Next.js repository.\n• Clean, modular React component code utilizing modern Tailwind utility classes.\n\nOfficial Website: https://v0.dev/\nInstagram Breakdown: https://www.instagram.com/p/DXYvd2YoGsz/",
       "instructions": [
         "Go to v0.dev and enter your component requirements.",
         "Iterate on specific sections by clicking and describing changes.",

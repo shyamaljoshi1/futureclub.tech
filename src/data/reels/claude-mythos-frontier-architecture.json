@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-058",
-      "title": "Model Architecture & Benchmark Comparison",
-      "description": "Compare the architectural evolution from Claude 3.5 Sonnet to next-generation frontier reasoning models. Focus on token efficiency, test-time compute scaling, and memory retention across multi-turn reasoning.",
+      "title": "Claude Mythos Model Investigation Overview & Features",
+      "description": "Claude Mythos Model Investigation – Inside Claude Mythos: Anthropic's Unreleased Flagship AI Architecture\n\nAn investigative analysis into leaked benchmarks and architecture notes for Claude Mythos. Explore its revolutionary multi-head attention optimizations, ultra-low hallucination rate, and unprecedented reasoning depth.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Claude Mythos Model Investigation removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Read the technical architecture breakdown.\n• Run the prompt to understand test-time compute tradeoffs.\n• Optimize your own application prompts for next-generation reasoning models.\n• Detailed comparison table showing parameter efficiency and test-time compute curves.\n\nOfficial Website: https://anthropic.com/\nInstagram Breakdown: https://www.instagram.com/p/DWdD6RFmWzd/",
       "instructions": [
         "Read the technical architecture breakdown.",
         "Run the prompt to understand test-time compute tradeoffs.",

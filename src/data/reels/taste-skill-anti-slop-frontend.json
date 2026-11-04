@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-008",
-      "title": "Anti-Slop Modern Landing Page Prompt",
-      "description": "Design a high-craft landing page for a developer tool. Follow strict anti-slop rules: warm neutral off-white canvas, near-black charcoal type, zero saturated primary buttons, mono typography for technical labels, and zero generic 3-column feature cards.",
+      "title": "Taste Skill: Anti-Slop Frontend Engine Overview & Features",
+      "description": "Taste Skill: Anti-Slop Frontend Engine – Stop Generic AI Websites: The Taste Skill Anti-Slop Design Guide\n\nTired of identical purple gradients, floating cards, and AI slop? The Taste Skill frontend art direction system installs in one command and enforces award-level typography, strict contrast, and authentic editorial composition.\n\nTailored for designers, visual artists, and creative professionals, Taste Skill: Anti-Slop Frontend Engine enhances design precision, speeds up production-grade asset generation, and ensures consistent visual polish.\n\nKey Features:\n• Install the taste skill via npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\".\n• Invoke the skill before generating any React or Tailwind components.\n• Run npm run lint:taste to guarantee 0 FAIL and 0 WARN compliance.\n• A gorgeous, bespoke editorial webpage with 75:1 contrast ratio and custom typography.\n\nGitHub Repository: https://github.com/Leonxlnx/taste-skill\nInstagram Breakdown: https://www.instagram.com/p/DcTn5SIwlid/",
       "instructions": [
         "Install the taste skill via npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\".",
         "Invoke the skill before generating any React or Tailwind components.",

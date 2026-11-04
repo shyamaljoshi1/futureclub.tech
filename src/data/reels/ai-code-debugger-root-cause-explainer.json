@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-081",
-      "title": "Stack Trace Root Cause Diagnostic Prompt",
-      "description": "Analyze this full application stack trace and the relevant function code. Pinpoint the exact line causing the crash, explain the underlying memory/concurrency mechanism responsible, and provide the minimal patch to fix it.",
+      "title": "AI Root Cause Debugger Overview & Features",
+      "description": "AI Root Cause Debugger – Stop Spending 3 Days on Bugs: AI Root Cause Debugger & Stack Trace Fixer\n\nLife is too short for a coder to spend 3 days staring at the screen asking \"why is this not working?\". Learn how to feed full stack traces, memory profiles, and minimal reproducible examples to AI for instant root cause diagnosis.\n\nDesigned for developers and engineering teams, AI Root Cause Debugger accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Copy the complete terminal stack trace and the failing code snippet.\n• Paste into Claude 3.7 or ChatGPT with this diagnostic prompt.\n• Apply the verified patch and verify tests pass in your terminal.\n• Root cause isolation explaining asynchronous event loop starvation with a clean async/await fix.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DWp8pL6E9g1/",
       "instructions": [
         "Copy the complete terminal stack trace and the failing code snippet.",
         "Paste into Claude 3.7 or ChatGPT with this diagnostic prompt.",

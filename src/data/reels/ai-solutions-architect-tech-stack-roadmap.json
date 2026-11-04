@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-071",
-      "title": "AI Enterprise Architecture Specification Document",
-      "description": "Draft an architectural design document for an AI knowledge retrieval platform. Include data ingestion pipeline, chunking and embedding service, vector store selection criteria, LLM gateway, and monitoring telemetry.",
+      "title": "AI Solutions Architect Roadmap Overview & Features",
+      "description": "AI Solutions Architect Roadmap – From Junior Coder to AI Solutions Architect: The Complete Tech Roadmap\n\nOne ordinary developer armed with modern agentic tools and architectural skills can deliver the output of an entire solutions team. Follow this clear roadmap covering vector databases, orchestration, and evaluation.\n\nDesigned for developers and engineering teams, AI Solutions Architect Roadmap accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Follow the step-by-step roadmap milestones.\n• Build 3 capstone projects: a hybrid RAG engine, an MCP agent, and an automated evaluator.\n• Showcase your architectural design docs publicly to attract senior roles.\n• Comprehensive architecture design document with system diagrams and component interfaces.\n\nOfficial Website: https://roadmap.sh/\nInstagram Breakdown: https://www.instagram.com/p/DXTCb-2gdRD/",
       "instructions": [
         "Follow the step-by-step roadmap milestones.",
         "Build 3 capstone projects: a hybrid RAG engine, an MCP agent, and an automated evaluator.",

@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-033",
-      "title": "ROCm Local LLM Inference Benchmarking Script",
-      "description": "Write a Python benchmarking script using PyTorch with ROCm HIP backend to measure tokens-per-second throughput and VRAM allocation across batch sizes 1, 4, 8, and 16 for a 14B parameter quantized model.",
+      "title": "AMD ROCm AI Hardware Acceleration Overview & Features",
+      "description": "AMD ROCm AI Hardware Acceleration – AMD's Huge Breakthrough: Open Source Local AI Without Nvidia Tax\n\nNvidia dominated the AI hardware conversation for years, forcing developers to pay heavy GPU premiums. AMD's latest ROCm release brings native PyTorch, Ollama, and vLLM support to consumer Radeon cards at a fraction of the cost.\n\nDesigned for developers and engineering teams, AMD ROCm AI Hardware Acceleration accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Install AMD ROCm drivers on your Linux/Windows WSL system.\n• Pull quantized models using Ollama or vLLM with HIP acceleration.\n• Benchmark inference speed and run local models completely private.\n• Benchmarking script reporting 42 tokens/sec on Radeon 7900 XTX with 24GB VRAM.\n\nOfficial Website: https://www.amd.com/\nInstagram Breakdown: https://www.instagram.com/p/DZngeBbNC3h/",
       "instructions": [
         "Install AMD ROCm drivers on your Linux/Windows WSL system.",
         "Pull quantized models using Ollama or vLLM with HIP acceleration.",

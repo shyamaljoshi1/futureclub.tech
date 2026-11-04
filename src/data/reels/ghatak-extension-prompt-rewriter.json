@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-031",
-      "title": "Vague Prompt Auto-Expansion Engine",
-      "description": "Transform this basic prompt into an elite, few-shot prompt: \"[INSERT VAGUE PROMPT]\". Include Persona, Analytical Goal, Specific Constraints, Step-by-Step Reasoning Instructions, and Output Formatting Rules.",
+      "title": "Ghatak Extension: Prompt Optimizer Overview & Features",
+      "description": "Ghatak Extension: Prompt Optimizer – Stop Getting Bad AI Outputs: Auto-Upgrade Your Prompts with Ghatak\n\nMost people blame AI when they get mediocre results, but the root problem is vague prompting. The Ghatak browser extension automatically intercepts vague prompts and expands them with role, context, and output constraints.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Ghatak Extension: Prompt Optimizer removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Install Ghatak in Google Chrome or Brave.\n• Type your draft thought in any AI chat box and press Alt + G.\n• Watch your 5-word sentence transform into an engineered system prompt.\n• A structured 200-word prompt with explicit negative constraints and schema guidelines.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DZP3vb_N7x1/",
       "instructions": [
         "Install Ghatak in Google Chrome or Brave.",
         "Type your draft thought in any AI chat box and press Alt + G.",

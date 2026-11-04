@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-068",
-      "title": "High-Velocity Multi-File Refactoring Command",
-      "description": "Audit all files in the src/api directory. Standardize error responses to use our AppError class, ensure all async functions have proper try/catch blocks with logging, and update corresponding integration tests.",
+      "title": "Garry Tan & Boris Cherny Claude Setups Overview & Features",
+      "description": "Garry Tan & Boris Cherny Claude Setups – How Tech Leaders Garry Tan & Boris Cherny Configure Claude Code\n\nLearn the exact terminal configurations, custom slash commands, and multi-file debugging tactics used by Y Combinator's Garry Tan and core Claude engineer Boris Cherny to build software at superhuman speed.\n\nDesigned for developers and engineering teams, Garry Tan & Boris Cherny Claude Setups accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Review the workflow habits of top Silicon Valley developers.\n• Configure auto-approvals for read-only commands in Claude Code.\n• Leverage multi-file refactoring passes to eliminate repetitive chores.\n• Terminal log showing synchronized updates across 6 API route files and test fixtures.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DXrkkMwieIM/",
       "instructions": [
         "Review the workflow habits of top Silicon Valley developers.",
         "Configure auto-approvals for read-only commands in Claude Code.",

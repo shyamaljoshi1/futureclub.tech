@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-066",
-      "title": "Strict Engineering Professor Viva Simulator",
-      "description": "Act as a strict, knowledgeable computer science professor conducting an oral viva exam on Operating Systems (process scheduling, virtual memory, deadlocks). Ask me one challenging question at a time. Evaluate my answer honestly and follow up.",
+      "title": "AI Viva & Technical Exam Coach Overview & Features",
+      "description": "AI Viva & Technical Exam Coach – Ace Your College Viva & Technical Interviews with This AI Simulator\n\nNervous about your college viva or technical hiring interview? This prompt configures an AI examiner that grills you with probing follow-up questions, tests edge cases, and grades your answers objectively.\n\nDesigned for developers and engineering teams, AI Viva & Technical Exam Coach accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Select your subject (Operating Systems, DBMS, System Design).\n• Start the viva simulation and answer each question in your own words.\n• Receive constructive critiques and targeted areas for improvement.\n• Rigorous oral exam simulation that tests your actual conceptual understanding under pressure.\n\nOfficial Website: https://aistudio.google.com/\nInstagram Breakdown: https://www.instagram.com/p/DXMWG09DaXm/",
       "instructions": [
         "Select your subject (Operating Systems, DBMS, System Design).",
         "Start the viva simulation and answer each question in your own words.",

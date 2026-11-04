@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-050",
-      "title": "OpenAI-Compatible Multi-Model Node.js Client",
-      "description": "Write a TypeScript function using the openai npm package that routes prompts dynamically across free models (DeepSeek, GLM, MiniMax) with automatic retry and fallback handling.",
+      "title": "80+ Free Hosted AI Models Gateway Overview & Features",
+      "description": "80+ Free Hosted AI Models Gateway – Access 80+ AI Models for Free: MiniMax, GLM, DeepSeek & Sarvam\n\nWhy pay separate subscription fees when you can access over 80 state-of-the-art models for free? Connect to MiniMax M2.7, GLM 5.1, Kimi 2.5, DeepSeek 3.2, and Sarvam-M via a single unified OpenAI-compatible API endpoint.\n\nDesigned for developers and engineering teams, 80+ Free Hosted AI Models Gateway accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Register for a free API gateway key on OpenRouter or free providers.\n• Configure the base URL in your .env file.\n• Switch between 80+ cutting-edge models without changing a single line of client code.\n• Production-ready TypeScript API routing function with automatic fallback across 3 free endpoints.\n\nOfficial Website: https://openrouter.ai/\nInstagram Breakdown: https://www.instagram.com/p/DXjd4PtjiRQ/",
       "instructions": [
         "Register for a free API gateway key on OpenRouter or free providers.",
         "Configure the base URL in your .env file.",

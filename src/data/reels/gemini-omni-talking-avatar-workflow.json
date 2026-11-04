@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-039",
-      "title": "Viral Short-Form Educational Script with Stage Directions",
-      "description": "Write a 45-second educational video script explaining quantum computing basics. Include bracketed visual stage cues, camera zooms, and facial expression directions for an AI avatar presenter.",
+      "title": "Google Omni AI Talking Avatar Overview & Features",
+      "description": "Google Omni AI Talking Avatar – How to Build Realistic AI Video Avatars with Google Omni & Gemini\n\nCreate lifelike talking video presenters with natural facial micro-expressions, synchronized lip movements, and multi-lingual voiceover without ever getting in front of a camera.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Google Omni AI Talking Avatar removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Generate your video script with Gemini.\n• Synthesize natural voiceover with realistic breath marks.\n• Feed the audio and reference avatar photo into Omni for lip sync.\n• Complete 45-second script with timecodes and emotive facial expression markers.\n\nOfficial Website: https://gemini.google.com/\nInstagram Breakdown: https://www.instagram.com/p/DYpVfgKNGzh/",
       "instructions": [
         "Generate your video script with Gemini.",
         "Synthesize natural voiceover with realistic breath marks.",

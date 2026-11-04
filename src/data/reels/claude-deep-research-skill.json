@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-089",
-      "title": "Autonomous Deep Investigative Research Protocol",
-      "description": "Investigate the market landscape for AI code editors in 2026. Break down market shares, key technological differentiators (local indexing vs cloud LLMs), developer sentiment, and enterprise pricing models with full citations.",
+      "title": "Claude Deep Research Agent Skill Overview & Features",
+      "description": "Claude Deep Research Agent Skill – This Claude Deep Research Skill Is Actually Insane: Full-Team Research\n\nGive it one broad topic, and it investigates like a full analyst team: forms sub-hypotheses, searches across hundreds of academic and news sources, cross-verifies conflicting data, and synthesizes an authoritative report.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Claude Deep Research Agent Skill removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Install the deep research skill into your Claude workspace.\n• Provide your research topic and depth requirements.\n• Read the generated comprehensive analytical brief with verified references.\n• Exhaustive 12-page research report with comparative matrices and verified data sources.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DYZjOq6xNEy/",
       "instructions": [
         "Install the deep research skill into your Claude workspace.",
         "Provide your research topic and depth requirements.",

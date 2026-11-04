@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-083",
-      "title": "Task Decomposition & Prompt Splitting Plan",
-      "description": "I need to build a complex feature: [FEATURE]. Break this project down into 4 isolated, self-contained sub-tasks with clear inputs and outputs so each can be executed in a fresh, lightweight chat thread.",
+      "title": "Rate Limit Avoidance Prompt Hygiene Overview & Features",
+      "description": "Rate Limit Avoidance Prompt Hygiene – Most People Use AI Wrong: How to Never Hit Chatbot Rate Limits Again\n\nMost users trigger hourly rate limits within 10 prompts because they dump raw unorganized text into existing long threads. Learn session hygiene, prompt decomposition, and model switching habits that give you all-day uptime.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Rate Limit Avoidance Prompt Hygiene removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Decompose large requests into discrete, modular steps.\n• Start a fresh chat thread for each sub-task to keep token weight near zero.\n• Combine the verified outputs into your main codebase.\n• 4-step modular execution plan that prevents chat thread bloating and rate limit lockouts.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DWa0XTqFZky/",
       "instructions": [
         "Decompose large requests into discrete, modular steps.",
         "Start a fresh chat thread for each sub-task to keep token weight near zero.",

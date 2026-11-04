@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-069",
-      "title": "Autonomous Architecture Scaffold in Local Repo",
-      "description": "Scaffold a production Next.js 15 app router template with Tailwind CSS v4, Lucide icons, Supabase auth helpers, and clean server actions. Include full directory structure and sample route handlers.",
+      "title": "Claude Max Open Source Integration Overview & Features",
+      "description": "Claude Max Open Source Integration – Claude Max & Pro: How to Connect High-Limit Tiers to Open Source Tools\n\nAnthropic's high-limit tiers give power developers the bandwidth needed for heavy daily coding. Discover how to safely connect your credentials with open-source CLI agents and local developer IDE extensions.\n\nDesigned for developers and engineering teams, Claude Max Open Source Integration accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Set up your developer API key or authorized session.\n• Connect your CLI tool with your high-limit tier.\n• Execute large repository scaffolding without hitting rate limits.\n• Complete directory scaffold with configured Next.js app router and server actions.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DXZJQxcgfqQ/",
       "instructions": [
         "Set up your developer API key or authorized session.",
         "Connect your CLI tool with your high-limit tier.",

@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-064",
-      "title": "Energy Efficiency in Neural Computing Essay",
-      "description": "Write a compelling, thought-provoking essay comparing the biological energy efficiency of the human brain with modern GPU datacenters. Explore neuromorphic computing, synaptic pruning, and the future of sustainable AI.",
+      "title": "Neuromorphic Intelligence Analysis Overview & Features",
+      "description": "Neuromorphic Intelligence Analysis – Your Brain Runs on 12 Watts: Biological vs Machine Compute Efficiency\n\nThe human brain performs trillion-parameter contextual leaps and generates creative epiphanies on just 12 watts of energy. Compare this biological miracle to the megawatt datacenter clusters required to run modern AI models.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Neuromorphic Intelligence Analysis removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Read the scientific reflection on compute vs biology.\n• Run the prompt to explore neuromorphic hardware architectures.\n• Incorporate energy-aware thinking into your own software architectures.\n• An inspiring, scientifically sound essay on biological energy efficiency and neuromorphic hardware.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DWqGwQZFTFN/",
       "instructions": [
         "Read the scientific reflection on compute vs biology.",
         "Run the prompt to explore neuromorphic hardware architectures.",

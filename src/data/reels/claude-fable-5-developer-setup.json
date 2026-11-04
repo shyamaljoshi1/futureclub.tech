@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-019",
-      "title": "Full Codebase Ingestion & Regression Suite",
-      "description": "Review the attached 5 source files. Identify edge cases not covered by existing test suites, generate comprehensive Vitest test cases with mock handlers, and identify any unhandled promise rejections.",
+      "title": "Claude Fable 5 Dev Workflow Overview & Features",
+      "description": "Claude Fable 5 Dev Workflow – Mastering Claude Fable 5 for Complex Software Engineering\n\nIf you're a developer still using basic chat windows, you're working too hard. Harness Claude Fable 5's massive context window to ingest entire multi-repo codebases, conduct root-cause debugging, and generate regression tests.\n\nDesigned for developers and engineering teams, Claude Fable 5 Dev Workflow accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Upload your project files into Claude Fable 5 project knowledge.\n• Run the prompt to generate exhaustive unit and integration tests.\n• Verify the test suite passes locally in your terminal.\n• Complete Vitest test suite covering edge cases with 95%+ branch coverage.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DaW9ie0PvNY/",
       "instructions": [
         "Upload your project files into Claude Fable 5 project knowledge.",
         "Run the prompt to generate exhaustive unit and integration tests.",

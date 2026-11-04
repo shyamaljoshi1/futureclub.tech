@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-072",
-      "title": "Complete SaaS MVP Specification Prompt",
-      "description": "Describe a complete SaaS micro-tool: user uploads a CSV of real estate listings, the system computes ROI metrics, formats a PDF executive summary, and emails it to the user with Stripe payment integration.",
+      "title": "Emergent Autonomous App Builder Overview & Features",
+      "description": "Emergent Autonomous App Builder – Emergent: Describe Your App in Plain English, Deploy Full-Stack Software\n\nEmergent reached $100M ARR in just 8 months by turning natural language descriptions into fully tested, deployed cloud software. Discover how vibe coding is replacing traditional drag-and-drop website builders.\n\nDesigned for developers and engineering teams, Emergent Autonomous App Builder accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Navigate to the Emergent platform.\n• Type your product specification in plain English.\n• Review the generated code, automated unit tests, and live cloud deployment preview.\n• Fully deployed cloud application with functional frontend, API, and database.\n\nOfficial Website: https://emergent.sh/\nInstagram Breakdown: https://www.instagram.com/p/DWlGcfIgbnf/",
       "instructions": [
         "Navigate to the Emergent platform.",
         "Type your product specification in plain English.",

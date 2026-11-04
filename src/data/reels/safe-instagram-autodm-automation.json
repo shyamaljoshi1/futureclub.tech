@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-036",
-      "title": "Varied Auto-DM Response Matrix Generator",
-      "description": "Generate 12 distinct, natural conversational DM reply templates delivering a resource link to an Instagram user who commented \"TOOL\". Vary greetings, emojis, and phrasing to ensure 0% repetition across automated replies.",
+      "title": "Safe Instagram Auto-DM Workflow Overview & Features",
+      "description": "Safe Instagram Auto-DM Workflow – Avoid Account Bans: Safe Instagram Auto-DM Workflows for Creators\n\nSending identical repetitive direct messages to thousands of followers triggers Instagram's anti-bot algorithms, risking shadowbans. Discover how to randomize reply variants, add human delays, and maintain account safety.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Safe Instagram Auto-DM Workflow removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Open your automation tool (ManyChat or Meta Graph API).\n• Paste the 12 dynamic message variants into a randomized rotation block.\n• Set an artificial 15-45 second jitter delay before each message dispatch.\n• A 12-variant reply dictionary with natural phrasing and randomized emoji placements.\n\nOfficial Website: https://manychat.com/\nInstagram Breakdown: https://www.instagram.com/p/DYpAF1GtY2F/",
       "instructions": [
         "Open your automation tool (ManyChat or Meta Graph API).",
         "Paste the 12 dynamic message variants into a randomized rotation block.",

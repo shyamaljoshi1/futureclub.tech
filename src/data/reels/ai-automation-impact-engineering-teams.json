@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-074",
-      "title": "Engineering Velocity & Tooling ROI Audit",
-      "description": "Conduct an ROI analysis of adopting AI coding assistants across an 8-person engineering team. Calculate time saved on boilerplate, PR reviews, and unit test generation versus subscription costs.",
+      "title": "AI Engineering Impact Analysis Overview & Features",
+      "description": "AI Engineering Impact Analysis – The Real Impact of AI on Software Teams: Headcount, Speed & Velocity\n\nThey said AI couldn't replace engineering workflows—until companies began shipping 10x more features with smaller, elite teams. An honest analysis of engineering velocity metrics, layoffs, and emerging roles.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, AI Engineering Impact Analysis removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Examine the shifting landscape of modern engineering orgs.\n• Use this prompt to audit where your engineering hours are actually spent.\n• Shift team focus toward architectural design, security audits, and product strategy.\n• Detailed ROI spreadsheet analysis projecting 32% faster sprint velocity and reduced tech debt.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DXLjMUTmQwV/",
       "instructions": [
         "Examine the shifting landscape of modern engineering orgs.",
         "Use this prompt to audit where your engineering hours are actually spent.",

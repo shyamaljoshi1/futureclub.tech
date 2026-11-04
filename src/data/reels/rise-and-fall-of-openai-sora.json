@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-080",
-      "title": "Generative Video Unit Economics Analysis",
-      "description": "Break down the estimated GPU compute cost per minute of generating 1080p diffusion video versus traditional CGI rendering. Analyze when generative video becomes cost-effective for commercial marketing.",
+      "title": "OpenAI Sora Evolution & Economics Overview & Features",
+      "description": "OpenAI Sora Evolution & Economics – The Rise and Fall of Sora: Why AI Video Generation Hit an Economic Wall\n\nWhen OpenAI first revealed Sora, everyone believed Hollywood was about to be automated overnight. Discover the immense compute costs, temporal consistency bugs, and business model pivots that shaped generative video.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, OpenAI Sora Evolution & Economics removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Read the investigative retrospective on AI video compute barriers.\n• Evaluate whether short-form video generation aligns with your creator budget.\n• Focus on hybrid workflows combining generative B-roll with real human hosts.\n• Financial cost-benefit model comparing AI video inference costs with traditional video production.\n\nOfficial Website: https://openai.com/\nInstagram Breakdown: https://www.instagram.com/p/DWWN8QGjPKe/",
       "instructions": [
         "Read the investigative retrospective on AI video compute barriers.",
         "Evaluate whether short-form video generation aligns with your creator budget.",

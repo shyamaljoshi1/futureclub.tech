@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-078",
-      "title": "Multi-Agent Code Peer Review Protocol",
-      "description": "Act as the Moderator of an LLM Council. Present this code to Model A (Architect) for refactoring, then prompt Model B (Security Auditor) to attack it, and finally synthesize the hardened output.",
+      "title": "Multi-LLM Council Architecture Overview & Features",
+      "description": "Multi-LLM Council Architecture – Build a Multi-LLM Council: Claude, ChatGPT & Gemini Working Together\n\nWhy rely on a single model when you can convene a council? In this architecture, Claude drafts the code, ChatGPT critiques logic bugs, and Gemini fact-checks citations, producing near-zero hallucination rates.\n\nDesigned for developers and engineering teams, Multi-LLM Council Architecture accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Set up an orchestration script connecting to your favorite LLM APIs.\n• Configure the sequential debate protocol defined in the repository.\n• Enjoy thoroughly stress-tested code and zero obvious oversights.\n• Multi-pass code verification transcript showing security fixes introduced during debate.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DYCeTEtxly8/",
       "instructions": [
         "Set up an orchestration script connecting to your favorite LLM APIs.",
         "Configure the sequential debate protocol defined in the repository.",

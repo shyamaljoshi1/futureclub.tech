@@ -120,15 +120,24 @@ export function getReelItems(options: ReelFilterOptions = {}): ReelItem[] {
     );
   }
 
+  const sortComparator = (a: ReelItem, b: ReelItem) => {
+    const dateDiff = new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+    if (dateDiff !== 0) return dateDiff;
+    const idA = parseInt(a.id.replace(/\D/g, '') || '0', 10);
+    const idB = parseInt(b.id.replace(/\D/g, '') || '0', 10);
+    return idB - idA;
+  };
+
   if (options.sort === 'alphabetical') {
     items.sort((a, b) => a.toolName.localeCompare(b.toolName));
   } else if (options.sort === 'featured') {
-    items.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+    items.sort((a, b) => {
+      const featDiff = (b.featured ? 1 : 0) - (a.featured ? 1 : 0);
+      if (featDiff !== 0) return featDiff;
+      return sortComparator(a, b);
+    });
   } else {
-    items.sort(
-      (a, b) =>
-        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    );
+    items.sort(sortComparator);
   }
 
   if (options.limit && options.limit > 0) {
@@ -406,7 +415,7 @@ export function getPromptSections(
     ? singleItem.description || (singleItem as any).Description || singleItem.prompt || (singleItem as any).Prompt
     : item.prompt) || '';
 
-  const parsed = parsePromptSections(rawText, defaultTitle);
+  const parsed = parsePromptSections(rawText, singleItem?.title || defaultTitle);
   if (singleItem?.instructions) {
     parsed.forEach((s) => {
       if (!s.instructions) s.instructions = singleItem.instructions;
@@ -561,25 +570,40 @@ export function globalSearch(query: string): SearchResultItem[] {
   const q = query.toLowerCase().trim();
   const results: SearchResultItem[] = [];
 
-  // Search reels as tools
-  loadAllReels()
-    .filter((r) => r.status === 'published')
-    .forEach((r) => {
-      if (
-        r.toolName.toLowerCase().includes(q) ||
-        r.title.toLowerCase().includes(q) ||
-        r.description.toLowerCase().includes(q)
-      ) {
-        results.push({
-          id: r.id,
-          type: 'tool',
-          title: r.toolName,
-          description: r.description,
-          url: `/tools/${r.slug}`,
-          badge: r.pricing,
-        });
-      }
-    });
+  // Search reels as tools and prompts (sorted newest first)
+  const allReels = loadAllReels().filter((r) => r.status === 'published');
+  allReels.sort((a, b) => {
+    const dateDiff = new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+    if (dateDiff !== 0) return dateDiff;
+    const idA = parseInt(a.id.replace(/\D/g, '') || '0', 10);
+    const idB = parseInt(b.id.replace(/\D/g, '') || '0', 10);
+    return idB - idA;
+  });
+
+  allReels.forEach((r) => {
+    const matchInPrompts = r.promptSet?.some(
+      (p) =>
+        (p.title && p.title.toLowerCase().includes(q)) ||
+        (p.description && p.description.toLowerCase().includes(q)) ||
+        (p.prompt && p.prompt.toLowerCase().includes(q))
+    );
+    if (
+      r.toolName.toLowerCase().includes(q) ||
+      r.title.toLowerCase().includes(q) ||
+      r.description.toLowerCase().includes(q) ||
+      r.slug.toLowerCase().includes(q) ||
+      matchInPrompts
+    ) {
+      results.push({
+        id: r.id,
+        type: r.contentType === 'prompt' ? 'prompt' : 'tool',
+        title: r.toolName || r.title,
+        description: r.description,
+        url: r.contentType === 'prompt' ? `/prompts/${r.slug}` : `/tools/${r.slug}`,
+        badge: r.contentType === 'prompt' ? 'Prompt' : r.pricing,
+      });
+    }
+  });
 
   // Resources
   (resourcesData as Resource[])
@@ -587,7 +611,8 @@ export function globalSearch(query: string): SearchResultItem[] {
     .forEach((r) => {
       if (
         r.title.toLowerCase().includes(q) ||
-        r.description.toLowerCase().includes(q)
+        r.description.toLowerCase().includes(q) ||
+        r.slug.toLowerCase().includes(q)
       ) {
         results.push({
           id: r.id,
@@ -606,7 +631,8 @@ export function globalSearch(query: string): SearchResultItem[] {
     .forEach((c) => {
       if (
         c.title.toLowerCase().includes(q) ||
-        c.description.toLowerCase().includes(q)
+        c.description.toLowerCase().includes(q) ||
+        c.slug.toLowerCase().includes(q)
       ) {
         results.push({
           id: c.id,
@@ -619,5 +645,5 @@ export function globalSearch(query: string): SearchResultItem[] {
       }
     });
 
-  return results.slice(0, 10);
+  return results.slice(0, 15);
 }

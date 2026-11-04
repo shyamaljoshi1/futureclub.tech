@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-048",
-      "title": "Meta-Prompt Architect: Turn Any Idea into an Elite Prompt",
-      "description": "Act as an expert prompt engineer. Take the following objective: \"[INSERT GOAL]\". Write an optimized prompt containing Role, Task, Input Data Schema, Operational Constraints, and Output Format specification.",
+      "title": "System Prompt Optimizer Extension Overview & Features",
+      "description": "System Prompt Optimizer Extension – The Secret to God-Tier AI Results: The Prompt Optimizer Extension\n\nThe secret to god-tier AI results isn't typing longer essays—it's structuring instructions with system constraints. This extension injects few-shot examples, chain-of-thought instructions, and schema rules automatically.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, System Prompt Optimizer Extension removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Enter your raw idea or task into the extension.\n• Click Optimize to generate a structured system prompt.\n• Paste into your model for dramatically higher reasoning accuracy.\n• A multi-section prompt framework guaranteeing strict JSON output and step-by-step reasoning.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DYTdTgjhOrq/",
       "instructions": [
         "Enter your raw idea or task into the extension.",
         "Click Optimize to generate a structured system prompt.",

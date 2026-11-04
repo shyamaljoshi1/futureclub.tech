@@ -1,0 +1,38 @@
+{
+  "id": "reel-091",
+  "slug": "archify-runtime-architecture-diagram",
+  "title": "Archify : Creating Runtime Architecture Diagram of System",
+  "toolName": "Archify : Creating Runtime Architecture Diagram of System",
+  "toolUrl": "https://github.com/tt-a1i/archify",
+  "description": "Archify is an open-source AI agent skill that transforms ideas, technical descriptions, and existing codebases into beautiful, interactive, and shareable visual diagrams.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "100% Free Open-Source (MIT)",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "",
+  "instagramReelId": "",
+  "reelThumbnail": "https://opengraph.githubassets.com/1/tt-a1i/archify",
+  "promptSet": [
+    {
+      "id": "pmt-091",
+      "title": "Archify Overview & Features",
+      "description": "Archify – Turn Ideas and Codebases into Interactive Diagrams\n\nArchify is an open-source AI agent skill that transforms ideas, technical descriptions, and existing codebases into beautiful, interactive, and shareable visual diagrams. Instead of manually creating architecture diagrams, you can simply describe your system to an AI coding agent, and Archify generates a self-contained HTML visualization that helps you understand how different components interact.\n\nIt integrates with AI coding assistants like Cursor, Claude Code, Codex CLI, and OpenCode, making it easier for developers to visualize complex systems, understand application architecture, document workflows, and communicate technical concepts.\n\nKey Features:\n• AI-Powered Diagram Generation: Convert plain-English descriptions or entire codebases into interactive technical diagrams.\n• Multiple Diagram Types: Supports architecture, workflow, sequence, data flow, lifecycle, ERD, class, tree, timeline, and waterfall diagrams.\n• Interactive Exploration: Explore components, inspect connections, trace execution paths, and understand upstream and downstream dependencies.\n• Easy Customization: Modify diagrams using natural-language instructions without manually editing diagram layouts.\n• Beautiful Visual Design: Includes multiple visual styles, dark and light themes, animations, and polished layouts.\n• Export & Sharing: Export diagrams as HTML, PNG, SVG, WebP, JPEG, and other supported formats.\n• AI Coding Agent Integration: Works with Cursor, Claude Code, Codex CLI, and OpenCode.\n• Open Source: Free to use and available under the MIT license.\n\nInstallation:\nnpx skills add tt-a1i/archify -g\n\nGitHub Repository: https://github.com/tt-a1i/archify\nOfficial Website: https://archify.si/",
+      "instructions": [
+        "Install the Archify skill in your coding agent: npx skills add tt-a1i/archify -g",
+        "Open your repository in Cursor, Claude Code, Codex CLI, or OpenCode.",
+        "Ask the AI agent to generate an architecture or workflow diagram for your codebase.",
+        "Open and explore the generated interactive HTML visualization in any browser."
+      ],
+      "exampleOutput": "Self-contained interactive HTML visualization supporting zoom, pan, node search, and dependency tracing."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-04",
+  "seo": {
+    "title": "Archify : Creating Runtime Architecture Diagram of System | futureclub.tech",
+    "description": "Turn ideas and codebases into interactive architecture diagrams with Archify, the open-source AI coding assistant skill."
+  }
+}

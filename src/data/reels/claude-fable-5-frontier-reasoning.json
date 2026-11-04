@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-034",
-      "title": "Complex Distributed Concurrency Bug Fixer",
-      "description": "Analyze this distributed microservices trace log. Locate the root cause of the intermittent HTTP 504 gateway timeout, determine if connection pooling or database locks are responsible, and provide the exact patch.",
+      "title": "Claude Fable 5 Frontier Reasoning Overview & Features",
+      "description": "Claude Fable 5 Frontier Reasoning – Claude Fable 5 Deep Dive: Breakthrough SWE-bench Performance\n\nExplore the full capabilities of Claude Fable 5: handling 100,000+ line codebases, reasoning through distributed systems bugs, and writing rigorous unit tests without getting sidetracked by complex requirements.\n\nDesigned for developers and engineering teams, Claude Fable 5 Frontier Reasoning accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Upload the relevant microservice log trace to Claude Fable 5.\n• Ask the model to isolate race conditions and connection exhaustion.\n• Apply the recommended database connection pool configuration patch.\n• Detailed diagnostic tracing identifying connection starvation in Prisma connection pool with fix.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DZfJx0HNpW8/",
       "instructions": [
         "Upload the relevant microservice log trace to Claude Fable 5.",
         "Ask the model to isolate race conditions and connection exhaustion.",

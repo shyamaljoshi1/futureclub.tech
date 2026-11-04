@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-049",
-      "title": "Markdown Chat Exporter & Documentation Builder",
-      "description": "Format the following conversation into clean technical documentation: summarize key decisions in a table, provide copyable code blocks with file names, and list open action items.",
+      "title": "Ghatak Browser Assistant for LLMs Overview & Features",
+      "description": "Ghatak Browser Assistant for LLMs – Ghatak Extension for ChatGPT & Claude: Prompt Faster Directly in Browser\n\nStreamline your interaction with ChatGPT, Claude, and Gemini. Quick-insert custom prompt templates, manage conversational history snippets, and export chats as clean Markdown with one click.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Ghatak Browser Assistant for LLMs removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Install Ghatak in your browser.\n• Use the sidebar to search and inject your saved prompt presets.\n• Export important chat sessions directly into your Notion or Obsidian notes.\n• Clean GFM Markdown document ready to commit to your project docs folder.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DYUrTn0g-k8/",
       "instructions": [
         "Install Ghatak in your browser.",
         "Use the sidebar to search and inject your saved prompt presets.",

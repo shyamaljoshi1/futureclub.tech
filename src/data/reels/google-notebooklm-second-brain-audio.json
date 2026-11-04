@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-060",
-      "title": "Grounded Source Synthesis & Comparative Analysis",
-      "description": "Based exclusively on the uploaded 4 research documents, compare the competing theories on economic inflation. Cite exact page numbers and quotes for each argument, without introducing outside knowledge.",
+      "title": "Google NotebookLM Second Brain Overview & Features",
+      "description": "Google NotebookLM Second Brain – Google NotebookLM: Turn Notes, PDFs & Books into an Interactive Brain\n\nGoogle NotebookLM changes how research is organized. Upload dense books, academic papers, and lecture slides to create a personalized AI assistant that answers questions grounded strictly in your source documents.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Google NotebookLM Second Brain removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Visit notebooklm.google.com and upload your study materials.\n• Ask specific questions to get fully cited answers with inline click-to-source links.\n• Generate an Audio Overview to listen to a 2-host podcast deep dive.\n• Comprehensive comparative synthesis with exact page citations from your source files.\n\nOfficial Website: https://notebooklm.google.com/\nInstagram Breakdown: https://www.instagram.com/p/DXD6Nlgj35N/",
       "instructions": [
         "Visit notebooklm.google.com and upload your study materials.",
         "Ask specific questions to get fully cited answers with inline click-to-source links.",

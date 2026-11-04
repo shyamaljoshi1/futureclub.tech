@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-004",
-      "title": "Clean Artifact UI Injector",
-      "description": "Generate a polished single-page landing page mockup for a modern SaaS product. Omit all external branding badges, default footers, and decorative framework watermarks.",
+      "title": "Claude Watermark Remover Overview & Features",
+      "description": "Claude Watermark Remover – How to Remove the Claude Artifact Watermark for Clean Exports\n\nA simple, non-destructive browser inspector trick to remove the default Claude artifact badge and watermark for clean client presentations, portfolio screenshots, and UI mockups.\n\nTailored for designers, visual artists, and creative professionals, Claude Watermark Remover enhances design precision, speeds up production-grade asset generation, and ensures consistent visual polish.\n\nKey Features:\n• Open your Claude artifact view in your browser.\n• Right click the artifact canvas and inspect the watermark container element.\n• Apply custom CSS or display:none for clean full-bleed exports.\n• Watermark-free, pristine vector canvas ready for high-resolution client presentation.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DcGoQE4h2H-/",
       "instructions": [
         "Open your Claude artifact view in your browser.",
         "Right click the artifact canvas and inspect the watermark container element.",

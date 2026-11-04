@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-015",
-      "title": "PDF to High-Retention Video Script Blueprint",
-      "description": "Extract the core 3 takeaways from this 20-page research document. Format as a 60-second viral educational video script with a 3-second visual hook, fast-paced bullet points, and an actionable conclusion.",
+      "title": "NotebookLM Short Video Overviews Overview & Features",
+      "description": "NotebookLM Short Video Overviews – Turn Any PDF or Notes into 60-Second Animated Explainer Videos\n\nGoogle NotebookLM introduces short vertical video overviews. Upload any PDF, research article, or class lecture, and NotebookLM automatically scripts, animates, and narrates a 60-second Reels-style explainer video.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, NotebookLM Short Video Overviews removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Go to notebooklm.google.com and create a new notebook.\n• Upload your source PDF or lecture slides.\n• Click Generate Short Video Overview and download your vertical MP4.\n• Ready-to-post 60-second narrated video summarizing complex academic material.\n\nOfficial Website: https://notebooklm.google.com/\nInstagram Breakdown: https://www.instagram.com/p/DaSphZagb2F/",
       "instructions": [
         "Go to notebooklm.google.com and create a new notebook.",
         "Upload your source PDF or lecture slides.",

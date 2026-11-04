@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-082",
-      "title": "Claude Code Project Rules Configuration (.clauderc)",
-      "description": "Generate a comprehensive .clauderc configuration file for a TypeScript full-stack project. Include guidelines on code formatting, preferred libraries, test runner commands, and strict security rules.",
+      "title": "Claude Code CLI Setup Guide Overview & Features",
+      "description": "Claude Code CLI Setup Guide – Claude Code Setup Guide: How to Install, Configure & Master the CLI\n\nVibe coding reaches its final form when your AI lives directly in your terminal. Follow this step-by-step tutorial to install Claude Code, configure environment variables, authorize MCP servers, and set up custom rules.\n\nDesigned for developers and engineering teams, Claude Code CLI Setup Guide accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Install the Claude Code CLI using npm install -g @anthropic-ai/claude-code.\n• Authenticate with your Anthropic account in your terminal.\n• Add custom project instructions in CLAUDE.md to keep your agent aligned.\n• A complete CLAUDE.md guidelines file tailored for modern React and Node.js codebases.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DW_cNdbjzIH/",
       "instructions": [
         "Install the Claude Code CLI using npm install -g @anthropic-ai/claude-code.",
         "Authenticate with your Anthropic account in your terminal.",

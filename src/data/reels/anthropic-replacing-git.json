@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-006",
-      "title": "Autonomous Multi-Agent PR Reviewer",
-      "description": "Act as an autonomous Git reviewer agent. Parse the following git diff, identify breaking changes, test coverage deficits, and security vulnerabilities. Format the response as a GitHub PR review markdown with clear pass/fail status.",
+      "title": "Anthropic Agentic Version Control Overview & Features",
+      "description": "Anthropic Agentic Version Control – Why Anthropic Replaced Git to Handle 30,000 Daily AI Pull Requests\n\nWhen Anthropic scaled their autonomous coding agents from 2,500 to 30,000 PRs per day, traditional Git choked under network spikes and storage limits. Discover the 7-engineer custom distributed storage system that replaced it.\n\nDesigned for developers and engineering teams, Anthropic Agentic Version Control accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Provide your Git diff or pull request changes.\n• Run the prompt through Claude Code or your agent terminal.\n• Review automated line-by-line recommendations and test coverage gaps.\n• Markdown formatted PR review identifying 2 potential null pointer exceptions with proposed patch code.\n\nOfficial Website: https://anthropic.com/\nInstagram Breakdown: https://www.instagram.com/p/DfPYncppZ_p/",
       "instructions": [
         "Provide your Git diff or pull request changes.",
         "Run the prompt through Claude Code or your agent terminal.",

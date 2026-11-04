@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-054",
-      "title": "Enterprise RAG Architecture Review & Pipeline",
-      "description": "Design an enterprise-grade Retrieval Augmented Generation (RAG) architecture. Specify chunking strategy, hybrid dense/sparse vector search, re-ranking with cross-encoders, and hallucination guardrails.",
+      "title": "Master AI Skills GitHub Repository Overview & Features",
+      "description": "Master AI Skills GitHub Repository – The Hidden GitHub Repo for AI Engineers: Practical Skills & Roadmaps\n\nA treasure trove for developers and AI practitioners. This comprehensive open-source GitHub repository features curated learning paths, production MCP server configs, RAG blueprints, and system prompt architectures.\n\nDesigned for developers and engineering teams, Master AI Skills GitHub Repository accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Clone the master AI repository to your local computer.\n• Explore the organized topic folders (RAG, Agents, Finetuning).\n• Run the included starter code notebooks to build hands-on skills.\n• Comprehensive RAG architectural diagram and Python code for hybrid retrieval with cross-encoder re-ranking.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DYHgjaNpApc/",
       "instructions": [
         "Clone the master AI repository to your local computer.",
         "Explore the organized topic folders (RAG, Agents, Finetuning).",

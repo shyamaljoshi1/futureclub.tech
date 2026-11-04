@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-027",
-      "title": "Automated Git Commit & Changelog Generator",
-      "description": "Analyze git diff HEAD~1. Categorize all modifications according to Conventional Commits (feat, fix, refactor, chore). Generate a concise semantic commit message and an updated release notes entry.",
+      "title": "Claude Terminal Coding Skills Suite Overview & Features",
+      "description": "Claude Terminal Coding Skills Suite – Supercharge Your CLI: Essential Developer Skills for Claude Code\n\nMove beyond basic web browser chat windows. Integrate custom slash commands, git hooks, and automatic linter verification into Claude Code so the agent can autonomously diagnose failing tests and file PRs.\n\nDesigned for developers and engineering teams, Claude Terminal Coding Skills Suite accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Install the Claude Code CLI utility in your local terminal.\n• Add this prompt to your custom skills directory.\n• Trigger automated commit analysis before pushing branch updates.\n• feat(auth): implement PKCE authorization flow with refresh token rotation.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DZaL3gGt5PP/",
       "instructions": [
         "Install the Claude Code CLI utility in your local terminal.",
         "Add this prompt to your custom skills directory.",

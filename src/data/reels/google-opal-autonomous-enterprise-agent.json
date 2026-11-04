@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-085",
-      "title": "Google Opal Enterprise Agent Flow Designer",
-      "description": "Design a Google Opal multi-agent workflow for an e-commerce refund request. Specify the triage agent, fraud verification agent, database lookup agent, and final customer email generation step.",
+      "title": "Google Opal Enterprise Automation Overview & Features",
+      "description": "Google Opal Enterprise Automation – Google Drops Opal: The Multi-Agent Workflow Engine That Changes Everything\n\nThe automation world is undergoing a seismic shift. Google Opal connects your spreadsheets, internal databases, Slack channels, and customer support desks into collaborative, autonomous multi-agent workflows.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Google Opal Enterprise Automation removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Access Google Opal on the Google Cloud developer console.\n• Connect your workspace data sources (Sheets, BigQuery, Gmail).\n• Deploy autonomous agents with human-in-the-loop approval thresholds.\n• Visual workflow schema defining 4 specialized agents collaborating on customer operations.\n\nOfficial Website: https://opal.google/\nInstagram Breakdown: https://www.instagram.com/p/DW1YeLHjeNq/",
       "instructions": [
         "Access Google Opal on the Google Cloud developer console.",
         "Connect your workspace data sources (Sheets, BigQuery, Gmail).",

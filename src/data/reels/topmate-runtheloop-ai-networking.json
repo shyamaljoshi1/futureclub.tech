@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-037",
-      "title": "Consulting Service Pitch & Intake Questionnaire",
-      "description": "Draft a 4-question intake form for prospective clients wanting a 1-on-1 AI strategy session. Ensure questions filter for budget, timeline, current tech stack, and clear project goals.",
+      "title": "Topmate RunTheLoop AI Agent Overview & Features",
+      "description": "Topmate RunTheLoop AI Agent – Topmate RunTheLoop: Automate Networking and Mentorship 24/7\n\nTurn your professional profile into an interactive, 24/7 opportunity engine. RunTheLoop by Topmate answers client questions, screens consultation requests, and books paid calls without manual back-and-forth.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Topmate RunTheLoop AI Agent removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Create or log into your Topmate profile.\n• Enable the RunTheLoop AI agent assistant.\n• Train the assistant on your bio, past client testimonials, and booking calendar.\n• Interactive intake flow that qualifies prospective leads before scheduling.\n\nOfficial Website: https://topmate.io/\nInstagram Breakdown: https://www.instagram.com/p/DY7HayetDG4/",
       "instructions": [
         "Create or log into your Topmate profile.",
         "Enable the RunTheLoop AI agent assistant.",

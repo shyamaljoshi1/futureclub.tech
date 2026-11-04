@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-055",
-      "title": "Executive AI Market Analysis & Strategic Implications",
-      "description": "Analyze the strategic implications of autonomous cyber security models identifying critical zero-day software vulnerabilities. Outline potential risks for enterprise software vendors and the defense industry.",
+      "title": "AI Intelligence Briefing Overview & Features",
+      "description": "AI Intelligence Briefing – The AI Week That Broke the Internet: Cyber Zero-Days & $122B Warchests\n\nAutonomous cyber agents discovering decade-old zero-day exploits, frontier labs amassing $122B compute funds, and governments considering robot taxes. Stay informed with concise, fact-checked AI industry analysis.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, AI Intelligence Briefing removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Read the executive briefing highlights.\n• Use this prompt to run scenario planning for your company's tech stack.\n• Strengthen vulnerability patch cycles and automated code reviews.\n• Executive report assessing enterprise cyber risks and recommending proactive automated patching.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DXGNqhXGYYD/",
       "instructions": [
         "Read the executive briefing highlights.",
         "Use this prompt to run scenario planning for your company's tech stack.",

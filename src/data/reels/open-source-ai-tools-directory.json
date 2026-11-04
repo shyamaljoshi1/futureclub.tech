@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-007",
-      "title": "Subscription Cost Audit & Open-Source Finder",
-      "description": "I currently spend money on Midjourney, Grammarly, and GitHub Copilot. List the top open-source, locally runnable or free hosted alternatives for each, including hardware requirements and setup links.",
+      "title": "Free Open Source AI Alternatives Overview & Features",
+      "description": "Free Open Source AI Alternatives – Zero-Budget AI: Free Open Source Replacements for Paid Subscriptions\n\nCut monthly AI subscription bills without sacrificing quality. Discover vetted, self-hostable and free cloud open-source tools for AI image generation, vector search, code completion, and voice synthesis.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Free Open Source AI Alternatives removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• List the paid AI services you currently use.\n• Input the prompt to get vetted FOSS alternatives with zero license fees.\n• Install the recommended open-source models using Ollama or HuggingFace.\n• Comprehensive table comparing FLUX.1 Schell, Llama 3.3, and Continue.dev against paid equivalents.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DfHipA4PH0S/",
       "instructions": [
         "List the paid AI services you currently use.",
         "Input the prompt to get vetted FOSS alternatives with zero license fees.",

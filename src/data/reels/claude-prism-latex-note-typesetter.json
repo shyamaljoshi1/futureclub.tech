@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-086",
-      "title": "Handwritten Math to Clean LaTeX Document",
-      "description": "Transcribe these photographed math lecture notes into a complete, compilable LaTeX document. Use amsmath and tikz for diagrams. Format all theorems, proofs, and definitions in structured colored boxes.",
+      "title": "Claude + Prism LaTeX Note Typesetter Overview & Features",
+      "description": "Claude + Prism LaTeX Note Typesetter – Turn Raw Handwritten Notes into Publication-Grade LaTeX PDFs with AI\n\nThis is how students and researchers should actually study in 2026. Photograph your messy handwritten lecture notes or whiteboard sketches, and let Claude + Prism format them into gorgeous, publication-ready LaTeX PDFs.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Claude + Prism LaTeX Note Typesetter removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Snap a photo of your handwritten lecture notes.\n• Upload the image to Claude with this LaTeX prompt.\n• Compile the generated .tex code in Overleaf or TeXShop to produce a pristine PDF.\n• Compilable LaTeX document with beautiful theorem environments and typeset equations.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DWUTFsBFWAE/",
       "instructions": [
         "Snap a photo of your handwritten lecture notes.",
         "Upload the image to Claude with this LaTeX prompt.",

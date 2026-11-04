@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-029",
-      "title": "Antigravity Full-Stack Microservice Generator",
-      "description": "Generate a production-ready Express TypeScript backend microservice with JWT authentication, rate limiting middleware, and SQLite Prisma ORM. Include Dockerfile, docker-compose.yml, and Vitest endpoint tests.",
+      "title": "Google Antigravity CLI Agent Overview & Features",
+      "description": "Google Antigravity CLI Agent – Google Drops Free Antigravity AI Coding Agent for Developers\n\nGoogle Antigravity is a completely free AI coding agent offering local terminal integration, multi-agent orchestrations, and full Gemini 4 Argon model access. Discover why developers are switching from paid tools.\n\nDesigned for developers and engineering teams, Google Antigravity CLI Agent accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Download and install Google Antigravity CLI.\n• Authenticate with your Google account via agy auth.\n• Run agy build to scaffold full-stack applications with built-in agent review.\n• Scaffolded TypeScript repository with passing test suite and automated Docker build.\n\nOfficial Website: https://antigravity.google/\nInstagram Breakdown: https://www.instagram.com/p/DZcoSPltyzE/",
       "instructions": [
         "Download and install Google Antigravity CLI.",
         "Authenticate with your Google account via agy auth.",

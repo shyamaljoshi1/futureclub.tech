@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-040",
-      "title": "ECC Automated Test-Driven Development Loop",
-      "description": "Configure an autonomous test-driven development workflow: write failing unit tests for an authentication service, execute tests via ECC watcher, implement minimal passing code, and refactor cleanly.",
+      "title": "Engineers Claude Companion (ECC) Overview & Features",
+      "description": "Engineers Claude Companion (ECC) – Supercharge Claude Code with Engineers Claude Companion (ECC)\n\nECC is a game-changing developer companion for Claude Code CLI. It automatically runs background test watchers, enforces strict type checking, and flags dangerous terminal commands before execution.\n\nDesigned for developers and engineering teams, Engineers Claude Companion (ECC) accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Install ECC alongside Claude Code via npm install -g ecc-companion.\n• Run ecc init in your project root directory.\n• Watch Claude Code autonomously verify every code change against live tests.\n• Terminal output demonstrating automated test verification pass with 0 failures.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DY14MkbNknQ/",
       "instructions": [
         "Install ECC alongside Claude Code via npm install -g ecc-companion.",
         "Run ecc init in your project root directory.",

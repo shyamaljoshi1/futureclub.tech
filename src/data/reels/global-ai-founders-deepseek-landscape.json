@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-075",
-      "title": "Open-Weights vs Closed-Weights Business Strategy",
-      "description": "Analyze the competitive defensibility of deploying self-hosted open-weights models (DeepSeek, Llama) versus building on proprietary API endpoints. Compare cost curves, data privacy, and latency tradeoffs.",
+      "title": "Global AI Founders Landscape Overview & Features",
+      "description": "Global AI Founders Landscape – Behind the Scenes of Global AI Startups: Exits, Sanctions & Open Weights\n\nThe untold narrative of startup founders navigating global compute sanctions, model acquisitions, and open-weights releases. Learn how resource constraints breed architectural breakthroughs like DeepSeek.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Global AI Founders Landscape removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Read the case study on capital efficiency in AI startups.\n• Evaluate whether your tech stack should prioritize open or closed models.\n• Architect your systems with model-agnostic abstraction layers.\n• Strategic framework evaluating privacy, latency, and TCO for enterprise AI adoption.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DWY8JNMmew8/",
       "instructions": [
         "Read the case study on capital efficiency in AI startups.",
         "Evaluate whether your tech stack should prioritize open or closed models.",

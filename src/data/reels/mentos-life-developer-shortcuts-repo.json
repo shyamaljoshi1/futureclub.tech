@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-062",
-      "title": "Terminal Workflow Audit & Custom Aliases",
-      "description": "Audit this list of frequent bash commands and create 10 powerful zsh/bash aliases and function helpers with auto-completion to streamline everyday git commits, docker containers, and project switches.",
+      "title": "Mentos Life Developer Shortcuts Overview & Features",
+      "description": "Mentos Life Developer Shortcuts – Mentos Zindagi: The GitHub Shortcuts Repo That Saves 2 Hours Daily\n\nStop living the complicated developer life. This open-source repository collects shell aliases, keyboard shortcuts, automated git branch helpers, and terminal dotfiles that shave hours of friction off your daily work.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Mentos Life Developer Shortcuts removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Clone the Mentos shortcuts repository from GitHub.\n• Source the alias config file in your ~/.zshrc or ~/.bashrc.\n• Start using one-word shortcuts to execute complex multi-step terminal tasks.\n• Set of 10 clean terminal aliases that reduce command typing by 70%.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DXJuILjjyMk/",
       "instructions": [
         "Clone the Mentos shortcuts repository from GitHub.",
         "Source the alias config file in your ~/.zshrc or ~/.bashrc.",

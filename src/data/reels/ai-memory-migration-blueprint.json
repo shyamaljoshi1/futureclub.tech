@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-061",
-      "title": "Master Personal Context & Preference Dossier",
-      "description": "Review everything you know about my profession, communication style, tech stack, and goals. Synthesize this into a structured markdown document titled \"System Context: User Profile\" that I can import into another AI tool.",
+      "title": "Cross-Platform AI Memory Migration Overview & Features",
+      "description": "Cross-Platform AI Memory Migration – How to Migrate Your AI Memory from ChatGPT & Google to Claude\n\nSwitching AI assistants shouldn't mean starting from scratch. Learn how to export your personalized preferences, project contexts, and biographical memories from ChatGPT and import them into Anthropic Claude Projects.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Cross-Platform AI Memory Migration removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Run this extraction prompt in your existing AI assistant.\n• Copy the generated Markdown profile document.\n• Upload the file to Claude's Project Knowledge to retain full context.\n• A structured markdown document containing your full professional persona and coding style preferences.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DXWwnRWDrjU/",
       "instructions": [
         "Run this extraction prompt in your existing AI assistant.",
         "Copy the generated Markdown profile document.",

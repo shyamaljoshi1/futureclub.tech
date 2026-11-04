@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-052",
-      "title": "Framer Motion Smooth Scroll Section Scaffold",
-      "description": "Write a React component using Tailwind CSS and Framer Motion that implements a sticky horizontal scroll gallery with smooth parallax card transitions and subtle opacity reveals.",
+      "title": "Next-Gen Motion & Web Design Overview & Features",
+      "description": "Next-Gen Motion & Web Design – Websites Are Evolving: Cinematic Motion, Smooth Scroll & 3D Physics\n\nStatic landing pages with plain 3-column cards are obsolete. Explore the newest wave of award-winning websites featuring kinetic typography, smooth inertial scroll physics, and interactive SVG shaders.\n\nTailored for designers, visual artists, and creative professionals, Next-Gen Motion & Web Design enhances design precision, speeds up production-grade asset generation, and ensures consistent visual polish.\n\nKey Features:\n• Study the curated website showcase for interaction inspiration.\n• Implement custom scroll physics using Framer Motion or GSAP.\n• Keep interactions subtle and responsive across both mobile and desktop.\n• Complete React component with fluid parallax card scrolling and responsive breakpoints.\n\nOfficial Website: https://godly.website/\nInstagram Breakdown: https://www.instagram.com/p/DYuad_AqQ-7/",
       "instructions": [
         "Study the curated website showcase for interaction inspiration.",
         "Implement custom scroll physics using Framer Motion or GSAP.",

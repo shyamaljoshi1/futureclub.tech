@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-059",
-      "title": "Micro-SaaS Product Discovery Matrix",
-      "description": "Identify 3 unserved workflow pain points in legal or accounting administration that can be solved with a simple single-page AI tool. For each, describe the input format, the processing logic, and the perceived user value.",
+      "title": "The AI Builder Playbook Overview & Features",
+      "description": "The AI Builder Playbook – Stop Being Just a User: The Playbook to Become a High-Leverage AI Builder\n\nEvery prompt you write and link you click is training data for someone else's platform. Shift from passive consumption to building your own defensible software tools, custom agent systems, and automated digital assets.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, The AI Builder Playbook removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Audit the manual digital chores you perform repeatedly every week.\n• Use this prompt to turn those chores into a standalone tool concept.\n• Build and launch the tool with low-code or AI coding agents in days.\n• Three validated micro-SaaS concepts targeting specific corporate operational bottlenecks.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DXyftW5uiB_/",
       "instructions": [
         "Audit the manual digital chores you perform repeatedly every week.",
         "Use this prompt to turn those chores into a standalone tool concept.",

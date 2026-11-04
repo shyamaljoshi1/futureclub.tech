@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-038",
-      "title": "Context Session State Compressor",
-      "description": "Summarize our entire ongoing technical session into a concise 150-word state summary. List: Current Goal, Confirmed Architecture Decisions, Unresolved Bugs, and Next Immediate Action. Drop all intermediate logs.",
+      "title": "Claude Token & Context Optimization Overview & Features",
+      "description": "Claude Token & Context Optimization – How Power Users Avoid Claude Rate Limits & Reduce Chat Bloat\n\nYou don't hit Claude limits because you send too many questions—you hit them because every message re-sends the entire preceding conversation history. Learn prompt caching, sub-threading, and context reset tactics.\n\nDesigned for developers and engineering teams, Claude Token & Context Optimization accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Run this context compressor prompt when a Claude chat approaches 30+ turns.\n• Copy the output state summary and paste it into a fresh, clean chat thread.\n• Enjoy 10x faster response latencies and zero sudden rate limit lockouts.\n• A concise technical session snapshot ready to bootstrap a lightweight new chat.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DYwx1_KtrNy/",
       "instructions": [
         "Run this context compressor prompt when a Claude chat approaches 30+ turns.",
         "Copy the output state summary and paste it into a fresh, clean chat thread.",

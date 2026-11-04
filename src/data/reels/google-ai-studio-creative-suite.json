@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-003",
-      "title": "Google AI Studio Full-Stack Scaffolder",
-      "description": "Build a production-ready React 18 dashboard using Tailwind CSS and Lucide icons. Implement a responsive sidebar, searchable data table with client-side sorting, and real-time metric cards. Return the complete code in a single standalone file.",
+      "title": "Google AI Studio & 9 Creative Tools Overview & Features",
+      "description": "Google AI Studio & 9 Creative Tools – 9 Groundbreaking Google AI Tools for Creators and Developers\n\nA comprehensive breakdown of Google's 9 newest AI utilities: Gemini Notebook for deep PDF analysis, Google AI Studio for instant app prototyping, Stitch UI generator, Flow video studio, Flow Music, and Pomelli branded design tools.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Google AI Studio & 9 Creative Tools removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Navigate to Google AI Studio at aistudio.google.com.\n• Select Gemini 2.5 Flash or Pro with system prompt capabilities.\n• Enter the prompt to generate functional, production-ready frontend components.\n• Fully structured React component code ready to copy-paste into your project.\n\nOfficial Website: https://aistudio.google.com/\nInstagram Breakdown: https://www.instagram.com/p/DfQv_b6lEa3/",
       "instructions": [
         "Navigate to Google AI Studio at aistudio.google.com.",
         "Select Gemini 2.5 Flash or Pro with system prompt capabilities.",

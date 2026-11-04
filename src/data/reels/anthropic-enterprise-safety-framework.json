@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-065",
-      "title": "AI Red-Teaming & Threat Model Framework",
-      "description": "Develop a red-teaming checklist for an enterprise LLM deployment. Outline prompt injection vectors, indirect data poisoning methods, data exfiltration risks, and recommended guardrail mitigation layers.",
+      "title": "Anthropic Enterprise Safety Architecture Overview & Features",
+      "description": "Anthropic Enterprise Safety Architecture – Anthropic's Restricted Frontier Security: Why It Wasn't Publicly Released\n\nAn analysis of Anthropic's restricted enterprise safety evaluations. Discover why frontier models undergo rigorous cyber defense testing and biological threat screening with global institutions before general release.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Anthropic Enterprise Safety Architecture removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Study the security whitepaper summary.\n• Deploy defense-in-depth safety layers in your LLM application architecture.\n• Conduct regular automated red-teaming runs on prompt endpoints.\n• Comprehensive enterprise red-teaming checklist with 5 vulnerability vectors and guardrail configs.\n\nOfficial Website: https://anthropic.com/\nInstagram Breakdown: https://www.instagram.com/p/DW6mkILDn15/",
       "instructions": [
         "Study the security whitepaper summary.",
         "Deploy defense-in-depth safety layers in your LLM application architecture.",

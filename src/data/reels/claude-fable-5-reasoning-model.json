@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-014",
-      "title": "Deep Codebase Refactoring & Architecture Review",
-      "description": "Analyze this React TypeScript codebase for state management inefficiencies, redundant re-renders, and structural anti-patterns. Recommend an optimal folder hierarchy and generate clean custom hooks to encapsulate business logic.",
+      "title": "Claude Fable 5 Reasoning Model Overview & Features",
+      "description": "Claude Fable 5 Reasoning Model – Anthropic Claude Fable 5: Frontier Reasoning and Massive Context\n\nClaude Fable 5 sets a new standard for analytical reasoning, code architecture, and multi-file debugging. Experience near-zero hallucinations across massive context windows and complex mathematical proofs.\n\nDesigned for developers and engineering teams, Claude Fable 5 Reasoning Model accelerates implementation, eliminates repetitive development friction, and streamlines day-to-day coding workflows.\n\nKey Features:\n• Select Claude Fable 5 in your Anthropic project dashboard.\n• Upload your project files or paste your core components.\n• Review the structured architectural audit and refactored code blocks.\n• Complete breakdown of component re-render bottlenecks and refactored lightweight state hooks.\n\nOfficial Website: https://claude.ai/\nInstagram Breakdown: https://www.instagram.com/p/DaVLRAwu1MR/",
       "instructions": [
         "Select Claude Fable 5 in your Anthropic project dashboard.",
         "Upload your project files or paste your core components.",

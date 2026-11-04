@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-024",
-      "title": "Autonomous Scientific Hypothesis Synthesizer",
-      "description": "Conduct deep literature research on solid-state battery manufacturing breakthroughs in 2025-2026. Extract verified data on energy density (Wh/kg), cycle life, and primary commercial bottlenecks with full academic citations.",
+      "title": "Olmsted Deep Research Agent Skill Overview & Features",
+      "description": "Olmsted Deep Research Agent Skill – Stop Wasting Hours on Google: Olmsted Autonomous Deep Research\n\nInstead of opening 40 browser tabs and manually sifting through sponsored search results, Olmsted's Deep Research Skill autonomously queries scientific papers, cross-references sources, and writes executive briefs.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, Olmsted Deep Research Agent Skill removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Install the Olmsted research skill into your agent workspace.\n• Issue the research topic prompt in your terminal.\n• Review the structured analytical dossier complete with direct DOI citations.\n• Comprehensive 8-section research brief summarizing 14 peer-reviewed battery chemistry papers.\n\nGitHub Repository: https://github.com/\nInstagram Breakdown: https://www.instagram.com/p/DZScO7TtRkC/",
       "instructions": [
         "Install the Olmsted research skill into your agent workspace.",
         "Issue the research topic prompt in your terminal.",

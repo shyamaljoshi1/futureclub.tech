@@ -16,8 +16,8 @@
   "promptSet": [
     {
       "id": "pmt-076",
-      "title": "End-to-End n8n Agent Workflow Blueprint",
-      "description": "Design an n8n automation workflow that ingests customer support tickets via webhook, classifies urgency with an LLM, queries an internal vector store for documentation, and drafts a suggested response in Slack.",
+      "title": "2026 AI Agentic Ops Learning Roadmap Overview & Features",
+      "description": "2026 AI Agentic Ops Learning Roadmap – Free PDF Download: The Complete 2026 AI Automation & Agentic Ops Guide\n\nMaster the high-demand skills of 2026: n8n workflow automation, Claude autonomous agents, Lovable web generation, vector databases, and LLMOps. Download the complete visual roadmap to guide your learning.\n\nBuilt for knowledge workers, tech operators, and fast-paced teams, 2026 AI Agentic Ops Learning Roadmap removes administrative bottlenecks, automates high-frequency routines, and maximizes daily output.\n\nKey Features:\n• Download the visual PDF roadmap.\n• Set up your local n8n instance using Docker.\n• Build your first autonomous multi-agent pipeline following the guide.\n• Complete n8n JSON workflow configuration ready to import into your automation engine.\n\nInstagram Breakdown & Resource Guide: https://www.instagram.com/p/DWib3EVku5-/",
       "instructions": [
         "Download the visual PDF roadmap.",
         "Set up your local n8n instance using Docker.",
