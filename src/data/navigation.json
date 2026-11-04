@@ -11,18 +11,6 @@
     {
       "label": "Prompts",
       "href": "/prompts"
-    },
-    {
-      "label": "Collections",
-      "href": "/collections"
-    },
-    {
-      "label": "Resources",
-      "href": "/resources"
-    },
-    {
-      "label": "About",
-      "href": "/about"
     }
   ],
   "cta": {
