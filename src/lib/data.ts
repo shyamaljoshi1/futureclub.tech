@@ -4,6 +4,8 @@ import collectionsData from '@/data/collections.json';
 import resourcesData from '@/data/resources.json';
 import navigationData from '@/data/navigation.json';
 import footerData from '@/data/footer.json';
+import seriesData from '@/data/series.json';
+import seriesPostsData from '@/data/series-posts.json';
 
 import type {
   Category,
@@ -13,6 +15,8 @@ import type {
   NavigationConfig,
   FooterConfig,
   ReelItem,
+  Series,
+  SeriesPost,
 } from '@/types/content';
 
 // Import all individual reel JSON files automatically via Vite's import.meta.glob
@@ -546,6 +550,36 @@ export function getResourceBySlug(slug: string): Resource | undefined {
   );
 }
 
+// Series
+export function getAllSeries(): Series[] {
+  return (seriesData as Series[]).filter((s) => s.status === 'published');
+}
+
+export function getSeriesBySlug(slug: string): Series | undefined {
+  return getAllSeries().find((s) => s.slug === slug);
+}
+
+// Series Posts
+export function getAllSeriesPosts(): SeriesPost[] {
+  return (seriesPostsData as SeriesPost[]).filter((p) => p.status === 'published');
+}
+
+export function getSeriesPosts(seriesSlug?: string): SeriesPost[] {
+  const posts = getAllSeriesPosts();
+  if (!seriesSlug) return posts;
+  return posts.filter((p) => p.seriesSlug === seriesSlug);
+}
+
+export function getSeriesPostBySlug(slug: string): SeriesPost | undefined {
+  return getAllSeriesPosts().find((p) => p.slug === slug);
+}
+
+export function getRelatedSeriesPosts(post: SeriesPost, limit = 3): SeriesPost[] {
+  return getAllSeriesPosts()
+    .filter((p) => p.id !== post.id && p.seriesSlug === post.seriesSlug)
+    .slice(0, limit);
+}
+
 // Navigation & Footer
 export function getNavigation(): NavigationConfig {
   return navigationData as NavigationConfig;
@@ -558,7 +592,7 @@ export function getFooter(): FooterConfig {
 // Unified Search
 export interface SearchResultItem {
   id: string;
-  type: 'tool' | 'prompt' | 'resource' | 'collection';
+  type: 'tool' | 'prompt' | 'resource' | 'collection' | 'series';
   title: string;
   description: string;
   url: string;
@@ -569,6 +603,31 @@ export function globalSearch(query: string): SearchResultItem[] {
   if (!query || query.trim().length < 2) return [];
   const q = query.toLowerCase().trim();
   const results: SearchResultItem[] = [];
+
+  // Search Series Posts (Prioritized)
+  getAllSeriesPosts().forEach((post) => {
+    const matchInSection = post.sections.some(
+      (s) =>
+        s.title.toLowerCase().includes(q) ||
+        s.content.toLowerCase().includes(q)
+    );
+    if (
+      post.title.toLowerCase().includes(q) ||
+      post.description.toLowerCase().includes(q) ||
+      post.slug.toLowerCase().includes(q) ||
+      post.seriesTitle.toLowerCase().includes(q) ||
+      matchInSection
+    ) {
+      results.push({
+        id: post.id,
+        type: 'series',
+        title: post.title,
+        description: post.description,
+        url: `/series/${post.seriesSlug}/${post.slug}`,
+        badge: `${post.seriesTitle} • Ep ${post.episodeNumber}`,
+      });
+    }
+  });
 
   // Search reels as tools and prompts (sorted newest first)
   const allReels = loadAllReels().filter((r) => r.status === 'published');

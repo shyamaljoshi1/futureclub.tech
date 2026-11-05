@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, X, ArrowRight, Wrench, Sparkles, BookOpen, Layers } from 'lucide-react';
+import { Search, X, ArrowRight, Wrench, Sparkles, BookOpen, Layers, PlayCircle } from 'lucide-react';
 import { globalSearch, SearchResultItem } from '@/lib/data';
 import { trackSearchQuery } from '@/lib/analytics';
 
@@ -74,6 +74,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
 
   const getTypeIcon = (type: string) => {
     switch (type) {
+      case 'series':
+        return <PlayCircle className="w-3.5 h-3.5 text-[#ec4899]" />;
       case 'tool':
         return <Wrench className="w-3.5 h-3.5 text-[#2563eb]" />;
       case 'prompt':

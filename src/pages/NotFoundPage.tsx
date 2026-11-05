@@ -6,7 +6,7 @@ import { updatePageSeo } from '@/lib/seo';
 export const NotFoundPage: React.FC = () => {
   useEffect(() => {
     updatePageSeo({
-      title: '404 — Page Not Found | The Future Guy AI',
+      title: '404: Page Not Found | The Future Guy AI',
       description: 'The page you requested could not be found.',
     });
   }, []);

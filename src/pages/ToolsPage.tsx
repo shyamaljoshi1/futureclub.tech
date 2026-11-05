@@ -44,7 +44,7 @@ export const ToolsPage: React.FC = () => {
 
   useEffect(() => {
     updatePageSeo({
-      title: 'AI Tools Directory — Best Verified AI Tools (2026)',
+      title: 'AI Tools Directory | Best Verified AI Tools (2026)',
       description:
         'Search and filter curated artificial intelligence tools for writing, coding, image generation, video, productivity, and automation.',
       canonical: '/tools',

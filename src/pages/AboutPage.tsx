@@ -9,7 +9,7 @@ export const AboutPage: React.FC = () => {
 
   useEffect(() => {
     updatePageSeo({
-      title: 'About The Future Guy AI — Our Mission & Editorial Standards',
+      title: 'About The Future Guy AI | Our Mission & Editorial Standards',
       description:
         'Learn about The Future Guy AI (@thefutureguyy.ai), our curation philosophy, and how we test tools and prompt workflows.',
       canonical: '/about',

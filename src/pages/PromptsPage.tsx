@@ -39,7 +39,7 @@ export const PromptsPage: React.FC = () => {
 
   useEffect(() => {
     updatePageSeo({
-      title: 'AI Prompt Library — ChatGPT, Claude & Midjourney Prompts',
+      title: 'AI Prompt Library | ChatGPT, Claude & Midjourney Prompts',
       description:
         'Copy-paste prompt templates for ChatGPT, Claude 3.5, Gemini, and Midjourney v6. Tested for copywriting, coding, and creative generation.',
       canonical: '/prompts',

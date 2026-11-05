@@ -167,3 +167,37 @@ export function getArticleSchema(resource: Resource) {
     },
   };
 }
+
+export function getSeriesPostSchema(post: {
+  title: string;
+  description: string;
+  publishedAt: string;
+  slug: string;
+  seriesSlug: string;
+  reelThumbnail?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.description,
+    datePublished: post.publishedAt,
+    image: post.reelThumbnail
+      ? (post.reelThumbnail.startsWith('http') ? post.reelThumbnail : `${siteData.siteUrl}${post.reelThumbnail}`)
+      : undefined,
+    author: {
+      '@type': 'Person',
+      name: siteData.instagramHandle,
+      url: siteData.instagramUrl,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: siteData.brandName,
+      url: siteData.siteUrl,
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${siteData.siteUrl}/series/${post.seriesSlug}/${post.slug}`,
+    },
+  };
+}

@@ -1,136 +1,89 @@
-# The Future Guy AI — Premium AI Tools & Prompt Directory
+# FutureClub.tech — The Companion AI Knowledge Hub for @thefutureguyy.ai
 
-A production-ready, lightweight, SEO-optimized, and AdSense-ready AI discovery directory and prompt library built for **@thefutureguyy.ai**.
+[![Validation](https://img.shields.io/badge/Data%20Validation-Passing-emerald)](#pre-flight-design--data-validation)
+[![Taste Skill](https://img.shields.io/badge/Design%20Taste-0%20FAIL%20%7C%200%20WARN-blue)](#pre-flight-design--data-validation)
+[![License](https://img.shields.io/badge/License-MIT-gray)](LICENSE)
 
-Designed following the strict anti-slop guidelines of the **Taste Skill** (clean typography, generous whitespace, surface tone hierarchy, zero decorative gradients, and high content utility).
+**FutureClub.tech** (`futureclub.tech`) is the official discovery directory, prompt repository, and video breakdown hub created for the **[@thefutureguyy.ai](https://www.instagram.com/thefutureguyy.ai/)** community.
 
----
-
-## Table of Contents
-
-1. [Architecture & Features](#architecture--features)
-2. [Reel-Based Content Architecture (`src/data/reels/`)](#reel-based-content-architecture)
-   - [How 1 JSON File = 1 Reel / Tool / Prompt Set](#how-1-json-file--1-reel--tool--prompt-set)
-   - [Adding a New Reel JSON File](#adding-a-new-reel-json-file)
-   - [Embedding Instagram Reels & Thumbnails](#embedding-instagram-reels--thumbnails)
-3. [Quickstart & Local Development](#quickstart--local-development)
-4. [Building & Prerendering](#building--prerendering)
-5. [Deployment (Vercel & Cloudflare Pages)](#deployment-vercel--cloudflare-pages)
-6. [Google AdSense Monetization Setup](#google-adsense-monetization-setup)
-7. [Google Analytics 4 (GA4) Integration](#google-analytics-4-ga4-integration)
-8. [Pre-flight Design & Data Validation](#pre-flight-design--data-validation)
+It bridges the gap between fast-paced social video reels and practical execution: giving creators, developers, students, and founders instant access to tested AI tools, one-click copyable prompts, and deep-dive technical explanations.
 
 ---
 
-## Architecture & Features
+## What is FutureClub.tech?
 
-- **Framework**: React 18 + Vite + TypeScript
-- **Styling**: Tailwind CSS with custom light/dark surface tokens
-- **Routing**: React Router v6 with client-side routing & server-side prerendering
-- **Per-Reel JSON Architecture**: Every Reel / Tool / Prompt Set lives in its own dedicated JSON file inside `src/data/reels/*.json`. Adding a file automatically publishes the tool, prompt, and reel breakdown!
-- **Interactive Instagram Reel Embeds**: Built-in `InstagramReelEmbed` component that renders responsive players with fallback thumbnails and direct links to `@thefutureguyy.ai`.
-- **One Live Thing**: Interactive Live Prompt Synthesizer & Token Calculator
-- **Instant Search**: Global CMD+K modal search across tools, prompts, guides, and collections
-- **Static Prerendering**: Generates physical HTML pages with tailored titles, meta descriptions, canonical links, and Schema.org structured data (SoftwareApplication, Article, WebSite, BreadcrumbList)
-- **Zero Backend**: Statically buildable, zero database, zero external AI runtime costs
+On Instagram, [@thefutureguyy.ai](https://www.instagram.com/thefutureguyy.ai/) shares daily breakdowns of high-impact AI developer tools, automation workflows, and image generation formulas. However, social video platforms make it impossible to:
+1. **Copy complex system prompts** without typos or missing formatting.
+2. **Access direct tool repositories** (GitHub repos, npm packages, web apps) directly from video descriptions.
+3. **Search past reel topics** by category, workflow, or keyword.
+
+**FutureClub.tech solves this completely:**
+- **Zero Sponsored Bias**: Every tool, extension, and agent skill featured has been manually vetted and tested.
+- **Instant Copy-Paste**: Multi-stage prompts, terminal commands, and system instructions can be copied in one click.
+- **Embedded Reel Synchronicity**: Every tool and prompt page links directly back to the original Instagram video breakdown with an embedded player.
+- **Original Series ("2 Minute me samjo")**: Deep technical breakdowns of bleeding-edge AI research explained in simple, bite-sized Hindi/English.
 
 ---
 
-## Reel-Based Content Architecture
+## Visual Platform Tour
 
-### How 1 JSON File = 1 Reel / Tool / Prompt Set
+### 1. Discover AI Tools & Instant Search
+Explore curated AI tools, production-ready prompts, and practical workflows with instant <kbd>Cmd</kbd> + <kbd>K</kbd> / <kbd>Ctrl</kbd> + <kbd>K</kbd> keyboard search.
 
-All AI tools and prompts are managed through individual JSON files located in:
-```
-src/data/reels/
-├── google-antigravity-cli.json
-├── nvidia-nim-free-api.json
-├── google-gemini-student-pack.json
-├── n8n-ai-automation-workflow.json
-├── crewai-multi-agent-system.json
-├── cursor-composer-workflow.json
-├── claude-artifacts-system.json
-├── perplexity-deep-research.json
-├── chatgpt-first-principles-reasoning.json
-├── flux-photorealistic-camera-prompt.json
-├── elevenlabs-voice-cloning-workflow.json
-├── v0-frontend-component-generator.json
-├── gamma-ai-presentation-deck.json
-├── bolt-new-fullstack-ai.json
-├── codeium-free-copilot-alternative.json
-├── ollama-run-local-llms.json
-├── deepseek-r1-open-reasoning.json
-├── notebooklm-audio-podcast.json
-├── supabase-vector-ai-embeddings.json
-├── whisper-ai-transcription-workflow.json
-├── midjourney-v6-product-photography.json
-├── manus-ai-autonomous-agent.json
-├── top-10-free-ai-tools-students.json
-├── instagram-viral-ai-hook-formula.json
-└── langgraph-multi-agent-orchestration.json
-```
+![FutureClub.tech Hero & Search](public/assets/screenshots/hero-preview.png)
 
-Each JSON file controls:
-1. **The Tool**: Tool name, small description, pricing, and official website URL (`toolUrl`).
-2. **The Instagram Reel**: Reel link (`instagramReelUrl`), Reel ID (`instagramReelId`), and thumbnail (`reelThumbnail`).
-3. **The Prompt Set**: Array of copy-paste prompts used in that specific reel, with step-by-step instructions.
+### 2. Trending AI Tools
+Stay ahead with the highest-adoption developer tools, agent skills, and creative utilities—including Archify, Google AI Studio, and autonomous coding tools.
 
-### Adding a New Reel JSON File
+![Trending AI Tools](public/assets/screenshots/trending-tools.jpg)
 
-To add a new tool or prompt from your latest Instagram Reel:
-1. Create a new file in `src/data/reels/<your-slug>.json`.
-2. Add the thumbnail under `public/assets/reels/<your-slug>.webp` (or `.svg` / `.png`).
-3. Paste the following JSON structure:
+### 3. AI Tools Directory with Filter & Categories
+Browse and filter across categories like *Coding & Development*, *Image Generation*, *Productivity & Notes*, *AI Automation*, and *Design & UI/UX*.
 
-```json
-{
-  "id": "reel-007",
-  "slug": "suno-ai-music-generator",
-  "title": "Create Radio-Quality Music in Seconds with Suno AI",
-  "toolName": "Suno AI v3.5",
-  "toolUrl": "https://suno.com/",
-  "description": "Generative audio platform creating full-length songs with vocals, instrumentals, and lyrics from text prompts.",
-  "category": "audio-voice",
-  "pricing": "freemium",
-  "instagramReelUrl": "https://www.instagram.com/reel/C8XYZ123456/",
-  "instagramReelId": "C8XYZ123456",
-  "reelThumbnail": "/assets/reels/suno-reel.svg",
-  "promptSet": [
-    {
-      "id": "suno-p1",
-      "title": "Cinematic Lo-Fi Chillwave Prompt",
-      "prompt": "Style: Lo-fi chillwave, muted Rhodes electric piano, dusty vinyl crackle, warm analog bassline, 85 bpm, instrumental, late-night coding soundtrack.",
-      "instructions": [
-        "Open Suno.com",
-        "Click Create and toggle 'Custom Mode'",
-        "Paste the style tags into the 'Style of Music' box",
-        "Leave lyrics blank for an instrumental or enter custom verse/chorus"
-      ]
-    }
-  ],
-  "featured": true,
-  "trending": true,
-  "status": "published",
-  "publishedAt": "2026-11-03",
-  "seo": {
-    "title": "Suno AI v3.5 Prompts & Instagram Reel Breakdown",
-    "description": "Watch our Instagram breakdown of Suno AI v3.5 and copy the exact lo-fi music generation prompt."
-  }
-}
-```
+![AI Tools Directory](public/assets/screenshots/tools-directory.jpg)
 
-That's it!
-- Vite automatically imports the file via `import.meta.glob`.
-- The tool appears in `/tools`.
-- The prompt appears in `/prompts`.
-- An individual page is created at `/tools/suno-ai-music-generator` and `/prompts/suno-ai-music-generator`.
-- Running `npm run build` prerenders its dedicated static HTML page and updates `sitemap.xml` automatically.
+### 4. Curated AI Prompt Library
+Field-tested prompt formulas engineered for ChatGPT, Claude 3.5 Sonnet, Google Gemini, Midjourney v6, and Flux. Complete with step-by-step instructions.
 
-### Embedding Instagram Reels & Thumbnails
-- **Reel URL**: Set `instagramReelUrl` to the full Instagram link (e.g. `https://www.instagram.com/reel/C8XYZ123456/`).
-- **Reel ID**: Optional string (e.g. `C8XYZ123456`). If omitted, the system extracts it automatically from the URL.
-- **Thumbnail**: Place the thumbnail in `public/assets/reels/` and reference it as `"/assets/reels/<name>.svg"` (or `.webp` / `.png`).
-- On the detail page, visitors can click to load the interactive Instagram player or click "Watch on Instagram" to view it directly on your profile.
+![Curated AI Prompts](public/assets/screenshots/curated-prompts.jpg)
+
+---
+
+## Key Platform Sections
+
+| Section | Route | Purpose |
+| :--- | :--- | :--- |
+| **Home** | `/` | Daily trending tools, prompt carousels, and spotlight original series. |
+| **AI Tools** | `/tools` | Full searchable directory of verified tools with pricing filters and command guides. |
+| **Prompts** | `/prompts` | Ready-to-use prompt templates with copy button and parameter customization. |
+| **Series** | `/series` | **"2 Minute me samjo"** video series and blog articles explaining AI research. |
+| **Search** | `Cmd+K` | Instant global search across tools, prompts, guides, and research topics. |
+
+---
+
+## Original Series: "2 Minute me samjo"
+
+The **Series** section (`/series`) hosts original technical explainer series designed to explain complex AI research papers and architecture in 2 minutes:
+
+- **Episode 01 — Weight Space Programming**: How LLMs can directly inspect and edit neural network weights (tensors) via natural-language instructions without backpropagation or fine-tuning datasets (MIT CSAIL & Stanford research).
+- **Layout**: Features the embedded Instagram video breakdown on the left, paired with an in-depth, structured blog article, code examples, and research references on the right.
+
+---
+
+## Content Architecture (For Contributors & Creators)
+
+The entire platform is powered by clean, typed static JSON files—requiring zero runtime database or external backend.
+
+### 1. Reel & Tool Content (`src/data/reels/*.json`)
+Every Instagram Reel breakdown is stored in its own isolated JSON file in `src/data/reels/`:
+- **`toolName` & `toolUrl`**: Name and official site or GitHub repo.
+- **`description`**: Structured overview and instructions.
+- **`promptSet`**: Array of prompts with copyable text and steps.
+- **`instagramReelUrl`**: Direct link to the Instagram reel.
+- **`reelThumbnail`**: Thumbnail asset path (`public/assets/reels/...`).
+
+### 2. Series Content (`src/data/series.json` & `src/data/series-posts.json`)
+Defines video series hubs and detailed episode blog articles with structured sections, takeaways, and academic references.
 
 ---
 
@@ -141,74 +94,60 @@ That's it!
 npm install
 ```
 
-### 2. Start Development Server
+### 2. Run Local Development Server
 ```bash
 npm run dev
 ```
-Open [http://localhost:3000](http://localhost:3000). Press <kbd>Cmd</kbd> + <kbd>K</kbd> to test the search modal.
+Open [http://localhost:3000](http://localhost:3000) to view the live site.
 
----
-
-## Building & Prerendering
-
-```bash
-npm run build
-```
-Builds the client, server, and prerenders all static HTML pages into `dist/`.
-
-To preview:
-```bash
-npm run preview
-```
-
----
-
-## Deployment (Vercel & Cloudflare Pages)
-
-### Vercel
-1. Framework Preset: **Vite**
-2. Build Command: `npm run build`
-3. Output Directory: `dist`
-4. Deploy!
-
-### Cloudflare Pages
-1. Build command: `npm run build`
-2. Output directory: `dist`
-3. Set environment variable: `NODE_VERSION=22`
-
----
-
-## Google AdSense Monetization Setup
-
-1. In `.env`:
-   ```env
-   VITE_ADSENSE_ENABLED=true
-   VITE_ADSENSE_CLIENT=ca-pub-XXXXXXXXXXXXXXXX
-   VITE_ADSENSE_SLOT_HOME=1234567890
-   VITE_ADSENSE_SLOT_TOOLS=2345678901
-   VITE_ADSENSE_SLOT_PROMPTS=3456789012
-   VITE_ADSENSE_SLOT_DETAILS=4567890123
-   ```
-2. In `public/ads.txt`, replace the placeholder with your authorized seller record:
-   ```text
-   google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
-   ```
-
----
-
-## Pre-flight Design & Data Validation
-
-Run these commands to verify that all JSON files and components follow the design system:
+### 3. Run Pre-flight Checks & Validation
+Verify schema integrity and anti-slop design standards:
 
 ```bash
-# 1. Validate all reel JSON files against strict Zod schemas
+# Validate all JSON files against Zod schemas
 npm run validate:data
 
-# 2. Run Taste Skill anti-slop design check
+# Run Taste Skill anti-slop design check (must be 0 FAIL, 0 WARN)
 npm run lint:taste
-
-# 3. Build and prerender static HTML
-npm run build
 ```
 
-Both tests pass with **0 FAIL and 0 WARN**.
+### 4. Build & Prerender Static HTML
+```bash
+npm run build
+```
+Generates 190+ prerendered static HTML pages in `dist/` with automated meta tags, OpenGraph previews, Schema.org JSON-LD data, and updated `sitemap.xml`.
+
+---
+
+## Deployment & Hosting
+
+The static output is optimized for zero-maintenance edge hosting:
+
+### Vercel / Cloudflare Pages / Netlify
+- **Framework Preset**: Vite
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- **Node Version**: 20+
+
+---
+
+## Google AdSense & Analytics Configuration
+
+Configurable via `.env`:
+```env
+VITE_ADSENSE_ENABLED=true
+VITE_ADSENSE_CLIENT=ca-pub-XXXXXXXXXXXXXXXX
+VITE_ADSENSE_SLOT_HOME=1234567890
+VITE_ADSENSE_SLOT_TOOLS=2345678901
+VITE_ADSENSE_SLOT_PROMPTS=3456789012
+VITE_ADSENSE_SLOT_DETAILS=4567890123
+VITE_GA4_MEASUREMENT_ID=G-XXXXXXXXXX
+```
+
+---
+
+## Creator & Community
+
+- **Instagram**: [@thefutureguyy.ai](https://www.instagram.com/thefutureguyy.ai/)
+- **Website**: [futureclub.tech](https://futureclub.tech)
+- **Author**: Shyamal (The Future Guy AI)

@@ -12,6 +12,8 @@ const reelsDir = path.join(dataDir, 'reels');
 const site = JSON.parse(fs.readFileSync(path.join(dataDir, 'site.json'), 'utf8'));
 const collections = JSON.parse(fs.readFileSync(path.join(dataDir, 'collections.json'), 'utf8')).filter((c) => c.status === 'published');
 const resources = JSON.parse(fs.readFileSync(path.join(dataDir, 'resources.json'), 'utf8')).filter((r) => r.status === 'published');
+const seriesList = JSON.parse(fs.readFileSync(path.join(dataDir, 'series.json'), 'utf8')).filter((s) => s.status === 'published');
+const seriesPosts = JSON.parse(fs.readFileSync(path.join(dataDir, 'series-posts.json'), 'utf8')).filter((p) => p.status === 'published');
 
 // Load all individual reels from src/data/reels/
 const reelFiles = fs.readdirSync(reelsDir).filter((f) => f.endsWith('.json'));
@@ -55,6 +57,13 @@ const routes = [
     url: '/prompts',
     title: `AI Prompt Library — Curated Prompt Sets | ${site.brandName}`,
     description: 'Copy-paste prompt templates used in @thefutureguyy.ai Instagram reels.',
+    priority: '0.9',
+    changefreq: 'daily',
+  },
+  {
+    url: '/series',
+    title: `Original AI Series | 2 Minute me samjo & Deep Dives | ${site.brandName}`,
+    description: 'Explore original video & blog series by @thefutureguyy.ai. Fast-track 2-minute visual explainers on frontier AI breakthroughs, neural architectures, and developer mechanics.',
     priority: '0.9',
     changefreq: 'daily',
   },
@@ -177,6 +186,35 @@ resources.forEach((res) => {
       headline: res.title,
       description: res.description,
       datePublished: res.publishedAt,
+    },
+  });
+});
+
+// Series Hubs
+seriesList.forEach((s) => {
+  routes.push({
+    url: `/series/${s.slug}`,
+    title: `${s.title} — Video & Blog Series | ${site.brandName}`,
+    description: s.description,
+    priority: '0.8',
+    changefreq: 'weekly',
+  });
+});
+
+// Series Posts
+seriesPosts.forEach((post) => {
+  routes.push({
+    url: `/series/${post.seriesSlug}/${post.slug}`,
+    title: `${post.title} | ${post.seriesTitle} | ${site.brandName}`,
+    description: post.description,
+    priority: '0.9',
+    changefreq: 'weekly',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: post.title,
+      description: post.description,
+      datePublished: post.publishedAt,
     },
   });
 });

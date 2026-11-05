@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="50%" stop-color="#12161f"/>
+      <stop offset="100%" stop-color="#07080a"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+  <rect width="1200" height="675" fill="url(#gridPattern)"/>
+
+  <!-- Glowing atmospheric orbs -->
+  <circle cx="1000" cy="150" r="300" fill="#3b82f6" opacity="0.12" filter="blur(60px)"/>
+  <circle cx="200" cy="550" r="280" fill="#ec4899" opacity="0.1" filter="blur(60px)"/>
+
+  <!-- Neural Network Synapse & Weight Matrix Graphic on Right Side -->
+  <g transform="translate(680, 80)">
+    <!-- Matrix bracket left -->
+    <path d="M 50 40 L 20 40 L 20 460 L 50 460" fill="none" stroke="#60a5fa" stroke-width="3" opacity="0.5"/>
+    <!-- Matrix bracket right -->
+    <path d="M 430 40 L 460 40 L 460 460 L 430 460" fill="none" stroke="#60a5fa" stroke-width="3" opacity="0.5"/>
+
+    <!-- Neural Tensor Nodes -->
+    <g opacity="0.85">
+      <!-- Row 1 -->
+      <circle cx="90" cy="100" r="14" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+      <text x="90" y="104" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle">W₁₁</text>
+      
+      <circle cx="200" cy="100" r="14" fill="#1e293b" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="200" y="104" font-family="monospace" font-size="10" fill="#c4b5fd" text-anchor="middle">W₁₂</text>
+
+      <circle cx="310" cy="100" r="14" fill="#1e293b" stroke="#ec4899" stroke-width="2"/>
+      <text x="310" y="104" font-family="monospace" font-size="10" fill="#f472b6" text-anchor="middle">W₁₃</text>
+
+      <!-- Row 2 -->
+      <circle cx="90" cy="220" r="14" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+      <text x="90" y="224" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle">W₂₁</text>
+      
+      <circle cx="200" cy="220" r="18" fill="#3b82f6" stroke="#60a5fa" stroke-width="3" opacity="0.9"/>
+      <text x="200" y="225" font-family="monospace" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">ΔW*</text>
+
+      <circle cx="310" cy="220" r="14" fill="#1e293b" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="310" y="224" font-family="monospace" font-size="10" fill="#c4b5fd" text-anchor="middle">W₂₃</text>
+
+      <!-- Row 3 -->
+      <circle cx="90" cy="340" r="14" fill="#1e293b" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="90" y="344" font-family="monospace" font-size="10" fill="#c4b5fd" text-anchor="middle">W₃₁</text>
+      
+      <circle cx="200" cy="340" r="14" fill="#1e293b" stroke="#ec4899" stroke-width="2"/>
+      <text x="200" y="344" font-family="monospace" font-size="10" fill="#f472b6" text-anchor="middle">W₃₂</text>
+
+      <circle cx="310" cy="340" r="14" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+      <text x="310" y="344" font-family="monospace" font-size="10" fill="#93c5fd" text-anchor="middle">W₃₃</text>
+
+      <!-- Synaptic connections -->
+      <line x1="104" y1="100" x2="186" y2="100" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.4"/>
+      <line x1="214" y1="100" x2="296" y2="100" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.4"/>
+      <line x1="90" y1="114" x2="90" y2="206" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.4"/>
+      <line x1="200" y1="114" x2="200" y2="202" stroke="#60a5fa" stroke-width="2.5" opacity="0.8"/>
+      <line x1="310" y1="114" x2="310" y2="206" stroke="#ec4899" stroke-width="1.5" stroke-dasharray="3,3" opacity="0.4"/>
+      <line x1="104" y1="220" x2="182" y2="220" stroke="#60a5fa" stroke-width="2.5" opacity="0.8"/>
+      <line x1="218" y1="220" x2="296" y2="220" stroke="#c084fc" stroke-width="2.5" opacity="0.8"/>
+      <line x1="200" y1="238" x2="200" y2="326" stroke="#ec4899" stroke-width="2" opacity="0.6"/>
+
+      <!-- Surgical edit pointer -->
+      <rect x="135" y="405" width="130" height="26" rx="6" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
+      <text x="200" y="422" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#a5b4fc" text-anchor="middle">0.016% Weight Edit</text>
+      <line x1="200" y1="405" x2="200" y2="242" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="4,4"/>
+    </g>
+  </g>
+
+  <!-- Left Content Branding & Titles -->
+  <g transform="translate(80, 110)">
+    <!-- Series Badge -->
+    <g>
+      <rect x="0" y="0" width="220" height="34" rx="17" fill="#18181b" stroke="#27272a" stroke-width="1.5"/>
+      <circle cx="18" cy="17" r="5" fill="#f43f5e"/>
+      <text x="32" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f43f5e" letter-spacing="0.5">2 MINUTE ME SAMJO</text>
+      <rect x="175" y="6" width="36" height="22" rx="11" fill="#27272a"/>
+      <text x="193" y="21" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#e4e4e7" text-anchor="middle">EP 1</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="-1">
+      Weight Space
+    </text>
+    <text x="0" y="172" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="900" fill="url(#accentGrad)" letter-spacing="-1">
+      Programming
+    </text>
+
+    <!-- Subtitle / Hook -->
+    <text x="0" y="235" font-family="system-ui, sans-serif" font-size="20" font-weight="500" fill="#94a3b8" width="500">
+      What If AI Could Directly Code Neural Weights?
+    </text>
+    <text x="0" y="265" font-family="system-ui, sans-serif" font-size="17" font-weight="400" fill="#64748b">
+      Zero Backpropagation • Zero Gradient Descent • Direct Tensor Authoring
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 310)">
+      <rect x="0" y="0" width="165" height="30" rx="6" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+      <text x="82" y="19" font-family="monospace" font-size="12" fill="#60a5fa" text-anchor="middle">MIT CSAIL Research</text>
+
+      <rect x="175" y="0" width="130" height="30" rx="6" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+      <text x="240" y="19" font-family="monospace" font-size="12" fill="#c084fc" text-anchor="middle">Qwen Math Fix</text>
+
+      <rect x="315" y="0" width="140" height="30" rx="6" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+      <text x="385" y="19" font-family="monospace" font-size="12" fill="#f472b6" text-anchor="middle">Forward Interpretability</text>
+    </g>
+
+    <!-- Footer Attribution -->
+    <g transform="translate(0, 420)">
+      <text x="0" y="0" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#f8fafc">
+        futureclub.tech
+      </text>
+      <text x="135" y="0" font-family="system-ui, sans-serif" font-size="14" font-weight="400" fill="#64748b">
+        • Explained by @thefutureguyy.ai
+      </text>
+    </g>
+  </g>
+</svg>
+

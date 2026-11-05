@@ -21,11 +21,13 @@ import {
   getTools,
   getPrompts,
   getCollections,
+  getAllSeriesPosts,
 } from '@/lib/data';
 import { updatePageSeo, getWebsiteSchema, getOrganizationSchema } from '@/lib/seo';
 import { ToolGrid } from '@/components/tools/ToolGrid';
 import { PromptGrid } from '@/components/prompts/PromptGrid';
 import { SectionHeading } from '@/components/common/SectionHeading';
+import { SeriesCard } from '@/components/series/SeriesCard';
 import { InstagramCTA } from '@/components/common/InstagramCTA';
 import { PromptPlayground } from '@/components/common/PromptPlayground';
 import { AdSlot } from '@/components/ads/AdSlot';
@@ -37,6 +39,7 @@ export const HomePage: React.FC = () => {
   const recentTools = getTools({ sort: 'newest', limit: 6 });
   const featuredPrompts = getPrompts({ featured: true, limit: 4 });
   const collections = getCollections(true).slice(0, 3);
+  const seriesPosts = getAllSeriesPosts().slice(0, 3);
 
   const homeAdSlot1 = import.meta.env.VITE_ADSENSE_SLOT_HOME;
 
@@ -202,6 +205,23 @@ export const HomePage: React.FC = () => {
         />
         <PromptGrid prompts={featuredPrompts} />
       </section>
+
+      {/* Series Spotlight: 2 Minute me samjo */}
+      {seriesPosts.length > 0 && (
+        <section aria-labelledby="series-spotlight-heading">
+          <SectionHeading
+            title="2 Minute me samjo · Original Video Series"
+            subtitle="Complex AI architectures, weight mechanics, and agentic workflows demystified in 120 seconds."
+            linkText="Explore all series"
+            linkHref="/series"
+          />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {seriesPosts.map((post) => (
+              <SeriesCard key={post.id} post={post} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* 6. Recently Added Tools */}
       <section aria-labelledby="recent-tools-heading">

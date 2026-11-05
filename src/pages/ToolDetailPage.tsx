@@ -99,12 +99,12 @@ const ToolDescriptionRenderer: React.FC<{ text: string }> = ({ text }) => {
                 {header}
               </h5>
               {commands.map((cmd, cIdx) => (
-                <div
+                <code
                   key={cIdx}
                   className="px-4 py-2.5 rounded bg-[#f4f4f0] dark:bg-[#1a1d23] text-sm sm:text-base font-mono text-[#111215] dark:text-[#f4f4f5] border border-[#e5e7eb] dark:border-[#262b35] select-all overflow-x-auto inline-block"
                 >
                   {cmd}
-                </div>
+                </code>
               ))}
             </div>
           );
@@ -118,7 +118,7 @@ const ToolDescriptionRenderer: React.FC<{ text: string }> = ({ text }) => {
           return (
             <div
               key={idx}
-              className="space-y-2 pt-3 border-t border-[#f0f0eb] dark:border-[#1e2229]"
+              className="space-y-2 pt-4 mt-2"
             >
               {lines.map((linkLine, lIdx) => {
                 const colonIdx = linkLine.indexOf(':');
@@ -301,7 +301,7 @@ export const ToolDetailPage: React.FC = () => {
               <button
                 type="button"
                 onClick={handleCopyToolLink}
-                className="px-5 py-3 rounded-md text-sm font-semibold border border-[#d6d8db] dark:border-[#2a2e37] bg-[#ffffff] dark:bg-[#1a1d23] text-[#111215] dark:text-[#f4f4f5] hover:bg-[#f4f4f0] dark:hover:bg-[#22262e] inline-flex items-center justify-center transition-colors shadow-sm"
+                className="px-5 py-3 rounded-md text-sm font-semibold border border-[#d6d8db] dark:border-[#2a2e37] bg-[#ffffff] dark:bg-[#1a1d23] text-[#111215] dark:text-[#f4f4f5] hover:bg-[#f4f4f0] dark:hover:bg-[#22262e] inline-flex items-center justify-center transition-colors"
                 aria-label="Copy direct tool link"
               >
                 {copiedToolUrl ? (
@@ -410,7 +410,7 @@ export const ToolDetailPage: React.FC = () => {
                   {textContent && <ToolDescriptionRenderer text={textContent} />}
 
                   {p.instructions && p.instructions.length > 0 && (
-                    <div className="space-y-2.5 pt-4 border-t border-[#f0f0eb] dark:border-[#1e2229]">
+                    <div className="space-y-2.5 pt-6 mt-4">
                       <h4 className="text-base sm:text-[17px] font-bold text-[#111215] dark:text-[#f4f4f5]">
                         Instructions:
                       </h4>

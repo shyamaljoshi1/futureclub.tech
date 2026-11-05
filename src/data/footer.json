@@ -5,6 +5,7 @@
       "title": "Directory",
       "links": [
         { "label": "All AI Tools", "href": "/tools" },
+        { "label": "Original Series", "href": "/series" },
         { "label": "AI Writing Tools", "href": "/tools?category=ai-writing" },
         { "label": "Coding Tools", "href": "/tools?category=coding" },
         { "label": "Image Generators", "href": "/tools?category=image-generation" },

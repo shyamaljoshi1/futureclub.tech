@@ -103,10 +103,62 @@ function validateFile(filename, schema) {
   console.log(`Validated ${filename} successfully.`);
 }
 
+const SeriesSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  title: z.string(),
+  tagline: z.string(),
+  description: z.string(),
+  coverImage: z.string().optional(),
+  badge: z.string().optional(),
+  featured: z.boolean().default(false),
+  status: StatusSchema.default('published'),
+  publishedAt: z.string(),
+  seo: SeoSchema,
+});
+
+const SeriesPostSchema = z.object({
+  id: z.string(),
+  seriesId: z.string(),
+  seriesSlug: z.string(),
+  seriesTitle: z.string(),
+  episodeNumber: z.number(),
+  slug: z.string(),
+  title: z.string(),
+  subtitle: z.string().optional(),
+  description: z.string(),
+  category: z.string(),
+  readTime: z.string(),
+  publishedAt: z.string(),
+  status: StatusSchema.default('published'),
+  instagramReelUrl: z.union([z.string().url(), z.literal('')]),
+  instagramReelId: z.string().optional(),
+  reelThumbnail: z.string(),
+  postType: z.enum(['reel', 'carousel']).default('reel'),
+  quickTakeaway: z.string(),
+  keyHighlights: z.array(z.string()).default([]),
+  sections: z.array(z.object({
+    id: z.string(),
+    title: z.string(),
+    content: z.string(),
+    callout: z.string().optional(),
+    codeSnippet: z.string().optional(),
+    takeaway: z.string().optional(),
+  })),
+  references: z.array(z.object({
+    title: z.string(),
+    url: z.string().url(),
+    source: z.string(),
+  })).default([]),
+  seo: SeoSchema,
+});
+
 console.log('Validating JSON content schemas...');
 validateFile('categories.json', z.array(CategorySchema));
 validateFile('collections.json', z.array(CollectionSchema));
 validateFile('resources.json', z.array(ResourceSchema));
+validateFile('series.json', z.array(SeriesSchema));
+validateFile('series-posts.json', z.array(SeriesPostSchema));
 
 // Validate individual reel JSON files in src/data/reels/
 if (!fs.existsSync(reelsDir)) {

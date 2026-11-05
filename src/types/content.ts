@@ -162,3 +162,65 @@ export const FooterSchema = z.object({
   disclaimer: z.string(),
 });
 export type FooterConfig = z.infer<typeof FooterSchema>;
+
+// Series Schema
+export const SeriesSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  title: z.string(),
+  tagline: z.string(),
+  description: z.string(),
+  coverImage: z.string().optional(),
+  badge: z.string().optional(),
+  featured: z.boolean().default(false),
+  status: StatusSchema.default('published'),
+  publishedAt: z.string(),
+  seo: SeoSchema,
+});
+export type Series = z.infer<typeof SeriesSchema>;
+
+// Series Post Section Schema
+export const SeriesPostSectionSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  content: z.string(),
+  callout: z.string().optional(),
+  codeSnippet: z.string().optional(),
+  takeaway: z.string().optional(),
+});
+export type SeriesPostSection = z.infer<typeof SeriesPostSectionSchema>;
+
+// Series Post Reference Schema
+export const SeriesPostReferenceSchema = z.object({
+  title: z.string(),
+  url: z.string().url(),
+  source: z.string(),
+});
+export type SeriesPostReference = z.infer<typeof SeriesPostReferenceSchema>;
+
+// Series Post Schema
+export const SeriesPostSchema = z.object({
+  id: z.string(),
+  seriesId: z.string(),
+  seriesSlug: z.string(),
+  seriesTitle: z.string(),
+  episodeNumber: z.number(),
+  slug: z.string(),
+  title: z.string(),
+  subtitle: z.string().optional(),
+  description: z.string(),
+  category: z.string(),
+  readTime: z.string(),
+  publishedAt: z.string(),
+  status: StatusSchema.default('published'),
+  instagramReelUrl: z.union([z.string().url(), z.literal('')]),
+  instagramReelId: z.string().optional(),
+  reelThumbnail: z.string(),
+  postType: PostTypeSchema.default('reel'),
+  quickTakeaway: z.string(),
+  keyHighlights: z.array(z.string()).default([]),
+  sections: z.array(SeriesPostSectionSchema),
+  references: z.array(SeriesPostReferenceSchema).default([]),
+  seo: SeoSchema,
+});
+export type SeriesPost = z.infer<typeof SeriesPostSchema>;
