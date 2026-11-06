@@ -57,15 +57,21 @@ export const InstagramReelEmbed: React.FC<InstagramReelEmbedProps> = ({
           )}
         </div>
 
-        <a
-          href={reelUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-xs text-[#1e3a8a] dark:text-[#3b82f6] hover:underline inline-flex items-center"
-        >
-          <span>Watch on Instagram</span>
-          <ExternalLink className="w-3 h-3 ml-1" />
-        </a>
+        {reelUrl ? (
+          <a
+            href={reelUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-[#1e3a8a] dark:text-[#3b82f6] hover:underline inline-flex items-center"
+          >
+            <span>Watch on Instagram</span>
+            <ExternalLink className="w-3 h-3 ml-1" />
+          </a>
+        ) : (
+          <span className="text-xs text-[#888d99] dark:text-[#636773]">
+            Reel Coming Soon
+          </span>
+        )}
       </div>
 
       <div className="relative aspect-[9/16] w-full max-w-[340px] mx-auto my-4 rounded-lg overflow-hidden bg-[#111215]">
@@ -100,23 +106,27 @@ export const InstagramReelEmbed: React.FC<InstagramReelEmbedProps> = ({
             </div>
 
             {/* Play / Load Trigger */}
-            <button
-              type="button"
-              onClick={() => setLoadIframe(true)}
-              aria-label={isCarousel ? 'Load interactive carousel' : 'Play embedded reel'}
-              className="relative z-10 w-16 h-16 rounded-full bg-white/90 text-[#111215] flex items-center justify-center hover:scale-105 transition-transform"
-            >
-              {isCarousel ? (
-                <Layers className="w-6 h-6 text-[#111215]" />
-              ) : (
-                <Play className="w-6 h-6 ml-1 fill-current" />
-              )}
-            </button>
+            {embedUrl ? (
+              <button
+                type="button"
+                onClick={() => setLoadIframe(true)}
+                aria-label={isCarousel ? 'Load interactive carousel' : 'Play embedded reel'}
+                className="relative z-10 w-16 h-16 rounded-full bg-white/90 text-[#111215] flex items-center justify-center hover:scale-105 transition-transform"
+              >
+                {isCarousel ? (
+                  <Layers className="w-6 h-6 text-[#111215]" />
+                ) : (
+                  <Play className="w-6 h-6 ml-1 fill-current" />
+                )}
+              </button>
+            ) : null}
 
             <div className="relative z-10 text-center text-xs text-white bg-black/60 px-3 py-1.5 rounded">
-              {isCarousel
-                ? 'Click to load interactive Instagram carousel'
-                : 'Click to load interactive Instagram player'}
+              {embedUrl
+                ? (isCarousel
+                    ? 'Click to load interactive Instagram carousel'
+                    : 'Click to load interactive Instagram player')
+                : 'Instagram breakdown coming soon'}
             </div>
           </div>
         )}

@@ -1,0 +1,41 @@
+{
+  "id": "reel-092",
+  "slug": "hfviewer-huggingface-model-architecture-visualizer",
+  "title": "HF Viewer : Interactive Hugging Face Model Architecture Visualizer",
+  "toolName": "HF Viewer : Interactive Hugging Face Model Architecture Visualizer",
+  "toolUrl": "http://hfviewer.com/",
+  "description": "HF Viewer is a free browser-based visualizer that converts any Hugging Face model into an interactive architecture graph. Inspect transformer layers, attention heads, tensor dimensions, and FLOPs instantly with a simple URL swap trick.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "100% Free Web Utility & Chrome Extension",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "",
+  "instagramReelId": "",
+  "reelThumbnail": "/assets/reels/hfviewer-huggingface-model-architecture-visualizer.svg",
+  "promptSet": [
+    {
+      "id": "pmt-092",
+      "title": "HF Viewer Overview & Architecture Features",
+      "description": "HF Viewer – Turn Hugging Face Models into Interactive Architecture Graphs\n\nHF Viewer (hfviewer.com) is an open web tool and browser extension developed by Embedl that instantly transforms any machine learning model on Hugging Face into an interactive, visual architecture graph. Instead of manually sifting through thousands of lines of PyTorch or Safetensors code, nested module classes, and config.json files, HF Viewer provides a clear structural blueprint right in your browser.\n\nWhether you are analyzing open-weights LLMs (Llama 3, DeepSeek, Mistral), vision transformers (ViT, CLIP), or multi-modal diffusion pipelines, HF Viewer breaks down the internal connectivity—from token embeddings and attention heads to MoE router switches and projection layers.\n\nKey Features:\n• The Instant URL Swap Trick: Simply replace 'huggingface.co' with 'hfviewer.com' in any model URL to immediately generate its complete architectural graph.\n• Multi-Level Granularity Slider: Smoothly zoom between high-level macro blocks (encoder/decoder towers) and granular micro layers (RMSNorm, SwiGLU, Rotary Embeddings).\n• Tensor Dimensions & FLOPs Inspector: Click any layer or edge to inspect tensor shapes, parameter counts, channel dimensions, and compute requirements.\n• Interactive Graph Exploration: Trace dataflow pathways, identify bottleneck residual connections, and explore Mixture-of-Experts (MoE) dispatch logic.\n• Presentation & Teaching Mode: Fullscreen presentation mode ('F') and interactive laser pointer ('L') designed for technical meetings, research reviews, and team walkthroughs.\n• Official Chrome Extension: Embeds interactive architecture visualizations directly into Hugging Face model repository pages as you browse.\n• Zero Setup & 100% Free: No account creation, API key, or command-line installation required.\n\nStep-by-Step Guide: How to Visualize Any Model\n1. Go to Hugging Face: Open https://huggingface.co/ in your browser and find any machine learning model page (for example: https://huggingface.co/meta-llama/Llama-3-8B).\n2. Click the Address Bar: Select the full URL in your browser's address bar.\n3. Change the URL to HF Viewer: Replace 'huggingface.co' with 'hfviewer.com' (so https://huggingface.co/meta-llama/Llama-3-8B becomes https://hfviewer.com/meta-llama/Llama-3-8B).\n4. Press Enter: The interactive model architecture graph loads instantly with all layers, blocks, and connections mapped out.\n5. Zoom & Filter with the Granularity Slider: Drag the slider at the bottom to switch between high-level macro blocks (attention blocks, MLP towers) and fine-grained micro layers.\n6. Click to Inspect Tensors: Click on any layer or connection line to reveal detailed tensor dimensions, parameter counts, and computational FLOPs.\n7. Present with Hotkeys: Press 'F' for Fullscreen mode and 'L' for the interactive presentation laser pointer.\n\nOfficial Website: http://hfviewer.com/\nDeveloper Team: https://embedl.com/\nChrome Web Store Extension: https://chromewebstore.google.com/detail/hugging-face-viewer/pehlolgbcfdngflnjglkhbbgghoaljfp",
+      "instructions": [
+        "Go to Hugging Face (https://huggingface.co/) and open the repository page of any AI model you want to inspect (e.g., https://huggingface.co/meta-llama/Llama-3-8B or https://huggingface.co/google/vit-base-patch16-224).",
+        "Click on your browser's URL address bar to edit the link.",
+        "Change 'huggingface.co' in the URL to 'hfviewer.com' (e.g., change https://huggingface.co/meta-llama/Llama-3-8B to https://hfviewer.com/meta-llama/Llama-3-8B).",
+        "Press Enter on your keyboard to instantly generate and explore the interactive architecture graph in your browser.",
+        "Use the Granularity Slider at the bottom of the screen to smoothly zoom between macro blocks and micro layers.",
+        "Click on any node, attention head, or tensor connection to inspect layer parameters, activation types, and tensor dimensions.",
+        "Press 'F' for Fullscreen presentation mode or 'L' to activate the interactive laser pointer during architecture reviews and walkthroughs."
+      ],
+      "exampleOutput": "Interactive node-link graph mapping transformer attention blocks, feedforward projections, tensor dimensions, and model FLOPs in real time."
+    }
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-06",
+  "seo": {
+    "title": "HF Viewer : Interactive Hugging Face Model Architecture Visualizer | futureclub.tech",
+    "description": "Turn any Hugging Face model into an interactive architecture graph with HF Viewer. Inspect transformer layers, attention heads, tensor shapes, and FLOPs directly in your browser."
+  }
+}

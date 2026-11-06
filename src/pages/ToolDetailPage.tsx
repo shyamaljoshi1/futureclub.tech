@@ -89,6 +89,32 @@ const ToolDescriptionRenderer: React.FC<{ text: string }> = ({ text }) => {
           );
         }
 
+        // Section: Step-by-Step / How to Use
+        if (/^(how to use|step-by-step|quick usage)/i.test(lines[0])) {
+          const header = lines[0];
+          const steps = lines.slice(1);
+          return (
+            <div key={idx} className="space-y-2 pt-2">
+              <h5 className="text-base sm:text-[17px] font-bold text-[#111215] dark:text-[#f4f4f5]">
+                {header}
+              </h5>
+              <ol className="space-y-2 pl-0.5">
+                {steps.map((step, sIdx) => {
+                  const cleaned = step.replace(/^\d+[\.\)]\s*/, '');
+                  return (
+                    <li key={sIdx} className="flex items-start space-x-2.5">
+                      <span className="font-bold text-[#111215] dark:text-[#f4f4f5] select-none">
+                        {sIdx + 1}.
+                      </span>
+                      <span className="flex-1">{renderLinks(cleaned)}</span>
+                    </li>
+                  );
+                })}
+              </ol>
+            </div>
+          );
+        }
+
         // Section: Installation
         if (lines[0].toLowerCase().startsWith('installation')) {
           const header = lines[0];

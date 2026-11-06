@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="25%" r="70%" fx="50%" fy="15%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="60%" stop-color="#11100f" />
+      <stop offset="100%" stop-color="#09090b" />
+    </radialGradient>
+    <linearGradient id="hfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+
+  <!-- Grid Pattern -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="125" x2="600" y2="125" />
+    <line x1="0" y1="250" x2="600" y2="250" />
+    <line x1="0" y1="375" x2="600" y2="375" />
+    <line x1="0" y1="500" x2="600" y2="500" />
+    <line x1="0" y1="625" x2="600" y2="625" />
+    <line x1="150" y1="0" x2="150" y2="750" />
+    <line x1="300" y1="0" x2="300" y2="750" />
+    <line x1="450" y1="0" x2="450" y2="750" />
+  </g>
+
+  <!-- Glows -->
+  <circle cx="180" cy="220" r="160" fill="#f59e0b" opacity="0.12" filter="blur(60px)" />
+  <circle cx="440" cy="380" r="140" fill="#3b82f6" opacity="0.10" filter="blur(50px)" />
+
+  <!-- Top Bar: Channel Badge & Category -->
+  <g transform="translate(48, 56)">
+    <!-- Channel Pill -->
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#f59e0b" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">@thefutureguyy.ai</text>
+  </g>
+
+  <g transform="translate(552, 56)">
+    <!-- Category Pill -->
+    <text x="0" y="22" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#fbbf24" letter-spacing="1.2">ML ARCHITECTURE</text>
+  </g>
+
+  <!-- Center Interactive Graph Illustration Card -->
+  <g transform="translate(48, 130)">
+    <rect width="504" height="400" rx="16" fill="#18181b" fill-opacity="0.85" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    <rect x="0" y="0" width="504" height="3" fill="url(#accentLine)" />
+
+    <!-- Mini Browser Address Bar (URL Swap Trick) -->
+    <g transform="translate(24, 24)">
+      <rect width="456" height="38" rx="8" fill="#09090b" stroke="#27272a" stroke-width="1" />
+      <circle cx="16" cy="19" r="4" fill="#ef4444" opacity="0.8"/>
+      <circle cx="28" cy="19" r="4" fill="#f59e0b" opacity="0.8"/>
+      <circle cx="40" cy="19" r="4" fill="#22c55e" opacity="0.8"/>
+      
+      <!-- URL swap text -->
+      <text x="60" y="24" font-family="ui-monospace, monospace" font-size="12" fill="#71717a">https://</text>
+      <text x="115" y="24" font-family="ui-monospace, monospace" font-size="13" font-weight="bold" fill="#f59e0b">hfviewer.com</text>
+      <text x="210" y="24" font-family="ui-monospace, monospace" font-size="12" fill="#e4e4e7">/meta-llama/Llama-3-8B</text>
+    </g>
+
+    <!-- Visual Architecture Graph Diagram -->
+    <g transform="translate(30, 85)">
+      <!-- Input Node -->
+      <rect x="30" y="20" width="100" height="36" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+      <text x="80" y="42" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#e4e4e7" text-anchor="middle">Token Embed</text>
+
+      <!-- Connecting line 1 -->
+      <line x1="130" y1="38" x2="170" y2="38" stroke="#f59e0b" stroke-width="2" stroke-dasharray="3,3"/>
+
+      <!-- Transformer Block Container -->
+      <rect x="170" y="5" width="220" height="150" rx="10" fill="#1c1917" stroke="#f59e0b" stroke-width="1.5" stroke-opacity="0.6"/>
+      <text x="182" y="25" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#f59e0b" letter-spacing="0.5">TRANSFORMER BLOCK (×32)</text>
+      
+      <!-- Self Attention Sub-block -->
+      <rect x="185" y="35" width="190" height="42" rx="6" fill="#292524" stroke="#44403c" stroke-width="1"/>
+      <text x="280" y="54" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#fafaf9" text-anchor="middle">Grouped-Query Attention</text>
+      <text x="280" y="68" font-family="ui-monospace, monospace" font-size="9" fill="#a8a29e" text-anchor="middle">32 Heads • Dim 4096 • RoPE</text>
+
+      <!-- Connecting arrow down -->
+      <line x1="280" y1="77" x2="280" y2="92" stroke="#f59e0b" stroke-width="1.5"/>
+
+      <!-- MLP / SwiGLU Sub-block -->
+      <rect x="185" y="94" width="190" height="44" rx="6" fill="#292524" stroke="#44403c" stroke-width="1"/>
+      <text x="280" y="113" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#fafaf9" text-anchor="middle">SwiGLU FeedForward</text>
+      <text x="280" y="127" font-family="ui-monospace, monospace" font-size="9" fill="#a8a29e" text-anchor="middle">Gate + Up + Down Proj (14336)</text>
+
+      <!-- Connecting line out -->
+      <line x1="390" y1="80" x2="415" y2="80" stroke="#f59e0b" stroke-width="2"/>
+
+      <!-- Output / Norm Node -->
+      <rect x="415" y="62" width="70" height="36" rx="6" fill="#27272a" stroke="#3f3f46" stroke-width="1"/>
+      <text x="450" y="84" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#e4e4e7" text-anchor="middle">RMSNorm</text>
+
+      <!-- Granularity slider pill -->
+      <g transform="translate(30, 185)">
+        <rect width="384" height="36" rx="18" fill="#09090b" stroke="#27272a" stroke-width="1"/>
+        <text x="20" y="23" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#a1a1aa">Granularity Slider:</text>
+        <rect x="130" y="16" width="150" height="4" rx="2" fill="#27272a"/>
+        <rect x="130" y="16" width="90" height="4" rx="2" fill="#f59e0b"/>
+        <circle cx="220" cy="18" r="7" fill="#fbbf24"/>
+        <text x="295" y="23" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#f59e0b">Layers &amp; Tensors</text>
+        <rect x="395" y="6" width="45" height="24" rx="6" fill="#18181b" stroke="#3f3f46"/>
+        <text x="417" y="22" font-family="system-ui, sans-serif" font-size="10" font-weight="700" fill="#ffffff" text-anchor="middle">F / L</text>
+      </g>
+
+      <!-- Tensor inspector badge -->
+      <g transform="translate(30, 240)">
+        <rect width="384" height="50" rx="8" fill="#141824" stroke="#1e293b" stroke-width="1"/>
+        <circle cx="20" cy="25" r="4" fill="#38bdf8"/>
+        <text x="34" y="23" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#f8fafc">Tensor Dimensions &amp; FLOPs Inspector</text>
+        <text x="34" y="39" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8">Float16 • 8.03B Params • 128K Context Window • SafeTensors</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Title & Description Section at Bottom -->
+  <g transform="translate(48, 560)">
+    <rect x="0" y="0" width="120" height="24" rx="6" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="60" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#fbbf24" letter-spacing="0.5">100% FREE TOOL</text>
+
+    <!-- Main Title -->
+    <text x="0" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="800" fill="#ffffff" letter-spacing="-0.8">
+      HF Viewer
+    </text>
+
+    <text x="0" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="url(#hfGrad)" letter-spacing="-0.3">
+      Hugging Face Architecture Visualizer
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
+      Replace huggingface.co with hfviewer.com to view interactive model graphs.
+    </text>
+  </g>
+</svg>
+
