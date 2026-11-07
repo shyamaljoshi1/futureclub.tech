@@ -1,5 +1,21 @@
 [
   {
+    "id": "series-localhost-to-production",
+    "slug": "localhost-to-production",
+    "title": "Localhost to Production",
+    "tagline": "Ek Website, 30 Problems: From 127.0.0.1 to High-Availability Cloud Architecture",
+    "description": "Follow Rohan's real-world engineering journey from stumbling on localhost in an interview to mastering sockets, virtual machines, reverse proxies, SSL certificates, load balancing, and production deployments.",
+    "coverImage": "/assets/series/localhost-to-production.svg",
+    "badge": "DevOps & System Architecture",
+    "featured": true,
+    "status": "published",
+    "publishedAt": "2026-11-07",
+    "seo": {
+      "title": "Localhost to Production | DevOps & Cloud System Series | futureclub.tech",
+      "description": "Follow the 30-part Localhost to Production engineering series by @thefutureguyy.ai. Understand web servers, DNS, reverse proxies, and cloud infrastructure from first principles."
+    }
+  },
+  {
     "id": "series-2-minute-me-samjo",
     "slug": "2-minute-me-samjo",
     "title": "2 Minute me samjo",

@@ -194,7 +194,7 @@ resources.forEach((res) => {
 seriesList.forEach((s) => {
   routes.push({
     url: `/series/${s.slug}`,
-    title: `${s.title} — Video & Blog Series | ${site.brandName}`,
+    title: `${s.title} · Video & Blog Series | ${site.brandName}`,
     description: s.description,
     priority: '0.8',
     changefreq: 'weekly',

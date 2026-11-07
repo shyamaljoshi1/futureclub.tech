@@ -206,12 +206,12 @@ export const HomePage: React.FC = () => {
         <PromptGrid prompts={featuredPrompts} />
       </section>
 
-      {/* Series Spotlight: 2 Minute me samjo */}
+      {/* Series Spotlight */}
       {seriesPosts.length > 0 && (
         <section aria-labelledby="series-spotlight-heading">
           <SectionHeading
-            title="2 Minute me samjo · Original Video Series"
-            subtitle="Complex AI architectures, weight mechanics, and agentic workflows demystified in 120 seconds."
+            title="Original Engineering & AI Series"
+            subtitle="Deep-dive video reels paired with comprehensive technical breakdowns and architecture guides."
             linkText="Explore all series"
             linkHref="/series"
           />

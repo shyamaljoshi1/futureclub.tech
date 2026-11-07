@@ -56,16 +56,22 @@ Field-tested prompt formulas engineered for ChatGPT, Claude 3.5 Sonnet, Google G
 | **Home** | `/` | Daily trending tools, prompt carousels, and spotlight original series. |
 | **AI Tools** | `/tools` | Full searchable directory of verified tools with pricing filters and command guides. |
 | **Prompts** | `/prompts` | Ready-to-use prompt templates with copy button and parameter customization. |
-| **Series** | `/series` | **"2 Minute me samjo"** video series and blog articles explaining AI research. |
+| **Series** | `/series` | Original video series: **"Localhost to Production"** & **"2 Minute me samjo"**. |
 | **Search** | `Cmd+K` | Instant global search across tools, prompts, guides, and research topics. |
 
 ---
 
-## Original Series: "2 Minute me samjo"
+## Original Series Tracks
 
-The **Series** section (`/series`) hosts original technical explainer series designed to explain complex AI research papers and architecture in 2 minutes:
+The **Series** section (`/series`) hosts original technical explainer series designed to explain computer systems, cloud engineering, and AI research from first principles:
 
+### 1. "Localhost to Production" (Ek Website, 30 Problems)
+- **Episode 01 — 'Sir... Mere Me To Chal Rahi Hai'**: Why websites on `localhost` (127.0.0.1) cannot be accessed by anyone else, how socket binding (`0.0.0.0`) works, why RFC 1918 private IPs are blocked by NAT, why laptops cannot be production servers, and what a real server actually is.
+- **Episode 02 — 'AWS Ne Poori Machine Di Ya Sirf Ek Hissa?'**: The t3.micro illusion, how Type 1 Bare-Metal Hypervisors (AWS Nitro, KVM) partition 128-core servers into isolated Virtual Machines, and why neighbor crashes have zero impact.
+
+### 2. "2 Minute me samjo"
 - **Episode 01 — Weight Space Programming**: How LLMs can directly inspect and edit neural network weights (tensors) via natural-language instructions without backpropagation or fine-tuning datasets (MIT CSAIL & Stanford research).
+
 - **Layout**: Features the embedded Instagram video breakdown on the left, paired with an in-depth, structured blog article, code examples, and research references on the right.
 
 ---

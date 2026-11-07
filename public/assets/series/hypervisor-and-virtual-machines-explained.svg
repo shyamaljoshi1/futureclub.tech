@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="50%" stop-color="#121722"/>
+      <stop offset="100%" stop-color="#06080c"/>
+    </linearGradient>
+    <linearGradient id="nitroGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+
+  <!-- Glows -->
+  <circle cx="220" cy="200" r="280" fill="#8b5cf6" opacity="0.12" filter="blur(75px)"/>
+  <circle cx="980" cy="400" r="320" fill="#06b6d4" opacity="0.10" filter="blur(80px)"/>
+
+  <!-- Right Visual Diagram: Hypervisor Architecture Stack -->
+  <g transform="translate(640, 75)">
+    <!-- Main Stack Container -->
+    <rect x="0" y="0" width="480" height="520" rx="14" fill="#0f131c" stroke="#1e293b" stroke-width="1.5"/>
+
+    <!-- Layer 1 (Top): 4 Isolated Virtual Machines -->
+    <g transform="translate(18, 20)">
+      <text x="0" y="15" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#94a3b8" letter-spacing="1">ISOLATED VIRTUAL MACHINES (GUEST OS)</text>
+
+      <!-- VM 1: BhukkadBites (Active & Healthy) -->
+      <g transform="translate(0, 25)">
+        <rect x="0" y="0" width="215" height="110" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1.5"/>
+        <circle cx="16" cy="18" r="4" fill="#10b981"/>
+        <text x="26" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">BhukkadBites (Ubuntu)</text>
+        <text x="16" y="44" font-family="ui-monospace, monospace" font-size="10" fill="#6ee7b7">t3.micro • 2 vCPU • 1 GB</text>
+        <rect x="16" y="55" width="180" height="20" rx="4" fill="#022c22"/>
+        <text x="24" y="69" font-family="ui-monospace, monospace" font-size="9" fill="#34d399">PUBLIC IP: 13.233.82.11</text>
+        <rect x="16" y="80" width="105" height="18" rx="3" fill="#047857"/>
+        <text x="68" y="93" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">ORDERS CHALU ✅</text>
+      </g>
+
+      <!-- VM 2: Bakery Site (Simulated Crash to demonstrate isolation) -->
+      <g transform="translate(230, 25)">
+        <rect x="0" y="0" width="215" height="110" rx="8" fill="#3f1115" stroke="#dc2626" stroke-width="1.5"/>
+        <circle cx="16" cy="18" r="4" fill="#ef4444"/>
+        <text x="26" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#fca5a5">Bakery Site (Debian)</text>
+        <text x="16" y="44" font-family="ui-monospace, monospace" font-size="10" fill="#f87171">t3.small • 2 vCPU • 2 GB</text>
+        <rect x="16" y="55" width="180" height="20" rx="4" fill="#1f0709"/>
+        <text x="24" y="69" font-family="ui-monospace, monospace" font-size="9" fill="#fca5a5">KERNEL PANIC • CRASHED</text>
+        <rect x="16" y="80" width="115" height="18" rx="3" fill="#991b1b"/>
+        <text x="73" y="93" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">ZERO IMPACT ON ROHAN</text>
+      </g>
+
+      <!-- VM 3: Game Server -->
+      <g transform="translate(0, 145)">
+        <rect x="0" y="0" width="215" height="75" rx="8" fill="#151b27" stroke="#253047" stroke-width="1"/>
+        <circle cx="16" cy="18" r="4" fill="#3b82f6"/>
+        <text x="26" y="22" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">Game Server (CentOS)</text>
+        <text x="16" y="42" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8">4 vCPU • 8 GB RAM</text>
+        <text x="16" y="60" font-family="ui-monospace, monospace" font-size="9" fill="#38bdf8">PORT 27015 UDP ACTIVE</text>
+      </g>
+
+      <!-- VM 4: Startup Analytics API -->
+      <g transform="translate(230, 145)">
+        <rect x="0" y="0" width="215" height="75" rx="8" fill="#151b27" stroke="#253047" stroke-width="1"/>
+        <circle cx="16" cy="18" r="4" fill="#a855f7"/>
+        <text x="26" y="22" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0">FinTech API (RHEL)</text>
+        <text x="16" y="42" font-family="ui-monospace, monospace" font-size="10" fill="#94a3b8">8 vCPU • 16 GB RAM</text>
+        <text x="16" y="60" font-family="ui-monospace, monospace" font-size="9" fill="#c084fc">VPC PEERING ACTIVE</text>
+      </g>
+    </g>
+
+    <!-- Layer 2 (Middle): The Hypervisor (Virtual Machine Monitor) -->
+    <g transform="translate(18, 260)">
+      <rect x="0" y="0" width="445" height="85" rx="10" fill="#1e1834" stroke="#8b5cf6" stroke-width="2"/>
+      <rect x="0" y="0" width="445" height="4" rx="2" fill="url(#nitroGrad)"/>
+      <text x="20" y="28" font-family="system-ui, sans-serif" font-size="14" font-weight="900" fill="#c4b5fd" letter-spacing="1">TYPE 1 HYPERVISOR (AWS NITRO / KVM / ESXi)</text>
+      <text x="20" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#e2e8f0">Hardware-assisted virtualization layer (Intel VT-x / AMD-V Ring -1)</text>
+      <text x="20" y="68" font-family="ui-monospace, monospace" font-size="10" fill="#38bdf8">Slices: Physical Cores -> vCPUs | Physical RAM -> Protected Pages | SR-IOV NIC</text>
+    </g>
+
+    <!-- Layer 3 (Bottom): Physical Enterprise Server Bare Metal -->
+    <g transform="translate(18, 365)">
+      <rect x="0" y="0" width="445" height="130" rx="10" fill="#0b0e15" stroke="#1e293b" stroke-width="1.5"/>
+      <text x="20" y="26" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#f8fafc" letter-spacing="1">PHYSICAL BARE-METAL SERVER (DATACENTER RACK)</text>
+      
+      <!-- Hardware chips icons & stats -->
+      <g transform="translate(20, 40)">
+        <rect x="0" y="0" width="90" height="45" rx="6" fill="#151b27" stroke="#253047"/>
+        <text x="45" y="20" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" text-anchor="middle">CPU</text>
+        <text x="45" y="35" font-family="ui-monospace, monospace" font-size="9" fill="#94a3b8" text-anchor="middle">128 Cores</text>
+
+        <rect x="100" y="0" width="90" height="45" rx="6" fill="#151b27" stroke="#253047"/>
+        <text x="145" y="20" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#34d399" text-anchor="middle">RAM</text>
+        <text x="145" y="35" font-family="ui-monospace, monospace" font-size="9" fill="#94a3b8" text-anchor="middle">512 GB ECC</text>
+
+        <rect x="200" y="0" width="100" height="45" rx="6" fill="#151b27" stroke="#253047"/>
+        <text x="250" y="20" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#f43f5e" text-anchor="middle">STORAGE</text>
+        <text x="250" y="35" font-family="ui-monospace, monospace" font-size="9" fill="#94a3b8" text-anchor="middle">15 TB NVMe</text>
+
+        <rect x="310" y="0" width="95" height="45" rx="6" fill="#151b27" stroke="#253047"/>
+        <text x="357" y="20" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#fbbf24" text-anchor="middle">UPLINK</text>
+        <text x="357" y="35" font-family="ui-monospace, monospace" font-size="9" fill="#94a3b8" text-anchor="middle">100 Gbps</text>
+      </g>
+      
+      <text x="20" y="112" font-family="ui-monospace, monospace" font-size="10" fill="#64748b">Single Physical Box supports hundreds of independent isolated tenant VMs.</text>
+    </g>
+  </g>
+
+  <!-- Left Content Branding & Titles -->
+  <g transform="translate(70, 100)">
+    <!-- Series Badge -->
+    <g>
+      <rect x="0" y="0" width="280" height="34" rx="17" fill="#18181b" stroke="#27272a" stroke-width="1.5"/>
+      <circle cx="18" cy="17" r="5" fill="#8b5cf6"/>
+      <text x="32" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#a78bfa" letter-spacing="0.5">LOCAL TO PROD</text>
+      <rect x="175" y="6" width="95" height="22" rx="11" fill="#27272a"/>
+      <text x="222" y="21" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">EPISODE 02</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="105" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="900" fill="#ffffff" letter-spacing="-1">
+      "Poori Machine Di,
+    </text>
+    <text x="0" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="900" fill="#8b5cf6" letter-spacing="-1">
+      Ya Sirf Ek Hissa?"
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="210" font-family="system-ui, sans-serif" font-size="19" font-weight="700" fill="#e2e8f0">
+      Hypervisors, Type 1 vs Type 2 &amp; Virtual Machines
+    </text>
+
+    <text x="0" y="240" font-family="system-ui, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
+      How AWS slices 1 physical server into hundreds of isolated customer instances.
+    </text>
+
+    <!-- Red Interview Stamp Box -->
+    <g transform="translate(0, 270)">
+      <rect x="0" y="0" width="460" height="90" rx="8" fill="#181224" stroke="#8b5cf6" stroke-width="1.5"/>
+      <text x="20" y="28" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#a78bfa" letter-spacing="1">INTERVIEW ME FASA DIYA • PROBLEM #2</text>
+      <text x="20" y="52" font-family="system-ui, sans-serif" font-size="13" font-weight="500" fill="#e2e8f0">
+        "BhukkadBites-server: 2 vCPU, 1 GB RAM... kya itna chhota computer hota hai?"
+      </text>
+      <text x="20" y="72" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">
+        Type 1 Bare Metal (Nitro/KVM) vs Type 2 Hosted (VirtualBox) • VM Isolation
+      </text>
+    </g>
+
+    <!-- Problem #3 Cliffhanger Teaser Box -->
+    <g transform="translate(0, 380)">
+      <rect x="0" y="0" width="460" height="90" rx="8" fill="#1c1112" stroke="#dc2626" stroke-width="1.5"/>
+      <text x="20" y="26" font-family="system-ui, sans-serif" font-size="12" font-weight="900" fill="#ef4444" letter-spacing="1">NEXT STOP • PROBLEM #3 CLIFFHANGER</text>
+      <text x="20" y="48" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#fca5a5">
+        "VM ready hai, public IP mil gaya. Par na screen, na keyboard."
+      </text>
+      <text x="20" y="68" font-family="system-ui, sans-serif" font-size="11" fill="#f87171">
+        Rohan: 'Password se?' Interviewer: 'Galat.' -> SSH Keys &amp; Asymmetric Crypto.
+      </text>
+    </g>
+  </g>
+</svg>
+
