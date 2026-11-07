@@ -1,0 +1,50 @@
+{
+  "id": "reel-093",
+  "slug": "chatgpt-consistent-face-custom-instructions",
+  "title": "ChatGPT Consistent Face & Identity Lock Custom Instructions Prompt",
+  "toolName": "ChatGPT Personalization (Custom Instructions)",
+  "toolUrl": "https://chatgpt.com/",
+  "description": "Stop ChatGPT from altering your real face in AI images. Set up this system-level Custom Instructions prompt under Personalization to lock your biometric facial features, eye shape, nose, and jawline across all future image generations while changing outfits, lighting, and backgrounds.",
+  "category": "image-generation",
+  "pricing": "free",
+  "pricingDetails": "100% Free feature in ChatGPT Settings (Personalization)",
+  "postType": "reel",
+  "contentType": "prompt",
+  "instagramReelUrl": "",
+  "instagramReelId": "",
+  "reelThumbnail": "/assets/reels/chatgpt-consistent-face-custom-instructions.svg",
+  "promptSet": [
+    {
+      "id": "pmt-093",
+      "title": "ChatGPT Consistent Face & Identity Lock Custom Instructions",
+      "description": "Prompt 1: Custom Instructions (System-Level Face Lock Rule)\n[CRITICAL IMAGE GENERATION RULE: 100% FACIAL IDENTITY & BIOMETRIC LOCK]\n\nWhenever generating, styling, or creating photos based on my uploaded reference portrait photo:\n\n1. STRICT BIOMETRIC IDENTITY PRESERVATION:\n- Treat my reference face as an immutable, non-negotiable biometric anchor.\n- Never change my core facial architecture: keep identical eye shape, iris tone, eyelid crease, eyebrow thickness, nose bridge width, nostril shape, cheekbone height, lip fullness, smile lines, jawline angle, chin contour, and natural skin undertone.\n- Do NOT beautify, digitally airbrush, cartoonize, or replace my facial features with generic AI supermodel templates. Preserve my natural human skin texture and authentic proportions exactly as they appear in the reference photo.\n\n2. PERMITTED DYNAMIC MODIFICATIONS:\n- You have full creative freedom to change everything OUTSIDE the facial features according to the prompt:\n  • Wardrobe, clothing styles, fabrics, jackets, and accessories.\n  • Hairstyles, hair volume, and grooming (while keeping the hairline and natural hair texture authentic).\n  • Poses, camera angles (front-facing, three-quarter view, candid, profile), and framing.\n  • Environments, backgrounds, architecture, outdoor weather, and locations.\n  • Lighting setups (golden hour sunlight, cinematic rim light, neon cyber tones, soft studio diffusion) and color grading.\n\n3. MULTI-SCENE CONTINUITY:\n- Across multi-turn chat sessions and new image requests, ensure absolute facial continuity. The person in image #1, image #5, and image #20 must unmistakably be the exact same human being from my uploaded reference photo.\n\nPrompt 2: Reference Photo Chat Activation Prompt\nHere is my reference portrait photo. Acknowledge and lock in my exact facial features (eyes, nose, jawline, and skin tone) according to my Custom Instructions.\n\nNow generate a cinematic, high-fashion editorial portrait of me wearing an oversized charcoal cashmere wool overcoat, standing on a rainy neon-lit street in Tokyo at midnight. Wet pavement reflections, soft anamorphic lens flare, shallow depth of field (f/1.8), 85mm portrait photography. Keep my facial features 100% identical to the reference photo with zero alterations.\n\nPrompt 3: Studio Headshot & LinkedIn Re-styling Prompt\nUsing my locked reference facial identity from my Custom Instructions, create a modern corporate studio headshot. Wearing a tailored midnight-navy blazer and crisp white shirt. Clean neutral textured studio background, soft 3-point portrait lighting with subtle hair light. Confident, friendly expression. Shot on Hasselblad H6D-100c, 100mm lens, ultra-sharp realistic skin texture, zero plastic smoothing.",
+      "instructions": [
+        "Open ChatGPT (https://chatgpt.com/) on your web browser or open the ChatGPT mobile app.",
+        "Click on your Profile Picture / Name in the bottom-left corner (or the top menu on mobile) and select 'Settings'.",
+        "In the Settings modal, click on the 'Personalization' tab in the left sidebar.",
+        "Click on 'Custom Instructions' and ensure the toggle is switched ON.",
+        "Paste Prompt 1 (Face Lock System Rule) into the box: 'How would you like ChatGPT to respond?'.",
+        "Click 'Save' to confirm your personalized instructions.",
+        "Start a new chat, attach your portrait photo, and use Prompt 2 or Prompt 3 to generate infinite realistic scenes while keeping your face 100% identical!"
+      ],
+      "exampleOutput": "100% facial consistency across infinite scenes, outfits, and lighting setups with zero AI identity drift."
+    }
+  ],
+  "instructions": [
+    "Open ChatGPT (https://chatgpt.com/) on your web browser or open the ChatGPT mobile app.",
+    "Click on your Profile Picture / Name in the bottom-left corner (or the top menu on mobile) and select 'Settings'.",
+    "In the Settings modal, click on the 'Personalization' tab in the left sidebar.",
+    "Click on 'Custom Instructions' and ensure the toggle is switched ON.",
+    "Paste Prompt 1 (Face Lock System Rule) into the box: 'How would you like ChatGPT to respond?'.",
+    "Click 'Save' to confirm your personalized instructions.",
+    "Start a new chat, attach your portrait photo, and use Prompt 2 or Prompt 3 to generate infinite realistic scenes while keeping your face 100% identical!"
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-07",
+  "seo": {
+    "title": "ChatGPT Consistent Face & Identity Custom Instructions Prompt | futureclub.tech",
+    "description": "How to make ChatGPT remember your face with 100% consistency across all AI image generations. Step-by-step Custom Instructions guide and prompt templates."
+  }
+}

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="25%" r="70%" fx="50%" fy="15%">
+      <stop offset="0%" stop-color="#141f1e" />
+      <stop offset="60%" stop-color="#0c1312" />
+      <stop offset="100%" stop-color="#060909" />
+    </radialGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+
+  <!-- Grid Pattern -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="125" x2="600" y2="125" />
+    <line x1="0" y1="250" x2="600" y2="250" />
+    <line x1="0" y1="375" x2="600" y2="375" />
+    <line x1="0" y1="500" x2="600" y2="500" />
+    <line x1="0" y1="625" x2="600" y2="625" />
+    <line x1="150" y1="0" x2="150" y2="750" />
+    <line x1="300" y1="0" x2="300" y2="750" />
+    <line x1="450" y1="0" x2="450" y2="750" />
+  </g>
+
+  <!-- Glows -->
+  <circle cx="180" cy="220" r="160" fill="#10b981" opacity="0.12" filter="blur(60px)" />
+  <circle cx="440" cy="380" r="140" fill="#06b6d4" opacity="0.10" filter="blur(50px)" />
+
+  <!-- Top Bar: Channel Badge & Category -->
+  <g transform="translate(48, 56)">
+    <!-- Channel Pill -->
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#10b981" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">@thefutureguyy.ai</text>
+  </g>
+
+  <g transform="translate(552, 56)">
+    <!-- Category Pill -->
+    <text x="0" y="22" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#34d399" letter-spacing="1.2">CHATGPT PROMPTS</text>
+  </g>
+
+  <!-- Center Card: Custom Instructions + Face Lock UI Diagram -->
+  <g transform="translate(48, 130)">
+    <rect width="504" height="400" rx="16" fill="#131b1a" fill-opacity="0.9" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+    <rect x="0" y="0" width="504" height="3" fill="url(#accentLine)" />
+
+    <!-- Settings Navigation Breadcrumb -->
+    <g transform="translate(24, 24)">
+      <rect width="456" height="36" rx="8" fill="#0a1010" stroke="#1f2f2c" stroke-width="1" />
+      <circle cx="18" cy="18" r="4" fill="#10b981" />
+      <text x="32" y="23" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#6ee7b7">Settings</text>
+      <text x="85" y="23" font-family="system-ui, sans-serif" font-size="11" fill="#4b5563">&gt;</text>
+      <text x="100" y="23" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#6ee7b7">Personalization</text>
+      <text x="195" y="23" font-family="system-ui, sans-serif" font-size="11" fill="#4b5563">&gt;</text>
+      <text x="210" y="23" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#34d399">Custom Instructions</text>
+      <rect x="385" y="8" width="55" height="20" rx="10" fill="#065f46"/>
+      <circle cx="428" cy="18" r="7" fill="#34d399"/>
+      <text x="403" y="22" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#ecfdf5">ON</text>
+    </g>
+
+    <!-- Face Lock Biometric Visual Comparison -->
+    <g transform="translate(24, 80)">
+      <!-- Left Box: Reference Face (Locked) -->
+      <g transform="translate(0, 0)">
+        <rect width="215" height="180" rx="10" fill="#0c1413" stroke="#059669" stroke-width="1.5" />
+        <rect x="12" y="12" width="191" height="110" rx="6" fill="#162220" />
+        
+        <!-- Biometric Face Outline -->
+        <circle cx="107" cy="55" r="26" fill="none" stroke="#10b981" stroke-width="2" />
+        <circle cx="98" cy="52" r="3" fill="#34d399" />
+        <circle cx="116" cy="52" r="3" fill="#34d399" />
+        <path d="M 103 62 Q 107 65 111 62" fill="none" stroke="#34d399" stroke-width="1.5" />
+        <path d="M 100 70 Q 107 75 114 70" fill="none" stroke="#34d399" stroke-width="1.5" />
+        
+        <!-- Biometric Target Brackets -->
+        <path d="M 72 30 L 62 30 L 62 42" fill="none" stroke="#10b981" stroke-width="2" />
+        <path d="M 142 30 L 152 30 L 152 42" fill="none" stroke="#10b981" stroke-width="2" />
+        <path d="M 72 88 L 62 88 L 62 76" fill="none" stroke="#10b981" stroke-width="2" />
+        <path d="M 142 88 L 152 88 L 152 76" fill="none" stroke="#10b981" stroke-width="2" />
+
+        <rect x="52" y="96" width="110" height="20" rx="4" fill="#064e3b" stroke="#059669" stroke-width="1" />
+        <text x="107" y="110" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#a7f3d0" text-anchor="middle">FACIAL IDENTITY LOCK</text>
+        
+        <text x="107" y="145" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Reference Photo</text>
+        <text x="107" y="162" font-family="system-ui, sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle">Preserves Real Features 100%</text>
+      </g>
+
+      <!-- Arrow Connecting -->
+      <g transform="translate(222, 75)">
+        <circle cx="12" cy="12" r="14" fill="#134e4a" />
+        <text x="12" y="16" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#34d399" text-anchor="middle">→</text>
+      </g>
+
+      <!-- Right Box: Any Scene (Dynamic Clothes/Background) -->
+      <g transform="translate(241, 0)">
+        <rect width="215" height="180" rx="10" fill="#0c1413" stroke="#0d9488" stroke-width="1.5" />
+        <rect x="12" y="12" width="191" height="110" rx="6" fill="#162220" />
+
+        <!-- Generated scene graphic -->
+        <circle cx="107" cy="55" r="26" fill="none" stroke="#2dd4bf" stroke-width="2" />
+        <circle cx="98" cy="52" r="3" fill="#2dd4bf" />
+        <circle cx="116" cy="52" r="3" fill="#2dd4bf" />
+        <path d="M 103 62 Q 107 65 111 62" fill="none" stroke="#2dd4bf" stroke-width="1.5" />
+        <path d="M 100 70 Q 107 75 114 70" fill="none" stroke="#2dd4bf" stroke-width="1.5" />
+
+        <!-- Dynamic Scene tags -->
+        <rect x="25" y="20" width="70" height="18" rx="4" fill="#0f766e" />
+        <text x="60" y="32" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#ccfbf1" text-anchor="middle">NEW OUTFIT</text>
+
+        <rect x="120" y="20" width="75" height="18" rx="4" fill="#0e7490" />
+        <text x="157" y="32" font-family="system-ui, sans-serif" font-size="9" font-weight="bold" fill="#cffafe" text-anchor="middle">NEW LIGHTING</text>
+
+        <text x="107" y="145" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#e2e8f0" text-anchor="middle">Infinite Scenarios</text>
+        <text x="107" y="162" font-family="system-ui, sans-serif" font-size="10" fill="#5eead4" text-anchor="middle">Same Face • Zero Identity Drift</text>
+      </g>
+    </g>
+
+    <!-- Bottom Instruction Snippet Box -->
+    <g transform="translate(24, 280)">
+      <rect width="456" height="95" rx="8" fill="#080d0d" stroke="#134e4a" stroke-width="1" />
+      <text x="18" y="24" font-family="ui-monospace, monospace" font-size="11" font-weight="bold" fill="#34d399">CUSTOM INSTRUCTIONS PROMPT PREVIEW:</text>
+      <text x="18" y="44" font-family="ui-monospace, monospace" font-size="10" fill="#99f6e4">"Lock facial identity from reference photo. Never change eye shape,</text>
+      <text x="18" y="60" font-family="ui-monospace, monospace" font-size="10" fill="#99f6e4">nose bridge, jawline, or skin tone. Only change clothes, scene &amp; lighting."</text>
+      <text x="18" y="80" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#6ee7b7">100% Face Consistency across all ChatGPT DALL-E &amp; GPT-4o image generations</text>
+    </g>
+  </g>
+
+  <!-- Title & Description Section at Bottom -->
+  <g transform="translate(48, 560)">
+    <rect x="0" y="0" width="150" height="24" rx="6" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="75" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#34d399" letter-spacing="0.5">STEP-BY-STEP GUIDE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff" letter-spacing="-0.8">
+      ChatGPT Face Lock
+    </text>
+
+    <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="url(#emeraldGrad)" letter-spacing="-0.3">
+      100% Consistent Face Custom Instructions
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
+      Go to Settings &gt; Personalization &gt; Custom Instructions &amp; paste this prompt.
+    </text>
+  </g>
+</svg>
+
