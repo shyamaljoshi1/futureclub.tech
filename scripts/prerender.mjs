@@ -123,7 +123,9 @@ reels.forEach((reel) => {
   // Tool page
   routes.push({
     url: `/tools/${reel.slug}`,
-    title: `${reel.seo.title} | ${site.brandName}`,
+    title: reel.seo.title.includes(site.brandName)
+      ? reel.seo.title
+      : `${reel.seo.title} | ${site.brandName}`,
     description: reel.seo.description,
     priority: '0.8',
     changefreq: 'weekly',

@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="20%" r="75%" fx="50%" fy="10%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="55%" stop-color="#0b0f17" />
+      <stop offset="100%" stop-color="#05070a" />
+    </radialGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+
+  <!-- Subtle Blueprint Grid -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="125" x2="600" y2="125" />
+    <line x1="0" y1="250" x2="600" y2="250" />
+    <line x1="0" y1="375" x2="600" y2="375" />
+    <line x1="0" y1="500" x2="600" y2="500" />
+    <line x1="0" y1="625" x2="600" y2="625" />
+    <line x1="150" y1="0" x2="150" y2="750" />
+    <line x1="300" y1="0" x2="300" y2="750" />
+    <line x1="450" y1="0" x2="450" y2="750" />
+  </g>
+
+  <!-- Ambient Glows -->
+  <circle cx="160" cy="240" r="150" fill="#10b981" opacity="0.12" filter="blur(65px)" />
+  <circle cx="450" cy="360" r="160" fill="#06b6d4" opacity="0.10" filter="blur(60px)" />
+
+  <!-- Top Bar: Channel Badge & Category -->
+  <g transform="translate(48, 52)">
+    <!-- Channel Pill -->
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#10b981" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">@thefutureguyy.ai</text>
+  </g>
+
+  <g transform="translate(552, 52)">
+    <!-- Category Pill -->
+    <text x="0" y="22" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#34d399" letter-spacing="1.2">AI EVADER &amp; HUMANIZER</text>
+  </g>
+
+  <!-- Central Engine Graphic Card -->
+  <g transform="translate(48, 116)">
+    <rect width="504" height="424" rx="16" fill="#0d1117" fill-opacity="0.9" stroke="#30363d" stroke-width="1" />
+    <rect x="0" y="0" width="504" height="3" fill="url(#accentBar)" />
+
+    <!-- Terminal Window Header -->
+    <g transform="translate(20, 20)">
+      <circle cx="10" cy="10" r="4.5" fill="#ef4444" opacity="0.85" />
+      <circle cx="24" cy="10" r="4.5" fill="#f59e0b" opacity="0.85" />
+      <circle cx="38" cy="10" r="4.5" fill="#10b981" opacity="0.85" />
+      <rect x="62" y="0" width="390" height="22" rx="6" fill="#161b22" stroke="#21262d" stroke-width="1" />
+      <text x="74" y="15" font-family="ui-monospace, monospace" font-size="11" fill="#7ee787">github.com/AhmadHassan-BTed/Turnitout-Humanizer</text>
+    </g>
+
+    <!-- Side-by-Side Comparison Flow -->
+    <g transform="translate(24, 66)">
+      <!-- Left Box: Detected AI Text -->
+      <rect x="0" y="0" width="210" height="186" rx="10" fill="#161b22" stroke="#f85149" stroke-width="1.2" stroke-opacity="0.6" />
+      <g transform="translate(14, 16)">
+        <rect x="0" y="0" width="100" height="20" rx="4" fill="#f85149" fill-opacity="0.15" stroke="#f85149" stroke-opacity="0.4" stroke-width="1" />
+        <text x="50" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#f85149">AI DETECTED</text>
+        <text x="0" y="42" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Raw LLM Text</text>
+        <text x="0" y="58" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">Turnitin: 89% Match</text>
+        <text x="0" y="74" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">GPTZero: 96% AI Flag</text>
+
+        <!-- Simulated text lines -->
+        <rect x="0" y="92" width="180" height="6" rx="3" fill="#f85149" fill-opacity="0.3" />
+        <rect x="0" y="104" width="150" height="6" rx="3" fill="#8b949e" fill-opacity="0.2" />
+        <rect x="0" y="116" width="170" height="6" rx="3" fill="#f85149" fill-opacity="0.3" />
+        <rect x="0" y="128" width="130" height="6" rx="3" fill="#8b949e" fill-opacity="0.2" />
+        <text x="0" y="152" font-family="system-ui, sans-serif" font-size="10" fill="#f85149">✗ Repetitive n-gram sequences</text>
+      </g>
+
+      <!-- Center Flow Connector -->
+      <g transform="translate(210, 75)">
+        <circle cx="18" cy="18" r="16" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+        <path d="M14 18 L22 18 M19 14 L23 18 L19 22" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+
+      <!-- Right Box: 100% Humanized -->
+      <rect x="246" y="0" width="210" height="186" rx="10" fill="#161b22" stroke="#238636" stroke-width="1.5" />
+      <g transform="translate(260, 16)">
+        <rect x="0" y="0" width="100" height="20" rx="4" fill="#238636" fill-opacity="0.2" stroke="#2ea043" stroke-opacity="0.5" stroke-width="1" />
+        <text x="50" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#3fb950">100% HUMAN</text>
+        <text x="0" y="42" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f0f6fc">Turnitout Engine</text>
+        <text x="0" y="58" font-family="ui-monospace, monospace" font-size="10" fill="#3fb950">Turnitin: 0% Similarity</text>
+        <text x="0" y="74" font-family="ui-monospace, monospace" font-size="10" fill="#3fb950">GPTZero: 99% Human</text>
+
+        <!-- Simulated humanized lines -->
+        <rect x="0" y="92" width="175" height="6" rx="3" fill="#3fb950" fill-opacity="0.35" />
+        <rect x="0" y="104" width="165" height="6" rx="3" fill="#8b949e" fill-opacity="0.2" />
+        <rect x="0" y="116" width="140" height="6" rx="3" fill="#3fb950" fill-opacity="0.35" />
+        <rect x="0" y="128" width="160" height="6" rx="3" fill="#8b949e" fill-opacity="0.2" />
+        <text x="0" y="152" font-family="system-ui, sans-serif" font-size="10" fill="#3fb950">✓ Zero AI hallucination risk</text>
+      </g>
+    </g>
+
+    <!-- Engine Mechanics Banner -->
+    <g transform="translate(24, 270)">
+      <rect width="456" height="52" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <circle cx="20" cy="26" r="5" fill="#06b6d4" />
+      <text x="34" y="24" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Deterministic N-Gram Disrupter &amp; Rule-Based Engine</text>
+      <text x="34" y="40" font-family="ui-monospace, monospace" font-size="10" fill="#8b949e">Zero secondary LLM • No text hallucination • Purges AI tell phrases</text>
+    </g>
+
+    <!-- Format Badges Bar -->
+    <g transform="translate(24, 340)">
+      <!-- DOCX Badge -->
+      <rect x="0" y="0" width="102" height="34" rx="6" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="51" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#60a5fa">.DOCX (Word)</text>
+
+      <!-- LaTeX Badge -->
+      <rect x="114" y="0" width="102" height="34" rx="6" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="165" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#34d399">.TEX (LaTeX)</text>
+
+      <!-- Code Comments Badge -->
+      <rect x="228" y="0" width="118" height="34" rx="6" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="287" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#a78bfa">Code Comments</text>
+
+      <!-- Markdown Badge -->
+      <rect x="358" y="0" width="98" height="34" rx="6" fill="#1f2937" stroke="#374151" stroke-width="1" />
+      <text x="407" y="21" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#fbbf24">Markdown</text>
+    </g>
+
+    <!-- Bottom Features Tag -->
+    <g transform="translate(24, 390)">
+      <text x="0" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#7ee787">✓ 100% Free Forever</text>
+      <text x="130" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#7ee787">✓ No Word Limits</text>
+      <text x="245" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#7ee787">✓ No Sign-up Required</text>
+      <text x="382" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#7ee787">✓ Open Source</text>
+    </g>
+  </g>
+
+  <!-- Title & Description Section at Bottom -->
+  <g transform="translate(48, 568)">
+    <rect x="0" y="0" width="168" height="24" rx="6" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="84" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#34d399" letter-spacing="0.5">OPEN-SOURCE UTILITY</text>
+
+    <!-- Main Title -->
+    <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff" letter-spacing="-0.8">
+      Turnitout Humanizer
+    </text>
+
+    <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="700" fill="url(#cyanGrad)" letter-spacing="-0.3">
+      Zero-AI Programmatic Similarity &amp; Detector Evader
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#94a3b8">
+      Bypass Turnitin, GPTZero &amp; Copyleaks while preserving LaTeX, DOCX &amp; code formatting.
+    </text>
+  </g>
+</svg>
+

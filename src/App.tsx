@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { PageContainer } from '@/components/layout/PageContainer';
@@ -79,6 +80,7 @@ export const App: React.FC = () => {
     <ThemeProvider>
       <AdSenseProvider>
         <AppContent />
+        <Analytics />
       </AdSenseProvider>
     </ThemeProvider>
   );
