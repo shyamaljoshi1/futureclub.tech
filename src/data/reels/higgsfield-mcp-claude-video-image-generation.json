@@ -1,0 +1,51 @@
+{
+  "id": "reel-095",
+  "slug": "higgsfield-mcp-claude-video-image-generation",
+  "title": "Higgsfield MCP: Unlimited AI Video, Image & Audio Generation for Claude Fable 5.2",
+  "toolName": "Higgsfield MCP (Claude & ChatGPT Connector)",
+  "toolUrl": "https://higgsfield.ai/mcp?tab=claude",
+  "description": "Higgsfield MCP connects Claude Fable 5.2, Claude Code, and ChatGPT directly to industry-leading video, image, and voice engines. Generate 1080p Seedance 2.0 videos, 2K Nano Banana visuals, and ElevenLabs audio directly from your chat window with a 72-hour unlimited free trial.",
+  "category": "video-generation",
+  "pricing": "freemium",
+  "pricingDetails": "Free 72-Hour Unlimited Trial ($0 now) • 40% Off First Month • Cancel Anytime",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "",
+  "instagramReelId": "",
+  "reelThumbnail": "/assets/reels/higgsfield-mcp-claude-video-image-generation.svg",
+  "promptSet": [
+    {
+      "id": "pmt-095",
+      "title": "Higgsfield MCP Setup & Claude In-Chat Prompting Guide",
+      "description": "Higgsfield MCP – Native AI Video, Image & Audio Generation for Claude Fable 5.2 & ChatGPT\n\nHiggsfield AI has officially launched support for Anthropic's groundbreaking Claude Fable 5.2 and Claude Mythos 5.2 models, accompanied by the public release of the hosted Higgsfield MCP (Model Context Protocol) server. Instead of switching tabs, manually downloading MP4s, or paying for multiple standalone AI video subscriptions, Higgsfield MCP brings production-grade video, image, and audio synthesis natively into Claude Desktop, claude.ai, Claude Code CLI, Cursor, and ChatGPT.\n\nTo celebrate the launch, Higgsfield is offering 3 days (72 hours) of FREE and UNLIMITED access to all top video, image, and voice models through the MCP connector ($0 upfront, cancel anytime). This gives developers, creative directors, and autonomous agents the ability to prompt Claude for complete multimedia campaigns—generating the script, 1080p video B-roll, 2K realistic photos, and hyper-realistic voiceovers in a single conversation thread.\n\nSupported Multi-Modal Generation Models:\n• Video Models:\n  - Seedance 2.0: 1080p HD, 15-second cinematic motion generation.\n  - Seedance 2.5: 480p, 30-second extended story and narrative shots.\n  - Seedance 2.0 Mini & Fast: 720p, 15-second rapid preview generation.\n• Image Models:\n  - Nano Banana Pro, 2.1 & 2: Up to 2K photorealistic composition and lighting.\n  - Seedream 5.5 & Seedream 5.0 Pro: Up to 2K sharp character and product rendering.\n  - GPT Image 2, 2.5 & 2.6: Medium 2K creative illustrations and concept art.\n• Audio & Speech Models:\n  - Seed Audio 1.0: Atmospheric background scoring and SFX.\n  - Eleven v3: Hyper-realistic human voice cloning and expressive narration.\n  - Minimax Speech 2.8 HD, VibeVoice & Seed Speech: High-fidelity multi-lingual voiceover.\n\nKey Features:\n• Direct In-Chat Generation: Ask Claude to generate a video or picture, and watch the rendered asset appear directly in your conversation without leaving the chat interface.\n• Claude Fable 5.2 Optimization: Anthropic's Fable 5.2 excels at 3D modeling, visual spatial reasoning, computer use, and agentic coding, making it the ideal orchestration brain for Higgsfield's creative engines.\n• Zero API Key Wrangling: Connects seamlessly over the open Model Context Protocol (HTTP transport) via OAuth authentication using your Higgsfield account credentials.\n• Multi-Client Ecosystem: Works identically across Claude Desktop, Claude.ai web, Claude Code CLI, Cursor IDE, Windsurf, and ChatGPT Custom MCP connectors.\n• Autonomous Agent Tool-Calling: Autonomous coding agents can programmatically request B-roll, design marketing banners, and produce product demo clips during automated build pipelines.\n• 72-Hour Unlimited Free Trial: Complete unrestricted access to every video, image, and audio model for 3 days at zero cost.\n\nStep-by-Step Guide: How to Connect Higgsfield MCP to Claude & ChatGPT\n1. Visit the Higgsfield MCP Hub: Go to https://higgsfield.ai/mcp?tab=claude and start your 72-hour free unlimited trial.\n2. Open Claude Settings: On Claude Desktop or claude.ai, click your profile icon in the bottom-left corner and navigate to Settings > Connectors (or Customize).\n3. Add Custom Connector: Click 'Add custom connector' or 'Add MCP Server'.\n4. Enter Server Details: Set the Name to 'Higgsfield MCP' and paste the official server URL: https://mcp.higgsfield.ai/mcp\n5. Authenticate via OAuth: Complete the one-click sign-in prompt to authorize Claude with your Higgsfield subscription.\n6. For Claude Code CLI Users: Run the terminal command: claude mcp add --transport http higgsfield https://mcp.higgsfield.ai/mcp\n7. For Cursor IDE Users: Open ~/.cursor/mcp.json and add \"higgsfield\": { \"url\": \"https://mcp.higgsfield.ai/mcp\" } under mcpServers.\n8. Start Prompting Claude: Prompt Claude naturally: 'Create a 15-second cinematic 1080p video of a cyberpunk drone flying over Tokyo at midnight using Seedance 2.0.' Claude will invoke Higgsfield MCP and return the rendered video inline!\n\nOfficial Higgsfield MCP Portal: https://higgsfield.ai/mcp?tab=claude\nHosted MCP Server Endpoint: https://mcp.higgsfield.ai/mcp\nDeveloper Announcement: https://twitter.com/higgsfield",
+      "instructions": [
+        "Visit the Higgsfield MCP page (https://higgsfield.ai/mcp?tab=claude) and activate your 72-hour free unlimited trial.",
+        "Open Claude (Desktop app or claude.ai) and navigate to Settings > Connectors > Add custom connector.",
+        "Enter 'Higgsfield MCP' as the connector name and paste the server URL: https://mcp.higgsfield.ai/mcp",
+        "Sign in to your Higgsfield account to authorize the Model Context Protocol connection.",
+        "If using Claude Code CLI in your terminal, simply execute: claude mcp add --transport http higgsfield https://mcp.higgsfield.ai/mcp",
+        "Ask Claude to generate video, audio, or visuals in chat (e.g., 'Generate a 1080p Seedance 2.0 cinematic video of an ancient temple under moonlight').",
+        "Review and download the generated high-resolution MP4 video and 2K images directly within your conversation."
+      ],
+      "exampleOutput": "Native 1080p Seedance 2.0 cinematic video clip (15s) and matching 2K Nano Banana Pro concept image rendered directly inside Claude chat."
+    }
+  ],
+  "instructions": [
+    "Visit the Higgsfield MCP page (https://higgsfield.ai/mcp?tab=claude) and activate your 72-hour free unlimited trial.",
+    "Open Claude (Desktop app or claude.ai) and navigate to Settings > Connectors > Add custom connector.",
+    "Enter 'Higgsfield MCP' as the connector name and paste the server URL: https://mcp.higgsfield.ai/mcp",
+    "Sign in to your Higgsfield account to authorize the Model Context Protocol connection.",
+    "If using Claude Code CLI in your terminal, simply execute: claude mcp add --transport http higgsfield https://mcp.higgsfield.ai/mcp",
+    "Ask Claude to generate video, audio, or visuals in chat (e.g., 'Generate a 1080p Seedance 2.0 cinematic video of an ancient temple under moonlight').",
+    "Review and download the generated high-resolution MP4 video and 2K images directly within your conversation."
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-10",
+  "seo": {
+    "title": "Higgsfield MCP: AI Video & Image Generator for Claude & ChatGPT | futureclub.tech",
+    "description": "Connect Higgsfield MCP to Claude Fable 5.2 and ChatGPT. Generate 1080p AI video, 2K photorealistic images, and audio directly in your chat with 72h free unlimited access."
+  }
+}
+

@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="20%" r="75%" fx="50%" fy="10%">
+      <stop offset="0%" stop-color="#182212" />
+      <stop offset="55%" stop-color="#0c1208" />
+      <stop offset="100%" stop-color="#050704" />
+    </radialGradient>
+    <linearGradient id="higgsLime" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a3e635" />
+      <stop offset="100%" stop-color="#65a30d" />
+    </linearGradient>
+    <linearGradient id="claudeCoral" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a3e635" />
+      <stop offset="50%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+
+  <!-- Grid Blueprint Pattern -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="125" x2="600" y2="125" />
+    <line x1="0" y1="250" x2="600" y2="250" />
+    <line x1="0" y1="375" x2="600" y2="375" />
+    <line x1="0" y1="500" x2="600" y2="500" />
+    <line x1="0" y1="625" x2="600" y2="625" />
+    <line x1="150" y1="0" x2="150" y2="750" />
+    <line x1="300" y1="0" x2="300" y2="750" />
+    <line x1="450" y1="0" x2="450" y2="750" />
+  </g>
+
+  <!-- Ambient Glows -->
+  <circle cx="180" cy="220" r="160" fill="#a3e635" opacity="0.12" filter="blur(65px)" />
+  <circle cx="440" cy="380" r="150" fill="#f97316" opacity="0.10" filter="blur(60px)" />
+
+  <!-- Top Bar: Channel Badge & Category -->
+  <g transform="translate(48, 52)">
+    <!-- Channel Pill -->
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#a3e635" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">@thefutureguyy.ai</text>
+  </g>
+
+  <g transform="translate(552, 52)">
+    <!-- Category Pill -->
+    <text x="0" y="22" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#bef264" letter-spacing="1.2">MCP · AI VIDEO &amp; IMAGE</text>
+  </g>
+
+  <!-- Central Architecture / MCP Graphic Card -->
+  <g transform="translate(48, 116)">
+    <rect width="504" height="424" rx="16" fill="#0f150d" fill-opacity="0.9" stroke="#27381d" stroke-width="1" />
+    <rect x="0" y="0" width="504" height="3" fill="url(#accentBar)" />
+
+    <!-- Browser Address / Connection Bar -->
+    <g transform="translate(20, 20)">
+      <circle cx="10" cy="10" r="4.5" fill="#ef4444" opacity="0.85" />
+      <circle cx="24" cy="10" r="4.5" fill="#f59e0b" opacity="0.85" />
+      <circle cx="38" cy="10" r="4.5" fill="#10b981" opacity="0.85" />
+      <rect x="62" y="0" width="390" height="22" rx="6" fill="#172213" stroke="#2a3f1f" stroke-width="1" />
+      <text x="74" y="15" font-family="ui-monospace, monospace" font-size="11" fill="#bef264">higgsfield.ai/mcp?tab=claude</text>
+    </g>
+
+    <!-- Top Integration Banner: Claude ⇄ MCP Protocol ⇄ Higgsfield -->
+    <g transform="translate(24, 62)">
+      <rect width="456" height="74" rx="10" fill="#172213" stroke="#365314" stroke-width="1.2" />
+
+      <!-- Claude Node -->
+      <g transform="translate(20, 15)">
+        <rect width="110" height="44" rx="8" fill="#241b14" stroke="#ea580c" stroke-width="1" />
+        <circle cx="20" cy="22" r="10" fill="#f97316" fill-opacity="0.2" />
+        <text x="20" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#fb923c">C</text>
+        <text x="38" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#f0f6fc">Claude 5.2</text>
+        <text x="38" y="34" font-family="ui-monospace, monospace" font-size="9" fill="#fdba74">Fable / Mythos</text>
+      </g>
+
+      <!-- Center MCP Connector Hub -->
+      <g transform="translate(150, 17)">
+        <rect width="156" height="40" rx="8" fill="#111c0c" stroke="#a3e635" stroke-width="1.2" />
+        <text x="78" y="17" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="800" fill="#a3e635" letter-spacing="0.5">MODEL CONTEXT PROTOCOL</text>
+        <text x="78" y="31" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" fill="#e2e8f0">mcp.higgsfield.ai/mcp</text>
+      </g>
+
+      <!-- Connecting arrows -->
+      <line x1="130" y1="37" x2="150" y2="37" stroke="#a3e635" stroke-width="2" />
+      <line x1="306" y1="37" x2="326" y2="37" stroke="#a3e635" stroke-width="2" />
+
+      <!-- Higgsfield Generator Node -->
+      <g transform="translate(326, 15)">
+        <rect width="110" height="44" rx="8" fill="#18270f" stroke="#84cc16" stroke-width="1" />
+        <circle cx="20" cy="22" r="10" fill="#a3e635" fill-opacity="0.25" />
+        <text x="20" y="27" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#a3e635">H</text>
+        <text x="38" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#bef264">Higgsfield</text>
+        <text x="38" y="34" font-family="ui-monospace, monospace" font-size="9" fill="#a3e635">Media Engine</text>
+      </g>
+    </g>
+
+    <!-- Multi-Model Generation Capabilities Grid -->
+    <g transform="translate(24, 152)">
+      <!-- Video Block -->
+      <rect x="0" y="0" width="144" height="154" rx="8" fill="#172213" stroke="#27381d" stroke-width="1" />
+      <g transform="translate(12, 14)">
+        <rect width="64" height="18" rx="4" fill="#a3e635" fill-opacity="0.2" />
+        <text x="32" y="13" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#a3e635">VIDEO</text>
+        <text x="0" y="38" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Seedance 2.0</text>
+        <text x="0" y="52" font-family="ui-monospace, monospace" font-size="9" fill="#bef264">1080p · 15s HD</text>
+        <text x="0" y="74" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Seedance 2.5</text>
+        <text x="0" y="88" font-family="ui-monospace, monospace" font-size="9" fill="#bef264">480p · 30s Long</text>
+        <text x="0" y="110" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Seedance Fast</text>
+        <text x="0" y="124" font-family="ui-monospace, monospace" font-size="9" fill="#84cc16">720p · 15s Fast</text>
+      </g>
+
+      <!-- Image Block -->
+      <rect x="156" y="0" width="144" height="154" rx="8" fill="#172213" stroke="#27381d" stroke-width="1" />
+      <g transform="translate(168, 14)">
+        <rect width="64" height="18" rx="4" fill="#38bdf8" fill-opacity="0.2" />
+        <text x="32" y="13" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#38bdf8">IMAGE</text>
+        <text x="0" y="38" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Nano Banana</text>
+        <text x="0" y="52" font-family="ui-monospace, monospace" font-size="9" fill="#7dd3fc">Pro &amp; 2.1 (2K)</text>
+        <text x="0" y="74" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Seedream 5.5</text>
+        <text x="0" y="88" font-family="ui-monospace, monospace" font-size="9" fill="#7dd3fc">2K Ultra Sharp</text>
+        <text x="0" y="110" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">GPT Image 2.6</text>
+        <text x="0" y="124" font-family="ui-monospace, monospace" font-size="9" fill="#38bdf8">Medium 2K Gen</text>
+      </g>
+
+      <!-- Audio Block -->
+      <rect x="312" y="0" width="144" height="154" rx="8" fill="#172213" stroke="#27381d" stroke-width="1" />
+      <g transform="translate(324, 14)">
+        <rect width="64" height="18" rx="4" fill="#f97316" fill-opacity="0.2" />
+        <text x="32" y="13" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="#fb923c">AUDIO</text>
+        <text x="0" y="38" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Seed Audio 1.0</text>
+        <text x="0" y="52" font-family="ui-monospace, monospace" font-size="9" fill="#fdba74">Sound FX &amp; Music</text>
+        <text x="0" y="74" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Eleven v3</text>
+        <text x="0" y="88" font-family="ui-monospace, monospace" font-size="9" fill="#fdba74">Hyper-Real Voice</text>
+        <text x="0" y="110" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Minimax 2.8</text>
+        <text x="0" y="124" font-family="ui-monospace, monospace" font-size="9" fill="#f97316">Speech HD Audio</text>
+      </g>
+    </g>
+
+    <!-- Promo & Trial Offer Banner -->
+    <g transform="translate(24, 320)">
+      <rect width="456" height="48" rx="8" fill="#1e2d14" stroke="#4d7c0f" stroke-width="1.2" />
+      <circle cx="22" cy="24" r="6" fill="#a3e635" />
+      <text x="38" y="22" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#bef264">3-DAY (72-HOUR) FREE &amp; UNLIMITED TRIAL</text>
+      <text x="38" y="38" font-family="ui-monospace, monospace" font-size="10" fill="#d9f99d">$0 now • Full Access to all Video, Image &amp; Audio Models • Cancel Anytime</text>
+    </g>
+
+    <!-- Bottom Feature Pills -->
+    <g transform="translate(24, 384)">
+      <text x="0" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#bef264">✓ In-Chat Video Gen</text>
+      <text x="135" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#bef264">✓ Claude &amp; ChatGPT</text>
+      <text x="268" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#bef264">✓ Zero API Key</text>
+      <text x="375" y="16" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#bef264">✓ Fable 5.2 Live</text>
+    </g>
+  </g>
+
+  <!-- Title & Description Section at Bottom -->
+  <g transform="translate(48, 568)">
+    <rect x="0" y="0" width="180" height="24" rx="6" fill="#a3e635" fill-opacity="0.15" stroke="#a3e635" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="90" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#bef264" letter-spacing="0.5">NEW RELEASE · MCP CONNECTOR</text>
+
+    <!-- Main Title -->
+    <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#ffffff" letter-spacing="-0.8">
+      Higgsfield MCP
+    </text>
+
+    <text x="0" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18.5" font-weight="700" fill="url(#higgsLime)" letter-spacing="-0.3">
+      Native AI Video, Image &amp; Audio for Claude Fable 5.2
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400" fill="#94a3b8">
+      Generate 1080p videos (Seedance 2.0) and 2K visuals directly in Claude &amp; ChatGPT chats.
+    </text>
+  </g>
+</svg>
+
