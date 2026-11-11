@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="25%" r="75%" fx="50%" fy="15%">
+      <stop offset="0%" stop-color="#061a14" />
+      <stop offset="55%" stop-color="#030d0a" />
+      <stop offset="100%" stop-color="#010504" />
+    </radialGradient>
+    <linearGradient id="emeraldNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="amberNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.8" />
+    </linearGradient>
+    <pattern id="crtScanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1.5" opacity="0.35" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+
+  <!-- Subtle Retro Matrix Grid -->
+  <g opacity="0.05" stroke="#10b981" stroke-width="1">
+    <line x1="0" y1="125" x2="600" y2="125" />
+    <line x1="0" y1="250" x2="600" y2="250" />
+    <line x1="0" y1="375" x2="600" y2="375" />
+    <line x1="0" y1="500" x2="600" y2="500" />
+    <line x1="0" y1="625" x2="600" y2="625" />
+    <line x1="150" y1="0" x2="150" y2="750" />
+    <line x1="300" y1="0" x2="300" y2="750" />
+    <line x1="450" y1="0" x2="450" y2="750" />
+  </g>
+
+  <!-- Phosphor Glows -->
+  <circle cx="160" cy="230" r="150" fill="#10b981" opacity="0.16" filter="blur(65px)" />
+  <circle cx="450" cy="360" r="150" fill="#06b6d4" opacity="0.12" filter="blur(60px)" />
+  <circle cx="300" cy="520" r="130" fill="#fbbf24" opacity="0.08" filter="blur(55px)" />
+
+  <!-- Top Bar: Channel Badge & Category -->
+  <g transform="translate(48, 52)">
+    <!-- Channel Pill -->
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+    <circle cx="18" cy="17" r="5" fill="#10b981" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">@thefutureguyy.ai</text>
+  </g>
+
+  <g transform="translate(552, 52)">
+    <!-- Category Pill -->
+    <text x="0" y="22" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#34d399" letter-spacing="1.2">RETRO VISUAL STUDIO</text>
+  </g>
+
+  <!-- Central Studio Card -->
+  <g transform="translate(48, 116)">
+    <rect width="504" height="428" rx="16" fill="#04120e" fill-opacity="0.9" stroke="#064e3b" stroke-width="1" />
+    <rect x="0" y="0" width="504" height="3" fill="url(#scanlineGrad)" />
+
+    <!-- Terminal Window Top Bar -->
+    <g transform="translate(20, 20)">
+      <rect width="464" height="34" rx="8" fill="#020806" stroke="#065f46" stroke-width="1" />
+      <circle cx="18" cy="17" r="4.5" fill="#ef4444" opacity="0.8" />
+      <circle cx="32" cy="17" r="4.5" fill="#f59e0b" opacity="0.8" />
+      <circle cx="46" cy="17" r="4.5" fill="#10b981" opacity="0.8" />
+
+      <text x="70" y="22" font-family="ui-monospace, monospace" font-size="12" fill="#059669">https://</text>
+      <text x="124" y="22" font-family="ui-monospace, monospace" font-size="12" font-weight="bold" fill="#34d399">www.ascii-magic.com</text>
+      <text x="275" y="22" font-family="ui-monospace, monospace" font-size="12" fill="#6ee7b7">/ascii/</text>
+
+      <rect x="408" y="7" width="46" height="20" rx="4" fill="#064e3b" />
+      <text x="431" y="21" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" font-weight="bold" fill="#a7f3d0">FREE</text>
+    </g>
+
+    <!-- Side-by-Side Visual Transformation Workspace -->
+    <g transform="translate(20, 70)">
+      <!-- Left: Source Photo Canvas -->
+      <g transform="translate(0, 0)">
+        <rect width="224" height="236" rx="10" fill="#061a14" stroke="#064e3b" stroke-width="1" />
+        <!-- Image Placeholder Graphic -->
+        <path d="M 32 160 Q 70 80 112 120 T 192 100 L 192 180 L 32 180 Z" fill="#047857" opacity="0.4" />
+        <circle cx="70" cy="70" r="28" fill="#10b981" opacity="0.5" />
+        <!-- Label -->
+        <rect x="12" y="12" width="90" height="22" rx="4" fill="#022c22" stroke="#059669" stroke-width="1" />
+        <text x="57" y="27" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="600" fill="#6ee7b7">Source Photo</text>
+        <text x="112" y="215" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#047857">JPG / PNG / MP4</text>
+      </g>
+
+      <!-- Center Arrow Badge -->
+      <g transform="translate(216, 102)">
+        <circle cx="16" cy="16" r="16" fill="#047857" stroke="#10b981" stroke-width="1.5" />
+        <path d="M 12 16 L 20 16 M 17 12 L 21 16 L 17 20" stroke="#ecfdf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+
+      <!-- Right: Rendered ASCII Art Matrix -->
+      <g transform="translate(240, 0)">
+        <rect width="224" height="236" rx="10" fill="#020906" stroke="#10b981" stroke-width="1.2" />
+        <rect width="224" height="236" rx="10" fill="url(#crtScanlines)" />
+
+        <!-- Rendered ASCII Text Grid -->
+        <g font-family="ui-monospace, monospace" font-size="9" font-weight="bold" letter-spacing="1.5">
+          <text x="14" y="32" fill="#059669">..:--==+*#%@@@@%#*+=--:..</text>
+          <text x="14" y="47" fill="#10b981">.::--=+*#%@@@@@@@@%#*+=--:.</text>
+          <text x="14" y="62" fill="#34d399">:-=+*#%@@@@@@@@@@@@@@%#*+=-</text>
+          <text x="14" y="77" fill="#6ee7b7">=*#%@@@@@@@@@@@@@@@@@@@@%#*</text>
+          <text x="14" y="92" fill="#a7f3d0">#%@@@@@@@@@@@@@@@@@@@@@@@@%</text>
+          <text x="14" y="107" fill="#34d399">#%@@@@@@@@@@@@@@@@@@@@@@@@%</text>
+          <text x="14" y="122" fill="#6ee7b7">=*#%@@@@@@@@@@@@@@@@@@@@%#*</text>
+          <text x="14" y="137" fill="#10b981">:-=+*#%@@@@@@@@@@@@@@%#*+=-</text>
+          <text x="14" y="152" fill="#059669">.::--=+*#%@@@@@@@@%#*+=--:.</text>
+          <text x="14" y="167" fill="#047857">..:--==+*#%@@@@%#*+=--:..</text>
+          <text x="14" y="182" fill="#065f46">    .....::::---::::.....   </text>
+        </g>
+
+        <!-- Mode Label -->
+        <rect x="120" y="202" width="94" height="22" rx="4" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+        <text x="167" y="217" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#a7f3d0">ASCII Matrix</text>
+      </g>
+    </g>
+
+    <!-- Bottom Tool Controls Shelf -->
+    <g transform="translate(20, 322)">
+      <rect width="464" height="88" rx="10" fill="#020806" stroke="#064e3b" stroke-width="1" />
+
+      <!-- Feature Pill 1 -->
+      <g transform="translate(14, 14)">
+        <rect width="138" height="28" rx="6" fill="#06251b" stroke="#047857" stroke-width="1" />
+        <text x="12" y="18" font-family="ui-monospace, monospace" font-size="10" fill="#a7f3d0">Ramp: Dense ASCII</text>
+      </g>
+
+      <!-- Feature Pill 2 -->
+      <g transform="translate(162, 14)">
+        <rect width="138" height="28" rx="6" fill="#06251b" stroke="#047857" stroke-width="1" />
+        <text x="12" y="18" font-family="ui-monospace, monospace" font-size="10" fill="#a7f3d0">Cell Size: 6px-16px</text>
+      </g>
+
+      <!-- Feature Pill 3 -->
+      <g transform="translate(310, 14)">
+        <rect width="140" height="28" rx="6" fill="#06251b" stroke="#047857" stroke-width="1" />
+        <text x="12" y="18" font-family="ui-monospace, monospace" font-size="10" fill="#fbbf24">CRT Scanlines: ON</text>
+      </g>
+
+      <!-- Secondary Row: Formats Supported -->
+      <g transform="translate(14, 52)">
+        <text x="4" y="18" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#6ee7b7">Output Formats:</text>
+        <rect x="110" y="4" width="70" height="20" rx="4" fill="#064e3b" />
+        <text x="145" y="18" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#a7f3d0">Raw Text</text>
+
+        <rect x="190" y="4" width="70" height="20" rx="4" fill="#064e3b" />
+        <text x="225" y="18" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#a7f3d0">PNG 4K</text>
+
+        <rect x="270" y="4" width="80" height="20" rx="4" fill="#064e3b" />
+        <text x="310" y="18" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#a7f3d0">Anim GIF</text>
+
+        <rect x="360" y="4" width="88" height="20" rx="4" fill="#064e3b" />
+        <text x="404" y="18" text-anchor="middle" font-family="ui-monospace, monospace" font-size="10" fill="#a7f3d0">MP4 Video</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Title & Typography Block -->
+  <g transform="translate(48, 574)">
+    <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+      ASCII Magic Studio
+    </text>
+    <text x="0" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="600" fill="#34d399">
+      Turn Photos &amp; Videos into Retro ASCII, Pixel &amp; Braille Art
+    </text>
+    <text x="0" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#94a3b8">
+      100% In-Browser · 100+ Shaders · CRT Scanlines &amp; Glitch · Zero Uploads
+    </text>
+  </g>
+
+  <!-- Bottom Badges -->
+  <g transform="translate(48, 696)">
+    <!-- Badge 1: 100% Free -->
+    <rect x="0" y="0" width="140" height="26" rx="6" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" stroke-width="1" />
+    <text x="70" y="17" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#34d399">100% FREE ($0)</text>
+
+    <!-- Badge 2: Client Side -->
+    <rect x="150" y="0" width="168" height="26" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+    <text x="234" y="17" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#cbd5e1">100% Client-Side Privacy</text>
+
+    <!-- Badge 3: Export Text & Media -->
+    <rect x="328" y="0" width="176" height="26" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+    <text x="416" y="17" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="600" fill="#cbd5e1">Copy Text · Export PNG/GIF</text>
+  </g>
+</svg>
+

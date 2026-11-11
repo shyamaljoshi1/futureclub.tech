@@ -337,6 +337,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://futureclub.tech/tools/ascii-magic-image-video-to-ascii-art</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://futureclub.tech/prompts/ascii-magic-image-video-to-ascii-art</loc>
+    <lastmod>2026-11-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://futureclub.tech/tools/avoid-ai-rate-limits-prompt-hygiene</loc>
     <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>

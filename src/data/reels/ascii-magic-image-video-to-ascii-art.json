@@ -1,0 +1,53 @@
+{
+  "id": "reel-096",
+  "slug": "ascii-magic-image-video-to-ascii-art",
+  "title": "ASCII Magic : Turn Any Image & Video into Retro ASCII, Pixel & Braille Art",
+  "toolName": "ASCII Magic",
+  "toolUrl": "https://www.ascii-magic.com/ascii/",
+  "description": "ASCII Magic is a free, 100% in-browser visual studio that converts images, animated GIFs, videos, and text into retro ASCII art, Braille, pixel art, and dithered matrix visuals with CRT scanlines and zero server uploads.",
+  "category": "design",
+  "pricing": "free",
+  "pricingDetails": "100% Free & In-Browser ($0.00, No Sign-up, Client-Side Privacy)",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "https://www.instagram.com/p/DflfQubhSsp/",
+  "instagramReelId": "DflfQubhSsp",
+  "reelThumbnail": "/assets/reels/ascii-magic.svg",
+  "promptSet": [
+    {
+      "id": "pmt-096",
+      "title": "ASCII Magic Studio Overview, Shaders & Export Guide",
+      "description": "ASCII Magic – Convert Photos, Videos & GIFs into Retro ASCII & Pixel Art\n\nASCII Magic (ascii-magic.com/ascii) is an in-browser creative studio and shader lab that turns photographs, video clips, GIFs, and typography into retro text art, Braille patterns, pixel art, and dithered matrix compositions. Built entirely on client-side WebGL and HTML5 Canvas, the tool processes all visual data locally on your device with zero cloud uploads, ensuring 100% privacy for personal media and creative assets.\n\nWhether you need stylized ASCII headers for GitHub repository READMEs, terminal MOTD banners, album covers, motion graphics, or retro video aesthetics, ASCII Magic provides an extensive array of controls over character distribution, cell resolution, color palettes, and CRT post-processing filters.\n\nKey Features:\n• 100% Client-Side Privacy: Your images, GIFs, and video files are rendered locally in your browser's WebGL canvas. Nothing is ever uploaded or stored on an external server.\n• Comprehensive Character Glyph Sets: Choose from Dense ASCII ramps, Standard ASCII, Numbers & Binary ('0101'), Geometric Blocks, Diagonals, Diamonds, Crosses, and Unicode Braille patterns.\n• Dynamic Cell Size & Density Control: Granular cell sliders let you switch from ultra-fine high-density character matrices (4px–6px) down to bold, chunky 90s terminal glyphs (16px–32px).\n• Real-Time Video & GIF Support: Import MP4, WebM, MOV, or animated GIF files to apply animated ASCII and pixel shaders frame-by-frame with zero lag.\n• 100+ Visual Shaders & Render Modes: Beyond traditional text ASCII, explore Halftone dots, CMYK screening, Bayer matrix dithering, Voxel cubes, Mosaic tiles, and LEGO brick art.\n• CRT Screen & Post-Processing Shaders: Add authentic retro feel with CRT monitor curvature, scanlines, bloom, chromatic aberration, phosphor glow, and subtle glitch effects.\n• Color & Contrast Customization: Switch between source photo color mapping, monochrome amber/green phosphor terminals, or invert tonal values for dark/light documents.\n• Multi-Format Export Pipeline: Copy formatted raw text directly to your clipboard, or export as high-resolution PNG images, animated GIFs, or up to 4K MP4 video files.\n• Text-to-ASCII Typography (FIGlet): Includes a dedicated banner module supporting 20+ retro font styles for CLI welcomes, documentation banners, and Discord formatting.\n\nStep-by-Step Guide: How to Convert Any Image or Video to ASCII Art\n1. Open the Web Studio: Navigate to the ASCII Magic workspace at https://www.ascii-magic.com/ascii/.\n2. Load Your Media: Drag and drop an image (JPG, PNG, WebP) or video (MP4, GIF) directly onto the canvas, or click to browse files from your computer.\n3. Choose Your Primary Glyph Ramp: Select your desired character set (e.g., 'Dense ASCII', 'Braille', 'Blocks', or 'Binary').\n4. Tune Cell Size: Drag the Cell Size slider to balance readability and resolution (smaller cell sizes produce finer photographic detail; larger cell sizes produce bold retro posters).\n5. Adjust Tonal Dynamics: Tweak the Contrast, Brightness, and Dark Threshold sliders to ensure key subjects stand out sharply against the background.\n6. Select Color Palette: Keep 'Source Color' to retain original image hues, or pick 'Monochrome' (Emerald Green / Amber Phosphor) for an authentic terminal look.\n7. Enable Retro Post-Processing: Turn on 'CRT Scanlines' or 'Glitch' in the effects panel to simulate an old-school arcade monitor.\n8. Export Your Creation: Click 'Copy Text' to paste directly into GitHub READMEs or Discord, or click 'Export' to download a crisp 4K PNG or animated GIF.\n\nOfficial Web Studio: https://www.ascii-magic.com/ascii/\nPlatform Homepage: https://www.ascii-magic.com/\nPython Developer Library: https://pypi.org/project/ascii-magic/",
+      "instructions": [
+        "Visit the ASCII Magic web studio at https://www.ascii-magic.com/ascii/.",
+        "Drag and drop any photo (PNG, JPG, WebP) or video clip (MP4, GIF) directly onto the browser canvas.",
+        "Select your preferred character glyph set: Dense ASCII, Standard ASCII, Braille, or Binary.",
+        "Use the Cell Size slider to adjust the matrix resolution from micro-detailed text to bold retro glyphs.",
+        "Fine-tune the Contrast and Dark Threshold sliders to optimize subject lighting and silhouette definition.",
+        "Toggle Color mode to match original image tones or select monochrome emerald / amber phosphor styling.",
+        "Optionally enable CRT Scanlines and screen curvature in the post-processing effects shelf.",
+        "Click 'Copy Text' to copy raw ASCII characters to your clipboard, or click 'Export' to save a high-res PNG, GIF, or MP4 video."
+      ],
+      "exampleOutput": "Retro-futuristic ASCII portrait with custom character ramps, CRT scanline curvature, and one-click export to clipboard text or 4K PNG."
+    }
+  ],
+  "instructions": [
+    "Visit the ASCII Magic web studio at https://www.ascii-magic.com/ascii/.",
+    "Drag and drop any photo (PNG, JPG, WebP) or video clip (MP4, GIF) directly onto the browser canvas.",
+    "Select your preferred character glyph set: Dense ASCII, Standard ASCII, Braille, or Binary.",
+    "Use the Cell Size slider to adjust the matrix resolution from micro-detailed text to bold retro glyphs.",
+    "Fine-tune the Contrast and Dark Threshold sliders to optimize subject lighting and silhouette definition.",
+    "Toggle Color mode to match original image tones or select monochrome emerald / amber phosphor styling.",
+    "Optionally enable CRT Scanlines and screen curvature in the post-processing effects shelf.",
+    "Click 'Copy Text' to copy raw ASCII characters to your clipboard, or click 'Export' to save a high-res PNG, GIF, or MP4 video."
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-11",
+  "seo": {
+    "title": "ASCII Magic : Turn Images & Videos into Retro ASCII, Pixel & Braille Art | futureclub.tech",
+    "description": "Convert photos, GIFs, and videos into retro ASCII, pixel, and Braille art in your browser with ASCII Magic. Features 100+ shaders, CRT scanlines, and 100% client-side privacy."
+  }
+}
+
