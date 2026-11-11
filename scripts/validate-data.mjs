@@ -153,6 +153,29 @@ const SeriesPostSchema = z.object({
   seo: SeoSchema,
 });
 
+const newsDir = path.join(dataDir, 'news');
+
+const NewsItemSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  title: z.string(),
+  summary: z.string(),
+  content: z.string(),
+  category: z.string(),
+  coverImage: z.string(),
+  publishedAt: z.string(),
+  author: z.string().default('@thefutureguyy.ai'),
+  readingTime: z.string().default('2 min read'),
+  source: z.object({
+    name: z.string(),
+    url: z.string().url().or(z.literal('')),
+  }).optional(),
+  tags: z.array(z.string()).default([]),
+  featured: z.boolean().default(false),
+  status: StatusSchema.default('published'),
+  seo: SeoSchema,
+});
+
 console.log('Validating JSON content schemas...');
 validateFile('categories.json', z.array(CategorySchema));
 validateFile('collections.json', z.array(CollectionSchema));
@@ -180,3 +203,21 @@ for (const file of reelFiles) {
 }
 
 console.log(`All ${reelFiles.length} reel files validated successfully.`);
+
+// Validate individual news JSON files in src/data/news/
+if (fs.existsSync(newsDir)) {
+  const newsFiles = fs.readdirSync(newsDir).filter((f) => f.endsWith('.json'));
+  console.log(`Validating ${newsFiles.length} individual news JSON files in src/data/news/...`);
+
+  for (const file of newsFiles) {
+    const filePath = path.join(newsDir, file);
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    const parsed = NewsItemSchema.safeParse(data);
+    if (!parsed.success) {
+      console.error(`Validation failed for news file ${file}:`, parsed.error.format());
+      process.exit(1);
+    }
+  }
+
+  console.log(`All ${newsFiles.length} news files validated successfully.`);
+}

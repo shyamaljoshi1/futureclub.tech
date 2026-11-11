@@ -17,6 +17,7 @@ import type {
   ReelItem,
   Series,
   SeriesPost,
+  NewsItem,
 } from '@/types/content';
 
 // Import all individual reel JSON files automatically via Vite's import.meta.glob
@@ -35,6 +36,26 @@ function loadAllReels(): ReelItem[] {
     }
   }
   return list;
+}
+
+// Import all individual news JSON files automatically via Vite's import.meta.glob
+const newsModules = import.meta.glob('../data/news/*.json', { eager: true }) as Record<
+  string,
+  { default: NewsItem } | NewsItem
+>;
+
+function loadAllNews(): NewsItem[] {
+  const list: NewsItem[] = [];
+  for (const path in newsModules) {
+    const mod = newsModules[path];
+    const data = (mod && 'default' in mod ? mod.default : mod) as NewsItem;
+    if (data && data.slug) {
+      list.push(data);
+    }
+  }
+  return list.sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  );
 }
 
 // Site
@@ -580,6 +601,63 @@ export function getRelatedSeriesPosts(post: SeriesPost, limit = 3): SeriesPost[]
     .slice(0, limit);
 }
 
+// News Functions
+export function getAllNews(
+  options: {
+    category?: string;
+    status?: 'published' | 'draft';
+    limit?: number;
+  } = {}
+): NewsItem[] {
+  let list = loadAllNews();
+  const statusFilter = options.status || 'published';
+  list = list.filter((item) => item.status === statusFilter);
+
+  if (options.category && options.category !== 'all') {
+    list = list.filter(
+      (item) => item.category.toLowerCase() === options.category!.toLowerCase()
+    );
+  }
+
+  if (options.limit) {
+    list = list.slice(0, options.limit);
+  }
+  return list;
+}
+
+export function getFeaturedTodayNews(): NewsItem[] {
+  const all = getAllNews({ status: 'published' });
+  if (all.length === 0) return [];
+
+  // Identify the latest publication date available in the dataset (e.g. "2026-11-11")
+  const latestDate = all[0].publishedAt;
+
+  // Filter only news articles published on that exact latest date
+  const todaysNews = all.filter((item) => item.publishedAt === latestDate);
+
+  // Return all same-date news articles, fallback to top 3 if none match
+  return todaysNews.length > 0 ? todaysNews : all.slice(0, 3);
+}
+
+export function getNewsBySlug(slug: string): NewsItem | undefined {
+  return getAllNews().find((n) => n.slug === slug);
+}
+
+export function getRelatedNews(currentSlug: string, limit = 3): NewsItem[] {
+  const current = getNewsBySlug(currentSlug);
+  return getAllNews()
+    .filter((n) => n.slug !== currentSlug)
+    .filter((n) => (current ? n.category === current.category || true : true))
+    .slice(0, limit);
+}
+
+export function getNewsCategories(): string[] {
+  const news = getAllNews();
+  const set = new Set<string>();
+  news.forEach((n) => set.add(n.category));
+  return Array.from(set);
+}
+
 // Navigation & Footer
 export function getNavigation(): NavigationConfig {
   return navigationData as NavigationConfig;
@@ -592,7 +670,7 @@ export function getFooter(): FooterConfig {
 // Unified Search
 export interface SearchResultItem {
   id: string;
-  type: 'tool' | 'prompt' | 'resource' | 'collection' | 'series';
+  type: 'tool' | 'prompt' | 'resource' | 'collection' | 'series' | 'news';
   title: string;
   description: string;
   url: string;
@@ -603,6 +681,26 @@ export function globalSearch(query: string): SearchResultItem[] {
   if (!query || query.trim().length < 2) return [];
   const q = query.toLowerCase().trim();
   const results: SearchResultItem[] = [];
+
+  // Search News Articles (High priority for timely news)
+  getAllNews().forEach((n) => {
+    if (
+      n.title.toLowerCase().includes(q) ||
+      n.summary.toLowerCase().includes(q) ||
+      n.content.toLowerCase().includes(q) ||
+      n.category.toLowerCase().includes(q) ||
+      n.tags.some((t) => t.toLowerCase().includes(q))
+    ) {
+      results.push({
+        id: n.id,
+        type: 'news',
+        title: n.title,
+        description: n.summary,
+        url: `/news/${n.slug}`,
+        badge: n.category,
+      });
+    }
+  });
 
   // Search Series Posts (Prioritized)
   getAllSeriesPosts().forEach((post) => {

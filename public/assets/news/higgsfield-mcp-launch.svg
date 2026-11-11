@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgGrad" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#19280d" />
+      <stop offset="60%" stop-color="#0c1605" />
+      <stop offset="100%" stop-color="#040802" />
+    </radialGradient>
+    <linearGradient id="limeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bef264" />
+      <stop offset="100%" stop-color="#84cc16" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <circle cx="300" cy="260" r="240" fill="#84cc16" opacity="0.15" filter="blur(80px)" />
+  <circle cx="880" cy="360" r="200" fill="#38bdf8" opacity="0.10" filter="blur(70px)" />
+
+  <g transform="translate(80, 70)">
+    <rect width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12" />
+    <circle cx="18" cy="17" r="5" fill="#a3e635" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">@thefutureguyy.ai</text>
+  </g>
+
+  <g transform="translate(1120, 70)">
+    <text x="0" y="22" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#a3e635" letter-spacing="1.5">AI VIDEO NEWS</text>
+  </g>
+
+  <g transform="translate(720, 160)">
+    <rect width="400" height="280" rx="16" fill="#14210d" stroke="#365314" stroke-width="2" />
+    <g transform="translate(30, 30)">
+      <rect width="140" height="36" rx="6" fill="#1e3012" stroke="#4d7c0f" stroke-width="1" />
+      <text x="70" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#bef264">Seedance 2.0</text>
+      <text x="160" y="24" font-family="ui-monospace, monospace" font-size="12" fill="#d9f99d">1080p · 15s HD</text>
+
+      <g transform="translate(0, 60)">
+        <rect width="140" height="36" rx="6" fill="#1e3012" stroke="#4d7c0f" stroke-width="1" />
+        <text x="70" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#bef264">Seedance 2.5</text>
+        <text x="160" y="24" font-family="ui-monospace, monospace" font-size="12" fill="#d9f99d">480p · 30s Long</text>
+      </g>
+
+      <g transform="translate(0, 120)">
+        <rect width="140" height="36" rx="6" fill="#1e3012" stroke="#4d7c0f" stroke-width="1" />
+        <text x="70" y="23" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#bef264">Nano Banana</text>
+        <text x="160" y="24" font-family="ui-monospace, monospace" font-size="12" fill="#d9f99d">2K Pro Visuals</text>
+      </g>
+
+      <g transform="translate(0, 180)">
+        <rect width="340" height="34" rx="8" fill="#a3e635" fill-opacity="0.15" stroke="#a3e635" stroke-opacity="0.4" />
+        <text x="170" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#a3e635">72-HOUR FREE UNLIMITED ACCESS</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(80, 200)">
+    <rect width="170" height="28" rx="6" fill="#84cc16" fill-opacity="0.2" stroke="#84cc16" stroke-opacity="0.4" />
+    <text x="85" y="19" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#bef264" letter-spacing="1">HIGGSFIELD MCP</text>
+
+    <text x="0" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="50" font-weight="800" fill="#ffffff" letter-spacing="-1">
+      Free Hosted MCP
+    </text>
+
+    <text x="0" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" fill="url(#limeGrad)" letter-spacing="-0.5">
+      In-Chat Video for Claude &amp; ChatGPT
+    </text>
+
+    <text x="0" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#cbd5e1">
+      Generate Seedance 2.0 1080p videos directly in conversation without an API key.
+    </text>
+
+    <g transform="translate(0, 240)">
+      <rect width="180" height="42" rx="8" fill="#14210d" stroke="#84cc16" stroke-width="1.2" />
+      <text x="90" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#bef264">Video &amp; Image MCP</text>
+      
+      <rect x="200" y="0" width="160" height="42" rx="8" fill="#14210d" stroke="#27381d" stroke-width="1" />
+      <text x="280" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">Nov 11, 2026</text>
+    </g>
+  </g>
+</svg>
+

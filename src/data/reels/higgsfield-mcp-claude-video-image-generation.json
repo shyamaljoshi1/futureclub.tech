@@ -10,8 +10,8 @@
   "pricingDetails": "Free 72-Hour Unlimited Trial ($0 now) • 40% Off First Month • Cancel Anytime",
   "postType": "reel",
   "contentType": "tool",
-  "instagramReelUrl": "",
-  "instagramReelId": "",
+  "instagramReelUrl": "https://www.instagram.com/p/DfkFp_lyOvS/",
+  "instagramReelId": "DfkFp_lyOvS",
   "reelThumbnail": "/assets/reels/higgsfield-mcp-claude-video-image-generation.svg",
   "promptSet": [
     {
@@ -48,4 +48,3 @@
     "description": "Connect Higgsfield MCP to Claude Fable 5.2 and ChatGPT. Generate 1080p AI video, 2K photorealistic images, and audio directly in your chat with 72h free unlimited access."
   }
 }
-

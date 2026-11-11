@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgGrad" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#08212e" />
+      <stop offset="60%" stop-color="#04121b" />
+      <stop offset="100%" stop-color="#02080d" />
+    </radialGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <circle cx="320" cy="240" r="240" fill="#0284c7" opacity="0.18" filter="blur(80px)" />
+  <circle cx="900" cy="360" r="200" fill="#10b981" opacity="0.10" filter="blur(70px)" />
+
+  <g transform="translate(80, 70)">
+    <rect width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12" />
+    <circle cx="18" cy="17" r="5" fill="#38bdf8" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">@thefutureguyy.ai</text>
+  </g>
+
+  <g transform="translate(1120, 70)">
+    <text x="0" y="22" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="1.5">AUTONOMOUS AGENTS</text>
+  </g>
+
+  <!-- Browser Automation Graphic -->
+  <g transform="translate(720, 150)">
+    <rect width="400" height="290" rx="14" fill="#0b1724" stroke="#1e3a5f" stroke-width="2" />
+    <g transform="translate(20, 16)">
+      <circle cx="10" cy="10" r="4.5" fill="#ef4444" opacity="0.8" />
+      <circle cx="24" cy="10" r="4.5" fill="#f59e0b" opacity="0.8" />
+      <circle cx="38" cy="10" r="4.5" fill="#10b981" opacity="0.8" />
+      <rect x="60" y="0" width="280" height="20" rx="4" fill="#132438" />
+      <text x="70" y="14" font-family="ui-monospace, monospace" font-size="10" fill="#7dd3fc">agent://browser.session/operator-01</text>
+    </g>
+
+    <g transform="translate(24, 60)">
+      <rect width="352" height="190" rx="8" fill="#0d1b2a" stroke="#1e293b" />
+      <g transform="translate(20, 20)">
+        <text x="0" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f0f6fc">Autonomous Workflow Active</text>
+        <rect x="0" y="32" width="220" height="8" rx="4" fill="#0284c7" fill-opacity="0.5" />
+        <rect x="0" y="50" width="180" height="8" rx="4" fill="#334155" />
+        <rect x="0" y="68" width="260" height="8" rx="4" fill="#334155" />
+
+        <g transform="translate(0, 100)">
+          <rect width="130" height="30" rx="6" fill="#0284c7" />
+          <text x="65" y="19" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Executing Click</text>
+          <circle cx="160" cy="15" r="12" fill="#38bdf8" fill-opacity="0.3" stroke="#38bdf8" />
+          <path d="M156 12 L164 18 L160 20 Z" fill="#ffffff" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(80, 200)">
+    <rect width="150" height="28" rx="6" fill="#0284c7" fill-opacity="0.2" stroke="#0284c7" stroke-opacity="0.4" />
+    <text x="75" y="19" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#7dd3fc" letter-spacing="1">OPENAI AGENTS</text>
+
+    <text x="0" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="-1">
+      OpenAI Operator
+    </text>
+
+    <text x="0" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" fill="url(#cyanGrad)" letter-spacing="-0.5">
+      Autonomous Browser Agent Previewed
+    </text>
+
+    <text x="0" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#cbd5e1">
+      Direct GUI execution, multi-tab navigation, and complex booking automation.
+    </text>
+
+    <g transform="translate(0, 240)">
+      <rect width="180" height="42" rx="8" fill="#061826" stroke="#0284c7" stroke-width="1.2" />
+      <text x="90" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#7dd3fc">Web Agent Tech</text>
+      
+      <rect x="200" y="0" width="160" height="42" rx="8" fill="#061826" stroke="#0f2e4a" stroke-width="1" />
+      <text x="280" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">Nov 11, 2026</text>
+    </g>
+  </g>
+</svg>
+

@@ -1,0 +1,30 @@
+{
+  "id": "news-002",
+  "slug": "higgsfield-unlimited-mcp-claude-video-generation",
+  "title": "Higgsfield AI Launches Free Hosted MCP Connector for Claude: 1080p Seedance Video Generation in Chat",
+  "summary": "Higgsfield announced a hosted Model Context Protocol connector linking Claude and ChatGPT directly to Seedance 2.0, Nano Banana Pro, and ElevenLabs audio with 72-hour unlimited free access.",
+  "content": "Higgsfield AI has released its hosted Model Context Protocol (MCP) server, enabling Claude Desktop, claude.ai, and ChatGPT users to generate cinema-grade 1080p video, 2K photorealistic images, and studio voiceovers directly within their chat conversations.\n\n### The Model Context Protocol Revolution\nBy utilizing Anthropic's open Model Context Protocol standard over HTTP (`https://mcp.higgsfield.ai/mcp`), users no longer need to switch tabs or wrangle complex API billing keys. Claude can directly invoke Higgsfield's generation pipeline as a native tool, returning rendered MP4 video clips and high-resolution visuals directly in the chat stream.\n\n### 72-Hour Free & Unlimited Access\nTo celebrate the arrival of Claude Fable 5.2 on Higgsfield, the company announced a limited-time 72-hour unlimited free trial ($0 upfront) giving unrestricted access to:\n• **Video Generation**: Seedance 2.0 (1080p HD, 15s), Seedance 2.5 (480p, 30s long-form), and Seedance 2.0 Fast.\n• **Image Generation**: Nano Banana Pro (2K), Seedream 5.5, and GPT Image 2.6.\n• **Audio Synthesis**: Seed Audio 1.0, Eleven v3, and Minimax Speech 2.8 HD.\n\nDevelopers can configure the connector in Claude Desktop via Settings > Connectors, or in Claude Code CLI by running: `claude mcp add --transport http higgsfield https://mcp.higgsfield.ai/mcp`.",
+  "category": "AI Video",
+  "coverImage": "/assets/news/higgsfield-mcp-launch.svg",
+  "publishedAt": "2026-11-11",
+  "author": "@thefutureguyy.ai",
+  "readingTime": "2 min read",
+  "source": {
+    "name": "Higgsfield AI",
+    "url": "https://higgsfield.ai/mcp?tab=claude"
+  },
+  "tags": [
+    "Higgsfield",
+    "MCP",
+    "Claude",
+    "Seedance 2.0",
+    "AI Video",
+    "Model Context Protocol"
+  ],
+  "featured": true,
+  "status": "published",
+  "seo": {
+    "title": "Higgsfield Launches Free Hosted MCP Connector for Claude | futureclub.tech",
+    "description": "Generate 1080p AI video and 2K images directly inside Claude chat using Higgsfield's newly launched Model Context Protocol connector."
+  }
+}

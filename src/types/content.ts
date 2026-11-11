@@ -224,3 +224,26 @@ export const SeriesPostSchema = z.object({
   seo: SeoSchema,
 });
 export type SeriesPost = z.infer<typeof SeriesPostSchema>;
+
+// News Article Schema (1 JSON file per news article)
+export const NewsItemSchema = z.object({
+  id: z.string(),
+  slug: z.string(),
+  title: z.string(),
+  summary: z.string(),
+  content: z.string(),
+  category: z.string(),
+  coverImage: z.string(),
+  publishedAt: z.string(), // YYYY-MM-DD
+  author: z.string().default('@thefutureguyy.ai'),
+  readingTime: z.string().default('2 min read'),
+  source: z.object({
+    name: z.string(),
+    url: z.string().url().or(z.literal('')),
+  }).optional(),
+  tags: z.array(z.string()).default([]),
+  featured: z.boolean().default(false),
+  status: StatusSchema.default('published'),
+  seo: SeoSchema,
+});
+export type NewsItem = z.infer<typeof NewsItemSchema>;

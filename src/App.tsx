@@ -25,6 +25,8 @@ import { NotFoundPage } from '@/pages/NotFoundPage';
 import { SeriesPage } from '@/pages/SeriesPage';
 import { SeriesDetailPage } from '@/pages/SeriesDetailPage';
 import { SeriesPostPage } from '@/pages/SeriesPostPage';
+import { NewsPage } from '@/pages/NewsPage';
+import { NewsDetailPage } from '@/pages/NewsDetailPage';
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -50,6 +52,8 @@ export const AppContent: React.FC = () => {
         <PageContainer>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/news" element={<NewsPage />} />
+            <Route path="/news/:slug" element={<NewsDetailPage />} />
             <Route path="/tools" element={<ToolsPage />} />
             <Route path="/tools/:slug" element={<ToolDetailPage />} />
             <Route path="/prompts" element={<PromptsPage />} />

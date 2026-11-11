@@ -8,6 +8,7 @@ const rootDir = path.resolve(__dirname, '..');
 const distDir = path.resolve(rootDir, 'dist');
 const dataDir = path.resolve(rootDir, 'src/data');
 const reelsDir = path.join(dataDir, 'reels');
+const newsDir = path.join(dataDir, 'news');
 
 const site = JSON.parse(fs.readFileSync(path.join(dataDir, 'site.json'), 'utf8'));
 const collections = JSON.parse(fs.readFileSync(path.join(dataDir, 'collections.json'), 'utf8')).filter((c) => c.status === 'published');
@@ -20,6 +21,12 @@ const reelFiles = fs.readdirSync(reelsDir).filter((f) => f.endsWith('.json'));
 const reels = reelFiles
   .map((f) => JSON.parse(fs.readFileSync(path.join(reelsDir, f), 'utf8')))
   .filter((r) => r.status === 'published');
+
+// Load all individual news from src/data/news/
+const newsFiles = fs.existsSync(newsDir) ? fs.readdirSync(newsDir).filter((f) => f.endsWith('.json')) : [];
+const newsArticles = newsFiles
+  .map((f) => JSON.parse(fs.readFileSync(path.join(newsDir, f), 'utf8')))
+  .filter((n) => n.status === 'published');
 
 const templatePath = path.join(distDir, 'index.html');
 if (!fs.existsSync(templatePath)) {
@@ -50,6 +57,13 @@ const routes = [
     url: '/tools',
     title: `AI Tools Directory — Best Verified AI Tools (2026) | ${site.brandName}`,
     description: 'Explore verified AI tools with prompt breakdowns and Instagram reel demonstrations.',
+    priority: '0.9',
+    changefreq: 'daily',
+  },
+  {
+    url: '/news',
+    title: `AI News & Daily Intelligence | ${site.brandName}`,
+    description: 'Daily verified intelligence on frontier LLMs, creative AI video engines, autonomous browser agents, and developer utilities.',
     priority: '0.9',
     changefreq: 'daily',
   },
@@ -217,6 +231,31 @@ seriesPosts.forEach((post) => {
       headline: post.title,
       description: post.description,
       datePublished: post.publishedAt,
+    },
+  });
+});
+
+// News detail routes
+newsArticles.forEach((article) => {
+  routes.push({
+    url: `/news/${article.slug}`,
+    title: article.seo.title.includes(site.brandName)
+      ? article.seo.title
+      : `${article.seo.title} | ${site.brandName}`,
+    description: article.seo.description,
+    priority: '0.8',
+    changefreq: 'weekly',
+    jsonLd: {
+      '@context': 'https://schema.org',
+      '@type': 'NewsArticle',
+      headline: article.title,
+      description: article.summary,
+      datePublished: article.publishedAt,
+      image: [article.coverImage],
+      author: {
+        '@type': 'Person',
+        name: article.author,
+      },
     },
   });
 });

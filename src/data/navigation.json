@@ -5,6 +5,10 @@
       "href": "/"
     },
     {
+      "label": "News",
+      "href": "/news"
+    },
+    {
       "label": "AI Tools",
       "href": "/tools"
     },

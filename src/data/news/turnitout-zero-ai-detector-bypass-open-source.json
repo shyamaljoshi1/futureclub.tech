@@ -1,0 +1,30 @@
+{
+  "id": "news-004",
+  "slug": "turnitout-zero-ai-detector-bypass-open-source",
+  "title": "Turnitout Releases Zero-AI Programmatic Similarity Evader for LaTeX and Word Documents",
+  "summary": "A new open-source mathematical n-gram disrupter bypasses Turnitin and GPTZero while keeping LaTeX equations, DOCX formatting, and code comments completely intact.",
+  "content": "Developer Ahmad Hassan (@AhmadHassan-BTed) has released Turnitout-Humanizer, an open-source, rule-based text humanization utility designed to drop similarity and AI detector scores across Turnitin, iThenticate, GPTZero, and Copyleaks.\n\n### The Zero-AI Difference\nUnlike commercial paraphrase platforms like QuillBot, StealthGPT, or Undetectable AI that feed user writing into secondary generative LLMs—frequently hallucinating academic facts or introducing new AI syntactic watermarks—Turnitout operates deterministically.\n\nBy executing mathematical restructuring on contiguous n-gram sequences, the tool removes low-entropy phrasing without altering core semantic meaning, factual numbers, or research citations.\n\n### Full Document Preservation\nTurnitout provides native in-place processing for:\n• **Microsoft Word (.docx)**: Preserves font styles, tables, headers, footers, and underlying XML formatting.\n• **LaTeX (.tex)**: Keeps preambles, mathematical equations, matrices, and \\cite{} / \\ref{} tags without breaking compilation.\n• **Code Comments**: Parses Python, C++, Java, JS, and Rust files, humanizing only natural language comments and docstrings while leaving code execution untouched.\n\nThe project is 100% free and open-source on GitHub with hosted Streamlit mirrors available at turnitout.streamlit.app.",
+  "category": "Open Source",
+  "coverImage": "/assets/news/turnitout-open-source.svg",
+  "publishedAt": "2026-11-10",
+  "author": "@thefutureguyy.ai",
+  "readingTime": "2 min read",
+  "source": {
+    "name": "GitHub Repository",
+    "url": "https://github.com/AhmadHassan-BTed/Turnitout-Humanizer"
+  },
+  "tags": [
+    "Turnitout",
+    "Open Source",
+    "AI Humanizer",
+    "LaTeX",
+    "DOCX",
+    "Academic Research"
+  ],
+  "featured": false,
+  "status": "published",
+  "seo": {
+    "title": "Turnitout Releases Zero-AI Programmatic Similarity Evader | futureclub.tech",
+    "description": "Turnitout-Humanizer bypasses Turnitin and GPTZero with a deterministic, zero-AI mathematical engine while preserving LaTeX and Word formatting."
+  }
+}

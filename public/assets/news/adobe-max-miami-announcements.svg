@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bgGrad" cx="30%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#2a0808" />
+      <stop offset="50%" stop-color="#140404" />
+      <stop offset="100%" stop-color="#050101" />
+    </radialGradient>
+    <linearGradient id="adobeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff0000" />
+      <stop offset="50%" stop-color="#f43f5e" />
+      <stop offset="100%" stop-color="#fb923c" />
+    </linearGradient>
+    <linearGradient id="lightRay" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Blueprint Mesh -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="315" x2="1200" y2="315" />
+    <line x1="0" y1="420" x2="1200" y2="420" />
+    <line x1="0" y1="525" x2="1200" y2="525" />
+    <line x1="200" y1="0" x2="200" y2="630" />
+    <line x1="400" y1="0" x2="400" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="800" y1="0" x2="800" y2="630" />
+    <line x1="1000" y1="0" x2="1000" y2="630" />
+  </g>
+
+  <!-- Glows -->
+  <circle cx="280" cy="240" r="220" fill="#dc2626" opacity="0.18" filter="blur(80px)" />
+  <circle cx="920" cy="360" r="220" fill="#f43f5e" opacity="0.12" filter="blur(70px)" />
+
+  <!-- Top Bar -->
+  <g transform="translate(80, 70)">
+    <rect width="180" height="34" rx="17" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12" />
+    <circle cx="18" cy="17" r="5" fill="#ef4444" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">@thefutureguyy.ai</text>
+  </g>
+
+  <g transform="translate(1120, 70)">
+    <text x="0" y="22" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#f87171" letter-spacing="1.5">ADOBE MAX MIAMI SPECIAL</text>
+  </g>
+
+  <!-- Graphic Right Container: Photoshop Relight & MCP Hub -->
+  <g transform="translate(720, 150)">
+    <rect width="400" height="290" rx="16" fill="#170606" stroke="#450a0a" stroke-width="2" />
+
+    <!-- Virtual Relight Spotlight Cone -->
+    <path d="M120 40 L340 100 L260 220 Z" fill="url(#lightRay)" opacity="0.6" />
+    <circle cx="120" cy="40" r="14" fill="#fbbf24" stroke="#ffffff" stroke-width="2" />
+    <circle cx="120" cy="40" r="28" fill="#fbbf24" opacity="0.3" filter="blur(8px)" />
+
+    <!-- Feature badges inside graphic -->
+    <g transform="translate(24, 70)">
+      <rect width="160" height="36" rx="6" fill="#260808" stroke="#ef4444" stroke-width="1" />
+      <text x="80" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#fecaca">Photoshop Relight</text>
+
+      <g transform="translate(0, 48)">
+        <rect width="160" height="36" rx="6" fill="#260808" stroke="#ef4444" stroke-width="1" />
+        <text x="80" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#fecaca">Generative Restyle</text>
+      </g>
+
+      <g transform="translate(0, 96)">
+        <rect width="160" height="36" rx="6" fill="#260808" stroke="#ef4444" stroke-width="1" />
+        <text x="80" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#fecaca">Local MCP Servers</text>
+      </g>
+
+      <g transform="translate(0, 144)">
+        <rect width="352" height="36" rx="8" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-opacity="0.4" />
+        <text x="176" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#fca5a5">ADOBE CREATIVE AGENT &amp; FIREFLY</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Left Content Info -->
+  <g transform="translate(80, 195)">
+    <rect width="170" height="28" rx="6" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444" stroke-opacity="0.4" />
+    <text x="85" y="19" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#fca5a5" letter-spacing="1">ADOBE MAX 2026</text>
+
+    <text x="0" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="48" font-weight="800" fill="#ffffff" letter-spacing="-1">
+      Adobe MAX Miami:
+    </text>
+
+    <text x="0" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="700" fill="url(#adobeGrad)" letter-spacing="-0.5">
+      Every Major AI Tool &amp; Update Released
+    </text>
+
+    <text x="0" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" fill="#cbd5e1">
+      Creative Agent, local MCP in Photoshop &amp; Premiere, 3D Relight, and Firefly Studio.
+    </text>
+
+    <g transform="translate(0, 240)">
+      <rect width="170" height="42" rx="8" fill="#1c0707" stroke="#ef4444" stroke-width="1.2" />
+      <text x="85" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#fca5a5">Full Keynote Breakdown</text>
+      
+      <rect x="190" y="0" width="160" height="42" rx="8" fill="#1c0707" stroke="#450a0a" stroke-width="1" />
+      <text x="270" y="26" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">Nov 11, 2026</text>
+    </g>
+  </g>
+</svg>
+

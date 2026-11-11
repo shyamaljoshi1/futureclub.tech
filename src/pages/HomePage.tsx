@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import {
   ArrowRight,
-  Search,
   PenTool,
   Code2,
   Image,
@@ -13,7 +12,6 @@ import {
   Layout,
   Layers,
   ArrowUpRight,
-  ShieldCheck,
 } from 'lucide-react';
 import {
   getSiteConfig,
@@ -22,6 +20,7 @@ import {
   getPrompts,
   getCollections,
   getAllSeriesPosts,
+  getFeaturedTodayNews,
 } from '@/lib/data';
 import { updatePageSeo, getWebsiteSchema, getOrganizationSchema } from '@/lib/seo';
 import { ToolGrid } from '@/components/tools/ToolGrid';
@@ -30,6 +29,7 @@ import { SectionHeading } from '@/components/common/SectionHeading';
 import { SeriesCard } from '@/components/series/SeriesCard';
 import { InstagramCTA } from '@/components/common/InstagramCTA';
 import { PromptPlayground } from '@/components/common/PromptPlayground';
+import { NewsCarousel } from '@/components/news/NewsCarousel';
 import { AdSlot } from '@/components/ads/AdSlot';
 
 export const HomePage: React.FC = () => {
@@ -40,6 +40,7 @@ export const HomePage: React.FC = () => {
   const featuredPrompts = getPrompts({ featured: true, limit: 4 });
   const collections = getCollections(true).slice(0, 3);
   const seriesPosts = getAllSeriesPosts().slice(0, 3);
+  const featuredTodayNews = getFeaturedTodayNews();
 
   const homeAdSlot1 = import.meta.env.VITE_ADSENSE_SLOT_HOME;
 
@@ -77,79 +78,21 @@ export const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="space-y-24">
-      {/* 1. Hero Section */}
-      <section aria-labelledby="hero-title" className="pt-8 sm:pt-16 pb-6">
-        <div className="max-w-3xl">
-          {/* Instagram Link */}
-          <div className="mb-6 inline-flex items-center space-x-2 text-xs text-[#5e626d] dark:text-[#8e93a0]">
-            <span className="w-2 h-2 rounded-full bg-emerald-500" />
-            <span>Curated by</span>
-            <a
-              href={site.instagramUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-[#111215] dark:text-[#f4f4f5] hover:underline inline-flex items-center"
-            >
-              <span>{site.instagramHandle}</span>
-              <ArrowUpRight className="w-3 h-3 ml-0.5" />
-            </a>
-          </div>
+    <div className="space-y-20 pt-4 sm:pt-6">
+      {/* 1. Today's AI News Carousel */}
+      {featuredTodayNews.length > 0 && (
+        <section aria-labelledby="today-news-heading" className="space-y-6">
+          <SectionHeading
+            title="Today's AI News"
+            subtitle="Verified daily intelligence on frontier breakthroughs, video generation, and autonomous agents."
+            linkText="View all news"
+            linkHref="/news"
+          />
+          <NewsCarousel newsItems={featuredTodayNews} />
+        </section>
+      )}
 
-          <h1
-            id="hero-title"
-            className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-[#111215] dark:text-[#f4f4f5] leading-[1.08] mb-6"
-          >
-            Discover AI Tools. Unlock What&apos;s Possible. {/* taste-skill-ignore */}
-          </h1>
-
-          {/* Supporting sentence directly below headline */}
-          <p className="text-base sm:text-lg text-[#5e626d] dark:text-[#8e93a0] leading-relaxed mb-8 max-w-2xl">
-            {site.subheadline}
-          </p>
-
-          {/* Search bar & Primary CTAs */}
-          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
-            <Link
-              to="/tools"
-              className="btn-primary rounded-md px-6 py-3 text-sm font-semibold inline-flex items-center justify-center"
-            >
-              <span>Explore AI Tools</span>
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Link>
-
-            <Link
-              to="/prompts"
-              className="btn-secondary rounded-md px-6 py-3 text-sm font-semibold inline-flex items-center justify-center"
-            >
-              <span>Browse Prompt Library</span>
-            </Link>
-
-            <Link
-              to="/tools?search="
-              className="p-3 rounded-md bg-[#f4f4f0] dark:bg-[#141619] text-[#5e626d] dark:text-[#8e93a0] hover:text-[#111215] dark:hover:text-[#f4f4f5] hidden sm:flex items-center justify-center"
-              aria-label="Direct search"
-            >
-              <Search className="w-4 h-4" />
-            </Link>
-          </div>
-
-          {/* Trust points */}
-          <div className="mt-8 pt-6 flex flex-wrap items-center gap-6 text-xs text-[#888d99] dark:text-[#636773]">
-            <span className="flex items-center">
-              <ShieldCheck className="w-3.5 h-3.5 mr-1.5 text-emerald-600 dark:text-emerald-400" />
-              100% Manually tested tools
-            </span>
-            <span>Zero sponsored bias</span>
-            <span>Instant copy-paste prompts</span>
-          </div>
-        </div>
-      </section>
-
-      {/* 2. One Live Thing: Interactive Prompt Synthesizer & Token Calculator */}
-      {/* <PromptPlayground /> */}
-
-      {/* 3. Featured Categories */}
+      {/* 2. Featured Categories */}
       <section aria-labelledby="featured-categories-heading">
         <SectionHeading
           title="Browse by Category"
