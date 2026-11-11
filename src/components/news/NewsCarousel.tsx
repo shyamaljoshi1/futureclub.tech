@@ -17,32 +17,81 @@ export const NewsCarousel: React.FC<NewsCarouselProps> = ({
   const [isHovered, setIsHovered] = useState(false);
   const touchStartX = useRef<number | null>(null);
 
+  // High-performance progress tracking without React re-renders
+  const progressFillRef = useRef<HTMLDivElement | null>(null);
+  const elapsedRef = useRef<number>(0);
+  const lastTimeRef = useRef<number | null>(null);
+  const animFrameId = useRef<number | null>(null);
+
   const total = newsItems.length;
+
+  const resetProgress = useCallback(() => {
+    elapsedRef.current = 0;
+    if (progressFillRef.current) {
+      progressFillRef.current.style.width = '0%';
+    }
+  }, []);
 
   const nextSlide = useCallback(() => {
     if (total <= 1) return;
+    resetProgress();
     setCurrentIndex((prev) => (prev + 1) % total);
-  }, [total]);
+  }, [total, resetProgress]);
 
   const prevSlide = useCallback(() => {
     if (total <= 1) return;
+    resetProgress();
     setCurrentIndex((prev) => (prev - 1 + total) % total);
-  }, [total]);
+  }, [total, resetProgress]);
 
   const goToSlide = (index: number) => {
+    if (index === currentIndex) return;
+    resetProgress();
     setCurrentIndex(index);
   };
 
-  // Auto-play timer
+  // Auto-advance & progress bar animation loop
   useEffect(() => {
-    if (!isPlaying || isHovered || total <= 1) return;
+    if (total <= 1) return;
 
-    const timer = setInterval(() => {
-      nextSlide();
-    }, autoPlayInterval);
+    let isActive = true;
 
-    return () => clearInterval(timer);
-  }, [isPlaying, isHovered, total, autoPlayInterval, nextSlide]);
+    const animate = (time: number) => {
+      if (!isActive) return;
+
+      if (lastTimeRef.current !== null) {
+        // Clamp delta to prevent jumps when tab is backgrounded
+        const delta = Math.min(time - lastTimeRef.current, 100);
+
+        if (isPlaying && !isHovered) {
+          elapsedRef.current += delta;
+          const pct = Math.min((elapsedRef.current / autoPlayInterval) * 100, 100);
+
+          if (progressFillRef.current) {
+            progressFillRef.current.style.width = `${pct}%`;
+          }
+
+          if (elapsedRef.current >= autoPlayInterval) {
+            resetProgress();
+            nextSlide();
+          }
+        }
+      }
+
+      lastTimeRef.current = time;
+      animFrameId.current = requestAnimationFrame(animate);
+    };
+
+    animFrameId.current = requestAnimationFrame(animate);
+
+    return () => {
+      isActive = false;
+      if (animFrameId.current !== null) {
+        cancelAnimationFrame(animFrameId.current);
+      }
+      lastTimeRef.current = null;
+    };
+  }, [isPlaying, isHovered, total, autoPlayInterval, nextSlide, resetProgress]);
 
   if (!newsItems || newsItems.length === 0) {
     return null;
@@ -203,7 +252,7 @@ export const NewsCarousel: React.FC<NewsCarouselProps> = ({
 
         {/* 3. Bottom Indicator Bar: Pagination Dots + Pause/Play Button */}
         <div className="pt-2 flex items-center justify-between">
-          {/* Pagination Dots with Active Dash Indicator */}
+          {/* Pagination Dots with Active Progress Bar Indicator */}
           <div
             className="flex items-center space-x-2"
             role="tablist"
@@ -219,12 +268,20 @@ export const NewsCarousel: React.FC<NewsCarouselProps> = ({
                   role="tab"
                   aria-selected={isActive}
                   aria-label={`Go to news article ${idx + 1} of ${total}`}
-                  className={`h-2 rounded-full transition-colors duration-300 ${
+                  className={`h-2 rounded-full transition-colors duration-300 relative ${
                     isActive
-                      ? 'w-7 sm:w-8 bg-[#f59e0b]'
+                      ? 'w-8 sm:w-10 bg-[#252934] overflow-hidden'
                       : 'w-2 bg-[#333947] hover:bg-[#4b5563]'
                   }`}
-                />
+                >
+                  {isActive && (
+                    <div
+                      ref={progressFillRef}
+                      className="absolute inset-y-0 left-0 bg-[#f59e0b] rounded-full"
+                      style={{ width: total <= 1 ? '100%' : '0%' }}
+                    />
+                  )}
+                </button>
               );
             })}
           </div>
