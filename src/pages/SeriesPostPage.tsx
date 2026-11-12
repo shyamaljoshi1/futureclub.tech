@@ -39,7 +39,7 @@ export const SeriesPostPage: React.FC = () => {
       title: post.seo.title,
       description: post.seo.description,
       canonical: `/series/${post.seriesSlug}/${post.slug}`,
-      ogImage: post.reelThumbnail,
+      ogImage: post.coverImage || post.reelThumbnail,
       jsonLd: [
         getSeriesPostSchema(post),
         getBreadcrumbSchema([

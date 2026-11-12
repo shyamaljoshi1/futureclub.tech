@@ -1,5 +1,98 @@
 [
   {
+    "id": "series-post-004",
+    "seriesId": "series-2-minute-me-samjo",
+    "seriesSlug": "2-minute-me-samjo",
+    "seriesTitle": "2 Minute me samjo",
+    "episodeNumber": 2,
+    "slug": "race-conditions-distributed-locks-ticket-booking-explained",
+    "title": "Episode 2: \"Ramayan Ki Last Ticket Pe Mahabharat?\" : Race Conditions, Distributed Locks & How BookMyShow Prevents Double Booking",
+    "subtitle": "How High-Concurrency Ticket Platforms Prevent Double Booking Using Atomic Redis Locks, 3-State FSMs & TTL Expirations",
+    "description": "What happens when two people tap the exact same cinema seat at the exact same millisecond? Discover race conditions, distributed locking with Redis SETNX, optimistic vs pessimistic locking, and seat reservation state machines.",
+    "category": "System Design & Concurrency",
+    "readTime": "5 min read",
+    "publishedAt": "2026-11-12",
+    "status": "published",
+    "instagramReelUrl": "",
+    "instagramReelId": "",
+    "reelThumbnail": "/assets/series/race-conditions-ticket-booking.jpg",
+    "coverImage": "/assets/series/race-conditions-ticket-booking-16x9.jpg",
+    "postType": "reel",
+    "quickTakeaway": "When thousands of movie fans rush to book the final ticket for a blockbuster like Ramayan, a classic concurrency nightmare looms: the Race Condition (specifically a Check-Then-Act anti-pattern). If User A in Delhi and User B in Mumbai tap the same Seat J12 at the exact same millisecond, a naive database query will show the seat as \"AVAILABLE\" to both users, debiting both bank accounts and producing two confirmed tickets for a single physical chair. Modern high-concurrency ticketing engines like BookMyShow, Ticketmaster, and IRCTC solve this by decomposing seat state into a Tri-State Finite State Machine (AVAILABLE -> HELD -> BOOKED). Instead of locking heavy disk-based SQL rows, they employ a centralized, single-threaded in-memory datastore like Redis. Using atomic SET key user_id NX EX 480 commands, Redis acts as an infallible global referee: whoever's packet arrives first acquires an exclusive 8-minute distributed lock, moving the seat to HELD while immediately rejecting concurrent attempts. If payment succeeds, the seat is permanently committed to PostgreSQL as BOOKED; if payment fails or the user abandons the checkout, the atomic TTL automatically unlocks the seat back to AVAILABLE.",
+    "keyHighlights": [
+      "The Double Booking Catastrophe: Why naive SELECT ... WHERE status = 'available' followed by UPDATE ... inevitably causes catastrophic race conditions under concurrent traffic.",
+      "The Tri-State Seat FSM: Why binary states (Available vs. Booked) fail in real-world commerce, and how the intermediate 'HELD' state guarantees payment isolation.",
+      "Redis as the Atomic Referee: How Redis's single-threaded event loop and SETNX (Set if Not eXists) provide nanosecond-level atomic locking without SQL disk bottlenecks.",
+      "Self-Healing TTL Expiration: How time-bound distributed leases ensure abandoned carts or network drop-offs never lock a seat permanently.",
+      "The Part 2 Cliffhanger: What invisible timer runs behind the scenes when a user leaves their checkout hanging? A look into delayed task queues, Redis Keyspace Notifications, and reconciliation schedulers."
+    ],
+    "sections": [
+      {
+        "id": "sec-the-ramayan-dilemma",
+        "title": "1. The Ramayan Dilemma: Ek Ticket, Do Log, Theatre Ke Gate Pe Mahabharat!",
+        "content": "Imagine this high-stakes scenario: You are on BookMyShow, frantically refreshing the screen to book the very last seat (Seat J12) for the premiere of Ramayan.\n\nAt the exact same fraction of a second, an unknown user sitting 1,000 kilometers away taps that exact same seat. One ticket. Two people.\n\nIf the ticketing system suffers from a concurrency flaw, both users will be prompted to enter their credit card details. Both bank accounts get debited ₹500. Both phones buzz with a confirmation message: 'Booking Confirmed: Seat J12'.\n\nFast forward to Friday night: You arrive at the cinema hall, popcorn in hand, only to find the other person already sitting in Seat J12 waving their confirmed ticket. You wave your confirmed ticket.\n\nThe result? Theatre ke gate pe Ramayan dekhne aaye the, par Mahabharat shuru ho gaya!\n\nIn computer science and backend engineering, this fatal flaw is called a Race Condition—specifically, a Check-Then-Act bug. It occurs whenever multiple concurrent execution threads or network requests attempt to read and mutate a shared resource simultaneously without synchronization.",
+        "callout": "The Core Concurrency Bug: A Race Condition occurs when the correct execution of a system depends on the uncontrollable, non-deterministic timing or sequence of concurrent network requests."
+      },
+      {
+        "id": "sec-why-traditional-dbs-fail",
+        "title": "2. Why Traditional Databases Fail: The Check-Then-Act Anatomy",
+        "content": "Why can't you just query a standard MySQL or PostgreSQL database? Let us examine how a naive backend developer writes the seat booking API:\n\n-- Step 1: Check availability\nSELECT status FROM cinema_seats WHERE seat_id = 'J12';\n\n-- Step 2: If status == 'AVAILABLE', proceed to book\nUPDATE cinema_seats SET status = 'BOOKED', user_id = 'user_1' WHERE seat_id = 'J12';\n\nOn a local machine with 1 user, this code passes all unit tests with flying colors. But under real-world production load, look at what happens when User 1 and User 2 hit the API at the exact same millisecond:\n\n• T0 (00.001s): User 1's request arrives at App Server A. Server A runs SELECT status ... -> DB returns 'AVAILABLE'.\n• T1 (00.002s): User 2's request arrives at App Server B. Server B runs SELECT status ... -> DB returns 'AVAILABLE' because User 1 has not updated the database yet!\n• T2 (00.005s): Server A sends User 1 to the payment gateway.\n• T3 (00.006s): Server B sends User 2 to the payment gateway.\n• T4 (02.300s): User 1 pays -> Server A executes UPDATE cinema_seats SET status = 'BOOKED' ... -> Rows affected: 1.\n• T5 (02.400s): User 2 pays -> Server B executes UPDATE cinema_seats SET status = 'BOOKED' ... -> Rows affected: 1 (overwriting User 1's ownership!).\n\nBecause traditional relational databases default to isolation levels like 'Read Committed', both read operations saw the seat as available before either write completed. The check and the act were decoupled, allowing the race condition to strike.",
+        "callout": "The Check-Then-Act Trap: The moment your application checks a state, pauses to make a decision, and then acts upon that state, the state may have already been mutated by another concurrent thread."
+      },
+      {
+        "id": "sec-the-three-state-fsm",
+        "title": "3. The 3-State Solution: Finite State Machine (AVAILABLE → HELD → BOOKED)",
+        "content": "To prevent double booking, high-scale ticketing platforms decompose seat states into a Tri-State Finite State Machine (FSM).\n\nWhy is a binary state (Available vs. Booked) fundamentally broken in e-commerce?\n• If you require payment before booking: The user spends 2 minutes filling in credit card numbers and OTPs, only to discover someone else sniped the seat while they were typing.\n• If you book before payment: A malicious user or bot can click every seat in the cinema, mark them all as 'BOOKED', and never pay, shutting down the theatre's business entirely.\n\nBookMyShow, Ticketmaster, and airline systems introduce a crucial third state: 'HELD' (or 'RESERVED'):\n\n1. AVAILABLE (Initial State): The seat is open on the interactive seatmap. Any active browser or mobile app can view and attempt to select it.\n\n2. HELD (Ephemeral Lock State): The instant a user taps the seat, the backend places an exclusive, time-bound temporary lock on that seat (typically 5 to 10 minutes). During this window, the seat turns orange or grey on other users' screens. If anyone else taps it, the server immediately responds: 'Seat is currently being held by another customer'.\n\n3. BOOKED (Terminal State): If the payment gateway returns a verified SUCCESS webhook within the 8-minute window, the seat transitions permanently into the relational database as 'BOOKED'. A cryptographically signed ticket is generated.\n\n4. ROLLBACK (Return to AVAILABLE): If payment fails, the user cancels, or the countdown timer expires, the temporary lock dissolves, and the seat instantly reverts to 'AVAILABLE' for the next person in line.",
+        "takeaway": "The Golden Rule of Ticketing: Never transition directly from Available to Booked. Always use an intermediate, time-leased HELD state."
+      },
+      {
+        "id": "sec-redis-single-referee",
+        "title": "4. The Single Referee: Atomic Distributed Locking with Redis (SETNX)",
+        "content": "Where should the temporary lock live? Can we store the 'HELD' state in PostgreSQL?\n\nIf 250,000 fans are racing for 2,000 concert tickets, hitting a relational database with disk-bound transactions for every single tap will instantly exhaust connection pools, saturate CPU, and trigger catastrophic deadlocks.\n\nInstead, platforms place a centralized, in-memory datastore in front of the database: Redis.\n\nWhy Redis? Redis is single-threaded at its execution core. It processes commands sequentially across an ultra-fast event loop in RAM, capable of executing over 100,000 operations per second with sub-millisecond latency.\n\nThink of Redis like an incorruptible single referee standing at the gate. Even if User 1 and User 2 tap the screen at the exact same physical clock nanosecond, the TCP packets enter the Redis socket buffer one after the other. Redis evaluates them strictly sequentially:\n\nSET seat:screen_1:J12 \"user_session_9182\" NX EX 480\n\nLet us break down this atomic command:\n• seat:screen_1:J12: The unique resource key identifying the cinema screen and chair.\n• \"user_session_9182\": A cryptographically random UUID identifying User 1's checkout lease.\n• NX: 'Not eXists'. Instructs Redis to ONLY set the key if it does NOT already exist in memory.\n• EX 480: 'Expire'. Instructs Redis to automatically delete this key after 480 seconds (8 minutes).\n\nThe Referee's Verdict:\n• User 1's command executes first: Key does not exist -> Redis writes the key and returns OK (1). User 1 wins the lock!\n• User 2's command executes 1 millisecond later: Key already exists -> Redis rejects the write and returns nil (0).\n• User 2's mobile app immediately displays: 'Seat is currently held. Please select another seat.'\n\nThere is no race. There is no double booking. Pehle aaya, uska hua!",
+        "callout": "Why Atomic Means Infallible: Because 'check' (NX) and 'set with timer' (EX) occur in a single atomic instruction, no other thread can slip in between."
+      },
+      {
+        "id": "sec-production-code-and-lua",
+        "title": "5. Production Implementation: Atomic Lock & Safe Lua Release",
+        "content": "In production systems, locking is only half the battle. You must also release the lock safely without causing cascading race conditions.\n\nConsider this subtle production horror story: User 1 locks Seat J12 with an 8-minute TTL. The payment gateway experiences a slow network hiccup, taking 8 minutes and 5 seconds. In the 8th minute, User 1's lock expires. User 2 immediately taps the seat and acquires a fresh lock. Suddenly, User 1's payment finally finishes, and User 1's code calls redis.del('seat:screen_1:J12').\n\nUser 1 has accidentally deleted User 2's lock! Now User 3 can jump in and steal the seat!\n\nTo prevent this, production systems use an Atomic Lua Script that validates lock ownership before deletion:",
+        "codeSnippet": "// Production-grade Distributed Lock Handler in Node.js / TypeScript\nimport Redis from 'ioredis';\nimport { randomUUID } from 'crypto';\n\nconst redis = new Redis(process.env.REDIS_URL);\n\n// Atomic Lua Script: Only delete the lock if the value matches the caller's unique token\nconst RELEASE_LOCK_LUA = `\n  if redis.call(\"get\", KEYS[1]) == ARGV[1] then\n    return redis.call(\"del\", KEYS[1])\n  else\n    return 0\n  end\n`;\n\nexport async function holdSeat(seatId: string, timeoutSeconds = 480) {\n  const lockToken = randomUUID(); // Cryptographic lease token\n  const lockKey = `seat_lock:${seatId}`;\n\n  // Atomic SETNX with TTL (Set if Not eXists, Expire in X seconds)\n  const acquired = await redis.set(lockKey, lockToken, 'EX', timeoutSeconds, 'NX');\n\n  if (acquired !== 'OK') {\n    return { success: false, message: 'Seat is currently being held by another customer.' };\n  }\n\n  return { success: true, lockToken, lockKey };\n}\n\nexport async function releaseSeatLock(lockKey: string, lockToken: string) {\n  // Execute Lua script atomically on Redis server\n  const result = await redis.eval(RELEASE_LOCK_LUA, 1, lockKey, lockToken);\n  return result === 1;\n}"
+      },
+      {
+        "id": "sec-optimistic-vs-pessimistic",
+        "title": "6. Optimistic vs. Pessimistic Locking: The Two-Tier Architecture",
+        "content": "Once payment succeeds, how does the system permanently write the ticket to the SQL database without conflicts?\n\nEnterprise ticketing platforms utilize a Two-Tier Architecture combining fast in-memory locks with durable relational constraints:\n\nTier 1: Redis Distributed Lock (Ingestion & Contention Absorber)\n• Handles 99.9% of concurrent conflicts in RAM.\n• Absorbs 100,000+ requests/sec during viral movie launches without letting bogus requests touch the SQL database.\n• Guarantees that at any given moment, at most ONE user is allowed into the payment checkout tunnel for Seat J12.\n\nTier 2: Optimistic Locking in PostgreSQL (The System of Record)\n• When the payment webhook verifies that money has been received, the server updates the permanent seats table using Optimistic Concurrency Control with a version column:\n\nUPDATE cinema_seats \nSET status = 'BOOKED', \n    booking_id = 'bk_89218',\n    version = version + 1\nWHERE seat_id = 'J12' \n  AND version = 3 \n  AND status = 'AVAILABLE';\n\n• If another process somehow bypassed Redis (e.g. during a cache failover), the WHERE version = 3 check will fail, returning 0 rows affected. The database transaction rolls back, and the payment gateway issues an automated refund.\n\nThis two-tier combination guarantees blazing fast response times for users while maintaining 100% mathematical consistency for financial records.",
+        "callout": "Two-Tier Rule: Redis protects your database from being crushed by 100,000 clicks; the SQL version constraint protects your company from ever double-booking a physical seat."
+      },
+      {
+        "id": "sec-timer-mystery-cliffhanger",
+        "title": "7. The Timer Mystery & Part 2 Cliffhanger: What Happens When You Drop Off?",
+        "content": "As the video concludes, we leave Rohan and the viewers with a fascinating engineering puzzle:\n\n'Par ek socho... agar tum pay karte-karte ruk gaye, to wo seat kab khaali hogi? Kya wo poori movie ke liye atak jayegi?'\n\nImagine 5,000 users open BookMyShow, select the best middle-row seats, enter the checkout page, and then close their phone or walk away. Does the theatre remain half-empty while thousands of eager fans are turned away at the box office?\n\nAbsolutely not.\n\nBehind every seat hold, there is an invisible distributed timer ticking down second by second. When that timer hits 00:00:\n1. The Redis key self-destructs via TTL expiration.\n2. But how does the cinema seatmap on 10,000 other phones immediately turn green again?\n3. Does BookMyShow have a server running a loop constantly checking 50,000 seats every second? (No, that would melt the CPU!)\n\nInstead, there is a dedicated event-driven architecture running behind the scenes: Redis Keyspace Expiry Notifications, Delayed Task Queues, and WebSocket real-time fanout.\n\nThat invisible timer mechanism is where real distributed systems engineering begins.\n\nWelcome to Part 2: Delayed Job Queues, Event Schedulers, and Real-Time Seatmap Synchronization.",
+        "takeaway": "Next Episode: Part 2 : The Secret Timer. How BookMyShow automatically reclaims abandoned seats in real time without polling loops."
+      }
+    ],
+    "references": [
+      {
+        "title": "Designing Data-Intensive Applications: Chapter 7 (Transactions & Concurrency Control)",
+        "url": "https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/",
+        "source": "Martin Kleppmann (O'Reilly Media)"
+      },
+      {
+        "title": "Distributed Locks with Redis & The Redlock Algorithm Specification",
+        "url": "https://redis.io/docs/latest/develop/use/patterns/distributed-locks/",
+        "source": "Redis Official Documentation"
+      },
+      {
+        "title": "System Design: How to Design a Ticket Booking System (Ticketmaster / BookMyShow)",
+        "url": "https://bytebytego.com/",
+        "source": "ByteByteGo System Design Archive"
+      }
+    ],
+    "seo": {
+      "title": "Race Conditions & Distributed Locks in Ticket Booking | 2 Minute me samjo Ep 2 | futureclub.tech",
+      "description": "Understand race conditions, distributed locking with Redis SETNX, 3-state seat FSMs, and how BookMyShow prevents double booking in Episode 2 of 2 Minute me samjo."
+    }
+  },
+  {
     "id": "series-post-003",
     "seriesId": "series-localhost-to-production",
     "seriesSlug": "localhost-to-production",

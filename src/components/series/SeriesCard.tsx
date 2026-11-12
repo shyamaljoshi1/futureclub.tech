@@ -21,7 +21,7 @@ export const SeriesCard: React.FC<SeriesCardProps> = ({ post }) => {
           className="relative block aspect-[16/9] w-full overflow-hidden bg-[#0d0f12]"
         >
           <img
-            src={post.reelThumbnail}
+            src={post.coverImage || post.reelThumbnail}
             alt={post.title}
             loading="lazy"
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
