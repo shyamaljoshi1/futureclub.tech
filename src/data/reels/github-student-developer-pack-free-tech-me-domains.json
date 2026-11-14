@@ -1,0 +1,50 @@
+{
+  "id": "reel-097",
+  "slug": "github-student-developer-pack-free-tech-me-domains",
+  "title": "How to Get Free .TECH & .ME Domains with GitHub Student Developer Pack: Step-by-Step Claim Guide & All Perks",
+  "toolName": "GitHub Student Developer Pack (Free .TECH & .ME Domains)",
+  "toolUrl": "https://education.github.com/pack",
+  "description": "Learn how any student can claim free 1-year .TECH and .ME custom domains, free SSL certificates, and over $200,000+ in developer tools including GitHub Copilot, JetBrains All Products, Azure cloud credits, and DigitalOcean hosting through the GitHub Student Developer Pack.",
+  "category": "coding",
+  "pricing": "free",
+  "pricingDetails": "100% Free for Students ($0.00 / year + $200,000+ in Developer Perks & Free Custom Domains)",
+  "postType": "reel",
+  "contentType": "tool",
+  "instagramReelUrl": "",
+  "instagramReelId": "",
+  "reelThumbnail": "/assets/reels/github-student-pack-free-domains.svg",
+  "promptSet": [
+    {
+      "id": "pmt-097",
+      "title": "Complete Guide: Free .TECH & .ME Domains, GitHub Student Developer Pack Application & Top Perks",
+      "description": "GitHub Student Developer Pack – Free .TECH & .ME Domains, Claiming Guide & Top Benefits\n\nHaving your own professional custom domain (such as yourname.tech or yourname.me) is the single most impactful upgrade for a software engineering student's resume, portfolio website, and hackathon project. Instead of deploying web apps on generic subdomains like yourname.vercel.app or yourname.github.io, custom domains build an authoritative personal developer brand.\n\nThrough the GitHub Student Developer Pack, GitHub Education partners with leading domain registries—Radix (.TECH) and Namecheap (.ME)—to provide verified students with 1 year of 100% free domain registration, free WhoisGuard privacy protection, and automated SSL certificates with zero credit card required.\n\nBeyond domain names, the GitHub Student Developer Pack bundles over $200,000+ in enterprise-grade software, AI tools, IDEs, and cloud hosting credits to help students transition from beginner programmers into production-ready software engineers.\n\nKey Features:\n• Free 1-Year .TECH Domain via Radix: Standard 1-year registration ($0.00) through get.tech with free DNS management, SSL certificate, and two custom email accounts.\n• Free 1-Year .ME Domain via Namecheap: Dedicated personal portfolio TLD through nc.me including free WhoisGuard privacy protection and PositiveSSL.\n• Free GitHub Pro & GitHub Copilot: Unlimited private repositories, 3,000 CI/CD GitHub Actions minutes, and zero-cost GitHub Copilot AI autocomplete across VS Code and JetBrains IDEs.\n• Complete JetBrains All Products Suite: Unlimited access to IntelliJ IDEA Ultimate, PyCharm Pro, WebStorm, CLion, GoLand, and Rider ($779/year value).\n• $300+ in Free Cloud Infrastructure: $100 Microsoft Azure student credits (no credit card required) + $200 DigitalOcean 1-year hosting credits for droplets, Kubernetes, and PostgreSQL.\n• Professional Developer Tooling: Termius Pro SSH client with cross-device sync, GitKraken Pro, 1Password, Sentry error monitoring, and Datadog APM.\n• Premium Creative & Learning Subscriptions: 12 months of Canva Pro, 6 months of Frontend Masters full-stack courses ($234 value), and DataCamp data science certifications.\n• Zero-Fee Payment Processing: Stripe waives processing fees on your first $1,000 in revenue for student startups and freelance SaaS.\n\nStep-by-Step Guide: How to Apply & Claim Your Free Domains\n1. Link Your Academic Email: Open your GitHub Account Settings under Emails (github.com/settings/emails) and add your college-issued email (.edu, .ac.in, .edu.in, or university domain). If your university does not provide email IDs, you can apply using your personal email combined with an official physical Student ID card.\n2. Access the GitHub Education Benefits Portal: Visit https://education.github.com/benefits and click 'Sign up for Student Developer Pack' (or 'Get student benefits').\n3. Select Academic Status & Search Your Institution: Choose 'Student' as your academic role, select your linked college email address, and type the official name of your university, college, high school, or coding bootcamp.\n4. Upload Proof of Enrollment: Take a clear photo using your device camera of your physical Student ID card (showing student name, photo, and current academic year), tuition fee receipt, bonafide student certificate, or current semester schedule. Ensure the document is well-lit and not blurry.\n5. Enable Geolocation & State Purpose: Allow your browser location access (GitHub matches your IP/location with your institution's region to prevent proxy fraud). Write a brief 1-sentence description explaining how you plan to use GitHub (e.g., 'Building React & Python projects for computer science coursework and open-source contributions').\n6. Submit Application & Await Verification: Academic domain applications are often approved within minutes, while manual document reviews take 24 to 72 hours. Once approved, your GitHub profile displays the 'PRO' badge and your Pack offers unlock immediately.\n7. Claim Your Free 1-Year .TECH Domain: Navigate to https://get.tech/github-student-developer-pack (or locate .TECH under education.github.com/pack/offers). Click 'Authenticate with GitHub' to verify your student status. Search for your desired domain name (e.g., yourname.tech), add it to cart for $0.00, and complete checkout without entering payment details.\n8. Claim Your Free 1-Year .ME Domain: Navigate to https://nc.me/ (Namecheap's dedicated student portal). Click 'Connect with GitHub', authorize your account, and search for your personal domain (e.g., yourname.me). Add to cart at $0.00, apply the GitHub Pack coupon code if generated, and finalize your registration with free WhoisGuard privacy protection.\n9. Connect Custom Domain to GitHub Pages or Vercel: In your domain control panel (get.tech or Namecheap), configure an 'A' record pointing to GitHub Pages IP addresses (185.199.108.153, 185.199.109.153) or a 'CNAME' record pointing to cname.vercel-dns.com. In your GitHub repository settings, enter your custom domain under Pages to automatically provision free HTTPS.\n\nInstallation & Setup:\nDNS A-Record IP 1: 185.199.108.153\nDNS A-Record IP 2: 185.199.109.153\nDNS CNAME for Vercel: cname.vercel-dns.com\n\nOfficial GitHub Education Portal: https://education.github.com/pack\nClaim .TECH Domain: https://get.tech/github-student-developer-pack\nClaim .ME Domain: https://nc.me/\nGitHub Student Pack Offers Directory: https://education.github.com/pack/offers",
+      "instructions": [
+        "Go to https://github.com/settings/emails and link your official university email (.edu, .ac.in, etc.).",
+        "Navigate to https://education.github.com/benefits and click 'Sign up for Student Developer Pack'.",
+        "Select your school, upload a photo of your physical student ID or tuition receipt, and grant location access.",
+        "Wait for approval confirmation (minutes for .edu emails, 24–72 hours for document review).",
+        "To claim .TECH: Visit https://get.tech/github-student-developer-pack, authenticate via GitHub, search your domain, and checkout for $0.",
+        "To claim .ME: Visit https://nc.me/, connect via GitHub OAuth, search your portfolio name, and checkout for $0 with WhoisGuard.",
+        "Point your custom domain DNS to GitHub Pages (185.199.108.153) or Vercel (cname.vercel-dns.com) to deploy your portfolio live."
+      ],
+      "exampleOutput": "1-Year free .TECH and .ME custom domain registration with active SSL, GitHub Copilot free access, JetBrains IDEs pack, and $300 in cloud credits."
+    }
+  ],
+  "instructions": [
+    "Go to https://github.com/settings/emails and link your official university email (.edu, .ac.in, etc.).",
+    "Navigate to https://education.github.com/benefits and click 'Sign up for Student Developer Pack'.",
+    "Select your school, upload a photo of your physical student ID or tuition receipt, and grant location access.",
+    "Wait for approval confirmation (minutes for .edu emails, 24–72 hours for document review).",
+    "To claim .TECH: Visit https://get.tech/github-student-developer-pack, authenticate via GitHub, search your domain, and checkout for $0.",
+    "To claim .ME: Visit https://nc.me/, connect via GitHub OAuth, search your portfolio name, and checkout for $0 with WhoisGuard.",
+    "Point your custom domain DNS to GitHub Pages (185.199.108.153) or Vercel (cname.vercel-dns.com) to deploy your portfolio live."
+  ],
+  "featured": true,
+  "trending": true,
+  "status": "published",
+  "publishedAt": "2026-11-14",
+  "seo": {
+    "title": "How to Get Free .TECH & .ME Domains with GitHub Student Pack | futureclub.tech",
+    "description": "Step-by-step guide on how students can claim free 1-year .TECH and .ME custom domains, free SSL, GitHub Copilot, JetBrains IDEs, and $200k+ in perks via GitHub Student Developer Pack."
+  }
+}

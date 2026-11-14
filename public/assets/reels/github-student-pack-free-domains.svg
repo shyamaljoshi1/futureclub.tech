@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="600" height="750">
+  <defs>
+    <!-- Background Radial Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="20%" r="75%" fx="50%" fy="10%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#040608" />
+    </radialGradient>
+
+    <!-- Glowing Accents -->
+    <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+
+    <linearGradient id="emeraldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="techBadgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <!-- Card Background Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21262d" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#161b22" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="gridPattern" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.35" />
+    </pattern>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="600" height="750" fill="url(#bgGrad)" />
+  <rect width="600" height="750" fill="url(#gridPattern)" />
+
+  <!-- Ambient Glow Blobs -->
+  <circle cx="150" cy="180" r="160" fill="#a855f7" opacity="0.12" filter="blur(60px)" />
+  <circle cx="450" cy="220" r="180" fill="#38bdf8" opacity="0.12" filter="blur(70px)" />
+  <circle cx="300" cy="550" r="150" fill="#10b981" opacity="0.1" filter="blur(60px)" />
+
+  <!-- Top Pill Badge: Category & Value -->
+  <g transform="translate(140, 42)">
+    <rect width="320" height="34" rx="17" fill="#21262d" stroke="#30363d" stroke-width="1.2" />
+    <circle cx="20" cy="17" r="5" fill="#10b981" />
+    <text x="34" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#58a6ff" letter-spacing="1.5">GITHUB STUDENT PACK · $0</text>
+  </g>
+
+  <!-- Main Headline Typography -->
+  <g transform="translate(45, 115)">
+    <!-- GitHub Education Logo Icon Silhouette + Title -->
+    <text x="255" y="42" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      FREE <tspan fill="#38bdf8">.TECH</tspan> &amp; <tspan fill="#a855f7">.ME</tspan>
+    </text>
+    <text x="255" y="88" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900" fill="#f0f6fc" letter-spacing="-0.5">
+      CUSTOM DOMAINS
+    </text>
+    <text x="255" y="122" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="500" fill="#8b949e" letter-spacing="0.5">
+      How To Claim 1-Year Free Domain Names &amp; $200k+ Dev Benefits
+    </text>
+  </g>
+
+  <!-- Two Main Domain Showcase Cards -->
+  <!-- Card 1: .TECH Domain -->
+  <g transform="translate(45, 260)">
+    <rect width="245" height="185" rx="14" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.8" />
+    <!-- Glow Accent Bar -->
+    <rect x="18" y="18" width="48" height="24" rx="6" fill="#0369a1" fill-opacity="0.6" stroke="#38bdf8" stroke-width="1" />
+    <text x="42" y="34" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#38bdf8">.TECH</text>
+    
+    <text x="76" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#ffffff">Radix Registry</text>
+    <text x="18" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#38bdf8">
+      $0.00 <tspan font-size="13" font-weight="600" fill="#8b949e">/ 1st Year</tspan>
+    </text>
+    <text x="18" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">
+      • Standard .tech domain
+    </text>
+    <text x="18" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">
+      • Free SSL &amp; DNS Management
+    </text>
+    <text x="18" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">
+      • 2 Free custom email inboxes
+    </text>
+    <!-- Tag -->
+    <rect x="18" y="156" width="209" height="18" rx="4" fill="#0d1117" />
+    <text x="122" y="169" text-anchor="middle" font-family="monospace" font-size="10" font-weight="600" fill="#79c0ff">via get.tech/github-student</text>
+  </g>
+
+  <!-- Card 2: .ME Domain -->
+  <g transform="translate(310, 260)">
+    <rect width="245" height="185" rx="14" fill="url(#cardGrad)" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.8" />
+    <!-- Glow Accent Bar -->
+    <rect x="18" y="18" width="44" height="24" rx="6" fill="#6b21a8" fill-opacity="0.6" stroke="#c084fc" stroke-width="1" />
+    <text x="40" y="34" text-anchor="middle" font-family="monospace" font-size="11" font-weight="700" fill="#c084fc">.ME</text>
+    
+    <text x="72" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="800" fill="#ffffff">Namecheap</text>
+    <text x="18" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="900" fill="#c084fc">
+      $0.00 <tspan font-size="13" font-weight="600" fill="#8b949e">/ 1st Year</tspan>
+    </text>
+    <text x="18" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">
+      • Personal portfolio branding
+    </text>
+    <text x="18" y="122" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">
+      • Free PositiveSSL Certificate
+    </text>
+    <text x="18" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">
+      • Free WhoisGuard privacy
+    </text>
+    <!-- Tag -->
+    <rect x="18" y="156" width="209" height="18" rx="4" fill="#0d1117" />
+    <text x="122" y="169" text-anchor="middle" font-family="monospace" font-size="10" font-weight="600" fill="#d2a8ff">via nc.me student portal</text>
+  </g>
+
+  <!-- Middle Banner: Top Additional Student Benefits Grid -->
+  <g transform="translate(45, 465)">
+    <rect width="510" height="145" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1.2" />
+    <text x="25" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#f0f6fc" letter-spacing="1">
+      TOP ADDITIONAL BENEFITS INCLUDED IN THE PACK:
+    </text>
+
+    <!-- Row 1 Perks -->
+    <g transform="translate(25, 42)">
+      <!-- Perk 1: GitHub Copilot -->
+      <rect width="145" height="40" rx="8" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff">GitHub Copilot</text>
+      <text x="14" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#3fb950">100% Free Access</text>
+
+      <!-- Perk 2: JetBrains IDEs -->
+      <rect x="157" width="145" height="40" rx="8" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="171" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff">JetBrains Suite</text>
+      <text x="171" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#f59e0b">All IDEs ($779/yr)</text>
+
+      <!-- Perk 3: Microsoft Azure -->
+      <rect x="314" width="145" height="40" rx="8" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="328" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Azure Cloud</text>
+      <text x="328" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#38bdf8">$100 Free Credits</text>
+    </g>
+
+    <!-- Row 2 Perks -->
+    <g transform="translate(25, 90)">
+      <!-- Perk 4: DigitalOcean -->
+      <rect width="145" height="40" rx="8" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff">DigitalOcean</text>
+      <text x="14" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#38bdf8">$200 Cloud Credit</text>
+
+      <!-- Perk 5: Canva Pro -->
+      <rect x="157" width="145" height="40" rx="8" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="171" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Canva Pro</text>
+      <text x="171" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#e879f9">12 Months Free</text>
+
+      <!-- Perk 6: Termius / Frontend Masters -->
+      <rect x="314" width="145" height="40" rx="8" fill="#21262d" stroke="#30363d" stroke-width="1" />
+      <text x="328" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#ffffff">Termius &amp; FEM</text>
+      <text x="328" y="33" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#a855f7">Pro Sync &amp; Courses</text>
+    </g>
+  </g>
+
+  <!-- Step-by-Step Callout Footbar -->
+  <g transform="translate(45, 626)">
+    <rect width="510" height="48" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <text x="255" y="29" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#c9d1d9">
+      Eligible: Any College / School Student with <tspan font-weight="800" fill="#58a6ff">.EDU / Academic ID</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Brand Footer -->
+  <g transform="translate(45, 705)">
+    <circle cx="10" cy="5" r="4" fill="#3fb950" />
+    <text x="24" y="9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#8b949e">
+      education.github.com/pack
+    </text>
+    <text x="510" y="9" text-anchor="end" font-family="monospace" font-size="12" font-weight="600" fill="#58a6ff">
+      @thefutureguyy.ai
+    </text>
+  </g>
+</svg>
