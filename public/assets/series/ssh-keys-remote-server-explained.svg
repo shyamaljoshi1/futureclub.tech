@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0c10"/>
+      <stop offset="50%" stop-color="#111726"/>
+      <stop offset="100%" stop-color="#06080c"/>
+    </linearGradient>
+    <linearGradient id="sshGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="keyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+
+  <!-- Ambient Glows -->
+  <circle cx="200" cy="180" r="260" fill="#6366f1" opacity="0.12" filter="blur(75px)"/>
+  <circle cx="950" cy="380" r="300" fill="#38bdf8" opacity="0.10" filter="blur(80px)"/>
+  <circle cx="580" cy="520" r="220" fill="#10b981" opacity="0.08" filter="blur(70px)"/>
+
+  <!-- LEFT COLUMN: Narrative Hook, Badges & Problem 3 -->
+  <g transform="translate(65, 55)">
+    <!-- Series Header Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="285" height="32" rx="16" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="4.5" fill="#f43f5e"/>
+      <text x="28" y="21" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#c7d2fe" letter-spacing="1">LOCALHOST TO PRODUCTION • EP 3</text>
+    </g>
+
+    <!-- Headline: Main Hook -->
+    <text x="0" y="85" font-family="system-ui, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      "Bhai, Server Ka Password
+    </text>
+    <text x="0" y="130" font-family="system-ui, sans-serif" font-size="38" font-weight="900" fill="#f59e0b" letter-spacing="-0.5">
+      Mat Mang!"
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="172" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#e2e8f0">
+      SSH Keys, Port 22 &amp; Remote Terminal Access
+    </text>
+
+    <!-- Problem Stamp Box -->
+    <g transform="translate(0, 200)">
+      <rect width="470" height="70" rx="8" fill="#450a0a" fill-opacity="0.6" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="18" y="26" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#fca5a5" letter-spacing="1">RED STAMP: PROBLEM #3 SOLVED</text>
+      <text x="18" y="48" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">
+        Server Mumbai me hai, tum ghar pe. Bina keyboard-screen ke code kaise daalein?
+      </text>
+    </g>
+
+    <!-- Core Breakthrough Architecture Bullets -->
+    <g transform="translate(0, 295)">
+      <!-- Bullet 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="24" height="24" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+        <text x="12" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#34d399">✓</text>
+        <text x="34" y="16" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
+          Asymmetric Cryptography: <tspan font-weight="500" fill="#94a3b8">Private Key remains local</tspan>
+        </text>
+      </g>
+
+      <!-- Bullet 2 -->
+      <g transform="translate(0, 36)">
+        <rect width="24" height="24" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+        <text x="12" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#34d399">✓</text>
+        <text x="34" y="16" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
+          Zero Password Risk: <tspan font-weight="500" fill="#94a3b8">Mathematical Challenge-Response</tspan>
+        </text>
+      </g>
+
+      <!-- Bullet 3 -->
+      <g transform="translate(0, 72)">
+        <rect width="24" height="24" rx="12" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+        <text x="12" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#34d399">✓</text>
+        <text x="34" y="16" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
+          Encrypted Tunnel: <tspan font-weight="500" fill="#94a3b8">AES-GCM / ChaCha20 on Port 22</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- Quick Terminal Command Pill -->
+    <g transform="translate(0, 420)">
+      <rect width="470" height="42" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
+      <circle cx="16" cy="21" r="4" fill="#ef4444"/>
+      <circle cx="28" cy="21" r="4" fill="#f59e0b"/>
+      <circle cx="40" cy="21" r="4" fill="#10b981"/>
+      <text x="56" y="26" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#38bdf8">
+        ssh -i ~/.ssh/id_ed25519 ubuntu@13.233.82.11
+      </text>
+    </g>
+
+    <!-- Series Branding Footnote -->
+    <g transform="translate(0, 495)">
+      <text x="0" y="0" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#64748b">
+        thefutureguyy.ai • 30-Day DevOps Masterclass • BhukkadBites Journey
+      </text>
+    </g>
+  </g>
+
+  <!-- RIGHT COLUMN: Visual Cryptographic Architecture Diagram -->
+  <g transform="translate(585, 55)">
+    <!-- Outer Diagram Frame -->
+    <rect width="550" height="565" rx="14" fill="#0d1117" stroke="#1e293b" stroke-width="1.5"/>
+
+    <text x="24" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#94a3b8" letter-spacing="1">
+      HOW SSH AUTHENTICATION ACTUALLY WORKS (ZERO PASSWORDS)
+    </text>
+
+    <!-- BOX 1: CLIENT (Rohan's Laptop) -->
+    <g transform="translate(24, 52)">
+      <rect width="502" height="135" rx="10" fill="#161b22" stroke="#38bdf8" stroke-width="1.2"/>
+      <circle cx="18" cy="22" r="5" fill="#38bdf8"/>
+      <text x="32" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#ffffff">
+        LOCAL CLIENT (Rohan's Laptop • Jodhpur)
+      </text>
+      
+      <!-- Key Box -->
+      <g transform="translate(18, 42)">
+        <rect width="225" height="75" rx="6" fill="#0f172a" stroke="#ef4444" stroke-width="1"/>
+        <text x="12" y="20" font-family="ui-monospace, monospace" font-size="11" font-weight="bold" fill="#ef4444">
+          PRIVATE KEY: id_ed25519
+        </text>
+        <text x="12" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">
+          • NEVER leaves Rohan's laptop
+        </text>
+        <text x="12" y="54" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">
+          • Permissions: <tspan font-family="monospace" fill="#f59e0b">chmod 600</tspan> (Secret)
+        </text>
+        <text x="12" y="68" font-family="system-ui, sans-serif" font-size="10" fill="#34d399">
+          • Used to sign challenges
+        </text>
+      </g>
+
+      <!-- Client SSH Terminal -->
+      <g transform="translate(255, 42)">
+        <rect width="230" height="75" rx="6" fill="#090d16" stroke="#334155" stroke-width="1"/>
+        <text x="12" y="20" font-family="ui-monospace, monospace" font-size="10" font-weight="bold" fill="#38bdf8">
+          $ ssh -v ubuntu@13.233.82.11
+        </text>
+        <text x="12" y="36" font-family="ui-monospace, monospace" font-size="9" fill="#64748b">
+          debug1: Offering public key
+        </text>
+        <text x="12" y="50" font-family="ui-monospace, monospace" font-size="9" fill="#10b981">
+          debug1: Signature verified!
+        </text>
+        <text x="12" y="66" font-family="ui-monospace, monospace" font-size="9" fill="#f59e0b">
+          debug1: Authentication succeeded
+        </text>
+      </g>
+    </g>
+
+    <!-- MIDDLE CONNECTOR: The Port 22 Cryptographic Tunnel -->
+    <g transform="translate(24, 202)">
+      <rect width="502" height="130" rx="10" fill="#0b1329" stroke="#6366f1" stroke-width="1.2"/>
+      
+      <!-- Port 22 Badge -->
+      <rect x="18" y="14" width="95" height="22" rx="4" fill="#312e81"/>
+      <text x="65" y="29" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" font-weight="bold" fill="#a5b4fc">
+        TCP PORT 22
+      </text>
+
+      <text x="125" y="30" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">
+        THE 3-STEP CRYPTOGRAPHIC HANDSHAKE
+      </text>
+
+      <!-- Step 1 -->
+      <g transform="translate(18, 48)">
+        <circle cx="10" cy="10" r="10" fill="#1e293b"/>
+        <text x="10" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#38bdf8">1</text>
+        <text x="28" y="14" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">
+          <tspan font-weight="bold" fill="#38bdf8">Key Exchange (Diffie-Hellman):</tspan> Negotiates ephemeral AES session key.
+        </text>
+      </g>
+
+      <!-- Step 2 -->
+      <g transform="translate(18, 74)">
+        <circle cx="10" cy="10" r="10" fill="#1e293b"/>
+        <text x="10" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#f59e0b">2</text>
+        <text x="28" y="14" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">
+          <tspan font-weight="bold" fill="#f59e0b">Challenge Created:</tspan> Server encrypts random nonce with Public Key.
+        </text>
+      </g>
+
+      <!-- Step 3 -->
+      <g transform="translate(18, 100)">
+        <circle cx="10" cy="10" r="10" fill="#1e293b"/>
+        <text x="10" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" font-weight="bold" fill="#10b981">3</text>
+        <text x="28" y="14" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">
+          <tspan font-weight="bold" fill="#10b981">Proof Returned:</tspan> Client decrypts &amp; signs with Private Key. Password = 0!
+        </text>
+      </g>
+    </g>
+
+    <!-- BOX 3: REMOTE SERVER (AWS Mumbai Datacenter) -->
+    <g transform="translate(24, 347)">
+      <rect width="502" height="195" rx="10" fill="#161b22" stroke="#10b981" stroke-width="1.2"/>
+      <circle cx="18" cy="22" r="5" fill="#10b981"/>
+      <text x="32" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="800" fill="#ffffff">
+        REMOTE PRODUCTION SERVER (AWS EC2 • Mumbai Datacenter)
+      </text>
+
+      <!-- Public Key Box -->
+      <g transform="translate(18, 42)">
+        <rect width="225" height="85" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+        <text x="12" y="20" font-family="ui-monospace, monospace" font-size="11" font-weight="bold" fill="#10b981">
+          PUBLIC KEY: id_ed25519.pub
+        </text>
+        <text x="12" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">
+          • Stored in <tspan font-family="monospace" fill="#38bdf8">~/.ssh/authorized_keys</tspan>
+        </text>
+        <text x="12" y="54" font-family="system-ui, sans-serif" font-size="10" fill="#94a3b8">
+          • Safe to share publicly (Padlock)
+        </text>
+        <text x="12" y="70" font-family="system-ui, sans-serif" font-size="10" fill="#e2e8f0">
+          • Encrypts the login challenge
+        </text>
+      </g>
+
+      <!-- Production Hardening Config -->
+      <g transform="translate(255, 42)">
+        <rect width="230" height="85" rx="6" fill="#090d16" stroke="#ef4444" stroke-width="1"/>
+        <text x="12" y="20" font-family="ui-monospace, monospace" font-size="10" font-weight="bold" fill="#ef4444">
+          /etc/ssh/sshd_config
+        </text>
+        <text x="12" y="38" font-family="ui-monospace, monospace" font-size="9.5" fill="#f87171">
+          PasswordAuthentication no
+        </text>
+        <text x="12" y="54" font-family="ui-monospace, monospace" font-size="9.5" fill="#f87171">
+          PermitRootLogin no
+        </text>
+        <text x="12" y="70" font-family="ui-monospace, monospace" font-size="9.5" fill="#4ade80">
+          PubkeyAuthentication yes
+        </text>
+      </g>
+
+      <!-- Pseudo Terminal Output Bar -->
+      <g transform="translate(18, 140)">
+        <rect width="467" height="42" rx="6" fill="#022c22" stroke="#059669" stroke-width="1"/>
+        <text x="16" y="26" font-family="ui-monospace, monospace" font-size="11" font-weight="bold" fill="#a7f3d0">
+          ubuntu@ip-172-31-42-10:~$ echo "Connected via Secure Shell!"
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
