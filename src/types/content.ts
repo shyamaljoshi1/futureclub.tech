@@ -180,6 +180,16 @@ export const SeriesSchema = z.object({
 });
 export type Series = z.infer<typeof SeriesSchema>;
 
+// Series Post FAQ Schema
+export const SeriesPostFaqSchema = z.object({
+  id: z.string().optional(),
+  category: z.string().optional(),
+  question: z.string(),
+  answer: z.string(),
+  codeSnippet: z.string().optional(),
+});
+export type SeriesPostFaq = z.infer<typeof SeriesPostFaqSchema>;
+
 // Series Post Section Schema
 export const SeriesPostSectionSchema = z.object({
   id: z.string(),
@@ -188,6 +198,7 @@ export const SeriesPostSectionSchema = z.object({
   callout: z.string().optional(),
   codeSnippet: z.string().optional(),
   takeaway: z.string().optional(),
+  faqs: z.array(SeriesPostFaqSchema).optional(),
 });
 export type SeriesPostSection = z.infer<typeof SeriesPostSectionSchema>;
 
@@ -222,6 +233,7 @@ export const SeriesPostSchema = z.object({
   quickTakeaway: z.string(),
   keyHighlights: z.array(z.string()).default([]),
   sections: z.array(SeriesPostSectionSchema),
+  faqs: z.array(SeriesPostFaqSchema).optional(),
   references: z.array(SeriesPostReferenceSchema).default([]),
   seo: SeoSchema,
 });

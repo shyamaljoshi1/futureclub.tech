@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090e"/>
+      <stop offset="50%" stop-color="#0b1324"/>
+      <stop offset="100%" stop-color="#05070a"/>
+    </linearGradient>
+    <linearGradient id="dockerBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="amberBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="containerGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#075985"/>
+    </linearGradient>
+    <linearGradient id="containerGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b91c1c"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="containerGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="675" fill="url(#bgGrad)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+
+  <!-- Ambient Glows -->
+  <circle cx="220" cy="180" r="280" fill="#2563eb" opacity="0.12" filter="blur(80px)"/>
+  <circle cx="950" cy="360" r="320" fill="#0284c7" opacity="0.10" filter="blur(85px)"/>
+  <circle cx="600" cy="520" r="240" fill="#059669" opacity="0.08" filter="blur(75px)"/>
+
+  <!-- LEFT COLUMN: Narrative Hook, Badges & Problem 4 -->
+  <g transform="translate(65, 55)">
+    <!-- Series Header Badge -->
+    <g transform="translate(0, 0)">
+      <rect width="285" height="32" rx="16" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+      <circle cx="16" cy="16" r="4.5" fill="#f43f5e"/>
+      <text x="28" y="21" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#93c5fd" letter-spacing="1">LOCALHOST TO PRODUCTION • EP 4</text>
+    </g>
+
+    <!-- Headline: Main Hook -->
+    <text x="0" y="85" font-family="system-ui, sans-serif" font-size="38" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+      "Mere Laptop Pe To
+    </text>
+    <text x="0" y="130" font-family="system-ui, sans-serif" font-size="38" font-weight="900" fill="#38bdf8" letter-spacing="-0.5">
+      Chal Raha Tha!"
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="172" font-family="system-ui, sans-serif" font-size="20" font-weight="700" fill="#e2e8f0">
+      Docker &amp; Containerization Masterclass
+    </text>
+
+    <!-- Problem Stamp Box -->
+    <g transform="translate(0, 200)">
+      <rect width="470" height="70" rx="8" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="18" y="26" font-family="system-ui, sans-serif" font-size="11" font-weight="800" fill="#7dd3fc" letter-spacing="1">PROBLEM #4 SOLVED: DEPENDENCY HELL</text>
+      <text x="18" y="48" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#ffffff">
+        Local Mac pe Node 20, Server pe Node 16. Code nahi, poori duniya pack karo!
+      </text>
+    </g>
+
+    <!-- Core Breakthrough Architecture Bullets -->
+    <g transform="translate(0, 295)">
+      <!-- Bullet 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="24" height="24" rx="12" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+        <text x="12" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#38bdf8">✓</text>
+        <text x="34" y="16" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
+          Linux Namespaces &amp; Cgroups: <tspan font-weight="500" fill="#94a3b8">Kernel-level process sandbox</tspan>
+        </text>
+      </g>
+
+      <!-- Bullet 2 -->
+      <g transform="translate(0, 36)">
+        <rect width="24" height="24" rx="12" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+        <text x="12" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#38bdf8">✓</text>
+        <text x="34" y="16" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
+          The Docker Trinity: <tspan font-weight="500" fill="#94a3b8">Dockerfile → Image Layers → Active Container</tspan>
+        </text>
+      </g>
+
+      <!-- Bullet 3 -->
+      <g transform="translate(0, 72)">
+        <rect width="24" height="24" rx="12" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1"/>
+        <text x="12" y="16" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#38bdf8">✓</text>
+        <text x="34" y="16" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f8fafc">
+          Multi-Stage Builds: <tspan font-weight="500" fill="#94a3b8">Drop images from 1.5 GB to 48 MB</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- 30 Interview Questions Callout Pill -->
+    <g transform="translate(0, 420)">
+      <rect width="470" height="42" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2"/>
+      <circle cx="16" cy="21" r="4" fill="#10b981"/>
+      <text x="28" y="26" font-family="ui-monospace, monospace" font-size="12" font-weight="700" fill="#c7d2fe">
+        30 REAL-WORLD DOCKER INTERVIEW QUESTIONS &amp; ANSWERS
+      </text>
+    </g>
+
+    <!-- Series Branding Footnote -->
+    <g transform="translate(0, 495)">
+      <text x="0" y="0" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#64748b">
+        thefutureguyy.ai • 30-Day DevOps Masterclass • BhukkadBites Journey
+      </text>
+    </g>
+  </g>
+
+  <!-- RIGHT COLUMN: Visual Architecture Stack Diagram -->
+  <g transform="translate(585, 55)">
+    <!-- Outer Diagram Frame -->
+    <rect width="550" height="565" rx="14" fill="#0d1117" stroke="#1e293b" stroke-width="1.5"/>
+
+    <text x="24" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#94a3b8" letter-spacing="1">
+      HOW DOCKER CONTAINERIZATION RUNS ON THE LINUX HOST
+    </text>
+
+    <!-- SECTION 1: 3 ISOLATED CONTAINERS -->
+    <g transform="translate(24, 52)">
+      <text x="0" y="0" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#64748b">
+        RUNNING USERSPACE CONTAINERS (ISOLATED NAMESPACES)
+      </text>
+
+      <!-- Container 1: Node.js Backend -->
+      <g transform="translate(0, 14)">
+        <rect width="158" height="150" rx="8" fill="url(#containerGrad1)" stroke="#38bdf8" stroke-width="1.2"/>
+        <rect x="12" y="12" width="34" height="20" rx="4" fill="#082f49"/>
+        <text x="29" y="26" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="bold" fill="#38bdf8">APP</text>
+        <text x="52" y="27" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Node.js API</text>
+        <text x="12" y="52" font-family="ui-monospace, monospace" font-size="10" fill="#bae6fd">BhukkadBites:v1</text>
+        <text x="12" y="70" font-family="system-ui, sans-serif" font-size="10" fill="#e0f2fe">• Node 20 Runtime</text>
+        <text x="12" y="86" font-family="system-ui, sans-serif" font-size="10" fill="#e0f2fe">• Express Backend</text>
+        <rect x="12" y="106" width="134" height="22" rx="4" fill="#082f49"/>
+        <text x="79" y="121" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="bold" fill="#38bdf8">PORT: 3000:3000</text>
+      </g>
+
+      <!-- Container 2: Redis Cache -->
+      <g transform="translate(172, 14)">
+        <rect width="158" height="150" rx="8" fill="url(#containerGrad2)" stroke="#f87171" stroke-width="1.2"/>
+        <rect x="12" y="12" width="40" height="20" rx="4" fill="#450a0a"/>
+        <text x="32" y="26" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="bold" fill="#fca5a5">REDIS</text>
+        <text x="58" y="27" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Cache Engine</text>
+        <text x="12" y="52" font-family="ui-monospace, monospace" font-size="10" fill="#fecaca">redis:7-alpine</text>
+        <text x="12" y="70" font-family="system-ui, sans-serif" font-size="10" fill="#fee2e2">• In-Memory Lock</text>
+        <text x="12" y="86" font-family="system-ui, sans-serif" font-size="10" fill="#fee2e2">• Session Store</text>
+        <rect x="12" y="106" width="134" height="22" rx="4" fill="#450a0a"/>
+        <text x="79" y="121" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="bold" fill="#fca5a5">PORT: 6379:6379</text>
+      </g>
+
+      <!-- Container 3: PostgreSQL Database -->
+      <g transform="translate(344, 14)">
+        <rect width="158" height="150" rx="8" fill="url(#containerGrad3)" stroke="#34d399" stroke-width="1.2"/>
+        <rect x="12" y="12" width="34" height="20" rx="4" fill="#022c22"/>
+        <text x="29" y="26" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="bold" fill="#6ee7b7">DB</text>
+        <text x="52" y="27" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">PostgreSQL</text>
+        <text x="12" y="52" font-family="ui-monospace, monospace" font-size="10" fill="#a7f3d0">postgres:16</text>
+        <text x="12" y="70" font-family="system-ui, sans-serif" font-size="10" fill="#d1fae5">• Orders &amp; Users</text>
+        <text x="12" y="86" font-family="system-ui, sans-serif" font-size="10" fill="#d1fae5">• Volume Mounted</text>
+        <rect x="12" y="106" width="134" height="22" rx="4" fill="#022c22"/>
+        <text x="79" y="121" text-anchor="middle" font-family="ui-monospace, monospace" font-size="9" font-weight="bold" fill="#6ee7b7">PORT: 5432:5432</text>
+      </g>
+    </g>
+
+    <!-- SECTION 2: DOCKER ENGINE / CONTAINERD RUNTIME LAYER -->
+    <g transform="translate(24, 235)">
+      <rect width="502" height="75" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="1.2"/>
+      <circle cx="20" cy="22" r="6" fill="#38bdf8"/>
+      <text x="36" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+        DOCKER ENGINE &amp; CONTAINERD RUNTIME
+      </text>
+      <text x="20" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">
+        • <tspan font-weight="bold" fill="#38bdf8">Linux Namespaces:</tspan> PID (processes), NET (ports/network), MNT (filesystem)
+      </text>
+      <text x="20" y="64" font-family="system-ui, sans-serif" font-size="11" fill="#cbd5e1">
+        • <tspan font-weight="bold" fill="#f59e0b">Cgroups (Control Groups):</tspan> CPU, Memory limits (prevents noisy neighbors)
+      </text>
+    </g>
+
+    <!-- SECTION 3: SHARED HOST LINUX KERNEL -->
+    <g transform="translate(24, 325)">
+      <rect width="502" height="75" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1.2"/>
+      <circle cx="20" cy="22" r="6" fill="#10b981"/>
+      <text x="36" y="26" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+        SHARED HOST LINUX KERNEL (ZERO GUEST OS OVERHEAD)
+      </text>
+      <text x="20" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">
+        Containers share the same host kernel. Startup in milliseconds, not minutes!
+      </text>
+      <text x="20" y="64" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">
+        OverlayFS layer stacking: Read-only base layers + 1 writable container layer.
+      </text>
+    </g>
+
+    <!-- SECTION 4: 30 INTERVIEW FAQS FEATURE BANNER -->
+    <g transform="translate(24, 415)">
+      <rect width="502" height="120" rx="8" fill="#111827" stroke="#374151" stroke-width="1.2"/>
+      <text x="20" y="26" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#f3f4f6">
+        INCLUDED: 30 DOCKER INTERVIEW QUESTIONS (FAQ ACCORDION)
+      </text>
+      <text x="20" y="50" font-family="system-ui, sans-serif" font-size="11" fill="#9ca3af">
+        • <tspan font-weight="600" fill="#60a5fa">Q1–Q6:</tspan> Architecture, Daemon, Containerd, runC &amp; Linux Namespaces
+      </text>
+      <text x="20" y="68" font-family="system-ui, sans-serif" font-size="11" fill="#9ca3af">
+        • <tspan font-weight="600" fill="#f87171">Q7–Q12:</tspan> Containers vs VMs, Cgroups, Boot Time &amp; Resource Footprint
+      </text>
+      <text x="20" y="86" font-family="system-ui, sans-serif" font-size="11" fill="#34d399">
+        • <tspan font-weight="600" fill="#fbbf24">Q13–Q18:</tspan> Dockerfile Optimization, Layer Caching, CMD vs ENTRYPOINT
+      </text>
+      <text x="20" y="104" font-family="system-ui, sans-serif" font-size="11" fill="#a78bfa">
+        • <tspan font-weight="600" fill="#f472b6">Q19–Q30:</tspan> Bridge vs Host, Volumes vs Mounts, Multi-Stage &amp; Security
+      </text>
+    </g>
+  </g>
+</svg>

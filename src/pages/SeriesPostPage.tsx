@@ -13,12 +13,204 @@ import {
   Sparkles,
   Zap,
   BookmarkCheck,
+  HelpCircle,
+  ChevronDown,
+  Search,
 } from 'lucide-react';
+import type { SeriesPostFaq } from '@/types/content';
 import { getSeriesPostBySlug, getSeriesBySlug, getRelatedSeriesPosts } from '@/lib/data';
 import { updatePageSeo, getBreadcrumbSchema, getSeriesPostSchema } from '@/lib/seo';
 import { Breadcrumbs } from '@/components/common/Breadcrumbs';
 import { InstagramReelEmbed } from '@/components/common/InstagramReelEmbed';
 import { trackExternalVisit } from '@/lib/analytics';
+
+// Interactive 30 Docker Interview Questions & FAQ Accordion Component
+const SeriesFaqAccordion: React.FC<{ faqs: SeriesPostFaq[] }> = ({ faqs }) => {
+  const [openIndices, setOpenIndices] = useState<Set<number>>(new Set([0]));
+  const [searchQuery, setSearchQuery] = useState('');
+  const [activeCategory, setActiveCategory] = useState<string>('All');
+
+  const categories = ['All', ...(Array.from(new Set(faqs.map((f) => f.category).filter(Boolean))) as string[])];
+
+  const filteredFaqs = faqs.filter((faq) => {
+    const q = searchQuery.toLowerCase();
+    const matchesSearch =
+      !q ||
+      faq.question.toLowerCase().includes(q) ||
+      faq.answer.toLowerCase().includes(q) ||
+      (faq.codeSnippet && faq.codeSnippet.toLowerCase().includes(q));
+    const matchesCat = activeCategory === 'All' || faq.category === activeCategory;
+    return matchesSearch && matchesCat;
+  });
+
+  const toggleItem = (originalIdx: number) => {
+    setOpenIndices((prev) => {
+      const next = new Set(prev);
+      if (next.has(originalIdx)) {
+        next.delete(originalIdx);
+      } else {
+        next.add(originalIdx);
+      }
+      return next;
+    });
+  };
+
+  const expandAll = () => {
+    setOpenIndices(new Set(faqs.map((_, i) => i)));
+  };
+
+  const collapseAll = () => {
+    setOpenIndices(new Set());
+  };
+
+  return (
+    <section
+      data-ui="series-faq-accordion"
+      id="docker-interview-questions"
+      className="p-6 sm:p-8 rounded-xl bg-[#ffffff] dark:bg-[#141619] border border-[#e5e7eb] dark:border-[#22252c] space-y-6"
+    >
+      <div className="space-y-2">
+        <div className="flex items-center space-x-2 text-[#2563eb] dark:text-[#38bdf8]">
+          <HelpCircle className="w-5 h-5" />
+          <span className="text-xs font-bold tracking-wide">
+            30 INTERVIEW QUESTIONS &amp; ANSWERS
+          </span>
+        </div>
+        <h2 className="text-xl sm:text-2xl font-bold text-[#111215] dark:text-[#f4f4f5] tracking-tight">
+          Docker Masterclass: 30 Real-World Interview Questions &amp; Answers
+        </h2>
+        <p className="text-xs sm:text-sm text-[#5e626d] dark:text-[#8e93a0] leading-relaxed">
+          Click any question below to reveal the answer, architecture breakdown, and code commands. Use the search bar or category filters to find specific topics.
+        </p>
+      </div>
+
+      {/* Search Input & Action Buttons */}
+      <div className="space-y-3">
+        <div className="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center justify-between">
+          <div className="relative flex-1">
+            <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-[#888d99] dark:text-[#636773]" />
+            <input
+              type="text"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              placeholder="Search 30 Docker questions (e.g. cgroups, CMD vs ENTRYPOINT, volumes)..."
+              className="w-full pl-10 pr-4 py-2 text-xs sm:text-sm rounded-lg bg-[#f4f4f0] dark:bg-[#1a1d24] border border-[#d1d5db] dark:border-[#2a2e38] text-[#111215] dark:text-[#f4f4f5] placeholder-[#888d99] dark:placeholder-[#636773] focus:outline-none focus:border-[#3b82f6]"
+            />
+          </div>
+
+          <div className="flex items-center space-x-2 flex-shrink-0 text-xs">
+            <button
+              type="button"
+              onClick={expandAll}
+              className="px-3 py-1.5 rounded-md border border-[#d1d5db] dark:border-[#2a2e38] bg-[#ffffff] dark:bg-[#1a1d24] text-[#111215] dark:text-[#f4f4f5] hover:bg-[#f4f4f0] dark:hover:bg-[#222630] font-medium transition-colors"
+            >
+              Expand All
+            </button>
+            <button
+              type="button"
+              onClick={collapseAll}
+              className="px-3 py-1.5 rounded-md border border-[#d1d5db] dark:border-[#2a2e38] bg-[#ffffff] dark:bg-[#1a1d24] text-[#111215] dark:text-[#f4f4f5] hover:bg-[#f4f4f0] dark:hover:bg-[#222630] font-medium transition-colors"
+            >
+              Collapse All
+            </button>
+          </div>
+        </div>
+
+        {/* Category Filter Pills */}
+        {categories.length > 1 && (
+          <div className="flex flex-wrap gap-1.5 pt-1">
+            {categories.map((cat) => (
+              <button
+                key={cat}
+                type="button"
+                onClick={() => setActiveCategory(cat)}
+                className={`px-2.5 py-1 rounded text-xs font-semibold transition-colors ${
+                  activeCategory === cat
+                    ? 'bg-[#111215] text-[#ffffff] dark:bg-[#f4f4f5] dark:text-[#111215]'
+                    : 'bg-[#f4f4f0] dark:bg-[#1a1d24] text-[#5e626d] dark:text-[#8e93a0] hover:text-[#111215] dark:hover:text-[#f4f4f5]'
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Accordion Questions List */}
+      <div className="space-y-3 pt-2">
+        {filteredFaqs.length === 0 ? (
+          <div className="p-6 text-center text-xs sm:text-sm text-[#888d99] dark:text-[#636773] bg-[#f8f9fa] dark:bg-[#161920] rounded-lg border border-[#e5e7eb] dark:border-[#222631]">
+            No questions matched your search query. Try typing another keyword.
+          </div>
+        ) : (
+          filteredFaqs.map((faq) => {
+            const originalIndex = faqs.indexOf(faq);
+            const isOpen = openIndices.has(originalIndex);
+
+            return (
+              <div
+                key={originalIndex}
+                data-ui="faq-item"
+                className="rounded-lg bg-[#f8f9fa] dark:bg-[#161920] border border-[#e5e7eb] dark:border-[#222631] overflow-hidden transition-colors"
+              >
+                <button
+                  type="button"
+                  onClick={() => toggleItem(originalIndex)}
+                  aria-expanded={isOpen}
+                  className="w-full p-4 sm:p-5 flex items-start justify-between gap-3 text-left hover:bg-[#f1f3f6] dark:hover:bg-[#1c202a] transition-colors"
+                >
+                  <div className="space-y-1.5 flex-1 min-w-0">
+                    <div className="flex items-center space-x-2 text-xs">
+                      <span className="font-bold text-[#2563eb] dark:text-[#38bdf8]">
+                        Q{originalIndex + 1}
+                      </span>
+                      {faq.category && (
+                        <span className="px-2 py-0.5 rounded text-[11px] font-semibold bg-[#e5e7eb] dark:bg-[#252a36] text-[#4b5563] dark:text-[#9ca3af]">
+                          {faq.category}
+                        </span>
+                      )}
+                    </div>
+                    <h3 className="text-sm sm:text-base font-bold text-[#111215] dark:text-[#f4f4f5] leading-snug">
+                      {faq.question}
+                    </h3>
+                  </div>
+
+                  <div className="mt-1 flex-shrink-0 p-1 rounded hover:bg-[#e5e7eb] dark:hover:bg-[#262b38] transition-colors">
+                    <ChevronDown
+                      className={`w-4 h-4 text-[#5e626d] dark:text-[#8e93a0] transition-transform duration-200 ${
+                        isOpen ? 'rotate-180' : ''
+                      }`}
+                    />
+                  </div>
+                </button>
+
+                {isOpen && (
+                  <div
+                    data-ui="faq-answer"
+                    className="px-4 pb-5 sm:px-5 sm:pb-6 pt-1 text-xs sm:text-sm text-[#2d3139] dark:text-[#d4d7df] leading-relaxed space-y-3"
+                  >
+                    <div className="whitespace-pre-wrap font-sans space-y-2 pt-2">
+                      {faq.answer}
+                    </div>
+
+                    {faq.codeSnippet && (
+                      <div className="pt-2">
+                        <pre className="p-3.5 rounded-lg bg-[#0d0f12] text-xs font-mono text-[#e2e8f0] overflow-x-auto select-all leading-relaxed border border-[#22252c]">
+                          <code>{faq.codeSnippet}</code>
+                        </pre>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            );
+          })
+        )}
+      </div>
+    </section>
+  );
+};
 
 export const SeriesPostPage: React.FC = () => {
   const { seriesSlug, postSlug } = useParams<{ seriesSlug?: string; postSlug?: string }>();
@@ -338,6 +530,13 @@ export const SeriesPostPage: React.FC = () => {
               </section>
             ))}
           </div>
+
+          {/* Interactive FAQ & Interview Questions Accordion (e.g. 30 Docker Interview Questions) */}
+          {((post.faqs && post.faqs.length > 0) || post.sections.some((s) => s.faqs && s.faqs.length > 0)) && (
+            <SeriesFaqAccordion
+              faqs={post.faqs || post.sections.flatMap((s) => s.faqs || [])}
+            />
+          )}
 
           {/* Social CTA & Discussion Box */}
           <div

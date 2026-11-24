@@ -146,7 +146,21 @@ const SeriesPostSchema = z.object({
     callout: z.string().optional(),
     codeSnippet: z.string().optional(),
     takeaway: z.string().optional(),
+    faqs: z.array(z.object({
+      id: z.string().optional(),
+      category: z.string().optional(),
+      question: z.string(),
+      answer: z.string(),
+      codeSnippet: z.string().optional(),
+    })).optional(),
   })),
+  faqs: z.array(z.object({
+    id: z.string().optional(),
+    category: z.string().optional(),
+    question: z.string(),
+    answer: z.string(),
+    codeSnippet: z.string().optional(),
+  })).optional(),
   references: z.array(z.object({
     title: z.string(),
     url: z.string().url(),
